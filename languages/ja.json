@@ -765,7 +765,7 @@
 	"Special Building": "特別棟",
 	"Other Construction": "その他の建設",
 	"Goto": "Goto",
-	"<header>Goto</>\n<Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to Queue\n\nMove to this Object or Location and attempt to <hl>Interact</>.": "<header>後藤</>\n<Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>からキューへ\n\nこのオブジェクトまたは場所に移動し、<hl>対話を試みる</>。",
+	"<header>Goto</>\n<Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to Queue\n\nMove to this Object or Location and attempt to <hl>Interact</>.": "<header>GoTo</>\n<Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>からキューへ\n\nこのオブジェクトまたは場所に移動し、<hl>対話を試みる</>。",
 	"Store": "ストア",
 	"<header>Store</>\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n\nSet to an owned <hl>unit</> or <hl>building</>, it will transfer\nits inventory when possible.\n\nCheck the <hl>Automation</> Codex entry for more information.": "<header>ストア</>\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n\n所有する<hl>ユニット</>または<hl>ビルに</>設定すると、そのユニットまたはビルに転送されます。\n可能な限り在庫を確保する。\n\n<hl>詳しくはAutomation </>Codexをご覧ください。",
 	"Visual": "ビジュアル",
@@ -2596,63 +2596,63 @@
 	"Refined Crystal": "Refined クリスタル",  //仮
 	"A single polished crystal": "磨き上げられたクリスタル",  //OK
 	"Crystal Powder": "クリスタルパウダー",  //OK
-	"A pile of ground crystal dust": "クリスタルの粉",  //OK
+	"A pile of ground crystal dust": "粉末状のクリスタル",  //OK
 	"Obsidian Brick": "黒曜石のレンガ",  //OK
 	"Volcanic rock that has been formed into bricks": "レンガ状に成形された火山岩",  //OK
 	"A mysterious contraption of unknown origin": "出所不明の謎の仕掛け",  // 補足「Alien Artifact」の説明文
 	"Research Artifact": "研究成果",   //実機未確認
 	"An activated alien artifact": "活性化したエイリアンのアーティファクト",   //実機未確認
-	"Silicon": "シリコン",
+	"Silicon": "シリコン",  //OK
 	"Silica that has been refined into pure silicon rods": "精製したシリカで製造されたシリコンのロッド",  //OK
-	"Wire": "ワイヤー",
+	"Wire": "ワイヤー",  //OK
 	"Metal cables useful in building electronics": "建築用電子機器に有用なメタルケーブル",   //補足:元ネタの「Wire」と「Cable」の説明文が同じ
-	"Cable": "ケーブル",
-	"IC Chip": "ICチップ",
-	"Simple semiconducting device used in electronics": "電子機器に使用される単純な半導体デバイス",
-	"Microprocessor": "マイクロプロセッサー",
-	"Man-made data processing unit": "人工データ処理装置",
-	"CPU": "CPU",
-	"Assemblage of microprocessors for advanced applications": "先端アプリケーション用マイクロプロセッサの組み立て",
-	"Steel Block": "スチール・ブロック",
-	"Steel blocks for building human ground units": "地上ユニット用スチールブロック",
+	"Cable": "ケーブル",  //OK
+	"IC Chip": "ICチップ",  //OK
+	"Simple semiconducting device used in electronics": "電子機器に使用される半導体チップ",  //OK
+	"Microprocessor": "マイクロプロセッサー",  //OK
+	"Man-made data processing unit": "データ処理部品",  //仮
+	"CPU": "CPU",  //OK
+	"Assemblage of microprocessors for advanced applications": "高度なアプリケーション向けの集積マイクロプロセッサ",  //OK
+	"Steel Block": "スチールブロック",  //OK
+	"Steel blocks for building human ground units": "地上ユニット用スチールブロック",  //仮
 	"Concretes Lab": "コンクリート・ラボ",
 	"Concrete slab for making human foundations and buildings": "人間の基礎や建物を作るためのコンクリートスラブ",
-	"Ceramic Tiles": "セラミックタイル",
-	"Silicon Carbide tiles for protection of space vehicles": "宇宙船保護用炭化ケイ素タイル",
-	"Polymer": "ポリマー",
-	"Plastic, resilient  material for human units and buildings": "プラスチック製で弾力性のある、人間ユニットや建築物用の素材",
-	"Robotics Datacube": "ロボティクス・データキューブ",
-	"A cube of incredibly dense data, the result of running millions of simulations": "何百万回ものシミュレーションの結果、信じられないほど高密度なデータの立方体。",
-	"Located in ruined structures throughout the world": "世界中の廃墟となった建造物にある",
+	"Ceramic Tiles": "セラミックタイル",  //OK
+	"Silicon Carbide tiles for protection of space vehicles": "宇宙輸送機保護のための炭化シリコンタイル",  //仮
+	"Polymer": "ポリマー",  //OK
+	"Plastic, resilient  material for human units and buildings": "プラスチック製で弾力性のある、人間ユニットや建築物用の素材",  //仮
+	"Robotics Datacube": "ロボティクス データキューブ",  //仮
+	"A cube of incredibly dense data, the result of running millions of simulations": "何百万回ものシミュレーションの結果をまとめた、非常に高密度なデータキューブ",  //仮
+	"Located in ruined structures throughout the world": "世界中の廃墟となった建造物にある",  // 補足:"Robotics Datacube"の"locked_desc"
 	"research": "研究",  //おそらく不要  本文ではなく「tag」という内部データと思われる
-	"Alien Datacube": "エイリアン・データキューブ",
-	"Partial data on alien technology. Further analysis required": "エイリアンのテクノロジーに関する部分的なデータ。さらなる分析が必要",
-	"Human Datacube": "ヒューマン・データキューブ",
-	"Data collected by remote-unit observation and recording": "リモートユニットによる観察と記録で収集されたデータ",
-	"Blight Datacube": "ブライトデータキューブ",
-	"Virus Datacube": "ウイルス・データキューブ",
-	"A section of virus code, needed to learn the nature of the virus": "ウイルスの性質を知るために必要なウイルスコードの一部。",
-	"Empty Data Bank": "空のデータバンク",
-	"A databank that can hold research data": "研究データを保管できるデータバンク",
-	"Datacube Matrix": "データキューブマトリックス",
-	"A construct that allows access to the dense layers of datacubes": "データキューブの高密度レイヤーへのアクセスを可能にする構造体",
-	"Robotics Research": "ロボット工学研究",
-	"Allows for advanced robotic technology": "高度なロボット技術を可能にする",
-	"Human Research": "人類研究",
-	"Data analysis of human technology": "ヒューマン・テクノロジーのデータ分析",
-	"Data analysis of alien technology": "エイリアン・テクノロジーのデータ分析",
-	"Blight Research": "疫病研究",
-	"Scans of the hostile environment endemic to planet": "惑星特有の過酷な環境のスキャン",
-	"Virus Research": "ウイルス研究",
-	"Computer-modeled analysis of the viral pathogen": "ウイルス病原体のコンピューターモデル解析",
-	"Compressed Simulation Data": "圧縮されたシミュレーションデータ",
-	"Allows for greater processing of research algorithms": "研究アルゴリズムの処理能力を向上",
-	"Human Data Bank": "ヒューマンデータバンク",
-	"A databank that holds human research data": "ヒトの研究データを保管するデータバンク",
-	"Alien Data Bank": "エイリアン・データバンク",
-	"Drone Package": "ドローンパッケージ",
-	"A drone exclusively for transferring items over a short range": "近距離での物品搬送専用のドローン",
-	"package": "パッケージ",
+	"Alien Datacube": "エイリアン データキューブ",  //OK
+	"Partial data on alien technology. Further analysis required": "エイリアンのテクノロジーに関する部分的なデータキューブ。さらなる分析が必要",  //仮  "Alien Datacube"と"Human Datacube"の説明文が同じ
+	"Human Datacube": "ヒューマン データキューブ",  //OK
+	"Data collected by remote-unit observation and recording": "リモートユニットによる観測記録が収集されたデータキューブ",  //???
+	"Blight Datacube": "ブライト データキューブ",  //???
+	"Virus Datacube": "ウイルス データキューブ",  //OK
+	"A section of virus code, needed to learn the nature of the virus": "ウイルスの性質を解明するために必要なウイルスコードの一部",  //???
+	"Empty Data Bank": "空のデータバンク",  //???　データバンク???
+	"A databank that can hold research data": "研究データを保管できるデータバンク",  //???　データバンク???
+	"Datacube Matrix": "データキューブマトリックス",  //???
+	"A construct that allows access to the dense layers of datacubes": "データキューブの高密度レイヤーへのアクセスを可能にする構造体",  //???
+	"Robotics Research": "ロボット工学研究",  //???
+	"Allows for advanced robotic technology": "高度なロボット技術を可能にする",  //???
+	"Human Research": "人類研究",  //???
+	"Data analysis of human technology": "ヒューマンテクノロジーのデータ分析",  //???
+	"Data analysis of alien technology": "エイリアンテクノロジーのデータ分析",  //???
+	"Blight Research": "疫病研究",  //???  Blight??
+	"Scans of the hostile environment endemic to planet": "惑星特有の過酷な環境のスキャン",  //???
+	"Virus Research": "ウイルス研究",  //?? OK
+	"Computer-modeled analysis of the viral pathogen": "ウイルス病原体のコンピューターモデル解析",  //???
+	"Compressed Simulation Data": "圧縮されたシミュレーションデータ",  //???
+	"Allows for greater processing of research algorithms": "研究アルゴリズムの処理能力を向上",  //???
+	"Human Data Bank": "ヒューマンデータバンク",  //???
+	"A databank that holds human research data": "ヒトの研究データを保管するデータバンク",  //???    "Human Data Bank"と"Alien Data Bank"の説明文が同じ
+	"Alien Data Bank": "エイリアン・データバンク",  //???
+	"Drone Package": "ドローンパッケージ",  //???
+	"A drone exclusively for transferring items over a short range": "近距離での物品搬送専用のドローン",  //???
+	"package": "パッケージ",  //おそらく不要  本文ではなく「tag」という内部データと思われる
 	"Transfer Drone Package": "トランスファードローンパッケージ",
 	"A drone exclusively for transferring items in a large area": "広いエリアでの搬送専用のドローン",
 	"Miner Drone Package": "マイナー・ドローン・パッケージ",
@@ -2668,44 +2668,44 @@
 	"A crystal energized with power": "パワーに満ちたクリスタル",
 	"Blight Extraction": "ブライト抽出",
 	"Extracted blight gas essence": "抽出された殺虫ガスエッセンス",
-	"gas": "ガス",
-	"Blight Bar": "ブライト・バー",
-	"A bar of blight": "殺伐としたバー",
-	"Blight Plasma": "ブライト・プラズマ",
-	"Processed blight gas into a goop form": "ブライトガスをグープ状に加工",
-	"Gear Box": "ギアボックス",
-	"Useful for repairing Human technology": "ヒューマンテクノロジーの修理に役立つ",
-	"Pump": "ポンプ",
-	"Microscope": "顕微鏡",
-	"Transformer": "変圧器",
-	"Small Modular Reactor": "小型モジュール炉",
-	"Mini Power Reactor for Small Units": "小型原子炉",
-	"Engines": "エンジン",
+	"gas": "ガス",  //おそらく不要  本文ではなく「slot_type」という内部データと思われる
+	"Blight Bar": "ブライト・バー",  //??? Blight がわからない
+	"A bar of blight": "殺伐としたバー",  //??? Blight がわからない
+	"Blight Plasma": "ブライト・プラズマ",  //??? Blight がわからない
+	"Processed blight gas into a goop form": "ブライトガスをグープ状に加工",  //??? Blight がわからない
+	"Gear Box": "ギアボックス",  //不要と思われる  Main/data/items.lua に存在せず
+	"Useful for repairing Human technology": "ヒューマンテクノロジーの修理に役立つ",   //"Microscope"と"Transformer"
+	"Pump": "ポンプ",  //不要と思われる  Main/data/items.lua に存在せず
+	"Microscope": "顕微鏡",  //OK
+	"Transformer": "変圧器",  //OK
+	"Small Modular Reactor": "小型モジュラーリアクター",  //OK
+	"Mini Power Reactor for Small Units": "小型ユニット用ミニパワーリアクター",  //仮  Powerは電力 ??
+	"Engines": "エンジン",  //OK
 	"Develop Human Flight Capability": "有人飛行能力の開発",
-	"Data Key": "データキー",
-	"Advanced Technology to allow access to secure structures": "安全な構造物へのアクセスを可能にする先進技術",
-	"Alien Core": "エイリアン・コア",
-	"A conscious ball of energy": "意識的なエネルギーの塊",
-	"AI Core": "AIコア",
-	"Advanced controller unit for a Robot": "ロボット用アドバンストコントローラユニット",
-	"ELAIN's AI Core": "ELAINのAIコア",
-	"ELAIN's Advanced controller unit": "エラインのアドバンストコントローラーユニット",
-	"HIGGS's AI Core": "HIGGSのAIコア",
-	"HIGGS's Advanced controller unit": "HIGGSのアドバンストコントローラーユニット",
-	"Alien AI Core": "エイリアンAIコア",
-	"Advanced Alien controller unit": "進化したエイリアン・コントローラー・ユニット",
-	"Virus AI Core": "ウイルスAIコア",
-	"Advanced Virus controller unit": "アドバンスド・ウイルス・コントローラー・ユニット",
-	"Blight AI Core": "ブライトAIコア",
-	"Advanced Blight controller unit": "アドバンスド・ブライト・コントローラー・ユニット",
-	"Broken AI Core": "壊れたAIコア",
-	"A damaged controller unit for a Robot": "破損したロボット用コントローラユニット",
-	"Bug Chitin": "虫のキチン",
-	"Silica reinforced shell of bugs": "シリカで補強された虫の殻",
-	"Anomaly Particle": "異常粒子",
-	"A particle of pure data": "純粋なデータの粒子",
-	"MultiCube": "マルチキューブ", // <TRANSLATION>
-	"A cocktail of research data": "研究データの組み合わせ", // <TRANSLATION>
+	"Data Key": "データキー",  //OK
+	"Advanced Technology to allow access to secure structures": "セキュアな構造物へのアクセスを可能にする先進技術",  //仮 意味が分かりづらい
+	"Alien Core": "エイリアン コア",  //OK
+	"A conscious ball of energy": "意識的なエネルギーの塊",  //??
+	"AI Core": "AI コア", //OK
+	"Advanced controller unit for a Robot": "ロボット用高度コントロールユニット", //OK
+	"ELAIN's AI Core": "ELAIN の AIコア",  //??
+	"ELAIN's Advanced controller unit": "ELAIN の高度コントロールユニット",  //??
+	"HIGGS's AI Core": "HIGGS の AIコア",  //不要と思われる  Main/data/items.lua に存在せず
+	"HIGGS's Advanced controller unit": "HIGGS の高度コントロールユニット",  //不要と思われる  Main/data/items.lua に存在せず
+	"Alien AI Core": "エイリアンの AIコア",  //不要と思われる  Main/data/items.lua に存在せず
+	"Advanced Alien controller unit": "エイリアンの高度コントロールユニット",  //不要と思われる  Main/data/items.lua に存在せず
+	"Virus AI Core": "ウイルスの AIコア",  //不要と思われる  Main/data/items.lua に存在せず
+	"Advanced Virus controller unit": "ウィルスの高度コントロールユニット",  //不要と思われる  Main/data/items.lua に存在せず
+	"Blight AI Core": "ブライト AIコア",  //不要と思われる  Main/data/items.lua に存在せず
+	"Advanced Blight controller unit": "ブライトの高度コントロールユニット",  //不要と思われる  Main/data/items.lua に存在せず
+	"Broken AI Core": "壊れた AIコア",  //仮
+	"A damaged controller unit for a Robot": "破損したロボット用コントロールユニット",  //仮
+	"Bug Chitin": "バグの表皮",  //仮
+	"Silica reinforced shell of bugs": "シリカで補強されたバグの殻",  //仮
+	"Anomaly Particle": "異常粒子",  //仮
+	"A particle of pure data": "データの微粒子",  //仮
+	"MultiCube": "マルチキューブ",   //仮
+	"A cocktail of research data": "研究データの寄せ集め",   //仮
 
 	// FILE: Main/data/landfeatures.lua
 	"Threshold": "しきい値",
