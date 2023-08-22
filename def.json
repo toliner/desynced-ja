@@ -5,7 +5,7 @@
     "version_code": 1,
     "author": "Desynced Japanese Player' Translation Team",
     "homepage": "https://www.desyncedgame.com/",
-    "description": "Japanese Language Mod",
+    "description": "Japanese Language Mod, originally made by The Desynced Team",
     "disabled_by_default": true,
     "packages": {
         "CustomLanguage": {
