@@ -48,7 +48,7 @@
 	"Buildings Built": "建築物",
 	"How many buildings you have built": "建設した建物の数",
 	"Solve Robot Explorables": "ロボット探検隊",
-	"Visit and solve the challenges on explorables by the robot race": "ロボットレースでエクスプロラブルを訪れ、課題を解く",
+	"Visit and solve the challenges on explorables by the robot race": "ロボットレースで調査可能箇所を訪れ、課題を解く",
 	"Solved Circuit puzzles": "回路パズルの解答",
 	"Solve Circuit puzzle in ruins": "廃墟で回路パズルを解く",
 	"Solved Nine Clicks puzzle": "ナインクリックスのパズルを解く",
@@ -137,28 +137,28 @@
 	"Right-Click to clear value": "右クリックで値をクリア",
 
 	// FILE: Main/ui/Explorable.lua
-	"Take All": "テイク・オール",
-	"Disconnected Circuit": "断線回路",
-	"Complete": "完全",
-	"View Console": "ビューコンソール",
-	"Override available": "オーバーライド可能",
-	"Missing Item": "欠品",
-	"Transfer Item": "移管項目",
+	"Take All": "すべてのアイテムを転送",  //OK
+	"Disconnected Circuit": "断線回路",  //仮
+	"Complete": "完了",  //OK
+	"View Console": "コンソールを表示",  //OK
+	"Override available": "オーバーライド可能",  //実機未確認
+	"Missing Item": "修理アイテムが必要",  //OK
+	"Transfer Item": "アイテムを転送",  //OK
 	"System Scan": "システムスキャン",
-	"Need Power": "パワーが必要",
-	"Scan": "スキャン",
-	"NOT IN DEMO": "非デモ",
-	"Need Intel Scanner": "インテル・スキャナーが必要",
-	"Encrypted": "暗号化",
-	"Opened": "オープン",
-	"white": "ホワイト",
-	"Access Granted!": "アクセス許可",
-	"Limited Access Granted!": "アクセス制限あり！",
+	"Need Power": "電力が必要",  //OK
+	"Scan": "スキャン開始",  //実機未確認
+	"NOT IN DEMO": "非デモ",  ///不明  スクリプトを確認したが存在せず
+	"Need Intel Scanner": "インテルスキャナが必要",  //実機未確認
+	"Encrypted": "暗号化",  //実機未確認
+	"Opened": "オープン",  //実機未確認
+	"white": "ホワイト",  //不明  スクリプトを確認したが文字色の指定と思われる
+	"Access Granted!": "アクセス権 取得済!",
+	"Limited Access Granted!": "アクセス権 一部制限中!",
 	"This structure has an unknown security system. Research and develop scanning technology to gain access to the unlock mechanism.": "この建造物には未知のセキュリティ・システムがある。解錠メカニズムにアクセスするためのスキャン技術を研究開発せよ。",
-	"To unlock access, please complete the requirements chain.": "アクセスのロックを解除するには、要件チェーンを完了してください。",
-	"height": "高さ",
-	"Not enough free space to transfer item": "アイテムの転送に十分な空き容量がない",
-	"Not enough free space to transfer all items": "すべてのアイテムを転送するのに十分な空き容量がない",
+	"To unlock access, please complete the requirements chain.": "各要件をクリアして、アクセス制限を解除してください",  //仮
+	"height": "高さ",  //不明  スクリプトを確認したが表示要素のプロパティと思われる
+	"Not enough free space to transfer item": "インベントリに空きがなく、アイテムの転送ができない",  //OK
+	"Not enough free space to transfer all items": "インベントリに空きがなく、すべてのアイテムの転送ができない",  //OK
 
 	// FILE: Main/ui/Faction.lua
 	"Units": "単位",
@@ -1702,7 +1702,7 @@
 	"datakey": "データキー",
 	"Virus": "ウイルス",
 	"Small Intel Scanner": "小型インテル・スキャナー",
-	"Scan explorables internals to access the console. Can be used to gain the hacking code of enemy faction units": "エクスプロラブルの内部をスキャンしてコンソールにアクセスする。敵派閥ユニットのハッキングコードを入手するために使用できる。",
+	"Scan explorables internals to access the console. Can be used to gain the hacking code of enemy faction units": "調査可能箇所の内部をスキャンしてコンソールにアクセスする。敵派閥ユニットのハッキングコードを入手するために使用できる。",
 	"Item to scan": "スキャンする項目",
 	"Set Scanning Target": "スキャン対象の設定",
 	"Scan Result": "スキャン結果",
@@ -2114,7 +2114,7 @@
 	"The ground foundation that gives a 20% speed boost": "スピードを20％向上させる地盤",
 	"Human Foundation": "人間財団",
 	"Basic Human Foundation": "人間の基礎",
-	"Explorable": "エクスプロラブル",
+	"Explorable": "調査可能箇所",  //仮
 	"Human Explorable": "人間探査可能",
 	"Explorable Glitch": "探索可能なグリッチ",
 	"Decoration": "デコレーション",
