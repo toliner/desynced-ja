@@ -35,8 +35,8 @@
 	"Mark All Read": "すべて読む",
 	"Mine Metal Ore": "鉱山 金属鉱石",
 	"Use a miner component to mine metal ore": "鉱夫コンポーネントを使用して金属鉱石を採掘する",
-	"Mine Crystal Chunks": "マイン・クリスタル・チャンクス",
-	"Use a miner component to mine crystal chunks": "鉱夫コンポーネントを使ってクリスタルの塊を採掘する",
+	"Mine Crystal Chunks": "クリスタル原石を採掘",
+	"Use a miner component to mine crystal chunks": "鉱夫コンポーネントを使ってクリスタル原石を採掘する",
 	"Mine Silica Sand": "鉱山珪砂",
 	"Use a miner component to mine silica sand": "鉱夫コンポーネントを使って珪砂を採掘する",
 	"Mine Laterite Ore": "鉱山 ラテライト鉱",
@@ -2556,56 +2556,56 @@
 	"Debug print to log": "ログへのデバッグ出力",
 
 	// FILE: Main/data/items.lua
-	"Metal Ore": "金属鉱石",
-	"Rock permeated with shiny fragments of strong building material": "光沢のある建築資材の破片が浸透した岩石",
-	"Crystal Chunk": "クリスタル・チャンク",
-	"An unprocessed grouping of raw crystals": "未加工の原結晶の集合体",
-	"Laterite ore": "ラテライト鉱",
-	"Unprocessed rocks rich in Aluminum": "アルミニウムを豊富に含む未加工の岩石",
-	"Aluminum Rod": "アルミニウム棒",
-	"Lightweight rods of pure Aluminum": "純アルミ製の軽量ロッド",
-	"Aluminum Sheet": "アルミシート",
-	"Flat sheets of pure Aluminum": "純アルミニウムの平板",
-	"Silica sand": "珪砂",
-	"Silica sand, usually found at high altitudes": "珪砂、通常は高地で発見される",
-	"Fused Electrodes": "溶融電極",
-	"Electrodes, but fused": "電極、ただし融着",
-	"Reinforced Plate": "強化プレート",
-	"Plates re-engineered with added strength and durability": "強度と耐久性を向上させるために再設計されたプレート",
-	"Optic Cable": "光ケーブル",
-	"Cable that sends signals using light": "光で信号を送るケーブル",
-	"Circuit Board": "回路基板",
-	"A board full of circuits": "電子部品を接続するための基板",
-	"Infected Circuit Board": "感染した回路基板",
-	"Virus infected circuit board. Can be used to override security systems": "ウイルスに感染した回路基板。セキュリティシステムの無効化に使用可能",
-	"Obsidian chunk": "黒曜石の塊",
-	"Black, volcanic ore": "黒色の火山性鉱石",
-	"Metal Bar": "金属棒",
-	"Bars of metal created from smelted ore": "製錬された鉱石から作られる金属の棒",
-	"Metal Plate": "金属板",
-	"Flat, heavy sheets created from smelted ore": "製錬された鉱石から作られる平らで重いシート",
-	"Foundation Plate": "基礎プレート",
-	"Machine-pressed and formed metal foundation": "機械プレス成形された金属ファンデーション",
-	"Low-Density Frame": "低密度フレーム",
-	"Machine-pressed frame built for low weight applications": "マシンプレス・フレーム",
-	"Energized Plate": "通電プレート",
-	"Machine-pressed frame built for heavy-duty applications": "ヘビーデューティ仕様のマシンプレス製フレーム",
-	"High-Density Frame": "高密度フレーム",
-	"Beacon Kit": "ビーコンキット",
-	"A small beacon that can be built to mark locations on your minimap": "ミニマップ上に場所を示すために作ることができる小さなビーコン",
-	"Refined Crystal": "リファイン・クリスタル",
-	"A single polished crystal": "磨き上げられたクリスタル",
-	"Crystal Powder": "クリスタルパウダー",
-	"A pile of ground crystal dust": "水晶の粉の山",
-	"Obsidian Brick": "オブシディアン・ブリック",
-	"Volcanic rock that has been formed into bricks": "レンガ状になった火山岩",
-	"A mysterious contraption of unknown origin": "出所不明の謎の仕掛け",
-	"Research Artifact": "研究成果",
-	"An activated alien artifact": "活性化したエイリアンのアーティファクト",
+	"Metal Ore": "金属鉱石",  //OK
+	"Rock permeated with shiny fragments of strong building material": "光沢がある破片を含む岩石、丈夫な建築材料になる",  //OK
+	"Crystal Chunk": "クリスタル原石",  //OK
+	"An unprocessed grouping of raw crystals": "加工前のクリスタル",  //OK
+	"Laterite ore": "ラテライト鉱石",  //OK
+	"Unprocessed rocks rich in Aluminum": "アルミニウムを豊富に含む岩石",  //OK
+	"Aluminum Rod": "アルミニウム丸棒",  //OK
+	"Lightweight rods of pure Aluminum": "純アルミ製の軽量ロッド",  //OK
+	"Aluminum Sheet": "アルミニウム板",  //OK
+	"Flat sheets of pure Aluminum": "純アルミニウム製の平らな板",  //OK
+	"Silica sand": "シリカ砂",  //OK
+	"Silica sand, usually found at high altitudes": "シリカ砂、通常は高所で発見される",  //OK
+	"Fused Electrodes": "溶融電極",  //実機未確認
+	"Electrodes, but fused": "電極、ただし融解している",  //実機未確認
+	"Reinforced Plate": "強化プレート",  //OK
+	"Plates re-engineered with added strength and durability": "強度と耐久性が向上された金属プレート",  //OK
+	"Optic Cable": "光ケーブル",  //OK
+	"Cable that sends signals using light": "光を使用して信号を送信するケーブル",  //OK
+	"Circuit Board": "回路基板",  //OK
+	"A board full of circuits": "多くの回路が搭載されている基板",  //OK
+	"Infected Circuit Board": "ウィルス汚染回路基板",  //OK
+	"Virus infected circuit board. Can be used to override security systems": "ウイルスに汚染された回路基板、セキュリティシステムの無効化に使用可能",  //OK
+	"Obsidian chunk": "黒曜石",  //OK
+	"Black, volcanic ore": "黒色の火山性鉱石",  //OK
+	"Metal Bar": "金属バー",  //OK
+	"Bars of metal created from smelted ore": "金属鉱石を製錬して作られる延べ棒",  //OK
+	"Metal Plate": "金属板",  //OK
+	"Flat, heavy sheets created from smelted ore": "製錬された鉱石から作られる平らで重い板",  //OK
+	"Foundation Plate": "基礎プレート",  //OK
+	"Machine-pressed and formed metal foundation": "機械でプレス加工された金属製の基礎",  //OK
+	"Low-Density Frame": "低密度フレーム",  //OK
+	"Machine-pressed frame built for low weight applications": "機械でプレス加工された軽量向けのフレーム",  //仮
+	"Energized Plate": "帯電プレート",  //OK
+	"Machine-pressed frame built for heavy-duty applications": "機械でプレス加工された重量向けのフレーム",  //仮  補足:元ネタの"Energized Plate"と"High-Density Frame" の説明文が同じ
+	"High-Density Frame": "高密度フレーム",  //OK
+	"Beacon Kit": "ビーコンキット",  //OK
+	"A small beacon that can be built to mark locations on your minimap": "ミニマップ上に位置をマークする小型のビーコン",  //OK
+	"Refined Crystal": "Refined クリスタル",  //仮
+	"A single polished crystal": "磨き上げられたクリスタル",  //OK
+	"Crystal Powder": "クリスタルパウダー",  //OK
+	"A pile of ground crystal dust": "クリスタルの粉",  //OK
+	"Obsidian Brick": "黒曜石のレンガ",  //OK
+	"Volcanic rock that has been formed into bricks": "レンガ状に成形された火山岩",  //OK
+	"A mysterious contraption of unknown origin": "出所不明の謎の仕掛け",  // 補足「Alien Artifact」の説明文
+	"Research Artifact": "研究成果",   //実機未確認
+	"An activated alien artifact": "活性化したエイリアンのアーティファクト",   //実機未確認
 	"Silicon": "シリコン",
-	"Silica that has been refined into pure silicon rods": "純シリコン棒に精製されたシリカ",
+	"Silica that has been refined into pure silicon rods": "精製したシリカで製造されたシリコンのロッド",  //OK
 	"Wire": "ワイヤー",
-	"Metal cables useful in building electronics": "建築用電子機器に有用なメタルケーブル",
+	"Metal cables useful in building electronics": "建築用電子機器に有用なメタルケーブル",   //補足:元ネタの「Wire」と「Cable」の説明文が同じ
 	"Cable": "ケーブル",
 	"IC Chip": "ICチップ",
 	"Simple semiconducting device used in electronics": "電子機器に使用される単純な半導体デバイス",
@@ -2624,7 +2624,7 @@
 	"Robotics Datacube": "ロボティクス・データキューブ",
 	"A cube of incredibly dense data, the result of running millions of simulations": "何百万回ものシミュレーションの結果、信じられないほど高密度なデータの立方体。",
 	"Located in ruined structures throughout the world": "世界中の廃墟となった建造物にある",
-	"research": "研究",
+	"research": "研究",  //おそらく不要  本文ではなく「tag」という内部データと思われる
 	"Alien Datacube": "エイリアン・データキューブ",
 	"Partial data on alien technology. Further analysis required": "エイリアンのテクノロジーに関する部分的なデータ。さらなる分析が必要",
 	"Human Datacube": "ヒューマン・データキューブ",
@@ -2664,7 +2664,7 @@
 	"Compacted medium flyer package": "コンパクトな中型チラシパッケージ",
 	"Satellite Package": "衛星パッケージ",
 	"Compacted satellite package": "コンパクトな衛星パッケージ",
-	"Blight Crystal Chunk": "ブライト・クリスタル・チャンク",
+	"Blight Crystal Chunk": "ブライトクリスタル原石",
 	"A crystal energized with power": "パワーに満ちたクリスタル",
 	"Blight Extraction": "ブライト抽出",
 	"Extracted blight gas essence": "抽出された殺虫ガスエッセンス",
