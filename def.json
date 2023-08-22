@@ -1,0 +1,20 @@
+{
+    "id": "lang_jp",
+    "name": "Japanese language sample",
+    "version_name": "1.0",
+    "version_code": 1,
+    "author": "The Desynced Team",
+    "homepage": "https://www.desyncedgame.com/",
+    "description": "Japanese language sample",
+    "disabled_by_default": true,
+    "packages": {
+        "CustomLanguage": {
+            "name": "Custom Language",
+            "languagesdir": "languages",
+            "type": "Translation",
+            "Languages": {
+                "ja": "日本語"
+            }
+        }
+    }
+}
