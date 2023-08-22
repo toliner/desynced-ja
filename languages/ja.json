@@ -381,6 +381,7 @@
 	"Aggressive": "攻撃的",
 	"Low": "低",
 	"High": "高",
+	"Infinite Rich": "最大量",
 	"Short": "短い",
 	"Normal": "普通",
 	"Long": "長い",
@@ -529,14 +530,14 @@
 	"HDR Output": "HDR出力",
 	"Quality": "品質",
 	"Ultra": "ウルトラ",
-	"Resolution Scale": "解像度",
+	"Resolution Scale": "解像度低下",
 	"View Distance": "距離の表示", // <TRANSLATION>
 	"Fog Quality": "霧の品質", // <TRANSLATION>
 	"Shadow Quality": "影の品質", // <TRANSLATION>
 	"Anti-Aliasing": "アンチエイリアス", // <TRANSLATION>
-	"Bloom Quality": "ブルーム品質", // <TRANSLATION>
+	"Bloom Quality": "光源処理の品質", // <TRANSLATION>
 	"Depth Of Field": "被写界深度",
-	"DOF Strength": "DOFの強さ",
+	"DOF Strength": "被写界深度の強さ",
 	"windowed": "窓付き",
 	"borderless": "ボーダーレス",
 	"fullscreen": "フルスクリーン",
@@ -544,23 +545,23 @@
 	"Volume": "ボリューム",
 	"Effects": "効果",
 	"Music": "音楽",
-	"Voice": "声",
+	"Voice": "音声",
 	"Menu": "メニュー",
 	"master": "マスター",
 	"effect": "効果",
 	"music": "音楽",
-	"voice": "声",
+	"voice": "音声",
 	"ui": "ウイ",
 	"Language": "言語",
 	"Interface Scale": "インターフェース・スケール",
 	"Tutorials": "チュートリアル",
 	"Auto Save": "オートセーブ",
-	"Color Blind Mode": "カラーブラインドモード",
-	"Deuteranopia": "デューテラノピア",
+	"Color Blind Mode": "色覚調整モード",
+	"Deuteranopia": "D型色覚の方用",
 	"Green-Blind": "グリーンブラインド",
-	"Protanopia": "プロタノピア",
+	"Protanopia": "P型色覚の方用",
 	"Red-Blind": "レッドブラインド",
-	"Tritanopia": "トリタノピア",
+	"Tritanopia": "T型色覚の方用",
 	"Blue-Blind": "ブルーブラインド",
 	"%d min": "%d分",
 	"(disabled)": "無効",
@@ -1015,9 +1016,9 @@
 	"Mod '%S' has been uninstalled": "MOD「%S」はアンインストールされました。",
 
 	// FILE: Main/frontend/Multiplayer.lua
-	"Host New Game": "新しい試合を主催する",
-	"Host Load Game": "ホスト・ロード・ゲーム",
-	"Find LAN Games": "LANゲームを探す",
+	"Host New Game": "新しいゲームを主催する",
+	"Host Load Game": "主催者のゲームをロード",
+	"Find LAN Games": "ネットでゲームを探す",
 	"Connect to IP...": "IP接続...",
 	"Join Game": "ゲームに参加する",
 	"Sessions:": "セッション",
@@ -2110,7 +2111,7 @@
 	"This bot is the first to mount a medium component": "このロボットは中型コンポーネントを初めて搭載した。",
 	"Dropped Item": "落下物",
 	"Construction": "建設",
-	"Foundation": "財団",
+	"Foundation": "基礎",
 	"The ground foundation that gives a 20% speed boost": "スピードを20％向上させる地盤",
 	"Human Foundation": "人間財団",
 	"Basic Human Foundation": "人間の基礎",
@@ -2588,7 +2589,7 @@
 	"Machine-pressed and formed metal foundation": "機械でプレス加工された金属製の基礎",  //OK
 	"Low-Density Frame": "低密度フレーム",  //OK
 	"Machine-pressed frame built for low weight applications": "機械でプレス加工された軽量向けのフレーム",  //仮
-	"Energized Plate": "帯電プレート",  //OK
+	"Energized Plate": "金属フレーム",  //OK
 	"Machine-pressed frame built for heavy-duty applications": "機械でプレス加工された重量向けのフレーム",  //仮  補足:元ネタの"Energized Plate"と"High-Density Frame" の説明文が同じ
 	"High-Density Frame": "高密度フレーム",  //OK
 	"Beacon Kit": "ビーコンキット",  //OK
