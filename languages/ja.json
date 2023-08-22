@@ -765,7 +765,7 @@
 	"Special Building": "特別棟",
 	"Other Construction": "その他の建設",
 	"Goto": "Goto",
-	"<header>Goto</>\n<Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to Queue\n\nMove to this Object or Location and attempt to <hl>Interact</>.": "<header>後藤</>\n<Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>からキューへ\n\nこのオブジェクトまたは場所に移動し、<hl>対話を試みる</>。",
+	"<header>Goto</>\n<Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to Queue\n\nMove to this Object or Location and attempt to <hl>Interact</>.": "<header>GOTO</>\n<Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>からキューへ\n\nこのオブジェクトまたは場所に移動し、<hl>対話を試みる</>。",
 	"Store": "ストア",
 	"<header>Store</>\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n\nSet to an owned <hl>unit</> or <hl>building</>, it will transfer\nits inventory when possible.\n\nCheck the <hl>Automation</> Codex entry for more information.": "<header>ストア</>\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n\n所有する<hl>ユニット</>または<hl>ビルに</>設定すると、そのユニットまたはビルに転送されます。\n可能な限り在庫を確保する。\n\n<hl>詳しくはAutomation </>Codexをご覧ください。",
 	"Visual": "ビジュアル",
