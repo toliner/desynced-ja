@@ -1469,6 +1469,10 @@
 	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスターで明るさや色を変更可能",  //OK
 	"Light RGB":"RGB ライト",  //OK
 	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスターで明るさや色をRGBレジスタを介して変更可能",  //OK
+  "Red (0-31)":"赤 (0-31)",
+  "Green (0-31)":"緑 (0-31)",
+  "Blue  (0-31)":"青 (0-31)",
+  "Intensity":"光の強度",
 	"Small": "小さい",  //おそらく不要
 	"Fabricator": "ファブリケーター",  //OK
 	"A small fabrication unit able to process raw resources and simple components. Missing ingredients are available via register.": "原材料と簡単な部品の加工ができる小型製造コンポーネント。不足している材料はレジスターを介して要求される",
