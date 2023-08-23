@@ -312,13 +312,13 @@
 	"Selected by: %S": "選択者%S",
 
 	// FILE: Main/ui/InGameMenu.lua
-	"Since Last Save": "前回の保存から",
+	"Since Last Save": "前回のセーブから",  //OK
 	"Time Played": "プレイ時間",
 	"Current Time": "現在の時刻",
 	"Seed Value": "シード値",
-	"Return to Game": "ゲームに戻る",
-	"Save Game": "ゲームの保存",
-	"Restart Game": "ゲームの再開",
+	"Return to Game": "ゲームの再開",  //OK
+	"Save Game": "ゲームのセーブ",  //OK
+	"Restart Game": "ゲームを初めからやり直す",  //OK
 	"End Game": "ゲームの終了",
 	"Invite Friend": "招待",
 	"Switch Faction": "派閥の移動",
@@ -347,16 +347,16 @@
 	"Kick Player": "キック・プレーヤー",
 	"Do you want to remove this player from the server?": "このプレーヤーをサーバーから削除しますか？",
 	"Ban Player (lasts until game on server is restarted)": "プレーヤーをBAN（サーバーのゲームが再開されるまで続く）",
-	"Are you sure you want to restart the current scenario?": "本当にシナリオを再開しますか？",
-	"Are you sure you want to abort the scenario and return to the main menu?": "シナリオを中断してメインメニューに戻ってもよろしいですか？",
+	"Are you sure you want to restart the current scenario?": "シナリオを初めからやり直しますか？",  //仮
+	"Are you sure you want to abort the scenario and return to the main menu?": "シナリオを中断してメインメニューに戻りますか？",
 	"Starting Server ...": "サーバーの起動 ...",
 	"Failed to start server, please check your network connection.": "サーバーの起動に失敗しました。ネットワーク接続を確認してください。",
-	"New Faction": "新派閥",
+	"New Faction": "新しい派閥",  //仮  派閥
 	"Copied seed to clipboard": "シードをクリップボードにコピー",
 	"Send Developer Feedback": "開発者にフィードバックを送る", // r
 	"All feedback is publicly visible": "すべてのフィードバックは一般公開される", // <TRANSLATION>
 	"Suggestions, bug reports or other issues, feel free to share any kind of feedback!": "ご提案、バグレポート、その他の問題点など、どのようなフィードバックでもお気軽にお寄せください！", // <TRANSLATION>
-	"Attach a save game of the current state of the game": "ゲームの現在の状態のセーブゲームを添付する", // <TRANSLATION>
+	"Attach a save game of the current state of the game": "ゲームの現在の状態のセーブデータを添付する", // <TRANSLATION>
 	"Very Happy": "大満足", // <TRANSLATION>
 	"Happy": "満足", // <TRANSLATION>
 	"Unhappy": "不満", // <TRANSLATION>
@@ -404,7 +404,7 @@
 	"Enter the password to connect to the server": "サーバーに接続するためのパスワードを入力",
 	"Please Wait": "お待ちください",
 	"Joining Session ...": "セッションに参加 ...",
-	"Do you want to end the game to join the multiplayer game?\n\nAny unsaved progress will be lost.": "マルチプレイヤーゲームに参加するためにゲームを終了しますか？\n\n保存されていない進行状況はすべて失われる。",
+	"Do you want to end the game to join the multiplayer game?\n\nAny unsaved progress will be lost.": "マルチプレイヤーゲームに参加するためにゲームを終了しますか？\n\nセーブされていない進行状況はすべて失われる。",
 	" hashes: ": " ハッシュ： ",
 
 	// FILE: Main/ui/ItemSlot.lua
@@ -466,37 +466,38 @@
 	"Create Folder": "フォルダの作成",
 
 	// FILE: Main/ui/LoadSave.lua
-	"Name:": "名前",
-	"Saved:": "救われた：",
-	"Time Played:": "プレーした時間",
-	"Replay": "リプレイ",
-	"Save": "セーブ",
-	"save": "セーブ",
-	"[Save New]": "[新規保存］",
-	"hostload": "ホストロード",
-	"load": "ロード",
-	"Save name missing": "セーブ名が見つからない",
-	"Are you sure you want to override this save game?": "本当にこのセーブゲームを上書きしたいのですか？",
-	"Error during save operation": "保存操作中のエラー",
-	"Game Saved": "保存されたゲーム",
-	"Error during load operation": "負荷動作中のエラー",
-	"Enter a new name for this save game": "このセーブゲームの新しい名前を入力します。",
-	"Name can't be empty": "名前を空にすることはできない",
-	"Error during rename operation": "リネーム操作中のエラー",
-	"Save Game Renamed": "セーブゲームの名前を変更",
-	"Are you sure you want to delete this save game?": "本当にこのセーブゲームを削除したいのですか？",
-	"Error during delete operation": "削除操作中のエラー",
-	"Save Game Deleted": "セーブゲーム削除",
+	"Name:": "名前: ",  //OK
+	"Saved:": "セーブ日時: ",  //OK
+	"Time Played:": "プレイ時間: ",  //OK
+	"Replay": "リプレイ",  //OK
+//	"Delete":"削除",  重複　キーコンフィグのキーと思われる　日本語化不可
+	"Save": "セーブ",  //OK
+	"save": "セーブ",  //おそらく不要 mode名
+	"[Save New]": "[新しいセーブデータを作成]",  //仮
+	"hostload": "ホストロード",  //おそらく不要 mode名
+	"load": "ロード",  //おそらく不要 mode名
+	"Save name missing": "セーブデータ名を入力してください",  //仮
+	"Are you sure you want to override this save game?": "このセーブデータに上書きしてよいですか？",  //OK
+	"Error during save operation": "セーブ中にエラーが発生しました",  //OK
+	"Game Saved": "セーブしました",  //OK
+	"Error during load operation": "ロード中にエラーが発生しました",  //OK
+	"Enter a new name for this save game": "新しいセーブデータ名を入力してください",  //OK
+	"Name can't be empty": "空のセーブデータ名を指定することはできません",  //OK
+	"Error during rename operation": "セーブデータの名前の変更中中にエラーが発生しました",  //OK
+	"Save Game Renamed": "セーブデータの名前を変更しました",  //仮
+	"Are you sure you want to delete this save game?": "このセーブデータを削除してよいですか？",  //OK
+	"Error during delete operation": "セーブデータ削除中にエラーが発生しました",  //OK
+	"Save Game Deleted": "セーブデータを削除しました",  //OK
 	"The package is now missing": "パッケージがなくなった",
 	"The package is missing another base mod package": "このパッケージには別のベースMODパッケージが含まれていません。",
-	"The package has an older version installed than what was saved with": "で保存したものより古いバージョンがインストールされています。",
+	"The package has an older version installed than what was saved with": "でセーブしたものより古いバージョンがインストールされています。",
 	"Failed to load scenario package '%S' of mod '%S'.\nError: %s": "MOD '%S' のシナリオパッケージ '%S' のロードに失敗しました。\nエラー: %s",
 	"Addon '%S' of Mod '%S'": "MOD「%S」のアドオン「%S",
 	"%s (Error: %s)": "%s (エラー: %s)",
 	"The list of currently active mods is different from what was used when the game was saved.": "現在アクティブなMODのリストは、ゲームがセーブされたときに使用されていたものとは異なります。",
 	"Play with Mods from Save": "セーブからMODで遊ぶ",
-	"Play with Active Mods": "アクティブMODでプレーする",
-	"No Mods": "改造なし",
+	"Play with Active Mods": "アクティブMODでプレイする",
+	"No Mods": "MODなし",
 
 	// FILE: Main/ui/MapOverlay.lua
 	"Canvas": "キャンバス",
@@ -596,7 +597,7 @@
 	"Press any key or button": "任意のキーまたはボタンを押す",
 	"Are you sure you want to reset all key bindings?": "本当にすべてのキーバインドをリセットしたいのですか？",
 	"Open Logs Folder": "ログフォルダを開く",
-	"Open Save Games Folder": "セーブゲームフォルダを開く",
+	"Open Save Games Folder": "セーブデータフォルダを開く",
 	"Open Mods Folder": "Modsフォルダを開く",
 
 	// FILE: Main/ui/PhotoMode.lua
@@ -696,7 +697,7 @@
 	"RIGHT": "右",
 
 	// FILE: Main/ui/ReplayPlayer.lua
-	"Loaded save game contains no replay data": "ロードしたセーブゲームにリプレイデータが含まれていない",
+	"Loaded save game contains no replay data": "ロードしたセーブデータにリプレイデータが含まれていない",
 	"Replay Speed": "再生速度",
 	"Replay Progress": "リプレイの進捗状況",
 	"Pause Playback": "再生を一時停止する",
@@ -953,7 +954,7 @@
 	"%S changed you from %s to %s": "%Sがあなたを%sから%sに変えた",
 	"faction": "党派",
 	"autosave": "オートセーブ",
-	"Game was automatically saved": "ゲームが自動的にセーブされた",
+	"Game was automatically saved": "ゲームをオートセーブしました",
 	"A virus has been detected in the network": "ネットワークでウイルスが検出されました",
 	"WARNING: TAKING DAMAGE !!!": "警告：ダメージを受ける",
 	"attacked": "襲われた",
@@ -993,7 +994,7 @@
 	"Tutorial": "チュートリアル",
 	"New Game": "ニューゲーム",
 	"Challenges": "チャレンジ",  //hidden
-	"Load Game": "ゲームをロード",
+	"Load Game": "ゲームのロード",
 	"Multiplayer": "マルチプレイ",
 	"Options": "オプション",
 	"Mods": "MOD",
@@ -1049,7 +1050,7 @@
 	"Seed:": "シード：",
 	"Save Replay": "リプレイ",
 	"Turn off to disable replays": "リプレイを無効にするにはオフにする",
-	"Play": "プレー",
+	"Play": "プレイ",
 	"Desynced is quite unique in its core mechanics. We highly recommend playing through the tutorial if that's your first time": "まずチュートリアルをプレイしますか？",
 
 	// FILE: Main/frontend/frontend.lua
@@ -1085,7 +1086,7 @@
 	"<large_header>Special Thanks</>": "<large_header>スペシャルサンクス</>",
 	"<credits_text>Desynced uses Unreal® Engine. Unreal® is a trademark or registered</>\n<credits_text>trademark of Epic Games, Inc. in the United States of America and elsewhere.</>\n<credits_text>Unreal® Engine, Copyright 1998 – 2023, Epic Games, Inc. All rights reserved.</>": "<credits_text>Desynced は Unreal® Engine を使用しています。Unreal®は商標または登録商標です。</>\n<credits_text>の商標です。</>\n<credits_text>Unreal® Engine, Copyright 1998 - 2023, Epic Games, Inc.無断複写・転載を禁じます。</>",
 	"<credits_text>Desynced is © Stage Games Inc 2018-2023.</>\n<credits_text>All code, art, music, game design is copyright Stage Games Inc.</>": "<credits_text>Desynced is © Stage Games Inc 2018-2023.</>\n<credits_text>すべてのコード、アート、音楽、ゲームデザインの著作権はStage Games Inc.に帰属します。</>",
-	"<large_header>Thank you for playing!</>": "<large_header>プレーしてくれてありがとう！</>",
+	"<large_header>Thank you for playing!</>": "<large_header>プレイしてくれてありがとう！</>",
 	"table": "テーブル",
 	"string": "ストリング",
 	"number": "番号",
@@ -1540,8 +1541,9 @@
 	"normal": "通常",  //おそらく不要  metalcolor
 	"rl": "rl",  //おそらく不要  metalcolor
 	"<notify_info>Resources:</>\n<outline>Metal Ore: %d</>\n<outline>Crystal: %d</>": "<notify_info>リソース</>\n<outline>金属鉱石%d</>\n<outline>クリスタル：%d</>",  //仮  実機では見えない?
+	"<notify_info>Resources:</>\n<outline>Metal Ore: %s</>\n<outline>Crystal: %s</>": "<notify_info>周辺の資源量</>\n<outline>金属鉱石: %d</>\n<outline>クリスタル原石: %d</>",  //OK
 	"Cannot deploy here": "ここには設置できない",  //仮
-	"Insufficient resources detected.\n\nAre you sure you want to deploy here?": "周囲の資源が十分ではないようです。\n\nここに設置してよいですか？",  //要修正!
+	"Insufficient resources detected.\n\nAre you sure you want to deploy here?": "周辺の資源が十分ではないようです。\n\nここにコマンドセンターを設置してよいですか？",  //要修正!
 
 	"Deployer": "デプロイヤー",  //仮
 	"Unpacks into a completed unit and destroys itself when deployed": "完成したユニットに復元したあと自壊する。",  //仮
@@ -2389,7 +2391,7 @@
 	"Check Altitude": "高度を確認する",
 	"Divert program depending on location of a unit": "ユニットの位置に応じてプログラムを変更する",
 	"Blight": "ブライト",
-	"Where to continue if the unit is in the blight": "もしユニットがボロボロの状態であれば、どこでプレーを続けるべきか？",
+	"Where to continue if the unit is in the blight": "もしユニットがボロボロの状態であれば、どこでプレイを続けるべきか？",
 	"Check Blightness": "白化度チェック",
 	"Full": "フル",
 	"Where to continue if at full health": "万全の状態ならどこで続けるか",
