@@ -1467,6 +1467,8 @@
 	//コンポーネントの定義はここから
 	"Light": "ライト",  //OK
 	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスターで明るさや色を変更可能",  //OK
+	"Light RGB":"RGB ライト",  //OK
+	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスターで明るさや色をRGBレジスタを介して変更可能",  //OK
 	"Small": "小さい",  //おそらく不要
 	"Fabricator": "ファブリケーター",  //OK
 	"A small fabrication unit able to process raw resources and simple components. Missing ingredients are available via register.": "原材料と簡単な部品の加工ができる小型製造コンポーネント。不足している材料はレジスターを介して要求される",
@@ -1671,13 +1673,13 @@
 	"Large Health Module": "大型健康モジュール", // <TRANSLATION>
 	"Increased structural integrity, adds 300 durability": "構造的完全性を高め、300の耐久度を追加", // <TRANSLATION>
 	"Internal Visibility Module": "内部可視化モジュール",
-	"Increase unit visibility range by 3": "ユニットの視認範囲を3増やす",
+	"Increase unit visibility range by 5": "ユニットの視認範囲を5拡大",
 	"Small Visibility Module": "小型可視モジュール",
-	"Increase unit visibility range by 10": "ユニットの視認範囲を10増加",
+	"Increase unit visibility range by 10": "ユニットの視認範囲を10拡大",
 	"Medium Visibility Module": "中型可視モジュール", // <TRANSLATION>
-	"Increase unit visibility range by 30": "ユニットの視認範囲を30％拡大", // <TRANSLATION>
+	"Increase unit visibility range by 15": "ユニットの視認範囲を15拡大", // <TRANSLATION>
 	"Large Visibility Module": "大型可視モジュール", // <TRANSLATION>
-	"Increase unit visibility range by 40": "ユニットの視認範囲を40％拡大", // <TRANSLATION>
+	"Increase unit visibility range by 20": "ユニットの視認範囲を20拡大", // <TRANSLATION>
 	"Internal Efficiency Module": "内部効率モジュール",
 	"Increase component efficiency by 20%": "部品効率を20％向上",
 	"Small Efficiency Module": "小型効率モジュール",
@@ -2276,6 +2278,7 @@
 	"No Unit": "ユニットなし",
 	"No visible unit passed": "目に見えるユニットが通過していない",
 	"The unit to check for (if not self)": "チェックするユニット（自己でない場合）",
+	"The unit to check": "チェックするユニット",
 	"Building": "建物",
 	"Where to continue if the entity is a building": "事業体が建物の場合、どこで継続するか",
 	"Bot": "ボット",
@@ -2302,6 +2305,7 @@
 	"Finished looping through all entities in range": "範囲内のすべてのエンティティのループを終了",
 	"Loop Entities (Range)": "ループエンティティ（範囲）",
 	"Performs code for all entities in range": "範囲内のすべてのエンティティに対してコードを実行する",
+	"Performs code for all entities in visibility range of the unit": "ユニットの可視範囲内にあるすべてのエンティティのコードを実行する",
 	"Researchable Tech": "研究可能な技術", // <TRANSLATION>
 	"Loop Research": "循環研究", // <TRANSLATION>
 	"Performs code for all researchable tech": "すべての研究可能な技術に対して解析を行う", // <TRANSLATION>
@@ -2335,6 +2339,7 @@
 	"To": "へ",
 	"Set Number": "セット番号",
 	"Sets the numerical part of a value": "値の数値部分を設定する",
+	"Sets the numerical/coordinate part of a value": "値の数値/座標部分を設定する",
 	"From": "より",
 	"Num": "ヌム",
 	"Add": "追加",
@@ -2396,6 +2401,7 @@
 	"Number of this item in inventory or empty if none exist": "インベントリにあるこのアイテムの数。",
 	"Count Items": "カウント項目",
 	"Counts the number of the passed item in its inventory": "渡されたアイテムの在庫数をカウントする。",
+	"Counts the number of the passed item in your logistics network": "物流ネットワーク内の通過アイテムの数をカウントします",
 	"Have Item": "アイテムを持つ", // <TRANSLATION>
 	"have the specified item": "指定されたアイテムを持つ", // <TRANSLATION>
 	"Checks if you have at least a specified amount of an item": "あるアイテムを指定された量以上持っているかチェックする。", // <TRANSLATION>
@@ -2722,7 +2728,7 @@
 	"Bug Chitin": "バグの表皮",  //仮
 	"Silica reinforced shell of bugs": "シリカで補強されたバグの殻",  //仮
 	"Anomaly Particle": "異常粒子",  //仮
-	"A particle of pure data": "データの微粒子",  //仮
+	"A particle of pure data - CURRENTLY NOT OBTAINABLED": "データの微粒子 - 現在は入手不可",  //仮
 	"MultiCube": "マルチキューブ",   //仮
 	"A cocktail of research data": "研究データの寄せ集め",   //仮
 
