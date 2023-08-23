@@ -1445,110 +1445,122 @@
 	"Unlocked Items": "解除アイテム", // <TRANSLATION>
 
 	// FILE: Main/data/components.lua
-	"human": "人間的",
-	"laterite": "ラテライト",
-	"transformer": "変流器",
-	"engine": "エンジン",
-	"aluminiumsheet": "アルミシート",
-	"micropro": "マイクロプロ",
-	"alien": "外国人",
-	"world": "世界",
-	"glitch": "グリッチ",
-	"color": "カラー",
-	"resource": "リソース",
-	"entityfilter": "エンティティフィルタ",
-	"storage": "ストレージ",
-	"Light": "ライト",
-	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らします。レジスターで明るさや色を変更可能",
-	"Small": "小さい",
-	"Fabricator": "ファブリケーター",
-	"A small fabrication unit able to process raw resources and simple components. Missing ingredients are available via register.": "原材料と簡単な部品を加工できる小さな製造ユニット。足りない材料は登録することで入手できる。",
-	"production": "生産",
-	"Click to change production": "クリックしてプロダクションを変更",
-	"Set Production": "セット・プロダクション",
-	"Missing ingredient": "不足している成分",
-	"Set %s Production": "セット %s プロダクション",
-	"this": "これ",
-	"Missing research to produce %s": "%sを生み出すための欠落した研究",
-	"Cannot produce %s in %s": "%sで%sを生成できない",
-	"Missing production ingredient %s": "欠落している製造成分 %s",
-	"No inventory space to produce %s": "%sを生産する在庫スペースがない",
-	"frames": "フレーム",
-	"fx": "エフエックス",
-	"Assembler": "アセンブラー",
-	"Main production facility for robotic components and robotic materials.": "ロボット部品とロボット材料の主要生産施設。",
-	"Medium": "中間",
-	"Data Analyzer": "データアナライザー",
-	"Allows creation of Simulation Datacubes": "シミュレーション・データキューブの作成が可能",
-	"Large": "大型",
-	"Refinery": "製油所",
-	"Advanced production facility for advanced material production": "先端素材製造のための高度な生産設備",
-	"Robotics Assembler": "ロボティクス・アセンブラー",
-	"Dedicated laboratory for robotics": "ロボット工学専用ラボ",
-	"entity": "エンティティ",
-	"Rally point\n\nDrag to location or unit to set": "ラリーポイント\n\n設定する場所やユニットにドラッグする",
-	"Power Field": "パワーフィールド",
-	"Extends a wireless power field around the unit": "本機の周囲にワイヤレスパワーフィールドを拡張",
-	"Portable Power Field": "ポータブル・パワー・フィールド",
-	"Internal": "内部",
-	"Creates or expands your power grid in a small area around the unit, transferring power to nearby units. Produces no power on its own. Most useful on a moveable unit given its short range": "ユニットの周囲の狭い範囲にパワーグリッドを作成または拡張し、近くのユニットに電力を転送する。単体では電力を生成しない。射程が短いため、移動可能なユニットで最も有用。",
-	"Small Power Field": "小電力分野",
-	"Creates or expands your power grid in an area around the unit, transferring power to nearby units. Produces no power on its own.": "ユニットの周囲にパワーグリッドを作成または拡張し、近くのユニットに電力を転送する。単体では電力を生成しない。",
-	"Large Power Field": "大電力フィールド",
-	"Local power field with increased radius": "半径が大きくなるにつれて局所的なパワーフィールド",
-	"Uplink": "アップリンク",
-	"Uploads data to orbital mainframe for tech research": "技術研究のために軌道上のメインフレームにデータをアップロードする",
-	"Current researching technology": "現在の研究技術",
-	"Manual": "マニュアル",
-	"Set Research": "研究する",
-	"Tech": "テック",
-	"Repair Component": "補修部品",
-	"Allows repair of  damaged Frames": "損傷したフレームの修理が可能",
-	"Preferred Repair Target": "優先修理対象",
-	"Current Repair Target": "現在の修理目標",
-	"Repair Frame": "補修フレーム",
-	"Select the frame to repair": "修理するフレームを選択する",
-	"Are you sure you want to repair a frame from another faction?": "本当に他の派閥のフレームを修理したいのですか？",
-	"Repair Kit": "リペアキット",
-	"Can repair the unit it is equipped on": "装備したユニットを修理できる",
-	"ALLY": "アリー",
+	"human": "人間的",  //おそらく不要  判定文等で使われているだけ
+	"laterite": "ラテライト",  //おそらく不要  判定文等で使われているだけ
+	"transformer": "変流器",  //おそらく不要  判定文等で使われているだけ
+	"engine": "エンジン",  //おそらく不要  判定文等で使われているだけ
+	"aluminiumsheet": "アルミシート",  //おそらく不要  判定文等で使われているだけ
+	"micropro": "マイクロプロ",  //おそらく不要  判定文等で使われているだけ
+	"alien": "外国人",  //おそらく不要  判定文等で使われているだけ
+	"world": "世界",  //おそらく不要  判定文等で使われているだけ
+	"glitch": "グリッチ",  //おそらく不要  判定文等で使われているだけ
+	"color": "カラー",  //おそらく不要  判定文等で使われているだけ
+	"resource": "リソース",  //おそらく不要  判定文等で使われているだけ
+	"entityfilter": "エンティティフィルタ",  //おそらく不要  判定文等で使われているだけ
+	"storage": "ストレージ",  //おそらく不要  判定文等で使われているだけ
+	//コンポーネントの定義はここから
+	"Light": "ライト",  //OK
+	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスターで明るさや色を変更可能",  //OK
+	"Small": "小さい",  //おそらく不要
+	"Fabricator": "ファブリケーター",  //OK
+	"A small fabrication unit able to process raw resources and simple components. Missing ingredients are available via register.": "原材料と簡単な部品の加工ができる小型製造コンポーネント。不足している材料はレジスターを介して要求される",
+	"production": "生産",  //おそらく不要
+	"Click to change production": "クリックして生産物を変更",  //OK
+	"Set Production": "生産物をセット",  //OK
+	"Missing ingredient": "不足している材料",  //仮　実機で確認したい
+	"Set %s Production": "セット %s プロダクション",  //要修正
+	"this": "これ",  //おそらく不要
+	"Missing research to produce %s": "%sの生産に必要な研究が未完了",  //OK
+	"Cannot produce %s in %s": "%sでは%sの生産ができない",  //OK
+	"Missing production ingredient %s": "不足している材料 %s",  //仮
+	"No inventory space to produce %s": "%sを生産するインベントリが不足",  //OK
+	"frames": "フレーム",  //おそらく不要
+	"fx": "エフエックス",  //おそらく不要 SEの指定
+	"Assembler": "アセンブラ",  //OK
+	"Main production facility for robotic components and robotic materials.": "ロボット部品とロボット材料の主要生産施設",
+	"Medium": "中間",  //おそらく不要
+	"Data Analyzer": "データアナライザー",  //OK
+	"Allows creation of Simulation Datacubes": "シミュレーション データキューブの作成が可能",  //仮　実機で確認したい
+	"Large": "大型",  //おそらく不要
+	"Refinery": "リファイナリー",  //OK
+	"Advanced production facility for advanced material production": "先端素材製造のための高度な生産設備",  //仮
+	"Robotics Assembler": "ロボティクス アセンブラー",  //仮
+	"Dedicated laboratory for robotics": "ロボット工学専用ラボ",  //仮
+	"entity": "エンティティ",  //おそらく不要
+	"Rally point\n\nDrag to location or unit to set": "ドラッグで生産物を設置する場所またはユニットを指定",  //仮
+	"Power Field": "中型電力アンテナ",  //OK
+	"Extends a wireless power field around the unit": "周囲に電力網を展開し、近くのユニットに電力を供給する",  //仮
+	"Portable Power Field": "ポータブル電力アンテナ",  //OK
+	"Internal": "内部",  //おそらく不要
+	"Creates or expands your power grid in a small area around the unit, transferring power to nearby units. Produces no power on its own. Most useful on a moveable unit given its short range":
+	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。展開範囲が狭いため、移動可能なユニットに向いている。",  //仮
+	"Small Power Field": "小型電力アンテナ",  //OK
+	"Creates or expands your power grid in an area around the unit, transferring power to nearby units. Produces no power on its own.":
+	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。",  //仮
+	"Large Power Field": "大型電力フィールド",  //OK
+	"Local power field with increased radius": "展開範囲が広い電力アンテナ",  //仮
+	"Uplink": "アップリンク",  //OK
+	"Uploads data to orbital mainframe for tech research": "軌道上のメインフレームと通信し、技術研究を可能にする",  //OK
+	"Current researching technology": "現在の技術研究",  //OK
+//	"Missing ingredient":"",  他所で訳がある
+	"Manual": "マニュアル",  //おそらく不要
+	"Set Research": "研究する",  //仮
+	"Tech": "テック",  //おそらく不要  ウィンドウ名
+	"Repair Component": "修理コンポーネント",  //OK
+	"Allows repair of  damaged Frames": "損傷したフレームを修理する",  //仮  フレーム??
+	"Preferred Repair Target": "優先修理対象",  //OK
+	"Current Repair Target": "現在の修理目標",  //OK
+	"Repair Frame": "修理",  //OK  実機で確認したい
+	"Select the frame to repair": "ドラッグして修理対象を選択してください",  //OK
+	"Are you sure you want to repair a frame from another faction?": "他の派閥のフレームを修理対象にしますか?",  //仮  派閥
+	"Repair Kit": "修理キット",
+	"Can repair the unit it is equipped on": "装備したユニットを低速度で自動修理する",  //仮  Wikiの説明を追記
+	"ALLY": "アリー",  //おそらく不要  "Repair Component"の修理対象の判定文
 	"Package": "包装", // <TRANSLATION>
-	"Deployment": "展開",
-	"Initial planetary colonization support package, cannot deploy while frame is active": "初期惑星植民地化支援パッケージ、フレームがアクティブな間は展開できない",
-	"Deploy": "デプロイ",
-	"Deploy Base": "デプロイ",
-	"Cannot deploy while components still have items in them": "コンポーネントにアイテムが残っている間はデプロイできない",
-	"asdf": "アズダフ",
-	"normal": "通常",
-	"rl": "rl",
-	"<notify_info>Resources:</>\n<outline>Metal Ore: %d</>\n<outline>Crystal: %d</>": "<notify_info>リソース</>\n<outline>金属鉱石%d</>\n<outline>クリスタル：%d</>",
-	"Cannot deploy here": "ここにデプロイできない",
-	"Insufficient resources detected.\n\nAre you sure you want to deploy here?": "リソース不足が検出された。\n\n本当にここに配備したいのか？",
-	"Deployer": "デプロイヤー",
-	"Unpacks into a completed unit and destroys itself when deployed": "完成したユニットに開梱され、展開すると自壊する。",
-	"Use": "用途",
-	"Acquire": "取得",
-	"Select unit to absorb": "吸収する単位を選択",
-	"Select target to take in": "取り込む対象を選ぶ",
-	"Target not valid for re-deployment": "再デプロイメントには無効なターゲット",
-	"Cannot activate while components still have items in them": "コンポーネントにアイテムが入ったままでは起動できない",
-	"Deployment Constructor": "デプロイメント・コンストラクタ",
+
+	//ゲーム開始直後の"Command Center"(ロボット) が持っているが、hidden なので見えない
+	"Deployment": "デプロイメント",  //仮  実機では見えない
+	"Initial planetary colonization support package, cannot deploy while frame is active": "初期惑星植民地化支援パッケージ、フレームがアクティブな間は展開できない",  //仮  実機では見えない
+	"Deploy": "設置",  //仮  実機では見えない?  Deployerでは見える
+	"Deploy Base": "コマンドセンターの設置",  //OK
+	"Cannot deploy while components still have items in them": "コンポーネントにアイテムがあるため設置ができない",  //仮  実機では見えない?
+	"asdf": "アズダフ",  //不要　操作方法のドキュメント名
+	"normal": "通常",  //おそらく不要  metalcolor
+	"rl": "rl",  //おそらく不要  metalcolor
+	"<notify_info>Resources:</>\n<outline>Metal Ore: %d</>\n<outline>Crystal: %d</>": "<notify_info>リソース</>\n<outline>金属鉱石%d</>\n<outline>クリスタル：%d</>",  //仮  実機では見えない?
+	"Cannot deploy here": "ここには設置できない",  //仮
+	"Insufficient resources detected.\n\nAre you sure you want to deploy here?": "周囲の資源が十分ではないようです。\n\nここに設置してよいですか？",  //要修正!
+
+	"Deployer": "デプロイヤー",  //仮
+	"Unpacks into a completed unit and destroys itself when deployed": "完成したユニットに復元したあと自壊する。",  //仮
+	"Use": "用途",  //仮  実機では見えない?
+	"Acquire": "取得",  //仮  実機では見えない?
+	"Select unit to absorb": "吸収する単位を選択",  //実機で確認したい
+	"Select target to take in": "取り込む対象を選ぶ",  //仮
+	"Target not valid for re-deployment": "無効な取り込み対象です",  //仮
+	"Cannot activate while components still have items in them": "コンポーネントにアイテムが入ったままでは起動できない",  //実機で確認したい
+
+	"Deployment Constructor": "デプロイメント・コンストラクタ",  //実機で確認したい
 	"deployment construction": "配備構築",
 	"Constructor": "コンストラクタ",
 	"All-purpose unit for manual construction": "手動建設用万能ユニット",
-	"Other": "その他",
-	"Miner": "マイナー",
-	"Basic mining drill - extracts metal and crystal": "基本的な採掘ドリル - 金属とクリスタルを抽出",
-	"miner": "鉱夫",
-	"Resource to mine and amount": "採掘する資源とその量",
-	"Set Mining Target": "採掘目標の設定",
-	"Set %s Target": "%s ターゲットを設定",
-	"Cannot mine %s": "採掘できない %s",
-	"Already holding the requested amount %d of %s": "%d個%sをすでに保有している。",
-	"No space in inventory for %s": "%sの在庫がありません。",
-	"No %s found in range": "範囲内に%sが見つからない",
-	"Laser Mining Tool": "レーザー採掘ツール",
-	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザー採掘ツール - 金属とクリスタルを高効率で抽出 (2x)",
+	"Other": "その他",  //おそらく不要
+
+	//c_miner
+	"Miner": "採掘機",  //OK
+	"Basic mining drill - extracts metal and crystal": "簡易な採掘ドリル。金属やクリスタルを採掘できる",  //仮
+	"miner": "鉱夫",  //おそらく不要
+	"Resource to mine and amount": "採掘資源と採掘量を設定",  //仮
+	"Set Mining Target": "採掘目標の設定",  //実機で確認したい
+	"Set %s Target": "%s ターゲットを設定",  //実機で確認したい
+	"Cannot mine %s": "採掘できない %s",  //実機で確認したい
+	"Already holding the requested amount %d of %s": "すでに %s %d個を所持している",  //仮
+	"No space in inventory for %s": "空きストレージが不足している",  //仮
+	"No %s found in range": "範囲内に %s が見つからない",  //仮
+
+	"Laser Mining Tool": "レーザー採掘機",
+	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘機。採掘機の2倍の速度で金属やクリスタルを採掘できる",
+
 	"Deconstructor": "デコンストラクター",
 	"Allows disassembly of completed Units and Building refunding 100% of their cost": "完成したユニットの解体を許可し、その費用の100％を払い戻す。",
 	"Preferred Target": "優先ターゲット",
