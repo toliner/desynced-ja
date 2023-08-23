@@ -322,9 +322,9 @@
 	"End Game": "ゲームの終了",
 	"Invite Friend": "招待",
 	"Switch Faction": "派閥の移動",
-	"Player Name": "選手名",
+	"Player Name": "プレーヤー名",
 	"To send feedback with a screenshot, press <Key action=\"CaptureFeedbackShot\"/> while playing": "スクリーンショットでフィードバックを送信するには, プレイ中に <Key action=\"CaptureFeedbackShot\"/> 押す", // <TRANSLATION>
-	"Kick/Ban Player": "選手をキック／追放",
+	"Kick/Ban Player": "プレーヤーをキック／追放",
 	"Public": "パブリック",
 	"Friends Only": "友人のみ",
 	"Invite Only": "招待者のみ",
@@ -343,9 +343,9 @@
 	"Stop Server": "サーバー停止",
 	"Start Server": "サーバ起動",
 	"Server Info": "サーバー情報",
-	"Visibility": "視認性",
+	"Visibility": "公開範囲",  //仮
 	"Kick Player": "キック・プレーヤー",
-	"Do you want to remove this player from the server?": "この選手をサーバーから削除しますか？",
+	"Do you want to remove this player from the server?": "このプレーヤーをサーバーから削除しますか？",
 	"Ban Player (lasts until game on server is restarted)": "プレーヤーをBAN（サーバーのゲームが再開されるまで続く）",
 	"Are you sure you want to restart the current scenario?": "本当にシナリオを再開しますか？",
 	"Are you sure you want to abort the scenario and return to the main menu?": "シナリオを中断してメインメニューに戻ってもよろしいですか？",
@@ -391,15 +391,15 @@
 	"Short": "短い",
 	"Normal": "普通",
 	"Long": "長い",
-	"Passive - Will become hostile if attacked\nHostile - Will attack if you get close\nAggressive - Will attack discovered players": "パッシブ - 攻撃されると敵対的になる\n敵対的 - 近づくと攻撃する\nアグレッシブ - 発見された選手を攻撃する",
+	"Passive - Will become hostile if attacked\nHostile - Will attack if you get close\nAggressive - Will attack discovered players": "パッシブ - 攻撃されると敵対的になる\n敵対的 - 近づくと攻撃する\nアグレッシブ - 発見されたプレーヤーを攻撃する",
 	"Game Settings": "ゲーム設定",
 	"Seed": "シード",
 	"Click to copy seed to clipboard": "クリックするとシードがクリップボードにコピーされます。",
 	"Server Settings:": "サーバー設定：",
-	"Server Name": "サーバー名",
+	"Server Name": "サーバー名",  //OK
 	"Server Port": "サーバーポート",
-	"Max Players": "マックス・プレーヤーズ",
-	"Password": "パスワード",
+	"Max Players": "最大プレーヤー数",  //OK
+	"Password": "パスワード",  //OK
 	"%S's Server": "%Sのサーバー",
 	"Enter the password to connect to the server": "サーバーに接続するためのパスワードを入力",
 	"Please Wait": "お待ちください",
@@ -944,9 +944,9 @@
 	"Settings can only be applied to your units": "設定は自分のユニットにのみ適用できる",
 	"Apply unit settings onto %d units": "ユニット設定を%dユニットに適用する",
 	"Apply unit settings onto %s": "ユニット設定を%sに適用",
-	"Player Joined": "選手加入",
+	"Player Joined": "プレーヤー加入",
 	"Name: <header>%S</> - Faction: <header>%S</>": "名前<header>%S</> - ファクション<header>%S</>",
-	"Player Left": "左の選手",
+	"Player Left": "左のプレーヤー",
 	"Player Changed Faction": "プレイヤーが派閥を変更",
 	"Name: <header>%S</> - Old Faction: <header>%S</> - Faction: <header>%S</>": "名前<header>%S</> - 旧ファクション：<header>%S</> - 派閥：<header>%S</>",
 	"Faction Settings": "派閥設定",
@@ -1182,7 +1182,7 @@
 	"We have discovered key parts of deciphering these technologies\n\nWe are a step closer to the point where we will be able to create our own simulations.": "我々は、これらの技術を解読するための重要な部分を発見した。\n\n私たちは、自分たちでシミュレーションを作れるようになる一歩手前まで来ている。", // <TRANSLATION>
 	"Humans": "人類", // <TRANSLATION>
 	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of this human race.\n\nTechnology seems compatible with ours but will need scanning capability to be able to extract the required intel to research such technology": "司令官、我々は<hl>人間</>由来と思われる構造物を発見しました。 これらの遺跡は、人類の歴史と技術に関する貴重な洞察を与えてくれるかもしれない。\n\n技術は我々と互換性があるようだが、そのような技術を研究するために必要な情報を抽出できるスキャン能力が必要だ。", // <TRANSLATION>
-		"Human Ruins": "人類の遺跡", // <TRANSLATION>
+	"Human Ruins": "人類の遺跡", // <TRANSLATION>
 	"<img image=\"Main/textures/icons/items/human/transformer.png\" width=\"64\" height=\"64\"/>\n\nWe will need to repair the console to open these ruins. I have downloaded a schematic for you to build in an <hl>Assembler</>.\n\nNew schematics will become available as they are discovered.": "<img image=\"Main/textures/icons/items/human/transformer.png\" width=\"64\" height=\"64\"/>\n\nこれらの遺跡を開くためには、コンソールを修理する必要があります。<hl>アセンブラ</>で構築するための回路図をダウンロードしました。.\n\n新しい回路図が発見され次第、入手可能になる。", // <TRANSLATION>
 	"Research Scanner": "研究用スキャナー", // <TRANSLATION>
 	"Some ruins will require a scan to access their control panels. Research the scanner and use it to gain access.": "遺跡によっては、コントロールパネルにアクセスするためにスキャンが必要な場合がある。スキャナーを研究し、それを使ってアクセスしよう。", // <TRANSLATION>
@@ -1469,10 +1469,10 @@
 	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスターで明るさや色を変更可能",  //OK
 	"Light RGB":"RGB ライト",  //OK
 	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスターで明るさや色をRGBレジスタを介して変更可能",  //OK
-  "Red (0-31)":"赤 (0-31)",
-  "Green (0-31)":"緑 (0-31)",
-  "Blue  (0-31)":"青 (0-31)",
-  "Intensity":"光の強度",
+	"Red (0-31)":"赤 (0-31)",
+	"Green (0-31)":"緑 (0-31)",
+	"Blue  (0-31)":"青 (0-31)",
+	"Intensity":"光の強度",
 	"Small": "小さい",  //おそらく不要
 	"Fabricator": "ファブリケーター",  //OK
 	"A small fabrication unit able to process raw resources and simple components. Missing ingredients are available via register.": "原材料と簡単な部品の加工ができる小型製造コンポーネント。不足している材料はレジスターを介して要求される",
@@ -2039,7 +2039,7 @@
 	"On Channel 4": "チャンネル4",
 	"Only interact with units that are also on channel 4": "4チャンネルを使用しているユニットとのみ相互作用します。",
 	"Separate/Versus": "セパレート／バーサス",
-	"player": "選手",
+	"player": "プレーヤー",
 
 	// FILE: Main/data/effects.lua
 	"low": "低い",
