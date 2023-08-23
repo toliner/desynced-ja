@@ -315,7 +315,7 @@
 	"Restart Game": "ゲームの再開",
 	"End Game": "ゲームの終了",
 	"Invite Friend": "招待",
-	"Switch Faction": "スイッチ派閥",
+	"Switch Faction": "派閥の移動",
 	"Player Name": "選手名",
 	"To send feedback with a screenshot, press <Key action=\"CaptureFeedbackShot\"/> while playing": "スクリーンショットでフィードバックを送信するには, プレイ中に <Key action=\"CaptureFeedbackShot\"/> 押す", // <TRANSLATION>
 	"Kick/Ban Player": "選手をキック／追放",
