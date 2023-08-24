@@ -1439,7 +1439,7 @@
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>HOTKEYS</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>GAME</>\n\nIn Game Menu:  <Key action=\"InGameMenu\" style=\"bl\"/>\nPause:  <Key action=\"PauseGame\" style=\"bl\"/>\nMap Overlay:  <Key action=\"MapOverlay\" style=\"bl\"/>\nChat:  <Key action=\"Chat\" style=\"bl\"/>\n\n<hl>CAMERA</>\n\nToggle Camera Rotation:  <Key action=\"MouseCameraRotateToggle\" style=\"bl\"/>\nCamera Zoom:  <Key axis=\"CameraZoom\" style=\"bl\"/>\nCamera Home:  <Key action=\"CameraHome\" style=\"bl\"/>\nSet Camera Zero:  <Key action=\"CameraZero\" style=\"bl\"/>\nFollow Camera:  <Key action=\"Camera_FollowTarget\" style=\"bl\"/>\n\n<hl>UNIT</>\n\nSelect Unit:  <Key action=\"SelectAction\" style=\"bl\"/>\nMove Unit:  <Key action=\"ExecuteAction\" style=\"bl\"/>\n\n<hl>MENU</>\n\nTech Tree:  <Key action=\"Tech\" style=\"bl\"/>\nBuild Menu:  <Key action=\"Build\" style=\"bl\"/>\nProgress:  <Key action=\"Progress\" style=\"bl\"/>\nCodex:  <Key action=\"Codex\" style=\"bl\"/>\nLibrary:  <Key action=\"Library\" style=\"bl\"/>\nControl Center:  <Key action=\"FactionView\" style=\"bl\"/>\n\n<hl>INFORMATION</>\n\nToggle Advanced Info:  <Key action=\"ToggleAdvanced\" style=\"bl\"/>\nPower Grid:  <Key action=\"PowerInfo_Toggle\" style=\"bl\"/>\nToggle Path Lines:  <Key action=\"ShowPath\" style=\"bl\"/>\nVisualization:  <Key action=\"MapOverlay\" style=\"bl\"/>\n\n<hl>COPY</>\n\nCopy Settings:  <Key action=\"UnitCopy\" style=\"bl\"/>\nPaste Settings:  <Key action=\"UnitPaste\" style=\"bl\"/>\n\n<hl>CONSTRUCTION</>\n\nBuild Menu:  <Key action=\"Build\" style=\"bl\"/>\nCursor:  <Key action=\"CursorGrid_Toggle\" style=\"bl\"/>\nRotate Component:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(Mouse over component icon)</>\nRotate Building/Site:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(Mouse over Building/Site)</>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>HOTKEYS</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>GAME</>\n\nゲーム内メニュー:  <Key action=\"InGameMenu\" style=\"bl\"/>\nPause:  <Key action=\"PauseGame\" style=\"bl\"/>\nMap Overlay:  <Key action=\"MapOverlay\" style=\"bl\"/>\nChat:  <Key action=\"Chat\" style=\"bl\"/>\n\n<hl>カメラ</>\n\nカメラの回転を切り替える:  <Key action=\"MouseCameraRotateToggle\" style=\"bl\"/>\nカメラズーム:  <Key axis=\"CameraZoom\" style=\"bl\"/>\nカメラ・ホーム:  <Key action=\"CameraHome\" style=\"bl\"/>\nカメラのゼロを設定:  <Key action=\"CameraZero\" style=\"bl\"/>\nカメラを追跡:  <Key action=\"Camera_FollowTarget\" style=\"bl\"/>\n\n<hl>ユニット</>\n\nユニットを選択:  <Key action=\"SelectAction\" style=\"bl\"/>\nユニットの移動:  <Key action=\"ExecuteAction\" style=\"bl\"/>\n\n<hl>メニュー</>\n\n技術ツリー:  <Key action=\"Tech\" style=\"bl\"/>\nBuild Menu:  <Key action=\"Build\" style=\"bl\"/>\n進捗状況:  <Key action=\"Progress\" style=\"bl\"/>\nコーデックス:  <Key action=\"Codex\" style=\"bl\"/>\nライブラリ:  <Key action=\"Library\" style=\"bl\"/>\nコントロールセンター:  <Key action=\"FactionView\" style=\"bl\"/>\n\n<hl>情報</>\n\n詳細情報の切り替え:  <Key action=\"ToggleAdvanced\" style=\"bl\"/>\n電力網:  <Key action=\"PowerInfo_Toggle\" style=\"bl\"/>\n経路の切り替え:  <Key action=\"ShowPath\" style=\"bl\"/>\n視覚化:  <Key action=\"MapOverlay\" style=\"bl\"/>\n\n<hl>コピー</>\n\n設定のコピー:  <Key action=\"UnitCopy\" style=\"bl\"/>\n設定の貼り付け:  <Key action=\"UnitPaste\" style=\"bl\"/>\n\n<hl>建設</>\n\n建築メニュー:  <Key action=\"Build\" style=\"bl\"/>\nカーソル:  <Key action=\"CursorGrid_Toggle\" style=\"bl\"/>\nコンポーネントの回転:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(コンポーネントのアイコンの上にマウスを置く)</>\n建物/敷地を回転させる:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(Mouse over Building/Site)</>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>", // <TRANSLATION>
 	"Inventory Management": "インベントリ管理", // <TRANSLATION>
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<Header>Inventory and Storage</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/codex_storage.png\" width=\"500\" height=\"200\"/>\n\n<hl>Inventory</> <bl>is space both bots and buildings have to hold items and components that are not mounted in a socket.</>\n\n<hl>Storage</> <bl>units will provide a place for bots to store items when needed.</>\n\nWhen a component is unable to output an item (e.g miner or fabricator) because the building it is in is full, it will stop producing until space is made.\n\nWhen a storage building however has a <hl>Shared Storage</><img width=\"50\" height=\"50\" id=\"c_shared_storage\"/> component, it becomes a place of storage where excess items can be stored when buildings or units become full.\n\nSome storage <bl>components</> can be slotted to provide extra storage slots however all slots on that unit will become available storage.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>Inventory Management</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>SPECIFIC AMOUNT</>\n\n1)  <img image=\"Main/textures/codex/menushots/specific_amount.png\"/>   2)  <img image=\"Main/textures/codex/menushots/specific_amount2.png\"/>   3)  <img image=\"Main/textures/codex/menushots/specific_amount3.png\"/>\n\n1)  Right Click on an inventory stack and Select [ Specific Amount ]\n2)  Input the amount you wish to take from the stack.\n3)  Left click and drag from the icon.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>FIX SLOT</>\n\n1)  <img image=\"Main/textures/codex/menushots/fix_slot.png\"/>  2)  <img image=\"Main/textures/codex/menushots/fixed_slot1.png\"/>  3)  <img image=\"Main/textures/codex/menushots/fixed_slot2.png\"/>  4) <img image=\"Main/textures/codex/menushots/fix_all.png\"/>\n\n1)  Right Click on an inventory stack and Select [ Fix Slot to this Item ]\n2)  The lock icon shows the slot as fixed.\n3)  You can also fix an empty slot by Right Clicking an empty slot and choosing [ Fix Empty Slot ]\n4)  Right Clicking on the loft left corner Icon of the inventory gives the option to [ Fix All SLots ]\n5)  Slots can be unfixed by Right Clicking and choosing the Unfix options.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<Header>インベントリ と 保管場所</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/codex_storage.png\" width=\"500\" height=\"200\"/>\n\n<hl>インベントリ</> <bl>とは、ボットもビルも、ソケットに取り付けられていないアイテムやコンポーネントを収納する為のスペースである。</>\n\n<hl>保管場所</> <bl>ユニットは、ボットが必要なときにアイテムを保管する場所を提供する。</>\n\nあるコンポーネント（例：マイナーや ファブリケーター）が、そのコンポーネントが入っているビルが満杯である為にアイテムを出力できない場合、そのコンポーネントはスペースができるまで生産を停止します。\n\nしかし、保管場所ビルに<hl>共有保管場所</><img width=\"50\" height=\"50\" id=\"c_shared_storage\"/>コンポーネントがある場合、ビルやユニットが満杯になったときに余分なアイテムを保管できる保管場所になる。\n\nストレージの<bl>コンポーネント</>の中には、追加のストレージスロットを提供する為にスロット化できるものがありますが、そのユニットのすべてのスロットが使用可能なストレージになります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>在庫管理</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>具体的な数量</>\n\n1)  <img image=\"Main/textures/codex/menushots/specific_amount.png\"/>   2)  <img image=\"Main/textures/codex/menushots/specific_amount2.png\"/>   3)  <img image=\"Main/textures/codex/menushots/specific_amount3.png\"/>\n\n1)  在庫スタックを右クリックし、[ 特定の数量 ]を選択します。\n2)  スタックから取りたい数量を入力する。\n3)  アイコンを左クリックしてドラッグ。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>固定スロット</>\n\n1)  <img image=\"Main/textures/codex/menushots/fix_slot.png\"/>  2)  <img image=\"Main/textures/codex/menushots/fixed_slot1.png\"/>  3)  <img image=\"Main/textures/codex/menushots/fixed_slot2.png\"/>  4) <img image=\"Main/textures/codex/menushots/fix_all.png\"/>\n\n1)  インベントリスタックを右クリックし、[ このアイテムにスロットを固定 ]を選択します。\n2)  ロックアイコンはスロットが固定されていることを示す。\n3)  空のスロットを右クリックし、[ 空のスロットを修正 ]を選択することによって、空のスロットを修正することもできます。\n4)  インベントリの左隅のアイコンを右クリックすると、[ すべてのスロットを固定 ]のオプションが表示されます。\n5)  スロットは右クリックし、固定解除オプションを選択することで固定を解除することができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>", // <MISSING TRANSLATION>
-	 "Power": "電力",
+//	"Power": "電力",   //重複
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<icon icon=\"icon_power\"/><header>Power</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/registers/power.png\" width=\"200\" height=\"120\"/>\n\n<bl>Units require</> <hl>Power</> <bl>to function</>\n\nLower power will lead to inefficiency and slower production. If a unit runs out of power then its components will not function and movement speed will be dramatically decreased. You can turn off a unit at any time to stop it from functioning using the Power button or by pressing <Key action=\"ToggleAdvanced\" style=\"hl\"/>.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>POWER GRIDS</>\n\n<hl>Power Grids</> <bl>define areas the bots will move freely powered by the grid.</>\n\nPower generators within the grid add to the grids total power and active components will draw power from this pool. You can toggle viewing of power grids using the button below the minimap or by pressing <Key action=\"PowerInfo_Toggle\" style=\"hl\"/>.\n\n<img image=\"Main/textures/codex/botshots/codex_power_grid_narrow.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>POWER TYPES</>\n\n<hl>[ POWER PRODUCERS ]</>\n\n<bl>Power Producers</> provide their power to a <hl>Power Grid</>.  This is constant * and not based on demand.  Excess power can be stored.  <gray>(see batteries below)</>\n\n<gray>Note:  Power Producers do not necessarily produce their own Power Grid.</>\n\n<img width=\"50\" height=\"50\" id=\"c_solar_cell\"/><bl>Solar Cells</> provide constant power to a grid during the daylight.\n\n<img width=\"50\" height=\"50\" id=\"c_wind_turbine\"/><bl>Wind Turbines</> provide constant power to a grid.  They produce double the power on the plateau.\n\n* constant so long as their power conditions apply (e.g. so long as there is daylight for a solar cell)\n\n\n\n<hl>[ BATTERIES ]</>\n\n<bl>Batteries</> provide their power to a <hl>Power Grid</> but on demand.  When a grid has insufficient power for its needs it will draw power from batteries and their power will drain.  How a battery recharges depends on the type of battery.\n\n<img width=\"50\" height=\"50\" id=\"c_small_battery\"/><bl>Batteries</> within a grid make their power available when <hl>Consumption</> exceeds power <hl>Production</>.  They have limited charge and discharge rates depend on size.  Batteries utilize the excess power in the grid they are in to recharge, and are very effective when used in conjunction with solar cells, for example, to compensate for power loss during the night.\n\n\n<img width=\"50\" height=\"50\" id=\"c_crystal_power\"/><bl>Crystal Power</> will add power to your grid the same as a standard battery.  They do not however recharge from excess power, but charge by consuming and converting crystal chunks to power.\n\n\n<hl>[POWER FIELDS]</>\n\n<img width=\"50\" height=\"50\" id=\"c_small_relay\"/> <bl>Power Fields</> generate a power grid around the unit they are equipped on.  Overlapping them on an existing power grid allows you to expand your existing power grid's range. Power Fields do not however provide their own power.  Power producers and batteries that are within a grid will supply to that grid.  If you create a completely separate grid, it will require its own power producers.\n\n\n<hl>[POWER TRANSMISSION]</>\n\n<img width=\"50\" height=\"50\" id=\"c_power_transmitter\"/>  <bl>Power Transmitters</> can transfer a limited amount of energy to a single unit, allowing that unit to move freely outside a power grid.\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<icon icon=\"icon_power\"/><header>電力</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/registers/power.png\" width=\"200\" height=\"120\"/>\n\n<bl>ユニット</> <hl>電源機能</>\n\n電力が低下すると非効率になり、生産速度が低下する。ユニットが電力不足になると、そのコンポーネントは機能しなくなり、移動速度は劇的に低下する。電源ボタンまたは <Key action=\"ToggleAdvanced\" style=\"hl\"/>.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>電力グリッド</>\n\n<hl> 電力グリッド</> <bl>グリッドによって電力を供給されたボットが自由に移動できるエリアを定義します。</>\n\nグリッド内の発電機はグリッドの総電力に追加され、アクティブなコンポーネントはこのプールから電力を引き出す。パワーグリッドの表示は、ミニマップの下にあるボタン、または <Key action=\"PowerInfo_Toggle\" style=\"hl\"/>.\n\n<img image=\"Main/textures/codex/botshots/codex_power_grid_narrow.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>発電タイプ</>\n\n<hl>[ 発電所 ]</>\n\n<bl> 発電所</>は<hl>電力グリッド</>に電力を供給する。 これは一定であり、需要に基づくものではない。 余剰電力は蓄えることができる。 <gray>(バッテリーは下記を参照)</>\n\n<gray>注: 発電所は、必ずしも自分たちの電力グリッドを作り出すとは限らない。</>\n\n<img width=\"50\" height=\"50\" id=\"c_solar_cell\"/><bl>太陽電池</> 日中、送電網に一定の電力を供給する。\n\n<img width=\"50\" height=\"50\" id=\"c_wind_turbine\"/><bl>風力タービン</> グリッドに一定の電力を供給する。 高原では2倍の電力を生み出す。\n\n* その電力条件が適用される限り一定（例えば、太陽電池に日照がある限り）\n\n\n\n<hl>[ バッテリー ]</>\n\n<bl>バッテリー</> <hl>電力グリッド</>に電力を供給するが、需要に応じて電力を供給する。 電力グリッドに必要な電力が不足すると、バッテリーから電力が引き出され、その電力は消耗する。 バッテリーの充電方法はバッテリーの種類によって異なる。\n\n<img width=\"50\" height=\"50\" id=\"c_small_battery\"/>グリッド内の<bl>バッテリー</>は、<hl>消費</>が<hl>生産</>を上回ったときに電力を利用できるようにする。 バッテリーの充電・放電速度はサイズによって制限されている。 バッテリーは、再充電する為にグリッド内の余剰電力を利用し、例えば夜間の電力損失を補う為に太陽電池と組み合わせて使用すると非常に効果的です。\n\n\n<img width=\"50\" height=\"50\" id=\"c_crystal_power\"/><bl>クリスタル・パワー</>は、標準的なバッテリーと同じようにグリッドに電力を追加します。 しかし、余分な電力から充電するのではなく、クリスタルの塊を消費して電力に変換することで充電します。\n\n\n<hl>[電力フィールド]</>\n\n<img width=\"50\" height=\"50\" id=\"c_small_relay\"/><bl>電力フィールド</>は、装備しているユニットの周囲に電力グリッドを生成する。 既存の電力グリッドに重ねることで、既存の電力グリッドの範囲を広げることができる。しかし、電力フィールドはそれ自身では電力を供給しない。 グリッド内にある発電所や バッテリーは、そのグリッドに電力を供給する。 完全に独立したグリッドを作る場合は、独自の発電所が必要になります。\n\n\n<hl>[電力伝送]</>\n\n<img width=\"50\" height=\"50\" id=\"c_power_transmitter\"/>  <bl> 電力トランスミッタ</>は、限られた量のエネルギーを1つのユニットに転送し、そのユニットが電力網の外で自由に移動できるようにすることができる。\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>", // <MISSING TRANSLATION>
 	"Production": "製造",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Production</>\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/production_top.png\" width=\"350\" height=\"200\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Production components such as</> <hl>fabricators</> <bl>and</> <hl>assemblers</> <bl>allow you to produce new items.</>\n\n<header>Production Components:</>\n<img image=\"Main/textures/icons/components/Component_Fabricator_01_S.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/Component_Assembler_01_M.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/component_roboticsfactory_01_m.png\" width=\"64\" height=\"64\"/>  <img image=\"Main/textures/icons/components/Component_Refinery_01_M.png\" width=\"64\" height=\"64\"/>\n\n<hl>Fabricator</>\nEarly production components and simple materials\n\n<hl>Assembler</>\nPrimary production and advanced materials\n\n<hl>Robotics Assembler</>\nPrimary robot production component and Hi-tech materials and Packaged Units\n\n<hl>Refinery</>\nSpecialized materials production\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>Setting Production:</>\n\nSetting the Parameter to the production item will try to reserve the required ingredients based off of the number to be produced. If the production amount is set to infinity then half a stack of ingredients is reserved.\n\nWhen the unit does not contain the required ingredients then orders are made so that units connected to the logistics network will be able to bring the required ingredients when available. The next required ingredient is shown in the second Parameter.\n\nIf there is no available slot to output the produced item then production is halted until a free slot is made available.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>製造</>\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/production_top.png\" width=\"350\" height=\"200\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>ファブリケーター</> や <bl>アセンブラー</> などの生産コンポーネントにより、<bl>新しいアイテム</>を生産する事ができる。</>\n\n<header>生産コンポーネント:</>\n<img image=\"Main/textures/icons/components/Component_Fabricator_01_S.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/Component_Assembler_01_M.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/component_roboticsfactory_01_m.png\" width=\"64\" height=\"64\"/>  <img image=\"Main/textures/icons/components/Component_Refinery_01_M.png\" width=\"64\" height=\"64\"/>\n\n<hl>ファブリケーター</>\n初期の生産部品とシンプルな素材\n\n<hl>アセンブラー</>\n一次生産と先端素材\n\n<hl>ロボット・アセンブラー</>\n一次ロボット生産部品、ハイテク素材、パッケージユニット\n\n<hl>リファイナリー</>\n特殊素材生産\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>生産設定:</>\n\nパラメーターを生産項目に設定すると、生産される数に基づいて必要な材料を予約しようとします。生産量が無限大に設定されている場合、半分の食材が予約されます。\n\nユニットに必要な材料がない場合、ロジスティクスネットワークに接続されているユニットが必要な材料を入手したときに持ってくる事ができるように注文が行われる。次に必要な材料は2番目のパラメータに示されている。\n\n生産されたアイテムを出力する空きスロットがない場合、生産は空きスロットができるまで中断される。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>", // <TRANSLATION>
@@ -1706,133 +1706,166 @@
 	"Large Health Module": "大型 高耐久化モジュール",  //仮
 	"Increased structural integrity, adds 300 durability": "構造的完全性が向上し、、耐久性を 300 向上",  //仮
 
-	"Internal Visibility Module": "内部可視化モジュール",
-	"Increase unit visibility range by 5": "ユニットの視認範囲を5拡大",
-	"Small Visibility Module": "小型可視モジュール",
-	"Increase unit visibility range by 10": "ユニットの視認範囲を10拡大",
-	"Medium Visibility Module": "中型可視モジュール", // <TRANSLATION>
-	"Increase unit visibility range by 15": "ユニットの視認範囲を15拡大", // <TRANSLATION>
-	"Large Visibility Module": "大型可視モジュール", // <TRANSLATION>
-	"Increase unit visibility range by 20": "ユニットの視認範囲を20拡大", // <TRANSLATION>
-	"Internal Efficiency Module": "内部効率モジュール",
-	"Increase component efficiency by 20%": "部品効率を20％向上",
-	"Small Efficiency Module": "小型効率モジュール",
-	"Increase component efficiency by 50%": "部品効率を50％向上",
-	"Medium Efficiency Module": "中効率モジュール", // <TRANSLATION>
-	"Increase component efficiency by 100%": "Increase component efficiency by 100%", // <TRANSLATION>
-	"Large Efficiency Module": "大効率モジュール", // <TRANSLATION>
-	"Increase component efficiency by 150%": "Increase component efficiency by 150%", // <TRANSLATION>
-	"Internal Speed Module": "内部スピードモジュール",
-	"Increase unit speed by 20%": "ユニット速度を20%向上",
-	"Small Speed Module": "小型スピードモジュール",
-	"Increase unit speed by 50%": "ユニット速度を50％向上",
-	"Medium Speed Module": "中速モジュール", // <TRANSLATION>
-	"Increase unit speed by 80%": "ユニット速度を80%向上", // <TRANSLATION>
-	"Large Speed Module": "大型スピードモジュール", // <TRANSLATION>
-	"Increase unit speed by 120%": "ユニット速度を120％向上", // <TRANSLATION>
-	"Effect": "効果",
-	"Glitch": "グリッチ",
+	"Internal Visibility Module": "内部 視野拡張モジュール",  //仮
+	"Increase unit visibility range by 5": "ユニットの視野を 5 拡大",  //OK
+	"Small Visibility Module": "小型 視野拡張モジュール",  //仮
+	"Increase unit visibility range by 10": "ユニットの視野を 10 拡大",  //OK
+	"Medium Visibility Module": "中型 視野拡張モジュール", //OK
+	"Increase unit visibility range by 15": "ユニットの視野を 15 拡大", //OK
+	"Large Visibility Module": "大型 視野拡張モジュール", //OK
+	"Increase unit visibility range by 20": "ユニットの視野を 20 拡大", //OK
+
+	"Internal Efficiency Module": "内部 効率モジュール",  //OK
+	"Increase component efficiency by 20%": "部品効率を 20% 向上",  //OK
+	"Small Efficiency Module": "小型 効率モジュール",  //OK
+	"Increase component efficiency by 50%": "部品効率を 50% 向上",  //OK
+	"Medium Efficiency Module": "中型 効率モジュール", //OK
+	"Increase component efficiency by 100%": "部品効率を 100% 向上", //OK
+	"Large Efficiency Module": "大型 効率モジュール", //OK
+	"Increase component efficiency by 150%": "部品効率を 150% 向上", //OK
+
+	"Internal Speed Module": "内部 高速化モジュール",  //OK
+	"Increase unit speed by 20%": "ユニット速度を 20% 向上",  //OK
+	"Small Speed Module": "小型 高速化モジュール",  //OK
+	"Increase unit speed by 50%": "ユニット速度を 50% 向上",  //OK
+	"Medium Speed Module": "中速 高速化モジュール", //OK
+	"Increase unit speed by 80%": "ユニット速度を 80% 向上", //OK
+	"Large Speed Module": "大型 高速化モジュール", //OK
+	"Increase unit speed by 120%": "ユニット速度を 120 向上", //OK
+
+	"Effect": "効果",  //おそらく不要  内部のパラメータ「type」
+	"Glitch": "Glitch",  //テスト用ユニット?
+
 	"Trilobyte Consume": "トリロバイト消費",
 	"consumes components into silica and infected circuit boards": "部品がシリカに分解され、回路基板が感染する",
 	"Trilobyte Attack": "トリロバイト攻撃",
 	"Imbued with acidic venom that damages metal": "金属にダメージを与える酸性の毒を持つ",
-	"Hidden": "潜伏", // <TRANSLATION>
+
+	"Hidden": "潜伏",  //おそらく不要  attachment_sizeのパラメータ値
 	"Damage on Trigger": "トリガー時ダメージ",
-	"all": "すべて",
-	"Small Storage": "小型ストレージ",
-	"Expands storage of Frame by <hl>4 slots</>": "フレームのストレージを<hl>4スロット</>拡張",
-	"Portable Shield Generator": "ポータブル・シールド・ジェネレーター",
-	"Energy shield - Uses power to charge a shield that mitigates up to <hl>20</> damage": "エネルギー・シールド - パワーを使ってシールドをチャージし、最大<hl>20</>ダメージを軽減する。",
-	"Destroy on Trigger": "デストロイ・オン・トリガー",
-	"bot": "ボット",
-	"Glitch Building": "グリッチ・ビル",
-	"AI Bot": "AIボット",
-	"Homeless Bug": "ホームレス・バグ",
-	"bugs": "バグ",
-	"Bug Hive Spawner": "昆虫の巣産卵器",
-	"Intel Scanner": "インテル・スキャナー",
-	"Puzzle": "パズル",
-	"Repair Required": "要修理",
+	"all": "すべて",  //おそらく不要  trigger_channelsのパラメータ値
+
+	"Small Storage": "小型ストレージ",  //OK
+	"Expands storage of Frame by <hl>4 slots</>": "ユニットのインベントリを <hl>4スロット</> 拡張", //OK
+
+	"Portable Shield Generator": "ポータブルシールド生成装置", //OK
+	"Energy shield - Uses power to charge a shield that mitigates up to <hl>20</> damage": "エネルギー・シールド - 電力をチャージしてシールドをチャージし、最大<hl>20</>ダメージを軽減する", //OK
+
+	"Destroy on Trigger": "Destroy on Trigger",  //テスト用ユニット?
+	"bot": "ボット",  //おそらく不要  trigger_channels のパラメータ値
+	"Glitch Building": "Glitch Building",  //テスト用ユニット?
+
+	"AI Bot": "AIボット",  //?
+	"Homeless Bug": "ホームレス バグ",  //?
+	"bugs": "バグ",  //おそらく不要  id比較用
+	"Bug Hive Spawner": "バグハイブスポナー",  //?
+
+	"Intel Scanner": "インテル スキャナー",
+	"Puzzle": "パズル",  //おそらく不要  type
+	"Repair Required": "要修理",  //おそらく不要  type
 	"Datakey Socket": "データキーソケット",
-	"datakey": "データキー",
-	"Virus": "ウイルス",
-	"Small Intel Scanner": "小型インテル・スキャナー",
-	"Scan explorables internals to access the console. Can be used to gain the hacking code of enemy faction units": "調査可能箇所の内部をスキャンしてコンソールにアクセスする。敵派閥ユニットのハッキングコードを入手する為に使用できる。",
-	"Item to scan": "スキャンする項目",
-	"Set Scanning Target": "スキャン対象の設定",
-	"Scan Result": "スキャン結果",
-	"Simulation Interface": "シミュレーション・インターフェース",
-	"Quantum computing device allowing direct manipulation of simulation": "シミュレーションを直接操作できる量子コンピューティング装置",
-	"Send": "送信",
-	"Human Factory": "人間工場",
-	"Alien Decryption Key": "エイリアン解読キー",
-	"Allows interfacing with alien structures": "異質な構造物とのインタフェースを可能にする",
-	"Key": "キー",
-	"alienkey": "エイリアンキー",
-	"Alien Lock": "エイリアン・ロック",
-	"A locking device of unknown origin": "出所不明のロック装置",
-	"obsidian": "黒曜石",
-	"Re-simulator Core": "リ・シミュレーター・コア",
-	"Reconstructs objects on a simulation level": "シミュレーションレベルでオブジェクトを再構築",
-	"Stability": "安定性",
-	"<rl>DANGER:</> Overloaded": "<rl>危険：</>過負荷",
-	"<hl>CAUTION:</> Overload Warning": "<hl>注意：</>過負荷警告",
-	"<hl>WARNING:</> Overloading not advised": "<hl>警告：</>過負荷は禁物",
-	"Artificial Virus Core": "人工ウイルス・コア",
-	"Connects Virus instances into Re-simulator world stability": "ウイルスインスタンスをリシミュレータの世界の安定性に接続する",
-	"Artificial Blight Core": "アーティフィシャル・ブライト・コア",
-	"Connects Blight instances into Re-simulator world stability": "BlightインスタンスをRe-simulatorの世界の安定性に接続する。",
-	"Artificial Robot Core": "人工ロボット・コア",
-	"Artificial Human Core": "人造人間のコア",
-	"Artificial Alien Core": "人工エイリアン・コア",
-	"bb": "bb",
-	"yb": "yb",
-	"rb": "rb",
-	"warning": "警告",
-	"Powerful Enemy Warning": "強力な敵の警告",
-	"Approach with EXTREME caution": "細心の注意を払う事",
-	"World Event": "ワールド・イベント",
-	"Powerful Enemy Warning, EXTREME CAUTION ADVISED !!!": "強力な敵の警告、厳重な注意が必要です！",
-	"anomaly": "アノマリー",
-	"Laser Extractor": "レーザーエクストラクター",
-	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "ラテライトと<hl>黒曜石を</>採掘するレーザー",
-	"Blight Extractor": "ブライト・エクストラクター",
-	"Extracts blight gas when placed inside a blighted area": "ブライトが発生した場所に置くと、ブライトガスを抽出する。",
-	"Virus Cure": "ウイルス治療",
-	"Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットのウイルスからの保護",
-	"virus": "ウィルス",
-	"Large Storage": "大型ストレージ",
-	"A larger storage component with smart storage capabilities": "スマート・ストレージ機能を備えた大型ストレージ・コンポーネント",
-	"Unit Teleporter": "ユニット・テレポーター",
-	"Transports units over a great distance. Interact with the unit equipped with the teleporter to dock the unit you wish to teleport": "ユニットを長距離輸送する。テレポーターを装備したユニットと対話し、テレポートしたいユニットをドッキングさせる。",
-	"Target location": "目標地点",
-	"Set Teleport Target": "テレポート・ターゲットの設定",
-	"Repair Garage": "修理工場",
-	"Repair target": "修理対象",
-	"Missing repair resource": "不足している修理リソース",
-	"Satellite Launcher": "衛星打ち上げ",
-	"Launches a satellite. Items still in the AMAC inventory will be transferred to the satellite before launch": "衛星を打ち上げる。AMACのインベントリに残っているアイテムは、打ち上げ前に衛星に移される",
+	"datakey": "データキー",  //おそらく不要  type
+
+	"Virus": "ウイルス",  //詳細不明
+
+	"Small Intel Scanner": "小型インテル スキャナー",  //仮
+	"Scan explorables internals to access the console. Can be used to gain the hacking code of enemy faction units":
+	  "調査可能箇所の内部をスキャンしてコンソールにアクセスする。敵派閥ユニットのハッキングコードを入手する為に使用できる。",  //仮
+	"Item to scan": "スキャンする項目",  //仮
+	"Set Scanning Target": "スキャン対象の設定",  //仮
+	"Scan Result": "スキャン結果",  //仮
+
+	"Simulation Interface": "シミュレーション インターフェース",  //?? そもそもどういうアイテムかが分からない
+	"Quantum computing device allowing direct manipulation of simulation": "シミュレーションを直接操作できる量子コンピューティング装置",  //?? そもそもどういうアイテムかが分からない
+	"Send": "送信",  //仮
+
+	"Human Factory": "人間工場",  //?? そもそもどういうアイテムかが分からない
+	"Alien Decryption Key": "エイリアン解読キー",  //?? そもそもどういうアイテムかが分からない
+	"Allows interfacing with alien structures": "異質な構造物とのインタフェースを可能にする",   //?? そもそもどういうアイテムかが分からない
+	"Key": "キー",  //?? そもそもどういうアイテムかが分からない
+	"alienkey": "エイリアンキー",  //おそらく不要 filter条件
+	"Alien Lock": "エイリアン ロック",  //?? そもそもどういうアイテムかが分からない
+	"A locking device of unknown origin": "出所不明のロック装置",  //?? そもそもどういうアイテムかが分からない
+	"obsidian": "黒曜石",  //?? アイテム名ではない 内部IDと思われる
+
+	"Re-simulator Core": "リシミュレーター コア",  //仮
+	"Reconstructs objects on a simulation level": "シミュレーションレベルでオブジェクトを再構築できる",  //仮
+	"Stability": "安定性",  //OK
+	"<rl>DANGER:</> Overloaded": "<rl>危険:</> 過負荷状態",  //仮
+	"<hl>CAUTION:</> Overload Warning": "<hl>警告:</> 過負荷になりつつある",  //仮
+	"<hl>WARNING:</> Overloading not advised": "<hl>注意:</> 過負荷にならないように",  //仮
+
+	"Artificial Virus Core": "人工 ウイルスコア",  //?? そもそもどういうアイテムかが分からない
+	"Connects Virus instances into Re-simulator world stability": "ウイルスインスタンスをリシミュレータの世界の安定性に接続する",  //?? そもそもどういうアイテムかが分からない
+	"Artificial Blight Core": "人口 ブライトコア",  //?? そもそもどういうアイテムかが分からない
+	"Connects Blight instances into Re-simulator world stability": "BlightインスタンスをRe-simulatorの世界の安定性に接続する。", //?? そもそもどういうアイテムかが分からない
+	"Artificial Robot Core": "人工 ロボットコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
+	"Artificial Human Core": "人工 ヒューマンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
+	"Artificial Alien Core": "人工 エイリアンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
+	"bb": "bb",  //おそらく不要
+	"yb": "yb",  //おそらく不要
+	"rb": "rb",  //おそらく不要
+
+	"warning": "警告",  //Notification.Add() で使用
+	"Powerful Enemy Warning": "強力な敵の警告",  //Notification.Add() で使用
+	"Approach with EXTREME caution": "細心の注意を払うこと",  //Notification.Add() で使用
+	"World Event": "ワールド・イベント",  //Notification.Add() で使用
+	"Powerful Enemy Warning, EXTREME CAUTION ADVISED !!!": "強力な敵の警告、厳重な注意が必要です！",  //Notification.Add() で使用
+	"anomaly": "アノマリー",  //おそらく不要
+
+	"Laser Extractor": "レーザー採掘機2",  //仮
+	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘機",  //仮
+	"Blight Extractor": "ブライトガス除去装置",  //仮
+	"Extracts blight gas when placed inside a blighted area": "ブライトが発生した場所に置くと、ブライトガスを収集し正常化する",  //
+
+	"Virus Cure": "ウイルス治療", //?? そもそもどういうアイテムかが分からない
+	"Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットをウイルスからの保護する", //?? そもそもどういうアイテムかが分からない
+	"virus": "ウィルス",  //おそらく不要  race
+
+	"Large Storage": "大型ストレージ",  //OK
+	"A larger storage component with smart storage capabilities": "スマートストレージ機能を備えた大型ストレージ装置",  //仮 スマートストレージ機能とは??
+
+	"Unit Teleporter": "ユニットテレポーター", //?? そもそもどういうアイテムかが分からない
+	"Transports units over a great distance. Interact with the unit equipped with the teleporter to dock the unit you wish to teleport":
+	  "ユニットを長距離輸送する。テレポーターを装備したユニットと対話し、テレポートしたいユニットをドッキングさせる。", //?? そもそもどういうアイテムかが分からない
+	"Target location": "目標地点",  //仮
+	"Set Teleport Target": "テレポート・ターゲットの設定",  //仮
+
+	"Repair Garage": "修理工場",  //仮
+	"Repair target": "修理対象",  //仮
+	"Missing repair resource": "修理部品が不足",  //仮
+
+	"Satellite Launcher": "衛星打上げ装置",
+	"Launches a satellite. Items still in the AMAC inventory will be transferred to the satellite before launch":
+	  "衛星を打ち上げる。AMACのインベントリに残っているアイテムは、打ち上げ前に衛星に移される",
 	"Launch": "打ち上げ",
-	"Atmospheric interference is too high. Find a way to reduce the influence of the blight to allow launching of satellites.": "大気の干渉が高すぎる。人工衛星の打ち上げを可能にする為に、ブレイトの影響を軽減する方法を見つける。",
-	"Blight Interference": "ブライト・インテフェレンス",
-	"large1": "ラージワン",
+	"Atmospheric interference is too high. Find a way to reduce the influence of the blight to allow launching of satellites.":
+	  "大気の干渉が高すぎる。人工衛星の打ち上げを可能にする為に、ブレイトの影響を軽減する必要がある",
+	"Blight Interference": "ブライト干渉",
+	"large1": "ラージワン",  //おそらく不要 エフェクトID
+
 	"Satellite Unit": "衛星ユニット",
-	"Land": "土地",
+	"Land": "着陸",
 	"The satellite launcher was lost, unable to land": "衛星打ち上げロケットが着陸できずに行方不明", // <TRANSLATION>
 	"The satellite launcher is not free for landing": "衛星発射台は着陸の自由がない",
+
 	"Hacking Tool": "ハッキングツール",
-	"Hacks units to be controllable by you. Set the unit and hack code into the first register to activate.": "ユニットをハックして自分でコントロールできるようにする。ユニットとハックコードを最初のレジスタにセットしてアクティブにする。",
-	"Plasma Turret": "プラズマ・タレット",
-	"Plasma Cannon": "プラズマ・キャノン",
+	"Hacks units to be controllable by you. Set the unit and hack code into the first register to activate.":
+	  "ユニットをハックして自分でコントロールできるようにする。ユニットとハックコードを最初のレジスタにセットしてアクティブにする。",
+
+	"Plasma Turret": "プラズマタレット",  //説明も"Plasma Turret"
+	"Plasma Cannon": "プラズマキャノン",  //説明も"Plasma Cannon"
 	"Photon Cannon": "フォトンキャノン",
-	"Hyper-advanced turret - <hl>20 damage</> per shot": "超高性能タレット - 1発につき<hl>20ダメージ</>",
+	"Hyper-advanced turret - <hl>20 damage</> per shot": "超高性能タレット - 1発あたり<hl>20ダメージ</>",
+
+	//この先 未チェック
 	"Missile Launcher": "ミサイルランチャー",
-	"Missile turret": "ミサイル砲塔",
+	"Missile turret": "ミサイルタレット",
 	"Tank Turret": "戦車砲塔",
-	"A turret weapon for mounting on tanks": "戦車に搭載する砲塔兵器",
+	"A turret weapon for mounting on tanks": "戦車に搭載するタレット兵器",
 	"Power Unit": "パワーユニット",
 	"produces continuous power over a small area": "小面積で継続的なパワーを生み出す",
-	"Blight Power Generator": "ブライト・パワー・ジェネレーター",
+	"Blight Power Generator": "ブライト パワー ジェネレーター",
 	"Blight power extraction cell generating power inside the blight": "ブライト内で電力を生成するブライトパワー抽出セル",
 	"Fusion Generator": "フュージョンジェネレーター",
 	"Medium Battery": "中型バッテリー",
@@ -1841,19 +1874,19 @@
 	"Rechargeable cell that can store a large amount of power": "大容量の電力を蓄える事ができる充電式電池",
 	"Large Power Transmitter": "大電力トランスミッター",
 	"Transmits <hl>500</> power to a remote target": "<hl>500</>パワーを遠隔地に送信",
-	"Medium Storage": "ミディアム・ストレージ",
+	"Medium Storage": "ミディアム ストレージ",
 	"Expands storage of Frame by <hl>9 slots</>": "フレームのストレージを<hl>9スロット</>拡張",
 	"Drone Launcher": "ドローンランチャー",
-	"Flight center with  <hl>6 slots</> for logistic drones": "ロジスティック・ドローン用に<hl>6つのスロットを</>備えたフライトセンター",
+	"Flight center with  <hl>6 slots</> for logistic drones": "ロジスティック ドローン用に<hl>6つのスロットを</>備えたフライトセンター",
 	"Drone Port": "ドローンポート",
 	"Holds two drones": "ドローン2機収納可能",
-	"Drone Component": "ドローン・コンポーネント",
+	"Drone Component": "ドローン コンポーネント",
 	"Holds a single drone": "ドローン1機収納可能",
 	"Landing Pad": "着陸パッド",
 	"Landing pad with a slot for a single shuttle": "シャトル1機用のスロットを備えた着陸パッド",
 	"Launch Pad": "発射台",
 	"Launches satellites": "人工衛星打ち上げ",
-	"Blight Charger": "ブライト・チャージャー",
+	"Blight Charger": "ブライト チャージャー",
 	"Allows bots to move into blighted areas, provides a small amount of power from the blight": "ボットが殺伐とした地域に移動できるようにし、殺伐から少量のパワーを供給する",
 	"Long-range Radar": "中型レーダー",
 	"External mount doubles scanning range": "外部マウントによりスキャン範囲が2倍に",
@@ -1861,73 +1894,73 @@
 	"Translates Alien language into usable data": "外国語を使えるデータに変換",
 	"Glyph": "グリフ",
 	"Translation": "翻訳",
-	"Purifying Terraformer": "ピュリファイング・テラフォーマー",
+	"Purifying Terraformer": "ピュリファイング テラフォーマー",
 	"Adapted alien technology that purifies a blighted area": "殺伐とした地域を浄化するエイリアンの技術を採用。",
-	"Alien Terraformer": "エイリアン・テラフォーマー",
-	"Alien technology that extracts blight from the ground creating an area of blight": "地上からブライトを抽出し、ブライト地帯を作り出すエイリアン・テクノロジー",
-	"Shield Generator": "シールド・ジェネレーター",
-	"Energy shield - Uses power to charge a shield that mitigates up to <hl>40</> damage": "エネルギー・シールド - パワーを使ってシールドをチャージし、最大<hl>40</>ダメージを軽減する。",
-	"Hyper Shield Generator": "ハイパー・シールド・ジェネレーター",
-	"Energy shield - Uses power to charge a shield that mitigates up to <hl>80</> damage": "エネルギー・シールド - パワーを使ってシールドをチャージし、最大<hl>80</>ダメージを軽減する。",
+	"Alien Terraformer": "エイリアン テラフォーマー",
+	"Alien technology that extracts blight from the ground creating an area of blight": "地上からブライトを抽出し、ブライト地帯を作り出すエイリアン テクノロジー",
+	"Shield Generator": "シールド生成装置",
+	"Energy shield - Uses power to charge a shield that mitigates up to <hl>40</> damage": "エネルギー シールド - パワーを使ってシールドをチャージし、最大<hl>40</>ダメージを軽減する。",
+	"Hyper Shield Generator": "ハイパー シールド生成装置",
+	"Energy shield - Uses power to charge a shield that mitigates up to <hl>80</> damage": "エネルギー シールド - パワーを使ってシールドをチャージし、最大<hl>80</>ダメージを軽減する。",
 	"Internal Blight Container": "内部ブライトコンテナ",
 	"Container for holding blight gas": "防疫ガス保持容器",
 	"Internal Virus Containment": "内部ウイルスの封じ込め",
 	"Container for holding virus infected items": "ウイルス感染物収納容器",
-	"Blight Container Small": "ブライト・コンテナ・スモール",
+	"Blight Container Small": "ブライト コンテナ スモール",
 	"Small Container that holds blight gas": "防疫ガスを入れる小型容器",
 	"Blight Container Medium": "ブライトコンテナ培地",
 	"Container that holds blight gas": "防疫ガスを入れる容器",
-	"Alien Liquid": "エイリアン・リキッド",
+	"Alien Liquid": "エイリアン リキッド",
 	"Protects unit from receiving the virus and removes any viruses when equipped": "本体をウイルスの感染から保護し、装備されている場合はウイルスを除去します。",
-	"Robot Hive": "ロボット・ハイブ",
+	"Robot Hive": "ロボット ハイブ",
 	"Robot configured hive for bug generation": "ロボットがバグ生成用に設定したハイブ",
-	"Virus Bug Turret": "ウイルスバグ・タレット",
-	"Virus turret 1": "ウイルス砲塔1",
+	"Virus Bug Turret": "ウイルスバグ タレット",
+	"Virus turret 1": "ウイルスタレット1",
 	"Crypto BitLock": "暗号ビットロック",
 	"Temporarily locks enemy units from movement": "敵ユニットの移動を一時的にロックする",
 	"BitLock Effect": "ビットロック効果",
 	"bitlock effect": "ビットロック効果",
-	"Blight Destabilizer": "ブライト・デスタビライザー",
+	"Blight Destabilizer": "ブライト デスタビライザー",
 	"Rewrite target data technology as bug data": "ターゲットデータ技術をバグデータとして書き換える",
-	"Component Recycler": "コンポーネント・リサイクラー",
-	"Virus Component for breaking down Tech": "ハイテクを破壊するウイルス・コンポーネント",
-	"Virus Ray": "ウイルス・レイ",
+	"Component Recycler": "コンポーネント リサイクラー",
+	"Virus Component for breaking down Tech": "ハイテクを破壊するウイルス コンポーネント",
+	"Virus Ray": "ウイルス レイ",
 	"Virus Turret with virus beam transmission": "ウイルスビームを発射するウイルス砲塔",
 	"Virus Possessor": "ウイルス所持者",
 	"Virus Tool for spawning hives and bugs": "蜂の巣と昆虫を生み出すウイルスツール",
 	"Blight Magnifier": "ブライト拡大鏡",
 	"Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
-	"Blight Stabilizer": "ブレイト・スタビライザー",
-	"Resource Converter": "リソース・コンバーター",
+	"Blight Stabilizer": "ブレイト スタビライザー",
+	"Resource Converter": "リソース コンバーター",
 	"When placed inside the blight will convert laterite to metal ore and silica": "このような場合、ブライトはラテライトをメタロアとシリカに変えます。",
 	"Must be placed inside the blight": "ブライトの内側に置かなければならない",
 	"Not enough room for output": "アウトプットに十分なスペースがない",
 	"silica": "シリカ",
 	"crystal": "クリスタル",
-	"Blight Control Tower": "ブライト・コントロール・タワー",
+	"Blight Control Tower": "ブライト コントロール タワー",
 	"Blight control terminal for stabilization": "安定化用防疫端末",
-	"Alien Unit": "エイリアン・ユニット",
-	"Alien Miner": "エイリアン・マイナー",
+	"Alien Unit": "エイリアン ユニット",
+	"Alien Miner": "エイリアン マイナー",
 	"Alien mining": "エイリアンの採掘",
-	"Alien Extractor": "エイリアン・エクストラクター",
+	"Alien Extractor": "エイリアン エクストラクター",
 	"Alien extraction": "エイリアンの摘出",
-	"Alien Feeder": "エイリアン・フィーダー",
+	"Alien Feeder": "エイリアン フィーダー",
 	"Alien food production": "エイリアンの食料生産",
-	"Alien Attack": "エイリアン・アタック",
-	"Alien Factory": "エイリアン・ファクトリー",
-	"Human Refinery": "ヒューマン・リファイナリー",
-	"A Large Factory equipped for making Human devices": "ヒューマン・デバイス製造の為の大規模工場",
+	"Alien Attack": "エイリアン アタック",
+	"Alien Factory": "エイリアン ファクトリー",
+	"Human Refinery": "ヒューマン リファイナリー",
+	"A Large Factory equipped for making Human devices": "ヒューマン デバイス製造の為の大規模工場",
 	"Human Science Analyzer": "人間科学アナライザー",
-	"Robot Science Analyzer for Human Technology": "ヒューマン・テクノロジーの為のロボット科学アナライザー",
-	"Human Command Center": "ヒューマン・コマンド・センター",
+	"Robot Science Analyzer for Human Technology": "ヒューマン テクノロジーの為のロボット科学アナライザー",
+	"Human Command Center": "ヒューマン コマンド センター",
 	"Human Barracks": "人間兵舎",
 	"Human Spaceport": "有人宇宙港",
 	"Human Science": "人間科学",
 	"Mothership Repairs": "母船の修理", // <TRANSLATION>
-	"Santa Hat": "サンタ・ハット",
+	"Santa Hat": "サンタ ハット",
 	"xmas": "Xマス",
 	"Antlers": "アントラーズ",
-	"Antlers Nose": "アントラーズ・ノーズ",
+	"Antlers Nose": "アントラーズ ノーズ",
 	"Present": "プレゼント",
 
 	// FILE: Main/data/data.lua
@@ -3029,5 +3062,5 @@
 	"Well done. Now rotate your camera with <Key action=\"MouseCameraRotateToggle\" style=\"hl\"/>. The simulation will try to render a new image with interpolated data points.\n\nHold down the <Key action=\"MouseCameraRotateToggle\" style=\"hl\"/> and drag to <hl>Rotate</>.": "よくやった。今度は<Key action=\"MouseCameraRotateToggle\" style=\"hl\"/>でカメラを回転させます。シミュレーションは補間されたデータポイントで新しい画像をレンダリングしようとします。\n\n<Key action=\"MouseCameraRotateToggle\" style=\"hl\"/>を押したまま<hl>カメラを回転させる</>。", // From file: Main/ui/Tutorial.lua
 	"Wishlist on Steam": "ウィッシュリスト", // From file: Main/frontend/FrontEndMenu.lua
 	"With multiple production facilities it is useful to be able to distinguish between them without needing to select them, this is where the <hl>Visual Parameter</> can be helpful.\n\nClick on the <hl>Visual Parameter</> <img image=\"Main/textures/codex/icons/register_visual.png\" width=\"50\" height=\"50\"/> on the building.\nSet it to <hl>Metal Bar</> <img id=\"metalbar\" width=\"50\" height=\"50\"/> to visualize it in the world.": "複数の生産設備がある場合、それらを選択する事なく区別できるようにすると便利で、<hl>ビジュアル・パラメーターが</>役立つ。\n\n建物の<hl>ビジュアルパラメータ</><img image=\"Main/textures/codex/icons/register_visual.png\" width=\"50\" height=\"50\"/>をクリックします。\n<hl>メタルバー</><img id=\"metalbar\" width=\"50\" height=\"50\"/>に設定し、世界で可視化する。", // From file: Main/ui/Tutorial.lua
-	"gearbox": "ギアボックス", // From file: Main/data/components.lua
+	"gearbox": "ギアボックス" // From file: Main/data/components.lua
 }
