@@ -802,26 +802,26 @@
 	"Missing Text": "テキストの欠落",
 
 	// FILE: Main/ui/Tech.lua
-	"<bl>Researched</>": "<bl>研究完了</>",  //OK
-	"Unlocks:": "アンロック: ",  //OK
-	"Requirements (Remaining Total):": "必要材料 (残りの合計): ",  //OK
-	"Progress:": "進捗: ",  //OK
-	"Active Research": "現在研究中...",  //OK
-	"Research Queue": "研究キュー",  //OK
-	"%d/%d steps done": "%d/%d ステップ完了",  //OK
-	"Using %d active uplinks": "%d 台のアップリンクを使用中",  //OK
-	"Research Complete": "研究完了",  //OK
-	"Cancel Research": "研究のキャンセル",  //OK
-	"Remove from Queue": "研究キューから削除",  //OK
-	"Add to Queue": "研究キューに追加",  //OK
-	"Pause Research": "研究を一時停止",  //OK
-	"Resume Research": "研究を再開",  //OK
-	"Can only queue up to three research items": "研究キューへの追加は3つまでです",  //OK
-	"No Active Research": "現在研究無し",  //OK
-	"Unlocked Technologies:": "アンロックされた技術: ",  //OK
-	"Unlocked Researches:": "アンロックされた研究: ",  //OK
-	"Next in Queue": "次のキューへ",  //OK
-	"Open Research": "研究を開く",  //OK
+	"<bl>Researched</>": "<bl>調査済み</>",
+	"Unlocks:": "アンロック",
+	"Requirements (Remaining Total):": "必要条件（残りの合計）：",
+	"Progress:": "進歩だ：",
+	"Active Research": "現在研究",
+	"Research Queue": "研究キュー",
+	"%d/%d steps done": "%d/%dステップ完了",
+	"Using %d active uplinks": "%dアクティブアップリンクを使用",
+	"Research Complete": "研究完了",
+	"Cancel Research": "研究のキャンセル",
+	"Remove from Queue": "キューから削除",
+	"Add to Queue": "キューに追加",
+	"Pause Research": "研究を休止",
+	"Resume Research": "研究を続く",
+	"Can only queue up to three research items": "研究項目は3つまでしかキューに入れる事ができない",
+	"No Active Research": "現在研究無し",
+	"Unlocked Technologies:": "アンロックされた技術：",
+	"Unlocked Researches:": "アンロックされた研究",
+	"Next in Queue": "次のキューへ",
+	"Open Research": "オープンリサーチ",
 
 	// FILE: Main/ui/ui.lua
 	"Game Over": "ゲームオーバー",
@@ -1118,7 +1118,7 @@
 	"Once we have the required resources we should look into constructing an <img id=\"c_uplink\"/><hl>Uplink</>.\n\nThis will establish a direct connection to the <hl>Mothership</>, allowing us to upload data and unlock our full potential. Advancing our understanding of this mysterious world will be crucial to our success.\n\nThe uplink can be produced in an <img id=\"c_assembler\"/><hl>Assembler</>.": "必要なリソースが手に入ったら、<img id=\"c_uplink\"/><hl>アップリンク</>の構築を検討しよう。\n\nこれによって<hl>マザーシップ</>との直接接続が確立され、データのアップロードや潜在能力の全開放が可能になる。この神秘的な世界への理解を深める事が、私たちの成功に不可欠なのだ。\n\nアップリンクは<img id=\"c_assembler\"/><hl>アセンブラ</>で生成できる。", // <TRANSLATION>
 	"Research Basic Structures": "基本構造の研究", // <TRANSLATION>
 	"From the Technology tree research Basic Structures": "技術ツリーから 基本構造を研究", // <TRANSLATION>
-	"We have established a connection to the surface and I have already begun synchronizing our databases.\n\nWith this we are now able to research new technology from the <img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>技術ツリー</> (<Key action=\"Tech\" style=\"hl\"/>) interface. This will help us replace the missing data from the damaged data center.":"私たちは地上との接続を確立し、私はすでにデータベースの同期を始めている。\n\nこれで、<img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>Tech Tree</> (<Key action=\"Tech\" style=\"hl\"/>) インターフェースから新しいテクノロジーを研究できるようになった。これにより、破損したデータ・センターから失われたデータを置き換える事ができる。", // <TRANSLATION>
+	"We have established a connection to the surface and I have already begun synchronizing our databases.\n\nWith this we are now able to research new technology from the <img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>Tech Tree</> (<Key action=\"Tech\" style=\"hl\"/>) interface. This will help us replace the missing data from the damaged data center.": "私たちは地上との接続を確立し、私はすでにデータベースの同期を始めている。\n\nこれで、<img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>技術ツリー</> (<Key action=\"Tech\" style=\"hl\"/>) インターフェースから新しいテクノロジーを研究できるようになった。これにより、破損したデータ・センターから失われたデータを置き換える事ができる。", // <TRANSLATION>
 	"Produce Reinforced Plate": "強化プレートの製造", // <TRANSLATION>
 	"For <bl>Mothership repairs</> we need higher level material production.\n\nAdvanced Materials are the next level of development, which can be produced in The Assembler.\n\nWe will require a high volume of materials so you will need more buildings and mining units to keep up with resource demand.": "<bl>母船の修理</>には、より高いレベルの材料生産が必要だ。\n\nアドバンスド・マテリアルは、アセンブラーで生産可能な次の開発レベルである。\n\n私たちは大量の資材を必要とするので、資源需要に対応する為により多くの建物や採掘ユニットが必要になる。", // <TRANSLATION>
 	"Explore Ruins": "遺跡探索", // <TRANSLATION>
