@@ -802,26 +802,26 @@
 	"Missing Text": "テキストの欠落",
 
 	// FILE: Main/ui/Tech.lua
-	"<bl>Researched</>": "<bl>調査済み</>",
-	"Unlocks:": "アンロック",
-	"Requirements (Remaining Total):": "必要条件（残りの合計）：",
-	"Progress:": "進歩だ：",
-	"Active Research": "現在研究",
-	"Research Queue": "研究キュー",
-	"%d/%d steps done": "%d/%dステップ完了",
-	"Using %d active uplinks": "%dアクティブアップリンクを使用",
-	"Research Complete": "研究完了",
-	"Cancel Research": "研究のキャンセル",
-	"Remove from Queue": "キューから削除",
-	"Add to Queue": "キューに追加",
-	"Pause Research": "研究を休止",
-	"Resume Research": "研究を続く",
-	"Can only queue up to three research items": "研究項目は3つまでしかキューに入れる事ができない",
-	"No Active Research": "現在研究無し",
-	"Unlocked Technologies:": "アンロックされた技術：",
-	"Unlocked Researches:": "アンロックされた研究",
-	"Next in Queue": "次のキューへ",
-	"Open Research": "オープンリサーチ",
+	"<bl>Researched</>": "<bl>研究完了</>",  //OK
+	"Unlocks:": "アンロック: ",  //OK
+	"Requirements (Remaining Total):": "必要材料 (残りの合計): ",  //OK
+	"Progress:": "進捗: ",  //OK
+	"Active Research": "現在研究中...",  //OK
+	"Research Queue": "研究キュー",  //OK
+	"%d/%d steps done": "%d/%d ステップ完了",  //OK
+	"Using %d active uplinks": "%d 台のアップリンクを使用中",  //OK
+	"Research Complete": "研究完了",  //OK
+	"Cancel Research": "研究のキャンセル",  //OK
+	"Remove from Queue": "研究キューから削除",  //OK
+	"Add to Queue": "研究キューに追加",  //OK
+	"Pause Research": "研究を一時停止",  //OK
+	"Resume Research": "研究を再開",  //OK
+	"Can only queue up to three research items": "研究キューへの追加は3つまでです",  //OK
+	"No Active Research": "現在研究無し",  //OK
+	"Unlocked Technologies:": "アンロックされた技術: ",  //OK
+	"Unlocked Researches:": "アンロックされた研究: ",  //OK
+	"Next in Queue": "次のキューへ",  //OK
+	"Open Research": "研究を開く",  //OK
 
 	// FILE: Main/ui/ui.lua
 	"Game Over": "ゲームオーバー",
