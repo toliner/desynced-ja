@@ -83,7 +83,7 @@
 	"space for output of": "の出力スペース",
 	"space for order by": "オーダースペース",
 	"Dock reserved for a drone entity": "ドローン専用ドック",
-	"Stats:": "スタッツ",
+	"Stats:": "スペック",  //仮
 	"Maximum Stack": "最大スタック",
 	"Damage": "ダメージ",
 	"Damage/sec": "ダメージ/秒",
@@ -684,8 +684,9 @@
 	"Select unit to set as Store target": "保管場所ターゲットに設定するユニットを選択",
 
 	// FILE: Main/ui/RegisterSelection.lua
-	"Inventory Item": "在庫品目",
-	"World Object": "ワールド・オブジェクト",
+	"Inventory Item": "インベントリ内",  //仮
+	"World Object": "ワールド内",  //仮
+	"World Coordinate": "座標",  //仮
 	"Unit Types": "ユニットの種類",
 	"Information": "インフォメーション",
 	"Select on Map": "地図上で選択",
@@ -802,26 +803,26 @@
 	"Missing Text": "テキストの欠落",
 
 	// FILE: Main/ui/Tech.lua
-	"<bl>Researched</>": "<bl>調査済み</>",
-	"Unlocks:": "アンロック",
-	"Requirements (Remaining Total):": "必要条件（残りの合計）：",
-	"Progress:": "進歩だ：",
-	"Active Research": "現在研究",
-	"Research Queue": "研究キュー",
-	"%d/%d steps done": "%d/%dステップ完了",
-	"Using %d active uplinks": "%dアクティブアップリンクを使用",
-	"Research Complete": "研究完了",
-	"Cancel Research": "研究のキャンセル",
-	"Remove from Queue": "キューから削除",
-	"Add to Queue": "キューに追加",
-	"Pause Research": "研究を休止",
-	"Resume Research": "研究を続く",
-	"Can only queue up to three research items": "研究項目は3つまでしかキューに入れる事ができない",
-	"No Active Research": "現在研究無し",
-	"Unlocked Technologies:": "アンロックされた技術：",
-	"Unlocked Researches:": "アンロックされた研究",
-	"Next in Queue": "次のキューへ",
-	"Open Research": "オープンリサーチ",
+	"<bl>Researched</>": "<bl>研究完了</>",  //OK
+	"Unlocks:": "アンロック: ",  //OK
+	"Requirements (Remaining Total):": "必要材料 (残りの合計): ",  //OK
+	"Progress:": "進捗: ",  //OK
+	"Active Research": "現在研究中...",  //OK
+	"Research Queue": "研究キュー",  //OK
+	"%d/%d steps done": "%d/%d ステップ完了",  //OK
+	"Using %d active uplinks": "%d 台のアップリンクを使用中",  //OK
+	"Research Complete": "研究完了",  //OK
+	"Cancel Research": "研究のキャンセル",  //OK
+	"Remove from Queue": "研究キューから削除",  //OK
+	"Add to Queue": "研究キューに追加",  //OK
+	"Pause Research": "研究を一時停止",  //OK
+	"Resume Research": "研究を再開",  //OK
+	"Can only queue up to three research items": "研究キューへの追加は3つまでです",  //OK
+	"No Active Research": "現在研究無し",  //OK
+	"Unlocked Technologies:": "アンロックされた技術: ",  //OK
+	"Unlocked Researches:": "アンロックされた研究: ",  //OK
+	"Next in Queue": "次のキューへ",  //OK
+	"Open Research": "研究を開く",  //OK
 
 	// FILE: Main/ui/ui.lua
 	"Game Over": "ゲームオーバー",
@@ -1467,36 +1468,41 @@
 	"resource": "リソース",  //おそらく不要  判定文等で使われているだけ
 	"entityfilter": "エンティティフィルタ",  //おそらく不要  判定文等で使われているだけ
 	"storage": "ストレージ",  //おそらく不要  判定文等で使われているだけ
+
 	//コンポーネントの定義はここから
 	"Light": "ライト",  //OK
-	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスターで明るさや色を変更可能",  //OK
+	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスターで明るさや色を設定可能",  //OK
 	"Light RGB":"RGB ライト",  //OK
-	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスターで明るさや色をRGBレジスタを介して変更可能",  //OK
-	"Red (0-31)":"赤 (0-31)",
-	"Green (0-31)":"緑 (0-31)",
-	"Blue  (0-31)":"青 (0-31)",
-	"Intensity":"光の強度",
+	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスターで明るさや色を設定可能。色はRGBで設定可能。",  //OK
+	"Red (0-31)":"赤 (0-31)",  //OK
+	"Green (0-31)":"緑 (0-31)",  //OK
+	"Blue  (0-31)":"青 (0-31)",  //OK
+	"Intensity":"光の強度",  //OK
 	"Small": "小さい",  //おそらく不要
+
 	"Fabricator": "ファブリケーター",  //OK
 	"A small fabrication unit able to process raw resources and simple components. Missing ingredients are available via register.": "原材料と簡単な部品の加工ができる小型製造コンポーネント。不足している材料はレジスターを介して要求される",
 	"production": "生産",  //おそらく不要
 	"Click to change production": "クリックして生産物を変更",  //OK
 	"Set Production": "生産物をセット",  //OK
-	"Missing ingredient": "不足している材料",  //仮　実機で確認したい
+	"Missing ingredient": "材料不足",  //仮　実機で確認したい
 	"Set %s Production": "セット %s プロダクション",  //要修正
 	"this": "これ",  //おそらく不要
 	"Missing research to produce %s": "%sの生産に必要な研究が未完了",  //OK
 	"Cannot produce %s in %s": "%sでは%sの生産ができない",  //OK
-	"Missing production ingredient %s": "不足している材料 %s",  //仮
+	"Missing production ingredient %s": "材料不足: %s",  //仮  
 	"No inventory space to produce %s": "%sを生産するインベントリが不足",  //OK
 	"frames": "フレーム",  //おそらく不要
 	"fx": "エフエックス",  //おそらく不要 SEの指定
+
 	"Assembler": "アセンブラ",  //OK
 	"Main production facility for robotic components and robotic materials.": "ロボット部品とロボット材料の主要生産施設",
 	"Medium": "中間",  //おそらく不要
+
 	"Data Analyzer": "データアナライザー",  //OK
 	"Allows creation of Simulation Datacubes": "シミュレーション データキューブの作成が可能",  //仮　実機で確認したい
 	"Large": "大型",  //おそらく不要
+
 	"Refinery": "リファイナリー",  //OK
 	"Advanced production facility for advanced material production": "先端素材製造の為の高度な生産設備",  //仮
 	"Robotics Assembler": "ロボティクス アセンブラー",  //仮
@@ -1505,15 +1511,17 @@
 	"Rally point\n\nDrag to location or unit to set": "ドラッグで生産物を設置する場所またはユニットを指定",  //仮
 	"Power Field": "中型電力アンテナ",  //OK
 	"Extends a wireless power field around the unit": "周囲に電力網を展開し、近くのユニットに電力を供給する",  //仮
-	"Portable Power Field": "ポータブル電力アンテナ",  //OK
+
+	"Portable Power Field": "ポータブル電力アンテナ",  //仮
 	"Internal": "内部",  //おそらく不要
 	"Creates or expands your power grid in a small area around the unit, transferring power to nearby units. Produces no power on its own. Most useful on a moveable unit given its short range":
 	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。展開範囲が狭い為、移動可能なユニットに向いている。",  //仮
 	"Small Power Field": "小型電力アンテナ",  //OK
 	"Creates or expands your power grid in an area around the unit, transferring power to nearby units. Produces no power on its own.":
 	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。",  //仮
-	"Large Power Field": "大型電力フィールド",  //OK
+	"Large Power Field": "大型電力アンテナ",  //仮
 	"Local power field with increased radius": "展開範囲が広い電力アンテナ",  //仮
+
 	"Uplink": "アップリンク",  //OK
 	"Uploads data to orbital mainframe for tech research": "軌道上のメインフレームと通信し、技術研究を可能にする",  //OK
 	"Current researching technology": "現在の技術研究",  //OK
@@ -1521,6 +1529,7 @@
 	"Manual": "マニュアル",  //おそらく不要
 	"Set Research": "研究する",  //仮
 	"Tech": "テック",  //おそらく不要  ウィンドウ名
+
 	"Repair Component": "修理コンポーネント",  //OK
 	"Allows repair of  damaged Frames": "損傷したフレームを修理する",  //仮  フレーム??
 	"Preferred Repair Target": "優先修理対象",  //OK
@@ -1531,8 +1540,8 @@
 	"Repair Kit": "修理キット",
 	"Can repair the unit it is equipped on": "装備したユニットを低速度で自動修理する",  //仮  Wikiの説明を追記
 	"ALLY": "アリー",  //おそらく不要  "Repair Component"の修理対象の判定文
-	"Package": "包装", // <TRANSLATION>
 
+	"Package": "包装", // <TRANSLATION>
 	//ゲーム開始直後の"Command Center"(ロボット) が持っているが、hidden なので見えない
 	"Deployment": "デプロイメント",  //仮  実機では見えない
 	"Initial planetary colonization support package, cannot deploy while frame is active": "初期惑星植民地化支援パッケージ、フレームがアクティブな間は展開できない",  //仮  実機では見えない
@@ -1551,7 +1560,7 @@
 	"Unpacks into a completed unit and destroys itself when deployed": "完成したユニットに復元したあと自壊する。",  //仮
 	"Use": "用途",  //仮  実機では見えない?
 	"Acquire": "取得",  //仮  実機では見えない?
-	"Select unit to absorb": "吸収する単位を選択",  //実機で確認したい
+	"Select unit to absorb": "吸収するユニットを選択",  //実機で確認したい
 	"Select target to take in": "取り込む対象を選ぶ",  //仮
 	"Target not valid for re-deployment": "無効な取り込み対象です",  //仮
 	"Cannot activate while components still have items in them": "コンポーネントにアイテムが入ったままでは起動できない",  //実機で確認したい
@@ -1567,110 +1576,126 @@
 	"Basic mining drill - extracts metal and crystal": "簡易な採掘ドリル。金属やクリスタルを採掘できる",  //仮
 	"miner": "鉱夫",  //おそらく不要
 	"Resource to mine and amount": "採掘資源と採掘量を設定",  //仮
-	"Set Mining Target": "採掘目標の設定",  //実機で確認したい
-	"Set %s Target": "%s ターゲットを設定",  //実機で確認したい
+	"Set Mining Target": "採掘対象の設定",  //実機で確認したい
+	"Set %s Target": "%s 対象を設定",  //実機で確認したい  Deconstructor、Reconstructor、turret、power_transmitterでも使用
 	"Cannot mine %s": "採掘できない %s",  //実機で確認したい
 	"Already holding the requested amount %d of %s": "すでに %s %d個を所持している",  //仮
 	"No space in inventory for %s": "空きストレージが不足している",  //仮
 	"No %s found in range": "範囲内に %s が見つからない",  //仮
 
-	"Laser Mining Tool": "レーザー採掘機",
-	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘機。採掘機の2倍の速度で金属やクリスタルを採掘できる",
+	"Laser Mining Tool": "レーザー採掘機",  //OK
+	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘機。採掘機の2倍の速度で金属やクリスタルを採掘できる",  //OK
 
-	"Deconstructor": "デコンストラクター",
-	"Allows disassembly of completed Units and Building refunding 100% of their cost": "完成したユニットの解体を許可し、その費用の100％を払い戻す。",
-	"Preferred Target": "優先ターゲット",
-	"Select the deconstruction target": "解体対象を選択する",
-	"Invalid Target": "無効なターゲット",
-	"No Target": "目標無し",
+	"Deconstructor": "解体機",  //仮
+	"Allows disassembly of completed Units and Building refunding 100% of their cost": "ユニットや建物を解体し、生産時の材料に戻す",  //OK
+	"Preferred Target": "対象",  //注意 タレットでも使用される
+	"Select the deconstruction target": "解体対象を選択してください",
+	"Invalid Target": "無効な対象",
+	"No Target": "対象なし",
 	"Not in range to deconstruct": "解体範囲外",
 	"Cannot deconstruct Target": "ターゲットは分解できない",
-	"Reconstructor": "リコンストラクター",
-	"Allows deconstruction of a unit or building to be later reconstructed in a different location": "ユニットや建物を解体し、後で別の場所に再建する事ができる。",
-	"Redeploy": "再配置",
-	"Select the reconstruction target": "再構成対象を選択する",
-	"Turret": "タレット",
-	"Medium sized turret with good damage and range": "1発につき<hl>8ダメージを与える</>砲塔",
-	"Current Target": "現在の目標",
-	"Select the attack target": "攻撃目標を選択",
-	"Are you sure you want to attack your own Unit?": "本当に自分のユニットを攻撃したいのか？",
-	"Operating": "営業",
-	"battle": "戦い",
-	"Small Turret": "小型砲塔",
-	"Basic defensive turret": "基本的な防御砲塔",
-	"Blight Turret": "ブライト・タレット",
-	"Blight crystal turret": "ブライト・クリスタル・タレット",
-	"Viral Turret": "バイラル・タレット",
-	"Virus turret": "ウイルス砲塔",
-	"Laser Turret": "レーザー砲塔",
-	"Upgraded turret that fires a strong laser": "強力なレーザーを発射するアップグレードされたタレット",
-	"Solar Cell": "太陽電池",
-	"Photovoltaic cell that supplies <hl>50</> power to your grid during daylight.": "日中、送電網に<hl>50の電力を供給する</>太陽電池。",
-	"Produce": "プロデュース",
-	"green": "グリーン",
-	"red": "レッド",
-	"Solar Panel": "ソーラーパネル",
-	"Solar Panel that generates <hl>300</> power throughout the day and <hl>100</> during the night": "日中<hl>300回</>、夜間<hl>100回発電する</>ソーラーパネル",
-	"Wind Turbine": "風力タービン",
-	"Constant <hl>50</> power generation per second, <hl>100</> when located on the plateau": "コンスタントな毎秒50回の発電、高原に位置する場合は<hl>100回</>",
-	"Large Wind Turbine": "大型風力タービン",
-	"Constant <hl>200</> power generation per second, <hl>400</> when located on the plateau": "コンスタントな毎秒200回の発電、高原に位置する場合は<hl>400回</>",
-	"Power Cell": "パワーセル",
-	"Transmits <hl>500</> power per second over a small area": "毎秒500パワーを小面積に送信",
-	"Power Core": "パワーコア",
-	"Produces an exceptional amount of power power per second over a small area": "狭いエリアで1秒間に非常に大きなパワーを生み出す",
-	"Stored": "保存",
-	"Capacitor": "コンデンサ",
-	"Stores excess power from your power grid making it available when needed": "送電網からの余剰電力を蓄え、必要な時に利用できるようにする。",
-	"Medium Capacitor": "中型コンデンサー",
-	"A medium sized Capacitor with a greater storage amount": "蓄積量の多い中型コンデンサー",
-	"Small Battery": "小型バッテリー",
-	"Rechargeable power cell": "充電式パワーセル",
-	"Signal Reader": "信号読み取り装置",
-	"Allow reading of the signal register from a specific unit or building.": "特定のユニットまたは建物からの信号レジスタの読み取りを許可する。",
-	"Unit to read signal from\n\nDrag to unit to set": "信号を読み出すユニット\n\n設定する単位までドラッグする",
-	"Received signal": "受信信号",
-	"Shared Storage": "共有ストレージ",
-	"Set locked slots on unit to allow dumping of excess items": "ユニットのインベントリを設定し、ユニットが満杯になった場合、未使用のアイテムをそこに捨てる事ができるようにする。",
-	"Internal Storage": "内部ストレージ",
-	"Uses the internal socket as an item slot": "内部ソケットをアイテムスロットとして使用",
-	"Behavior Controller": "行動コントローラー",
-	"Small, low-powered programmable device": "小型で低消費電力のプログラマブル・デバイス",
-	"Program Behavior": "プログラム行動",
-	"Program": "プログラム",
-	"STOP": "ストップ",
-	"STEP": "ステップ",
-	"PAUSE": "一時停止",
-	"Unlocked behavior exceeded instruction limit for a single step": "ロック解除動作が1ステップの命令制限を超えた",
-	"Item Transporter": "アイテム・トランスポーター",
-	"Enables automatic transfer of inventory directly between any Building or Unit in range": "範囲内のどのビルやユニット間でも、在庫を直接自動転送可能",
-	"Portable Transporter": "ポータブル・トランスポーター",
-	"Enables automatic transfer of inventory directly between any adjacent Buildings or Units": "隣接するビルやユニット間でインベントリーを直接自動転送可能",
-	"Portable Radar": "ポータブルレーダー",
-	"Short range detection of resources and other objects in the world. All conditions must be met.": "ワールド内の資源などを近距離で検知する。すべての条件を満たす必要がある。",
-	"radar": "レーダー",
-	"Search filter": "検索フィルター",
-	"Set Filter": "セットフィルター",
-	"<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to view result": "<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>で結果を表示",
-	"Small Radar": "小型レーダー",
-	"Scans for entities beyond visual range": "目視範囲外の存在をスキャン",
-	"Radio Transmitter": "無線送信機",
-	"Allows remote transmission of logic to Receiver Components": "レシーバ・コンポーネントへのロジックのリモート伝送が可能",
-	"Band": "バンド",
-	"Value": "価値",
-	"Radio Receiver": "ラジオ受信機",
-	"Allows remote reception and modification of logic": "ロジックの遠隔受信と変更が可能",
-	"Received Signal": "受信信号",
-	"Crystal Power": "クリスタル・パワー",
-	"Charges itself by consuming crystals, storing energy and supplies <hl>150</> power to your power grid every second, but only when required.": "クリスタルを消費してエネルギーを蓄え、毎秒150電力をパワーグリッドに供給する。",
-	"Power Transmitter": "パワートランスミッター",
-	"Transfers power to a single unit outside the power grid": "送電網の外にある1つのユニットに電力を送る",
-	"Target Unit": "対象ユニット",
-	"Select target to receive power": "受電対象を選択",
-	"Cannot transmit power to other factions": "他の派閥にパワーを伝える事ができない",
+
+	"Reconstructor": "移設機",  //仮
+	"Allows deconstruction of a unit or building to be later reconstructed in a different location": "ユニットや建物を解体し、後で別の場所に移設する",  //仮
+	"Redeploy": "移設",  //仮
+	"Select the reconstruction target": "移設対象を選択する",  //仮
+
+	"Turret": "タレット",  //OK
+	"Medium sized turret with good damage and range": "攻撃力と射程距離に優れた中型タレット",  //OK
+	"Current Target": "現在の対象",  //OK
+	"Select the attack target": "攻撃対象を選択",  //OK
+	"Are you sure you want to attack your own Unit?": "攻撃対象が自軍のユニットですが、攻撃しますか？",  //仮
+	"Operating": "探索中...",  //仮 複数で使用される 必ずしも索敵だけではないので注意
+	"battle": "戦い",  //おそらく不要 AddMood()の引数
+	"Small Turret": "小型タレット",  //OK
+	"Basic defensive turret": "標準的な防御用小型タレット",  //OK
+	"Blight Turret": "ブライトタレット",  //仮 ブライト
+	"Blight crystal turret": "ブライトクリスタル のタレット",  //仮 ブライト
+	"Viral Turret": "ウイルスタレット",  //仮 ウィルス
+	"Virus turret": "ウイルスタレット",  //仮 ウィルス
+	"Laser Turret": "レーザータレット",  //OK
+	"Upgraded turret that fires a strong laser": "強力なレーザーを発射するタレット",  //OK
+
+	"Solar Cell": "ソーラーセル",  //OK
+	"Photovoltaic cell that supplies <hl>50</> power to your grid during daylight.": "日中 <hl>50</hl> の電力量を発電し電力網に供給する太陽光発電装置",  //OK
+	"Produce": "発電量",  //wind_turbine、blight_power でも使用 共通して発電装置
+	"green": "グリーン",  //おそらく不要 文字色指定
+	"red": "レッド",  //おそらく不要 文字色指定
+	"Solar Panel": "ソーラーパネル",  //OK
+	"Solar Panel that generates <hl>300</> power throughout the day and <hl>100</> during the night": "日中 <hl>300</>、夜間 <hl>100</> の電力量を発電し電力網に供給する太陽光発電装置",  //OK
+
+	"Wind Turbine": "風力タービン",  //OK
+	"Constant <hl>50</> power generation per second, <hl>100</> when located on the plateau": "<hl>50</> の電力量を発電する。高原に設置した場合は <hl>100</> になる",  //OK
+	"Large Wind Turbine": "大型風力タービン",  //OK
+	"Constant <hl>200</> power generation per second, <hl>400</> when located on the plateau": "<hl>200</> の電力量を発電する。高原に位置する場合は <hl>400</> になる",  //OK
+
+	"Power Cell": "パワーセル",  //OK
+	"Transmits <hl>500</> power per second over a small area": "<hl>500</> の電力量を供給する",  //OK
+	"Power Core": "パワーコア",  //OK
+	"Produces an exceptional amount of power power per second over a small area": "非常に大きな電力量を供給する",  //OK
+
+	"Stored": "充電率",  //仮 Capacitor,バッテリー系,c_shield_generator  でも使用
+	"Capacitor": "コンデンサ",  //OK
+	"Stores excess power from your power grid making it available when needed": "電力網からの余剰電力を蓄電し、必要な時に利用できる",  //OK
+	"Medium Capacitor": "中型コンデンサ",  //OK
+	"A medium sized Capacitor with a greater storage amount": "蓄電量の多い中型コンデンサ",  //OK
+	"Small Battery": "小型バッテリー",  //OK
+	"Rechargeable power cell": "充電式バッテリー",  //OK
+
+	"Signal Reader": "シグナルリーダー",  //OK
+	"Allow reading of the signal register from a specific unit or building.": "特定のユニットまたは建物のシグナルレジスタの内容を取得する",  //OK
+	"Unit to read signal from\n\nDrag to unit to set": "シグナルレジスタの内容を取得するユニット\n\nドラッグしてユニットを指定",  //OK
+	"Received signal": "取得した内容",  //OK
+
+	"Shared Storage": "共有ストレージ",  //仮
+	"Set locked slots on unit to allow dumping of excess items": "ユニットのインベントリを設定し、ユニットが満杯になった場合、未使用のアイテムをそこに捨てることができるようにする。",  //??
+	"Internal Storage": "内部ストレージ",  //OK
+	"Uses the internal socket as an item slot": "内部ソケットをアイテムスロットとして使用することで、インベントリが1つ追加される",  //仮
+	
+	"Behavior Controller": "行動パターンプログラム装置",  //仮
+	"Small, low-powered programmable device": "行動パターンをプログラムできる、小型で低消費電力なデバイス",  //仮
+	"Program Behavior": "行動パターンプログラム",  //仮
+	"Program": "プログラム",  //OK
+	"STOP": "ストップ",  //OK
+	"STEP": "ステップ",  //OK
+	"PAUSE": "一時停止",  //OK
+	"Unlocked behavior exceeded instruction limit for a single step": "ロック解除動作が1ステップの命令制限を超えた",  //??
+
+	"Item Transporter": "アイテム転送装置",  //OK
+	"Enables automatic transfer of inventory directly between any Building or Unit in range": "範囲内のビルやユニット間で、物流ネットワークを介さことなく直接アイテムの受け渡しができる",  //仮 範囲について記載をしたい
+	"Portable Transporter": "ポータブル アイテム転送装置",  //OK
+	"Enables automatic transfer of inventory directly between any adjacent Buildings or Units": "範囲内のビルやユニット間で、物流ネットワークを介さことなく直接アイテムの受け渡しができる",  //仮 範囲について記載をしたい
+
+	"Portable Radar": "ポータブルレーダー",  //OK
+	"Short range detection of resources and other objects in the world. All conditions must be met.": "近距離範囲内にある資源などを検知できる。複数の検知条件が指定でき、すべての条件を満たすものが検知される",  //仮
+	"radar": "レーダー",  //おそらく不要
+	"Search filter": "検索条件",  //OK
+	"Set Filter": "セットフィルター",  //OK
+	"<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to view result": "<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>で検知結果を表示",  //OK
+	"Small Radar": "小型レーダー",  //OK
+	"Scans for entities beyond visual range": "近距離範囲内にある資源などを検知できる。複数の検知条件が指定でき、すべての条件を満たすものが検知される",  //要確認 目視範囲外 ??
+
+	"Radio Transmitter": "無線送信機",  //OK
+	"Allows remote transmission of logic to Receiver Components": "同じ通信帯域が指定されている無線受信機に情報の送信ができる",  //仮
+	"Band": "通信帯域",  //OK
+	"Value": "送信内容",  //OK
+	"Radio Receiver": "無線受信機",  //OK
+	"Allows remote reception and modification of logic": "同じ通信帯域が指定されている無線送信機からの情報の受信ができる",  //仮
+	"Received Signal": "受信内容",  //OK
+
+	"Crystal Power": "クリスタル電力装置",  //仮
+	"Charges itself by consuming crystals, storing energy and supplies <hl>150</> power to your power grid every second, but only when required.":
+	  "クリスタルを電力に変換して蓄電し、必要時に <hl>150</> 電力を供給する。",  //仮
+
+	"Power Transmitter": "電力送信機",  //OK
+	"Transfers power to a single unit outside the power grid": "特定のユニットに電力の送信ができる",  //OK
+	"Target Unit": "対象ユニット",  //OK
+	"Select target to receive power": "電力を送信する対象ユニットを選択",  //OK
+	"Cannot transmit power to other factions": "他の派閥のユニットを電力を送信する対象に指定できません",  //OK
+
 	"Sign Post": "サインポスト",
-	"Show text instead of the visual register": "ビジュアル・レジスターの代わりにテキストを表示",
-	"Set Sign": "セットサイン",
+	"Show text instead of the visual register": "ビジュアルレジスタの代わりにテキストを表示",
+	"Set Sign": "サインを入力する",
 	"Enter the text for the sign post": "サインポストのテキストを入力する",
 
   "Internal Health Module": "内部 高耐久化モジュール",  //仮
