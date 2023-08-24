@@ -973,7 +973,7 @@
 	// FILE: Main/ui/utilities.lua
 	"Message": "メッセージ",
 	"Destination unit no longer exists": "目的地ユニットが存在しない",
-	"Construction site cannot take this item": "工事現場はこの商品を持ち込めない",
+	"Construction site cannot take this item": "工事中はこの製品を持ち込めない",
 	"Docked frame is unable to transfer items": "ドッキングしたフレームがアイテムを移動できない",
 	"component": "コンポーネント",
 	"Selected %s": "厳選 %s",
