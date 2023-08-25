@@ -1558,7 +1558,7 @@
 	"Insufficient resources detected.\n\nAre you sure you want to deploy here?": "周辺の資源が十分ではないようです。\n\nここにコマンドセンターを設置してよいですか？",  //要修正!
 
 	"Deployer": "デプロイヤー",  //仮
-	"Unpacks into a completed unit and destroys itself when deployed": "完成したユニットに復元したあと自壊する。",  //仮
+	"Unpacks into a completed unit": "梱包を解いて完成品にする",  //仮 原文 Unpacks into a completed unit and destroys itself when deployed
 	"Use": "用途",  //仮  実機では見えない?
 	"Acquire": "取得",  //仮  実機では見えない?
 	"Select unit to absorb": "吸収するユニットを選択",  //実機で確認したい
