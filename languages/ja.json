@@ -300,7 +300,7 @@
 	"Abort Constructions": "建設中止",
 	"High Priority Construction Sites": "優先度の高い建設現場",
 	"Selected %d construction sites": "厳選された%dの建設現場",
-	"Resume Constructions": "レジュメの構成",
+	"Resume Constructions": "建築再開",
 	"%s <hl>Ctrl-E</>\n\nPowered down units stop functioning and\ndo not consume power.": "%s <hl>Ctrl-E</>\n\nパワーダウンしたユニットは機能しなくなり\nは電力を消費しない。",
 	"%s (Logistics Network)<hl>Shift-E</>\n\nUnits Connected to the logistics network will\nautomatically deliver requested items and\nmake their own inventory items available to\nthe network": "%s（物流ネットワーク）<hl>シフトE</>\n\n物流ネットワークに接続されたユニット\nリクエストされた商品を自動的に配達し\n自社の在庫品を\nネットワーク",
 
