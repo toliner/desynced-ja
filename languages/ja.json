@@ -90,7 +90,7 @@
 	"Power Production": "電力生産",
 	"Power Usage": "電力使用量",
 	"Drain Rate": "ドレイン率",
-	"Charge Rate": "料金",
+	"Charge Rate": "充電率",  //
 	"Bandwidth": "帯域幅",
 	"Durability": "耐久性",
 	"Visibility Range": "視認範囲",
@@ -115,25 +115,25 @@
 	"<bl>%s</>\nin <hl>%.1f</> seconds": "<bl>%s</>\n<hl>%.1f</>秒",
 	"<bl>Unknown</>\nin <hl>???</> seconds": "<bl>不明</>\n秒",
 	"Research Required": "研究不足",
-	"Missing Required Tech": "不足している技術",
+	"Missing Required Tech": "前提となる研究が未完了",  //仮
 	"items": "項目",
 	"components": "コンポーネント",
 	"Available": "利用可能",
 	"Total Storage": "総保管量",
-	"Is Ingredient Of:": "の成分である：",
+	"Is Ingredient Of:": "の成分である:",
 	"Products using this item as ingredient": "この商品を原材料として使用している商品",
-	"Production Breakdown:": "生産内訳：",
-	"Ingredient Requirements:": "成分の条件：",
+	"Production Breakdown:": "生産内訳:",
+	"Ingredient Requirements:": "成分の条件:",
 	"Requirements for a constant production": "コンスタントな生産に必要な条件",
 	"Tech Unlocks:": "技術ロック解除",
-	"Remaining Research:": "残された研究：",
-	"Sockets:": "ソケット：",
+	"Remaining Research:": "残された研究:",
+	"Sockets:": "ソケット:",
 	"center": "センター",
-	"Contained Unit:": "収容ユニット：",
-	"Converts to:": "に変換する：",
-	"(Hold Shift/Ctrl/Alt for more info)": "(詳細はShift/Ctrl/Altキーを押しながら）。",
-	"(Hold Ctrl/Alt for more info)": "(詳細はCtrl/Altキーを押しながら）",
-	"(Hold Shift for more info)": "(詳細はシフトを押したまま）",
+	"Contained Unit:": "収容ユニット:",
+	"Converts to:": "に変換する:",
+	"(Hold Shift/Ctrl/Alt for more info)": "(詳細はShift/Ctrl/Altキーを押す)",
+	"(Hold Ctrl/Alt for more info)": "(詳細はCtrl/Altキーを押す)",
+	"(Hold Shift for more info)": "(詳細はShiftを押す)",
 	"Right-Click to clear value": "右クリックで値をクリア",
 
 	// FILE: Main/ui/Explorable.lua
@@ -620,7 +620,7 @@
 	"Toggle Extra Options": "追加オプションの切り替え",
 	"Set Next Instruction": "次の命令を設定する",
 	"Remove": "削除",
-	"Current Value:": "現在の価値",
+	"Current Value:": "現在の内容",  //仮
 	"Read from Unit Register": "ユニットレジスタからの読み出し",
 	"Read from Parameter": "パラメータから読み込む",
 	"Read from Variable": "変数からの読み込み",
@@ -950,7 +950,7 @@
 	"Apply unit settings onto %s": "ユニット設定を%sに適用",
 	"Player Joined": "プレーヤー加入",
 	"Name: <header>%S</> - Faction: <header>%S</>": "名前<header>%S</> - ファクション<header>%S</>",
-	"Player Left": "左のプレーヤー",
+	"Player Left": "プレーヤー離脱",  //OK
 	"Player Changed Faction": "プレイヤーが派閥を変更",
 	"Name: <header>%S</> - Old Faction: <header>%S</> - Faction: <header>%S</>": "名前<header>%S</> - 旧ファクション：<header>%S</> - 派閥：<header>%S</>",
 	"Faction Settings": "派閥設定",
@@ -997,7 +997,7 @@
 	"Tutorial": "チュートリアル",
 	"New Game": "ニューゲーム",
 	"Challenges": "チャレンジ",  //hidden
-	"Load Game": "ゲームロード",
+	"Load Game": "ゲームのロード",
 	"Multiplayer": "マルチプレイ",
 	"Options": "オプション",
 	"Mods": "MOD",
@@ -1288,7 +1288,7 @@
 
 	// FILE: Main/scenarios/freeplay/freeplay_tutorial.lua
 	"Understood": "了解",
-	"click anywhere to minimize": "最小化するにはどこかをクリック", // <TRANSLATION>
+	"click anywhere to minimize": "クリックで最小化", // <TRANSLATION>
 	"Controls": "コントロール",
 	"Welcome to Navigation Training Simulator. I am TUTOR, Tutorial Understand and Training Optimized Robot. I will guide you through controlling your units. Let's begin with some simple camera controls. Try panning the camera.\n\n<hl>Pan the Camera</> using the <Key axis=\"CameraX\" style=\"hl\"/><hl>/</><Key axis=\"CameraY\" style=\"hl\"/> keys or with <Key action=\"ExecuteAction\" style=\"hl\"/> and Dragging": "ナビゲーション訓練シミュレータへようこそ。私はTUTOR、チュートリアル理解・トレーニング最適化ロボットです。ユニットをコントロールする方法をご案内します。まずは簡単なカメラ操作から。カメラを動かしましょう。\n\n<Key axis=\"CameraX\" style=\"hl\"/><hl>/</><Key axis=\"CameraY\" style=\"hl\"/>キーまたは<Key action=\"ExecuteAction\" style=\"hl\"/>を押しながら<hl>カメラを動かせます。</>",
 	"Great! You can also enhance the image or get a wider view of the surrounding area.\n\n<Key axis=\"CameraZoom\" style=\"hl\"/> will <hl>Zoom</> the camera.": "素晴らしい！また、画像を強調したり、周囲を広く見渡したりする事もできる。\n\n<Key axis=\"CameraZoom\" style=\"hl\"/>はカメラを<hl>ズームします。</>",
@@ -1358,7 +1358,7 @@
 	"Transfers Items from one unit to another": "あるユニットから別のユニットへのアイテムの移動",
 	"From Unit": "ユニットより",
 	"To Unit": "ユニットへ",
-	"Item": "項目",
+	"Item": "アイテム",  //OK
 	"Notification Behavior": "通知の動作",
 	"Notifies when the input register changes": "入力レジスタが変更されたときに通知",
 	"Notify Message": "メッセージの通知",
@@ -1495,7 +1495,7 @@
 	"frames": "フレーム",  //おそらく不要
 	"fx": "エフエックス",  //おそらく不要 SEの指定
 
-	"Assembler": "アセンブラ",  //OK
+	"Assembler": "アセンブラー",  //OK
 	"Main production facility for robotic components and robotic materials.": "ロボット部品とロボット材料の主要生産施設",
 	"Medium": "中間",  //おそらく不要
 
@@ -1528,7 +1528,7 @@
 //	"Missing ingredient":"",  他所で訳がある
 	"Manual": "マニュアル",  //おそらく不要
 	"Set Research": "研究する",  //仮
-	"Tech": "テック",  //おそらく不要  ウィンドウ名
+	"Tech": "研究",  //おそらく不要 ここではウィンドウ名   ただし他で使用している
 
 	"Repair Component": "修理コンポーネント",  //OK
 	"Allows repair of  damaged Frames": "損傷したフレームを修理する",  //仮  フレーム??
@@ -1593,7 +1593,7 @@
 	"Invalid Target": "無効な対象",
 	"No Target": "対象なし",
 	"Not in range to deconstruct": "解体範囲外",
-	"Cannot deconstruct Target": "ターゲットは分解できない",
+	"Cannot deconstruct Target": "ターゲットは解体できない",
 
 	"Reconstructor": "移設機",  //仮
 	"Allows deconstruction of a unit or building to be later reconstructed in a different location": "ユニットや建物を解体し、後で別の場所に移設する",  //仮
@@ -1617,7 +1617,7 @@
 	"Upgraded turret that fires a strong laser": "強力なレーザーを発射するタレット",  //OK
 
 	"Solar Cell": "ソーラーセル",  //OK
-	"Photovoltaic cell that supplies <hl>50</> power to your grid during daylight.": "日中 <hl>50</hl> の電力量を発電し電力網に供給する太陽光発電装置",  //OK
+	"Photovoltaic cell that supplies <hl>50</> power to your grid during daylight.": "日中 <hl>50</> の電力量を発電し電力網に供給する太陽光発電装置",  //OK
 	"Produce": "発電量",  //wind_turbine、blight_power でも使用 共通して発電装置
 	"green": "グリーン",  //おそらく不要 文字色指定
 	"red": "レッド",  //おそらく不要 文字色指定
@@ -1678,7 +1678,7 @@
 	"Radio Transmitter": "無線送信機",  //OK
 	"Allows remote transmission of logic to Receiver Components": "同じ通信帯域が指定されている無線受信機に情報の送信ができる",  //仮
 	"Band": "通信帯域",  //OK
-	"Value": "送信内容",  //OK
+	"Value": "内容",  //OK  複数箇所で使用されるので注意
 	"Radio Receiver": "無線受信機",  //OK
 	"Allows remote reception and modification of logic": "同じ通信帯域が指定されている無線送信機からの情報の受信ができる",  //仮
 	"Received Signal": "受信内容",  //OK
@@ -2215,10 +2215,10 @@
 	"STORE": "保管場所",
 	"Curious Bot": "好奇心旺盛なボット",
 	"garage": "ガレージ",
-	"Scout": "スカウト",
+	"Scout": "偵察ボット",  //仮
 	"Advanced high-speed starter bot with a single small socket": "小型ソケット1個を搭載した先進の高速スターターボット",
-	"Unit": "単位",
-	"Worker": "ワーカー・ボット",
+	"Unit": "ユニット",  //OK
+	"Worker": "作業ボット",  //仮
 	"Initial low-tech bots.  Mount a single small component and have a single inventory": "初期のローテク・ボット。  小さな部品を1つ搭載し、1つのインベントリを持つ。",
 	"Dashbot": "ダッシュボット",
 	"A faster upgrade to the worker bot with additional inventory": "インベントリ追加によるワーカー・ボットの高速アップグレード",
@@ -2227,7 +2227,7 @@
 	"Cub": "カブ",
 	"This bot is the first to mount a medium component": "このロボットは中型コンポーネントを初めて搭載した。",
 	"Dropped Item": "落下物",
-	"Construction": "建設",
+	"Construction": "建築中",  //仮
 	"Foundation": "基礎",
 	"The ground foundation that gives a 20% speed boost": "スピードを20％向上させる地盤",
 	"Human Foundation": "人間財団",
@@ -2314,148 +2314,198 @@
 	"OR": "または",
 
 	// FILE: Main/data/instructions.lua
-	"Behavior": "行動",
-	"Behavior exceeded loop recursion limit": "ループの再帰回数の上限を超えた動作",
-	"item": "項目",
+	"Behavior": "行動パターン",  //
+	"Behavior exceeded loop recursion limit": "ループの再帰回数の上限を超えた動作",  //仮
+	"item": "項目",  //おそらく不要 タブのid
 	"Invalid Instruction": "無効な命令",
-	"Instruction has been removed, behavior needs to be updated": "インストラクションは削除された。",
-	"Behavior exceeded call depth limit": "動作が呼の深さの制限を超えた",
-	"Flow": "フロー",
-	"Break called while not in loop": "ループ内でないときに呼ばれるブレーク",
-	"Break": "休憩",
-	"Break out of a loop": "ループからの脱却",
-	"Exit": "出口",
-	"Stops execution of the behavior": "動作の実行を停止する",
-	"Unlock": "ロック解除",
-	"Run as many instructions as possible. Use wait instructions to throttle execution.": "できるだけ多くの命令を実行する。待機命令を使って実行を絞る。",
-	"in": "で",
-	"Label": "ラベル",
+	"Instruction has been removed, behavior needs to be updated": "インストラクションは削除されたため、行動パターンの更新が必要",  //よく分からない ダミーらしい
+	"Behavior exceeded call depth limit": "行動パターンの命令の深さの制限を超えた",
+
+	"Flow": "フロー",  //OK  カテゴリ
+	"Break called while not in loop": "ループ内以外でBreak",  //仮 エラーの意味は分かるが再現できない??
+	"Break": "ブレイク",  //OK
+	"Break out of a loop": "ループからBreakする",  //OK 一般的なプログラム用語なので英語のまま
+	"Exit": "プログラム終了",  //OK
+	"Stops execution of the behavior": "行動パターンプログラムを停止する",
+	"Unlock": "ロック解除",  //??? state.limit = 1000   なんのロックを解除するのかが分からない Wikiにも記載なし
+	"Run as many instructions as possible. Use wait instructions to throttle execution.": "できるだけ多くの命令を実行する。待機命令を使って実行を調整する",
+
+	"in": "in",  //おそらく不要 パラメータ
+	"Label": "ラベル",  //OK
 	"Label identifier": "ラベル識別子",
-	"any": "いずれも",
+	"any": "any",  //おそらく不要 パラメータ
 	"Labels can be jumped to from anywhere in a behavior": "ラベルは行動のどこからでもジャンプできる",
-	"label": "ラベル",
-	"Jump": "ジャンプ",
-	"Jumps execution to label with the same label id": "同じラベル ID を持つラベルに実行を移す",
-	"Time": "時間",
-	"Number of ticks to wait": "待機ティック数",
-	"num": "番号",
-	"Wait Ticks": "ダニ待ち",
-	"Pauses execution of the behavior until 1 or more ticks later": "1ティック以上後まで動作の実行を一時停止する",
-	"If Equal": "等しい場合",
-	"Where to continue if the types are the same": "タイプが同じ場合、どこで続けるか",
-	"exec": "エグゼック",
-	"If Different": "異なる場合",
-	"Where to continue if the types differ": "タイプが異なる場合、どこで続けるか",
-	"Value 1": "価値 1",
-	"Value 2": "バリュー2",
-	"Compare Item": "比較項目",
-	"Compares Item or Unit type": "アイテムまたはユニットタイプを比較",
-	"Where to continue if the entities are the same": "事業体が同じ場合、どこで継続するか",
-	"Where to continue if the entities differ": "事業体が異なる場合、どこで継続するか",
-	"Entity 1": "エンティティ1",
-	"Entity 2": "エンティティ2",
-	"Compare Entity": "エンティティ比較",
-	"Compares Entities": "エンティティの比較",
-	"Data": "データ",
-	"Data to test": "テスト用データ",
-	"Item Type": "アイテムタイプ",
-	"Unit Type": "ユニット・タイプ",
-	"Component": "コンポーネント",
-	"Component Type": "コンポーネント・タイプ",
-	"Tech Type": "技術タイプ",
-	"Information Value Type": "情報価値タイプ",
-	"Coord": "調整", // <TRANSLATION>
-	"Coordinate Value Type": "座標値の種類", // <TRANSLATION>
-	"Data type switch": "データ型スイッチ",
-	"Switch based on type of value": "値の種類に応じて切り替える",
-	"out": "アウト",
-	"The first locked item id with no item": "アイテムがなく、最初にロックされたアイテムID",
-	"Get First Locked Id": "最初のロックされたIDを取得",
-	"Gets the first item where the locked slot exists but there is no item in it": "ロックされたスロットが存在するが、そこにアイテムがない場合に最初のアイテムを取得する",
-	"No Unit": "ユニット無し",
+	"label": "ラベル",  //おそらく不要 識別子
+
+	"Jump": "ジャンプ",  //OK
+	"Jumps execution to label with the same label id": "指定されたラベルに Jump する。\n※ラベルが存在しない等の場合は後続処理に進む",
+
+	"Time": "時間",  //OK
+	"Number of ticks to wait": "Wait する時間\n※'時間'はゲーム内の最小処理単位時間で'秒'など具体的な時間単位ではない",  //OK 一般的なプログラム用語なので英語のまま
+	"num": "番号",  //おそらく不要
+	"Wait Ticks": "ウェイト",  //OK  Tickは時間を意味するがここでは省略
+	"Pauses execution of the behavior until 1 or more ticks later": "指定された時間を Wait する",
+
+	"If Equal": "等しい場合",  //OK
+	"Where to continue if the types are the same": "アイテムのタイプが同じ場合",  //OK
+	"exec": "",  //おそらく不要
+	"If Different": "異なる場合",  //OK
+	"Where to continue if the types differ": "アイテムのタイプが異なる場合",  //OK
+	"Value 1": "比較対象アイテム 1",  //OK  あえて比較対象に
+	"Value 2": "比較対象 2",  //OK  あえて比較対象に
+	"Compare Item": "等価比較 (タイプ)",  //OK
+	"Compares Item or Unit type": "2つのアイテムを比較し、タイプが同じかどうかの判定をする",//  \n※'タイプ'とは資源やユニット等の'種別'を指す",  //仮
+
+	"Where to continue if the entities are the same": "エンティティが同じ場合",  //OK
+	"Where to continue if the entities differ": "エンティティが異なる場合",  //OK
+	"Entity 1": "比較対象 1",  //OK  あえて比較対象に
+	"Entity 2": "比較対象 2",  //OK  あえて比較対象に
+	"Compare Entity": "等価比較 (エンティティ)",  //OK  Compare Entity
+	"Compares Entities": "2つのアイテムを比較し、実体そのものが同じものを指しているかを判定をする\n※例えば'金属鉱石'という種別は同じでも指定された実体そのものが異なる場合は不一致となる",
+
+	"Is a": "Is-a",
+	"Compares if an item of entity is of a specific type": "エンティティが特定のタイプであるかを判定する",  //OK  'タイプ'にエンティティを指定すると不一致になった
+	"Type":"タイプ",
+
+	"Get Type": "タイプの取得",
+	"Gets the type from an item or entity": "アイテムまたはエンティティのタイプを取得する",
+	"Item/Entity":"アイテム/エンティティ",
+
+	"Data": "確認対象",  //OK
+	"Data to test": "確認対象", //OK
+	"Item Type": "アイテムタイプ", //OK
+	"Unit Type": "ユニットタイプ", //OK
+	"Component": "コンポーネント", //OK
+	"Component Type": "コンポーネントタイプ", //OK
+	//"Tech": "研究", //重複 他所に記載がある
+	"Tech Type": "研究タイプ", //OK
+	//"Value": "", //重複 他所に記載がある
+	"Information Value Type": "インフォメーションタイプ", //仮  インフォメーション
+	"Coord": "座標", //OK
+	"Coordinate Value Type": "座標タイプ", //OK
+	"Data type switch": "タイプで分岐", //OK
+	"Switch based on type of value": "指定されたアイテムやエンティティのタイプに応じて処理を分岐する",  //OK
+
+	"out": "out",  //おそらく不要
+	"The first locked item id with no item": "ロックされたスロットにアイテムがない状態のアイテム\n複数ある場合は最初のアイテム", //OK
+	"Get First Locked Id": "ロックされているが空のアイテムを取得", //OK
+	"Gets the first item where the locked slot exists but there is no item in it":
+	  "ロックされたスロットにアイテムがない状態のアイテムを取得する。複数ある場合は最初のアイテムを取得する",   //OK
+
+	"No Unit": "ユニット無し",  //OK
 	"No visible unit passed": "目に見えるユニットが通過していない",
-	"The unit to check for (if not self)": "チェックするユニット（自己でない場合）",
-	"The unit to check": "チェックするユニット",
-	"Building": "建物",
-	"Where to continue if the entity is a building": "事業体が建物の場合、どこで継続するか",
-	"Bot": "ボット",
-	"Where to continue if the entity is a bot": "エンティティがボットである場合の続行先",
-	"Where to continue if the entity is a construction site": "事業主体が建設現場の場合、どこで継続するか",
-	"Divert program depending on unit type": "ユニットタイプに応じてプログラムを変更",
-	"A is nearer (or equal)": "Aは近い（または等しい）",
-	"B is nearer": "Bの方が近い",
-	"Unit A": "ユニットA",
-	"Unit B": "ユニットB",
-	"Closest": "最も近い",
-	"Closest unit": "最も近いユニット",
-	"Select Nearest": "最寄りを選択",
-	"Branches based on which unit is closer, optional branches for closer unit": "どちらのユニットに近いかによって分岐。",
-	"Range": "レンジ",
-	"Range (up to units visibility range)": "範囲（視認範囲単位まで）",
-	"Filter": "フィルター",
-	"Filter to check": "チェックするフィルター",
-	"Second Filter": "セカンドフィルター",
-	"Third Filter": "サードフィルター",
-	"Entity": "エンティティ",
-	"Current Entity": "現在の事業体",
-	"Done": "完了",
-	"Finished looping through all entities in range": "範囲内のすべてのエンティティのループを終了",
-	"Loop Entities (Range)": "ループエンティティ（範囲）",
-	"Performs code for all entities in range": "範囲内のすべてのエンティティに対してコードを実行する",
-	"Performs code for all entities in visibility range of the unit": "ユニットの可視範囲内にあるすべてのエンティティのコードを実行する",
-	"Researchable Tech": "研究可能な技術", // <TRANSLATION>
-	"Loop Research": "循環研究", // <TRANSLATION>
-	"Performs code for all researchable tech": "すべての研究可能な技術に対して解析を行う", // <TRANSLATION>
-	"First active research": "最初の積極的な研究", // <TRANSLATION>
-	"Get Research": "研究を獲得する", // <TRANSLATION>
-	"Returns the first active research tech": "最初の有効な研究技術を戻す。", // <TRANSLATION>
-	"Tech to remove from research queue": "研究キューから削除する技術", // <TRANSLATION>
-	"Clear Research": "明確な調査", // <TRANSLATION>
-	"Clears a research from queue, or entire queue if no tech passed": "キューから研究を取り除く。", // <TRANSLATION>
-	"Where to continue if the numerical values are the same": "数値が同じ場合、どこで続けるか",
-	"If Larger": "より大きい場合",
-	"Where to continue if Value is larger than Compare": "値がCompareより大きい場合、どこで続けるか",
-	"If Smaller": "小さい場合",
-	"Where to continue if Value is smaller than Compare": "値がCompareより小さい場合、どこで続けるか",
-	"The value to check with": "でチェックする値。",
-	"Compare": "比較する",
-	"The number to check against": "照合する番号",
-	"Compare Number": "比較番号",
-	"Divert program depending on number of Value and Compare": "バリューとコンペアーの数に応じてプログラムを変更する",
-	"Math": "数学",
-	"Target": "ターゲット",
-	"Copy": "コピー",
-	"Copy a value to a frame register, parameter or variable": "フレーム・レジスタ、パラメータ、変数に値をコピーする。",
-	"Component/Index": "コンポーネント/インデックス",
-	"Component and register number to set": "設定するコンポーネントとレジスタ番号",
-	"Set to Component": "コンポーネントへコピー",
-	"Writes a value into a component register": "値をコンポーネント・レジスタにコピーする。",
-	"Get from Component": "コンポーネントからの取得", // <TRANSLATION>
-	"Reads a value from a component register": "コンポーネント・レジスタから値を読み出す", // <TRANSLATION>
-	"Number": "番号",
-	"To": "へ",
-	"Set Number": "セット番号",
-	"Sets the numerical part of a value": "値の数値部分を設定する",
-	"Sets the numerical/coordinate part of a value": "値の数値/座標部分を設定する",
-	"From": "より",
-	"Num": "ヌム",
-	"Add": "追加",
-	"Adds an number to another number": "数値を別の数値に加える",
-	"Subtract": "引く",
-	"Subtracts a number from another number": "別の数値から数値を引く",
-	"Multiply": "乗算",
-	"Multiplies a number by another number": "ある数値に別の数値を掛ける",
-	"Divide": "分割する",
-	"Divides a number by another number": "数値を別の数値で割る",
+	"The unit to check for (if not self)": "チェックするユニット（自己でない場合）",  //Unit Typeでは使用しないが他所で使用する
+	"The unit to check": "チェックするエンティティ",  //OK あえてエンティティ
+	"Building": "建物",  //仮  表記ゆれしている  建物 ビル 建築物
+	"Where to continue if the entity is a building": "エンティティが建物の場合",  //仮  表記ゆれしている 
+	"Bot": "ボット",  //OK
+	"Where to continue if the entity is a bot": "エンティティがボットの場合",  //OK
+	// "Construction":"",//重複
+	"Where to continue if the entity is a construction site": "エンティティが建設中の場合",  //OK
+	// "Unit Type": "ユニットタイプ", //重複
+	"Divert program depending on unit type": "指定されたエンティティのユニットタイプに応じて処理を分岐する",  //OK
+
+	"A is nearer (or equal)": "A の方が近い(または自ユニットと同エンティティ)場合",  //OK
+	"B is nearer": "B の方が近い場合",
+	"Unit A": "比較対象 A",  //OK  あえて比較対象に
+	"Unit B": "比較対象 B",  //OK  あえて比較対象に
+	"Closest": "近い方のユニット",  //OK
+	"Closest unit": "近い方のユニット",  //OK
+	"Select Nearest": "距離を比較",  //OK
+	"Branches based on which unit is closer, optional branches for closer unit": "2つのユニットにおける自ユニットからの距離を比較し、近い方を取得する",  //OK
+
+	"Range": "範囲",  //仮  分かりづらいが他でも訳を使っているので変えられない
+	"Range (up to units visibility range)": "ループ対象となるエンティティの条件",
+	"Filter": "フィルター",  //OK
+	"Filter to check": "フィルター1",  //OK
+	"Second Filter": "フィルター2",  //OK
+	"Third Filter": "フィルター3",  //OK
+	"Entity": "エンティティ",  //OK
+	"Current Entity": "ループ処理中の対象エンティティ",  //OK
+	"Done": "ループ完了の場合",  //OK 他で使われていないことを確認
+	"Finished looping through all entities in range": "ループ終了の場合",
+	"Loop Entities (Range)": "ループ (エンティティ)",  //OK
+	// "Performs code for all entities in range": "範囲内のすべてのエンティティに対してコードを実行する",  英文が存在せず
+	"Performs code for all entities in visibility range of the unit":
+	  "条件を満たすエンティティに対して、処理をループ(繰り返し)で実行する\nただしエンティティは可視範囲内にあるものに限る\nまたフィルターはすべて満たしたエンティティがループの対象となる",  //OK
+
+	"Researchable Tech": "ループ処理中の対象研究",  //OK
+	"Loop Research": "ループ (開始可能な研究)",  //OK
+	"Performs code for all researchable tech": "研究のうち、開始可能な研究(進行中のもの含む)に対して処理をループ(繰り返し)で実行する",  //OK
+
+	"First active research": "進行中の研究", //仮  First とあるが、複数同時に研究はできないはず
+	"Get Research": "進行中の研究を取得", //OK  '進行中'でよい??
+	"Returns the first active research tech": "進行中の研究を取得する",
+
+	// "Set Research": "研究する",  //重複 変えられない
+	//説明文、パラメータ類は Get Research と同じ 誤植と思われる
+
+	"Tech to remove from research queue": "研究キューから削除する研究",  //  '削除' 研究の画面と用語は同じ
+	"Clear Research": "研究キューから削除",  //OK
+	"Clears a research from queue, or entire queue if no tech passed":
+	  "指定の研究を研究キューから削除する。対象の研究が指定されなかった場合は、キュー全体をクリアする", //  OK
+
+	"Where to continue if the numerical values are the same": "内容が比較対象が等しい場合",  //仮 '内容'は変えられない
+	"If Larger": "大きい場合",  //OK
+	"Where to continue if Value is larger than Compare": "内容が比較対象より大きい場合",  //仮 '内容'は変えられない
+	"If Smaller": "小さい場合",  //OK
+	"Where to continue if Value is smaller than Compare": "内容が比較対象より小さい場合",  //仮 '内容'は変えられない
+	"The value to check with": "比較の基準となる数値",  //OK
+	"Compare": "比較対象",  //仮  ここでしか使われていない
+	"The number to check against": "比較対象となる数値",  //OK
+	"Compare Number": "比較 (数値)",  //OK
+	"Divert program depending on number of Value and Compare": "2つの値を数値で比較し、大小の判定をする",  //OK
+	"Math": "数値計算",  //OK  カテゴリ名
+
+	"Target": "ターゲット",  //仮
+	"Copy": "内容をコピー",  //仮
+	"Copy a value to a frame register, parameter or variable": "レジスタ、パラメータ、変数などの内容を、レジスタや変数にコピーする",  //OK
+
+	"Component/Index": "コンポーネント/\nレジスタ番号",  //OK
+	"Component and register number to set":
+	  "値を設定する対象のコンポーネントを指定する。ここでの'数量'がレジスタ番号となる\n※例:「ポータブルレーダー 2」を指定した場合、装備しているポータブルレーダーの左から2番目のレジスタが対象となる",  //OK
+	"Set to Component": "コンポーネントの設定",  //OK
+	"Writes a value into a component register": "装備しているコンポーネントのレジスタに値を設定する。ただし同じコンポーネントを複数個装備している場合は、一番上にものが対象となる",  //OK
+
+	"Get from Component": "コンポーネンから取得",  //OK
+	"Reads a value from a component register": "装備しているコンポーネントのレジスタに値を取得する。ただし同じコンポーネントを複数個装備している場合は、一番上にものが対象となる",  //OK
+
+	"Number": "数値",  //OK 他所で使用される
+	"To": "To",  //仮  他所で使用される
+	"Set Number": "数値を設定",  //OK
+	// "Sets the numerical part of a value": "値の数値部分を設定する",  使用されていない
+	"Sets the numerical/coordinate part of a value":
+	  "任意の対象の数値部分を変更した内容を指定のレジスタまたは変数に代入する\nもしくは座標と数値の内容を指定のレジスタまたは変数に設定する",  //仮
+
+	"From": "演算対象",  //OK 他所で使われていない
+	"Num": "数値",  //OK 他所で使用される
+	"Add": "加算",  //OK
+	// "Adds an number to another number": "2つの数値の加算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
+  "Adds a number or coordinate to another number or coordinate":"2つの数値または座標の加算の結果を、指定のレジスタまたは変数に設定する",  //OK
+
+	"Subtract": "減算",  //OK
+	// "Subtracts a number from another number": "2つの数値の減算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
+  "Subtracts a number or coordinate from another number or coordinate":"2つの数値または座標の減算の結果を、指定のレジスタまたは変数に設定する",  //OK
+
+	"Multiply": "xxxx 乗算",  //OK
+	// "Multiplies a number by another number": "2つの数値の乗算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
+  "Multiplies a number or coordinate from another number or coordinate":"2つの数値または座標の乗算の結果を、指定のレジスタまたは変数に設定する",  //OK
+
+	"Divide": "xxxx 除算",  //OK
+	// "Divides a number by another number": "2つの数値の除算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
+  "Divides a number or coordinate from another number or coordinate":"2つの数値または座標の除算の結果を、指定のレジスタまたは変数に設定する",  //OK
+
 	"Item to check can fit": "適合確認項目",
 	"Number of a specific item that can fit on a unit": "ユニットに搭載可能な特定アイテムの数",
-	"Get space for item": "アイテムのスペースを確保する",
+	"Get space for item": "必要インベントリ数の取得",  //仮
 	"Returns how many of the input item can fit in the inventory": "入力されたアイテムが在庫に入る数を返します。",
-	"Can't Fit": "フィットしない",
-	"Execution if it can't fit the item": "アイテムが入らない場合の実行",
+
+	"Can't Fit": "フィットしない場合",
+	"Execution if it can't fit the item": "アイテムが入らない場合",
 	"Item and amount to check can fit": "適合確認項目と金額",
-	"Check space for item": "チェック・スペース",
+	"Check space for item": "空インベントリの確認",  //仮
 	"Checks if free space is available for an item and amount": "アイテムに空き容量があるかどうか、またその量をチェックする。",
+
 	"Entity to check": "調査対象", // <TRANSLATION>
 	"Percent": "％", // <TRANSLATION>
 	"Percentage of health remaining": "健康維持率", // <TRANSLATION>
@@ -2676,6 +2726,8 @@
 	"Places a construction site for a specific structure": "特定の建造物の建設場所を指定する",
 	"Print Value": "プリント値",
 	"Debug print to log": "ログへのデバッグ出力",
+
+
 
 	// FILE: Main/data/items.lua
 	"Metal Ore": "金属鉱石",  //OK
@@ -3028,7 +3080,7 @@
 	"Cyan": "シアン",
 	"Magenta": "マゼンタ",
 	"Owned": "所有",
-	"World": "世界",
+	"World": "ワールド",  //
 	"Mineable": "採掘可能",
 	"Not Blight": "ブライトではない",
 	"Robot": "ロボット",
