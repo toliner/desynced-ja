@@ -776,7 +776,7 @@
 	"Other Construction": "その他の建設",
 	"Goto": "目的地",
 	"<header>Goto</>\n<Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/> to Queue\n\nMove to this Object or Location and attempt to <hl>Interact</>.": "<header>目的地</>\n<Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n<hl>Shift+</><Key action=\"ExecuteAction\" style=\"hl\"/>からキューへ\n\nこのオブジェクトまたは場所に移動し、<hl>対話を試みる</>。",
-	"Store": "保管場所",
+	"Store": "転送",
 	"<header>Store</>\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/> or <hl>Drag</>\n\nSet to an owned <hl>unit</> or <hl>building</>, it will transfer\nits inventory when possible.\n\nCheck the <hl>Automation</> Codex entry for more information.": "<header>保管場所</>\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>\n\n所有する<hl>ユニット</>または<hl>ビルに</>設定すると、そのユニットまたはビルに転送されます。\n可能な限り在庫を確保する。\n\n<hl>詳しくはAutomation </>Codexをご覧ください。",
 	"Visual": "視覚",
 	"<header>Visual</>\n\nShown in the game world, useful to link to production\nby dragging from the <hl>Production</> to the <hl>Visual</>\n\nChange visibility with <Key action=\"MapOverlay\" style=\"hl\"/>": "<header>視覚</>\n\nゲームの世界に映し出され、生産と結びつけるのに役立つ\n<hl>製造</>から<hl>視覚</>にドラッグする。\n\n<Key action=\"MapOverlay\" style=\"hl\"/>で可視化を変更",
