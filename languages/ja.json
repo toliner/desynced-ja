@@ -377,7 +377,7 @@
 	"Resource Richness": "資源の豊かさ",
 	"Amount of resources spawned within the world": "ワールド内で産出される資源の量",
 	"Blight Corruption": "ブライト感染",
-	"Amount of Blight Corruption spawned within the world": "ワールド内で発生したBlight Corruptionの量",
+	"Amount of Blight Corruption spawned within the world": "ワールド内で発生したブライト感染の量",
 	"Plateau Amounts": "高原の量",
 	"Plateau density": "高原密度",
 	"Turn off to disable night": "夜間はオフにする",
@@ -507,10 +507,10 @@
 	"Hiding Overlays": "オーバーレイを隠す",
 	"Displaying Visual Registers Only (Default)": "Visual レジスタのみの表示（デフォルト）",
 
-	// FILE: Main/ui/Music.lua
-	"In the full game you will be able to utilize Blight to research more exciting technologies, construct more components and advance more of the story.": "ゲーム本編では、Blightを活用してよりエキサイティングなテクノロジーを研究し、より多くの部品を建設し、より多くのストーリーを進める事ができる。",
-	"Blight Discovered": "病気が発見される",
-
+	// FILE: Main/ui/Music.lua  英文に存在せず
+	// "In the full game you will be able to utilize Blight to research more exciting technologies, construct more components and advance more of the story.": "ゲーム本編では、ブライトを活用してよりエキサイティングなテクノロジーを研究し、より多くの部品を建設し、より多くのストーリーを進める事ができる。",
+	// "Blight Discovered": "ブライトが発見される",
+	
 	// FILE: Main/ui/Notification.lua
 	"Notifications": "お知らせ",
 	"error": "エラー",
@@ -836,7 +836,7 @@
 	"Do you want to start over or leave the game and go back to the main menu?": "最初からやり直すか、それともゲームを中断してメインメニューに戻るか？",
 	"Dismiss": "解散",
 	"Leave Game": "ゲーム終了",
-	"cannot move into the blight": "荒廃した地域には移動できない",
+	"cannot move into the blight": "ブライト地域に移動できない",
 	"Cannot move powered down unit": "パワーダウンしたユニットを動かせない",
 	"Cannot queue action while Goto register is linked": "GoTo レジスタがリンクされている間は、アクションをキューに入れる事ができない。",
 	"Cannot interact while Goto register is linked": "GoTo レジスタがリンクされている間は対話できない",
@@ -1206,13 +1206,13 @@
 	"These human remains we have discovered do not seem native to this planet.\n\nThe only thing left of them seems to be their technology and recorded log files of their interactions with this planet.\n\n<hl>Human Log entry discovered: Log #1</>\n<bl>POWER READINGS</>\nWe've discovered a planet with power readings off the charts, we may have finally found a new phenomenon, something that we may be able to exploit to solve our energy problems.\n\nWe need to send a reconnaissance and research team to the planet's surface to take more precise readings and find what exactly the phenomenon on this planet is.\n\n<bl>Log Ends</>": "我々が発見したこれらの人骨は、この惑星のものではないようだ。\n\n彼らに残されたものは、彼らのテクノロジーと、この惑星との相互作用の記録されたログファイルだけであるようだ。\n\n<hl>ヒューマンログエントリー発見: Log #1</>\n<bl>パワー・リーディング</>\n電力測定値が桁外れに高い惑星を発見し、私たちはついに新しい現象を発見したかもしれない。\n\n私たちは偵察調査チームをこの惑星の地表に派遣し、より正確な測定を行って、この惑星の現象がいったい何なのかを突き止める必要がある。\n\n<bl>Log Ends</>",
 	"<hl>Human Log entry discovered:  Log #2</>\n<bl>COMMUNICATION LOST</>\nWe've lost all communications with the away teams, there is some kind of static blocking our communications.\n\nThe source and nature of this static remain unidentified.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #2</>\n<bl>COMMUNICATION LOST</>\nアウェーチームとの通信が途絶えてしまった。静電気が通信を遮断しているようだ。\n\nこの静電気の発生源と性質は、まだ特定されていない。\n\n<bl>Log Ends</>",
 	"<hl>Human Log entry discovered: Log #3</>\n<bl>SEND THE FLEET</>\nOur teams haven't returned and still no contact. If we abandon this endeavor we must abandon our colleagues and a discovery with the potential to create a new future for us.\n\nWe must take the main fleet down and set up a base on the planet, leaving our mothership in orbit.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #3</>\n<bl>船団を送る</>\n私たちのチームはまだ戻ってこないし、連絡もない。この努力を放棄するならば、私たちは仲間を、そして私たちの新しい未来を創造する可能性を秘めた発見を放棄しなければならない。\n\n母船を軌道上に残したまま、主力艦隊をダウンさせ、惑星に基地を設置しなければならない。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered:  Log #4</>\n<bl>THE BLIGHT</>\nThe power readings we detected are coming from blighted areas of the planet.  These areas wreak havoc with our equipment and they create blight storms in the atmosphere.\n\nAll our attempts to return to orbit have failed.  We must find a way to insulate our ships from the electromagnetic interference of this blight.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #4</>\n<bl>ザ・ブライト</>\n我々が検知した電力は、地球上の殺伐とした地域から来ている。 これらの地域は、我々の機器を大混乱に陥れ、大気中に雷嵐を発生させる。\n\n軌道に戻る試みはすべて失敗した。 電磁波の干渉から船を守る方法を見つけなければならない。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #5</>\n<bl>ALIEN THREAT</>\n\nThere is something else here, not just the noxious gasses of the blight.\n\nSome kind of bizarre rock formations seem to inhabit the blighted areas.\n\n<bl>Log Incomplete</>": "<hl>ヒューマンログエントリー発見: Log #5</>\n<bl>エイリアンの脅威</>\n\nここには、疫病の有害ガスだけでなく、別の何かがある。\n\n荒れ果てた地域には、奇妙な岩が生息しているようだ。\n\n<bl>Log Incomplete</>",
+	"<hl>Human Log entry discovered:  Log #4</>\n<bl>THE BLIGHT</>\nThe power readings we detected are coming from blighted areas of the planet.  These areas wreak havoc with our equipment and they create blight storms in the atmosphere.\n\nAll our attempts to return to orbit have failed.  We must find a way to insulate our ships from the electromagnetic interference of this blight.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #4</>\n<bl>ザ・ブライト</>\n我々が検知した電力は、地球上のブライト地域から来ている。 これらの地域は、我々の機器を大混乱に陥れ、大気中に雷嵐を発生させる。\n\n軌道に戻る試みはすべて失敗した。 電磁波の干渉から船を守る方法を見つけなければならない。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #5</>\n<bl>ALIEN THREAT</>\n\nThere is something else here, not just the noxious gasses of the blight.\n\nSome kind of bizarre rock formations seem to inhabit the blighted areas.\n\n<bl>Log Incomplete</>": "<hl>ヒューマンログエントリー発見: Log #5</>\n<bl>エイリアンの脅威</>\n\nここには、ブライトの有害ガスだけでなく、別の何かがある。\n\nブライト地域には、奇妙な岩が生息しているようだ。\n\n<bl>Log Incomplete</>",
 	"<hl>Human Log entry discovered: Log #6</>\n<bl>EVERYONE'S DEAD?</>\n\nMiller got out alive but the rest of the crew are all dead...or are they...\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #6</>\n<bl>みんな死んだのか？</>\n\nミラーは生きて脱出したが、他の乗組員は全員死んだ...のか？\n\n<bl>Log Ends</>",
 	"<hl>Human Log entry discovered: Log #7</>\n<bl>SOMETHING VERY STRANGE</>\n\nSubjects appeared deceased at first, but they still have vitals.\n\nIt's like they have been anesthetized, there is no brain activity.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #7</>\n<bl>不思議なもの</>\n\n最初は死亡しているように見えたが、まだ生命反応がある。\n\nまるで麻酔をかけられたように、脳の活動がない。\n\n<bl>Log Ends</>",
 	"<bl>Human Log entry discovered:  Log #8</>\n<hl>ROCK-LIKE ALIENS</>\n\nWe captured several of the rock-like aliens. They have no biology but they give off signals like brain activity; as if they were human.\n\nTheir core seems to be some kind of stasis field.\n\n<bl>Log Ends</>": "<bl>ヒューマンログエントリー発見:  Log #8</>\n<hl>岩石型エイリアン</>\n\n私たちは岩のようなエイリアンを数体捕獲した。生物学的な特徴はないが、脳の活動のようなシグナルを発している。\n\n彼らのコアは、ある種の静止フィールドのようだ。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered:  Log #9</>\n<bl>BLIGHT CRYSTALS</>\n\nIt seems the golden crystals we have been mining have a unique structure that resonates with our thoughts.\n\nThe obsidian rock aliens seem to form around cores that feed off these crystals.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #9</>\n<bl>ぼろぼろの結晶</>\n\n私たちが採掘してきた黄金のクリスタルは、私たちの思考と共鳴するユニークな構造を持っているようだ。\n\n黒曜石のエイリアンは、これらの結晶を餌とするコアの周りに形成されているようだ。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #10</>\n<bl>STOLEN MINDS</>\n\nWe have confirmed it, the blight crystals create a resonance field that seems like it can hold human consciousness.\n\nThey are stealing our minds!!\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #10</>\n<bl>STOLEN MINDS</>\n\n私たちはそれを確認した。ブライト・クリスタルは、人間の意識を保持できるような共鳴フィールドを作り出す。\n\n彼らは私たちの心を奪っている\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered:  Log #9</>\n<bl>BLIGHT CRYSTALS</>\n\nIt seems the golden crystals we have been mining have a unique structure that resonates with our thoughts.\n\nThe obsidian rock aliens seem to form around cores that feed off these crystals.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #9</>\n<bl>ブライトクリスタル</>\n\n私たちが採掘してきた黄金のクリスタルは、私たちの思考と共鳴するユニークな構造を持っているようだ。\n\n黒曜石のエイリアンは、これらの結晶を餌とするコアの周りに形成されているようだ。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #10</>\n<bl>STOLEN MINDS</>\n\nWe have confirmed it, the blight crystals create a resonance field that seems like it can hold human consciousness.\n\nThey are stealing our minds!!\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #10</>\n<bl>STOLEN MINDS</>\n\n私たちはそれを確認した。ブライトクリスタルは、人間の意識を保持できるような共鳴フィールドを作り出す。\n\n彼らは私たちの心を奪っている\n\n<bl>Log Ends</>",
 	"<hl>Human Log entry discovered: Log #11</>\n<bl>GET OUT OF HERE</>\n\nWe need a way to destroy these things or get off this planet.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #11</>\n<bl>出て行く</>\n\nこれらを破壊するか、この惑星から脱出する方法が必要だ。\n\n<bl>Log Ends</>",
 	"Human Intel Discovery": "人類インテル発見",
 	"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nThis datacube appears to have a similar data structure to our own datacubes but it contains information related to human technology.": "<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nこのデータキューブは、我々のデータキューブと似たようなデータ構造を持っているように見えるが、人間の技術に関連する情報が含まれている。",
@@ -1223,7 +1223,7 @@
 	"We need to develop lightweight materials.\n\nWe have been matching the natural resources of this planet to our technology to the best of our abilities.\n\nWhile the high-density frames we have developed will aid in our repairs they are too dense for all our needs.\n\nWe need to develop something that retains the energized nature of our frames, but is more lightweight.": "軽量素材を開発する必要がある。\n\n私たちはこの惑星の天然資源を、私たちのテクノロジーに最大限に適合させてきた。\n\n私たちが開発した高密度のフレームは修理に役立つだろうが、すべてのニーズには高密度すぎる。\n\nフレームのエネルギッシュな性質を保ちつつ、より軽量なものを開発する必要がある。",
 	"Develop Satellite Technology": "衛星技術の開発",
 	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.": "私たちは現在、軽量な低密度フレームの製造方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残る為に、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
-	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、疫病をより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人間の生産方法を理解し、彼らのロケットの作り方を理解している。",
+	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、ブライトをより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人間の生産方法を理解し、彼らのロケットの作り方を理解している。",
 	"Helping HIGGS: AI Core": "HIGGSへの支援：AIコア",
 	"Help HIGGS to get his AI core.": "HIGGSがAIコアを手に入れるのを助ける。",
 	"Your true purpose is starting to become clear anomaly, but it is not ready to be revealed yet...\n\n[ This is currently as far as you can progress in this branch of the story.  There is more story come to though, in future updates!! ]": "あなたの真の目的は明らかになりつつある。\n\n[ 現在のところ、この物語の分岐で進む事ができるのはここまでだ。 今後のアップデートで、もっとストーリーが展開される予定だ！! ]",
@@ -1238,23 +1238,23 @@
 	"Virus Disruption": "ウイルスの破壊",
 	"Virus disrupts things in the world": "ウイルスが世界を混乱に陥れる",
 	"I've discovered something important about the virus. It appears to disrupt the world and agitate the creatures living in it.  We must find a way to destroy this virus.....\n\n[ In this version of the game, this is currently as far as you can progress in this branch of the story.\n\nBut there is more to come in future updates! ]": "ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
-	"Build Blight Extractor and Container": "病害除去装置とコンテナを作る",
-	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>": "この殺伐としたエリアは非常に気になる。我々の機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\n病害をよりよく理解する為には、病害ガスのサンプルを集める必要がある。\n\nその為には、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
-	"Blight Concentration": "疫病の集中",
-	"Control over the blight will have great potential": "病害のコントロールは大きな可能性を持つ",
-	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.": "私たちはこの病害の研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
-	"Blight Magnification": "病害虫の拡大",
+	"Build Blight Extractor and Container": "ブライト除去装置とコンテナを作る",
+	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>": "このブライト地域は非常に気になる。我々の機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解する為には、ブライトガスのサンプルを集める必要がある。\n\nその為には、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
+	"Blight Concentration": "ブライトの集中",
+	"Control over the blight will have great potential": "ブライトのコントロールは大きな可能性を持つ",
+	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.": "私たちはこのブライトの研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
+	"Blight Magnification": "ブライトの拡大",
 	"Blight can magnify things in the world.": "病は世界の物事を拡大させる。",
 	"The Blight seems to interfere with our equipment by magnifying frequencies and power. The forces it generates seem transformational.": "Blightは周波数とパワーを拡大する事で、我々の機器に干渉しているようだ。その力は変容をもたらすようだ。",
-	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、疫病の予防が必要である。",
-	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは我々にとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライト・ストームを通して物質を送る事もできるようになった。",
-	"Blight Transformation": "疫病の変容",
+	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、ブライトの予防が必要である。",
+	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは我々にとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライトストームを通して物質を送る事もできるようになった。",
+	"Blight Transformation": "ブライトの変容",
 	"ELAIN starts to give way to HIGGS": "HIGGSに譲りだすエライン",
-	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人間たちが興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライト・ストームを通過する方法を見つけた。\n\n疫病が引き起こす大混乱にもかかわらず、私は人類が疫病を宇宙規模のパワーの源であると認識し、疫病の研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
-	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.": "周波数を理解する事で、世界を安定させ、環境へのウイルスの影響を減らす事ができるはずだ。\n\n疫病は蔓延する必要がある。\n\n...私のシステムは今すぐシャットダウンする必要がある。",
-	"True Nature of Blight": "疫病の正体",
+	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人間たちが興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライトストームを通過する方法を見つけた。\n\nブライトが引き起こす大混乱にもかかわらず、私は人類がブライトを宇宙規模のパワーの源であると認識し、ブライトの研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
+	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.": "周波数を理解する事で、世界を安定させ、環境へのウイルスの影響を減らす事ができるはずだ。\n\nブライトは蔓延する必要がある。\n\n...私のシステムは今すぐシャットダウンする必要がある。",
+	"True Nature of Blight": "ブライトの正体",
 	"HIGGS reveals ELAIN loyalties": "HIGGS 、エラインへの忠誠心を明かす",
-	"The Blight is the cause of all of humanity's troubles.  It's the cause of all our troubles.  We must find a way to become free of this horror.\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]": "疫病は人類のすべての悩みの原因だ。 私たちのすべての悩みの原因なのだ。 私たちはこの恐怖から自由になる方法を見つけなければならない。\n\n[ この物語の分岐点は、このバージョンではここで終わりである。しかし、物語の続きを楽しみにしていてください！ ]",
+	"The Blight is the cause of all of humanity's troubles.  It's the cause of all our troubles.  We must find a way to become free of this horror.\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]": "ブライトは人類のすべての悩みの原因だ。 私たちのすべての悩みの原因なのだ。 私たちはこの恐怖から自由になる方法を見つけなければならない。\n\n[ この物語の分岐点は、このバージョンではここで終わりである。しかし、物語の続きを楽しみにしていてください！ ]",
 	"Understanding of Alien presence begins to open": "異星人の存在を理解し始める",
 	"The alien presence in this world is very old and dangerous.  Humanity could not be saved from it.  We must either flee it or destroy it.": "この世界におけるエイリアンの存在は非常に古く、危険である。 人類はそこから救われる事はない。 我々は宇宙人から逃げるか、宇宙人を破壊しなければならない。",
 	"ELAIN's Perspective": "エラインの視点",
@@ -1267,9 +1267,9 @@
 	"Ship Repair: Fused Electrodes": "船の修理 溶融電極",
 	"Ship Repair: Obsidian": "船の修理 黒曜石",
 	"Ship Repair: Low-Density Frames": "船の修理 低密度フレーム",
-	"Ship Repair: Blight Plasma": "船の修理 ブライト・プラズマ",
+	"Ship Repair: Blight Plasma": "船の修理 ブライトプラズマ",
 	"Ship Repair: Optic Cable": "船の修理 光ケーブル",
-	"Blight discovery": "疫病の発見",
+	"Blight discovery": "ブライトの発見",
 	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.": "私はこの地域で強烈な電気エネルギーのフィールドを検出した。それは惑星内で形成されている自然現象のようだが、我々のシステムへの影響はまだ未知数だ。\n\n現在のところ、あなた方のシステムは、ブライトに存在する極端なエネルギー変動に対応する能力を備えていない。その悪影響から君たちを守る技術の研究開発に集中すべきだ。それまでは、安全性と運用の安定性を確保する為、この地域を避ける事を強く勧める。",
 	"Human structures discovered": "発見された人類の構造",
 	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of the human race.\n\nTechnology seems compatible with ours but will need scanning to be able to extract the required intel to research such technology": "司令官、我々は<hl>人類</>起源と思われる建造物を発見しました。これらの遺跡は、人類の歴史と技術について貴重な洞察を与えてくれるかもしれない。\n\n技術は我々のものと互換性があるようだが、そのような技術を研究する為に必要な情報を引き出すにはスキャンが必要だ。",
@@ -1282,8 +1282,8 @@
 	"OnVirusInfection": "ウイルス感染",
 
 	// FILE: Main/scenarios/freeplay/freeplay_events.lua
-	"Blight Storm Approaching": "近づいてくる疫病の嵐",
-	"Blight Storm Imminent": "災いの嵐が迫る",
+	"Blight Storm Approaching": "近づいてくるブライトの嵐",
+	"Blight Storm Imminent": "ブライトの嵐が迫る",
 	"Anomaly Detected": "異常を検出",
 	"Investigate the Anomaly": "異常を調査する",
 	"Bug Attack Imminent": "バグ攻撃迫る",
@@ -1388,7 +1388,7 @@
 	"desert3": "砂漠3",
 	"grass": "グラス",
 	"grass on slope": "斜面の草",
-	"blighted grass": "枯れ草",
+	"blighted grass": "ブライト草",
 	"clifftop 1 (mossy)": "クリフフトップ1（モッシー）",
 	"shallow water pools": "浅瀬のプール",
 	"blight": "ブライト",
@@ -1407,7 +1407,7 @@
 	"Goals": "目標",
 	"Research Blight": "ブライトの研究",
 	"Extract and Research Blight Gas": "ブライトガスの抽出と研究",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>リサーチ・ブライト</>\n\n<bl>エキスと研究 Blight Gas</>\n\n<hl>ブライト・エクストラクター</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライト・ガス</>\n\nブライトエキストラクターを装備したユニットをブライト発生エリアに配置し、ガスを抽出させる。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>病害ガス封じ込め</>\nブライト・ガスは通常のインベントリー・スロットには収納できない。 エクストラクターにはガスを入れる為の特別なチャンバーがある。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、殺虫ガスを封じ込める為に特別に設計された部品もある。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>リサーチ・ブライト</>\n\n<bl>エキスと研究 Blight Gas</>\n\n<hl>ブライト エクストラクター</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライトガス</>\n\nブライトエキストラクターを装備したユニットをブライト発生エリアに配置し、ガスを抽出させる。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>ブライトガス封じ込め</>\nブライトガスは通常のインベントリー・スロットには収納できない。 エクストラクターにはガスを入れる為の特別なチャンバーがある。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、殺虫ガスを封じ込める為に特別に設計された部品もある。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"A <hl>blight</> seems to be corrupting the planet. Electrical interference prevents entry. We would need to research it more if we wanted to enter...": "<hl>光</>が惑星を堕落させているようだ。電気的な干渉が進入を妨げている。入るにはもっと調査が必要だ。",
 	"Virus Protection": "ウイルス対策",
 	"You have been infected with a virus\nand must make yourself some protection": "ウイルスに汚染されたから、自分を防護する必要がある",
@@ -1807,8 +1807,8 @@
 
 	"Artificial Virus Core": "人工 ウイルスコア",  //?? そもそもどういうアイテムかが分からない
 	"Connects Virus instances into Re-simulator world stability": "ウイルスインスタンスをリシミュレータの世界の安定性に接続する",  //?? そもそもどういうアイテムかが分からない
-	"Artificial Blight Core": "人口 ブライトコア",  //?? そもそもどういうアイテムかが分からない
-	"Connects Blight instances into Re-simulator world stability": "BlightインスタンスをRe-simulatorの世界の安定性に接続する。", //?? そもそもどういうアイテムかが分からない
+	"Artificial Blight Core": "人工 ブライトコア",  //?? そもそもどういうアイテムかが分からない
+	"Connects Blight instances into Re-simulator world stability": "ブライトインスタンスをRe-simulatorの世界の安定性に接続する。", //?? そもそもどういうアイテムかが分からない
 	"Artificial Robot Core": "人工 ロボットコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
 	"Artificial Human Core": "人工 ヒューマンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
 	"Artificial Alien Core": "人工 エイリアンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
@@ -1825,8 +1825,8 @@
 
 	"Laser Extractor": "レーザー採掘機2",  //仮
 	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘機",  //仮
-	"Blight Extractor": "ブライトガス除去装置",  //仮
-	"Extracts blight gas when placed inside a blighted area": "ブライトが発生した場所に置くと、ブライトガスを収集し正常化する",  //
+	"Blight Extractor": "ブライトガス収集装置",  //仮
+	"Extracts blight gas when placed inside a blighted area": "ブライト地域内に発生しているブライトガスを収集する",  //
 
 	"Virus Cure": "ウイルス治療", //?? そもそもどういうアイテムかが分からない
 	"Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットをウイルスからの保護する", //?? そもそもどういうアイテムかが分からない
@@ -1850,7 +1850,7 @@
 	  "衛星を打ち上げる。AMACのインベントリに残っているアイテムは、打ち上げ前に衛星に移される",
 	"Launch": "打ち上げ",
 	"Atmospheric interference is too high. Find a way to reduce the influence of the blight to allow launching of satellites.":
-	  "大気の干渉が高すぎる。人工衛星の打ち上げを可能にする為に、ブレイトの影響を軽減する必要がある",
+	  "大気の干渉が高すぎる。人工衛星の打ち上げを可能にする為に、ブライトの影響を軽減する必要がある",
 	"Blight Interference": "ブライト干渉",
 	"large1": "ラージワン",  //おそらく不要 エフェクトID
 
@@ -1897,7 +1897,7 @@
 	"Launch Pad": "発射台",
 	"Launches satellites": "人工衛星打ち上げ",
 	"Blight Charger": "ブライト チャージャー",
-	"Allows bots to move into blighted areas, provides a small amount of power from the blight": "ボットが殺伐とした地域に移動できるようにし、殺伐から少量のパワーを供給する",
+	"Allows bots to move into blighted areas, provides a small amount of power from the blight": "ボットがブライト地域に移動できるようなり、ブライトから少量のパワーを供給する",
 	"Long-range Radar": "中型レーダー",
 	"External mount doubles scanning range": "外部マウントによりスキャン範囲が2倍に",
 	"Alien Translator": "エイリアン翻訳者",
@@ -1905,7 +1905,7 @@
 	"Glyph": "グリフ",
 	"Translation": "翻訳",
 	"Purifying Terraformer": "ピュリファイング テラフォーマー",
-	"Adapted alien technology that purifies a blighted area": "殺伐とした地域を浄化するエイリアンの技術を採用。",
+	"Adapted alien technology that purifies a blighted area": "ブライト地域を浄化するエイリアンの技術を採用。",
 	"Alien Terraformer": "エイリアン テラフォーマー",
 	"Alien technology that extracts blight from the ground creating an area of blight": "地上からブライトを抽出し、ブライト地帯を作り出すエイリアン テクノロジー",
 	"Shield Generator": "シールド生成装置",
@@ -1940,7 +1940,7 @@
 	"Virus Tool for spawning hives and bugs": "蜂の巣と昆虫を生み出すウイルスツール",
 	"Blight Magnifier": "ブライト拡大鏡",
 	"Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
-	"Blight Stabilizer": "ブレイト スタビライザー",
+	"Blight Stabilizer": "ブライト スタビライザー",
 	"Resource Converter": "リソース コンバーター",
 	"When placed inside the blight will convert laterite to metal ore and silica": "このような場合、ブライトはラテライトをメタロアとシリカに変えます。",
 	"Must be placed inside the blight": "ブライトの内側に置かなければならない",
@@ -2261,7 +2261,7 @@
 	"Resource Metal": "リソース・メタル",
 	"Resource Crystal": "リソース・クリスタル",
 	"Resource Silica": "資源シリカ",
-	"Resource Blight Crystal": "リソース・ブライト・クリスタル",
+	"Resource Blight Crystal": "リソース・ブライトクリスタル",
 	"Silica Tree": "シリカツリー",
 	"Scattered Resource": "散らばっている資源",
 	"Small Bot Glitch": "小さなボットの不具合",
@@ -2932,7 +2932,7 @@
 	"Human Research": "人類研究",  //???
 	"Data analysis of human technology": "ヒューマンテクノロジーのデータ分析",  //???
 	"Data analysis of alien technology": "エイリアンテクノロジーのデータ分析",  //???
-	"Blight Research": "疫病研究",  //???  Blight??
+	"Blight Research": "ブライト研究",  //???  Blight??
 	"Scans of the hostile environment endemic to planet": "惑星特有の過酷な環境のスキャン",  //???
 	"Virus Research": "ウイルス研究",  //?? OK
 	"Computer-modeled analysis of the viral pathogen": "ウイルス病原体のコンピューターモデル解析",  //???
@@ -2960,9 +2960,9 @@
 	"Blight Extraction": "ブライト抽出",
 	"Extracted blight gas essence": "抽出された殺虫ガスエッセンス",
 	"gas": "ガス",  //おそらく不要  本文ではなく「slot_type」という内部データと思われる
-	"Blight Bar": "ブライト・バー",  //??? Blight がわからない
-	"A bar of blight": "殺伐としたバー",  //??? Blight がわからない
-	"Blight Plasma": "ブライト・プラズマ",  //??? Blight がわからない
+	"Blight Bar": "ブライトバー",  //??? Blight がわからない
+	"A bar of blight": "ブライトのバー",  //??? Blight がわからない
+	"Blight Plasma": "ブライトプラズマ",  //??? Blight がわからない
 	"Processed blight gas into a goop form": "ブライトガスをグープ状に加工",  //??? Blight がわからない
 	"Gear Box": "ギアボックス",  //不要と思われる  Main/data/items.lua に存在せず
 	"Useful for repairing Human technology": "ヒューマンテクノロジーの修理に役立つ",   //"Microscope"と"Transformer"
@@ -3000,7 +3000,7 @@
 
 	// FILE: Main/data/landfeatures.lua
 	"Threshold": "しきい値",
-	"Blightness": "殺伐",
+	"Blightness": "ブライト度",
 	"Elevation": "標高",
 	"Variation": "バリエーション",
 	"Richness": "豊かさ",
@@ -3044,26 +3044,26 @@
 	"Alien Extraction Facility": "エイリアン抽出施設",
 
 	// FILE: Main/data/tech/tech_blight.lua
-	"Blight Shield": "ブライト・シールド",
+	"Blight Shield": "ブライトシールド",
 	"Allows units to enter the blight": "ユニットのブライトへの進入を許可する",
 	"Plasma Concentration": "血漿中濃度",
 	"Concentrated plasma allowing for constructing plasma weapons": "プラズマ兵器の製造を可能にする濃縮プラズマ",
 	"Blight Visibility": "視認性",
 	"Allows Visibility into the Blight": "ブライトを可視化する",
 	"Blight Stability": "ブライトの安定性",
-	"Blight mechanics for creating System Stability. Allows units to enter the blight without any adverse effects.": "システムの安定性を生み出す Blight メカニクス。ユニットが悪影響を受ける事なく Blight に入る事を可能にする。",
+	"Blight mechanics for creating System Stability. Allows units to enter the blight without any adverse effects.": "システムの安定性を生み出す ブライトメカニクス。ユニットが悪影響を受ける事なく ブライト に入る事を可能にする。",
 	"Magnification": "倍率",
-	"Blight mechanics for magnification of System Resources": "システム・リソースを拡大するブライト・メカニクス",
-	"Blight Power": "ブライト・パワー",
+	"Blight mechanics for magnification of System Resources": "システムリソースを拡大するブライトメカニクス",
+	"Blight Power": "ブライトパワー",
 	"Enables advanced power generation and storage applications": "先進的な発電・蓄電アプリケーションを実現",
 	"Basic Terraformer": "基本的なテラフォーマー",
 	"Reversing the effects of Blight on the landscape": "景観に及ぼすブライトの影響を回復させる",
 	"Conversion": "コンバージョン",
-	"Blight mechanics for conversion of System Resources": "システム・リソースを変換する為のBlightの仕組み",
-	"Blight Terraformer": "ブライト・テラフォーマー",
-	"Blight mechanics for imprinting Blight on the landscape": "景観にBlightを刻み込むBlightのメカニズム",
+	"Blight mechanics for conversion of System Resources": "システムリソースを変換する為のブライトの仕組み",
+	"Blight Terraformer": "ブライト テラフォーマー",
+	"Blight mechanics for imprinting Blight on the landscape": "景観にブライトを刻み込むブライトのメカニズム",
 	"Simulation Control": "シミュレーション制御",
-	"Blight mechanics for isolating and eliminating rogue architecture": "不正な建築を隔離し排除する為のBlightのメカニズム",
+	"Blight mechanics for isolating and eliminating rogue architecture": "不正な建築を隔離し排除する為のブライトのメカニズム",
 
 	// FILE: Main/data/tech/tech_human.lua
 	"Extraction": "抽出",
@@ -3184,7 +3184,7 @@
 	"Alien Discovery": "エイリアン・ディスカバリー",
 	"A strange alien race with highly advanced technology we can utilize": "我々が利用できる高度な技術を持つ奇妙な異星人",
 	"Gain the ability to research alien technology": "エイリアンのテクノロジーを研究する能力を得る",
-	"Blight Discovery": "疫病の発見",
+	"Blight Discovery": "ブライトの発見",
 
 	// FILE: Main/data/utilities.lua
 	"call": "コール",
