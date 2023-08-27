@@ -58,6 +58,7 @@
 	"Solved Sliding Puzzles": "スライドパズル",
 	"Solve Sliding puzzle in ruins": "廃墟でスライディングパズルを解く",
 	"Bugs Killed": "退治した昆虫",
+	"Bugs Killed": "退治した昆虫",
 	"How many alien creatures you've killed": "エイリアンを何匹殺したか",
 	"Satellites launched": "衛星打ち上げ",
 	"Launch satellites off the planet": "地球から人工衛星を打ち上げる",
@@ -1504,8 +1505,7 @@
 	"Large": "大型",  //おそらく不要
 
 	"Refinery": "リファイナリー",  //OK
-	"Advanced production facility for advanced material production": "先端素材製造のための高度な生産設備",  //仮
-
+	"Advanced production facility for advanced material production": "先端素材製造の為の高度な生産設備",  //仮
 	"Robotics Assembler": "ロボティクス アセンブラー",  //仮
 	"Dedicated laboratory for robotics": "ロボット工学専用ラボ",  //仮
 	"entity": "エンティティ",  //おそらく不要
@@ -1516,8 +1516,8 @@
 	"Portable Power Field": "ポータブル電力アンテナ",  //仮
 	"Internal": "内部",  //おそらく不要
 	"Creates or expands your power grid in a small area around the unit, transferring power to nearby units. Produces no power on its own. Most useful on a moveable unit given its short range":
-	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。展開範囲が狭いため、移動可能なユニットに向いている。",  //仮
-	"Small Power Field": "小型電力アンテナ",  //仮
+	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。展開範囲が狭い為、移動可能なユニットに向いている。",  //仮
+	"Small Power Field": "小型電力アンテナ",  //OK
 	"Creates or expands your power grid in an area around the unit, transferring power to nearby units. Produces no power on its own.":
 	  "周囲に電力網を展開し、近くのユニットに電力を供給する。ただし発電能力はない。",  //仮
 	"Large Power Field": "大型電力アンテナ",  //仮
@@ -1699,7 +1699,7 @@
 	"Set Sign": "サインを入力する",
 	"Enter the text for the sign post": "サインポストのテキストを入力する",
 
-	"Internal Health Module": "内部 高耐久化モジュール",  //仮
+  "Internal Health Module": "内部 高耐久化モジュール",  //仮
 	"Increased structural integrity, adds 20 durability": "構造的完全性が向上し、耐久性を 20 向上",  //仮
 	"Small Health Module": "小型 高耐久化モジュール",  //仮
 	"Increased structural integrity, adds 100 durability": "構造的完全性が向上し、耐久性を 100 向上",  //仮
