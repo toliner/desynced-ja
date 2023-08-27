@@ -401,7 +401,7 @@
 	"Server Port": "サーバーポート",
 	"Max Players": "最大プレーヤー数",  //OK
 	"Password": "パスワード",  //OK
-	"%S's Server": "%Sのサーバー",
+	"%S's Server": "%S's Server",  //OK 
 	"Enter the password to connect to the server": "サーバーに接続する為のパスワードを入力",
 	"Please Wait": "お待ちください",
 	"Joining Session ...": "セッションに参加 ...",
@@ -599,7 +599,7 @@
 	"Are you sure you want to reset all key bindings?": "本当にすべてのキーバインドをリセットしたいのですか？",
 	"Open Logs Folder": "ログフォルダを開く",
 	"Open Save Games Folder": "セーブデータフォルダを開く",
-	"Open Mods Folder": "Modsフォルダを開く",
+	"Open Mods Folder": "MODフォルダを開く",  //OK
 
 	// FILE: Main/ui/PhotoMode.lua
 	"<header>PhotoMode</>": "<header>フォトモード</>",
@@ -652,9 +652,9 @@
 	"Remove Parameter": "パラメータの削除",
 	"Add Parameter": "パラメータの追加",
 	"Subroutine": "サブルーチン",
-	"none": "無し",
+	"none": "なし",  //OK
 	"top-left": "左上",
-	"Select Subroutine": "セレクト・サブルーチン",
+	"Select Subroutine": "サブルーチンを選択",  //OK
 	"Create new subroutine": "新しいサブルーチンを作成する",
 	"build": "ビルド",
 	"Select Building": "建物を選ぶ",
@@ -1343,7 +1343,7 @@
 	"Lastly, you need to set the Store point (the point to drop off to).\n\nWith the <hl>Worker Bot</> selected, click with the <Key action=\"SelectAction\" style=\"bl\"/> on the <hl>STORE</> button and then click on the <hl>Storage</> building you built before to set it as the Store (drop off) point.\n\nNote: Again you can do this by dragging directly or by clicking on it (in this case with <hl>Ctrl +</> <Key action=\"ExecuteAction\" style=\"hl\"/>)": "最後に、ストアポイント（降下地点）を設定する必要がある。\n\n<hl>Worker Bot</>を選択した状態で、<hl>保管場所</>ボタンを<Key action=\"SelectAction\" style=\"bl\"/>でクリックし、前に作った<hl>Storage</>ビルをクリックしてStore（ドロップオフポイント）に設定する。\n\nNote: Again you can do this by dragging directly or by clicking on it (in this case with <hl>Ctrl +</> <Key action=\"ExecuteAction\" style=\"hl\"/>)", // <TRANSLATION>
 	"Finally researching Basic Signals will allow you to begin producing components that can allow your units to scan the environment and to set up specific communications with each other.\n\nProducing radar components will allow you to scan the environment for a wide range of elements such as enemies and structures.": "最後に、基本的なシグナルについて研究する事で、ユニットが環境をスキャンしたり、互いに特定の通信を設定したりできるコンポーネントの製造を開始できるようになる。\n\nレーダー部品を製造する事で、敵や建造物などさまざまな要素をスキャンする事ができる。", // <TRANSLATION>
 	"Explore Using Radar": "レーダーを使った探索", // <TRANSLATION>
-	"Having researched Basic Signals you are able to produce Radar Components. One way you can use the radar is to search for ruins like the one you explored before.\n<bl>Using an Assembler make an </><hl>Portable Radar</><img image=\"Main/textures/icons/components/portable_radar.png\" width=\"50\" height=\"50\"/>\nPut the radar on one of your scout bots and set the first <hl>Search Filter</> to scan for <hl>Unsolved</> (in the Information Tab)\n\n<img image=\"Main/textures/codex/registers/information_tab.png\" width=\"400\" height=\"30\"/>\n\n<img image=\"Main/textures/codex/registers/scanner_building.png\" width=\"280\" height=\"60\"/>\n\nNow you can take the scout out and explore the world for unsolved ruins.\n\nNote: Remember to be aware of your scout's power and to be prepared with defensive turrets if you anticipate hostile encounters.": "基本信号を研究すると、レーダー・コンポーネントを生産できるようになる。レーダーの使い方のひとつに、以前探検したような遺跡を探すというものがある。\n<bl>アセンブラを使って</><bl>ポータブル・レーダーを作る</><img image=\"Main/textures/icons/components/portable_radar.png\" width=\"50\" height=\"50\"/>\n偵察ボットの1つにレーダーを搭載し、最初の<hl>検索フィルター</>を<hl>未解決</>をスキャンするように設定する（情報タブ内）。\n\n<img image=\"Main/textures/codex/registers/information_tab.png\" width=\"400\" height=\"30\"/>\n\n<img image=\"Main/textures/codex/registers/scanner_building.png\" width=\"280\" height=\"60\"/>\n\nさあ、スカウトを連れ出し、未解決の遺跡を探しに世界を探検しよう。\n\n注：スカウトのパワーを意識し、敵対的な遭遇が予想される場合は防御タレットを準備しておく事を忘れずに。", // <TRANSLATION>
+	"Having researched Basic Signals you are able to produce Radar Components. One way you can use the radar is to search for ruins like the one you explored before.\n<bl>Using an Assembler make an </><hl>Portable Radar</><img image=\"Main/textures/icons/components/portable_radar.png\" width=\"50\" height=\"50\"/>\nPut the radar on one of your scout bots and set the first <hl>Search Filter</> to scan for <hl>Unsolved</> (in the Information Tab)\n\n<img image=\"Main/textures/codex/registers/information_tab.png\" width=\"400\" height=\"30\"/>\n\n<img image=\"Main/textures/codex/registers/scanner_building.png\" width=\"280\" height=\"60\"/>\n\nNow you can take the scout out and explore the world for unsolved ruins.\n\nNote: Remember to be aware of your scout's power and to be prepared with defensive turrets if you anticipate hostile encounters.": "基本信号を研究すると、レーダー・コンポーネントを生産できるようになる。レーダーの使い方のひとつに、以前探検したような遺跡を探すというものがある。\n<bl>アセンブラを使って</><bl>ポータブル・レーダーを作る</><img image=\"Main/textures/icons/components/portable_radar.png\" width=\"50\" height=\"50\"/>\nスカウトの1つにレーダーを搭載し、最初の<hl>検索フィルター</>を<hl>未解決</>をスキャンするように設定する（情報タブ内）。\n\n<img image=\"Main/textures/codex/registers/information_tab.png\" width=\"400\" height=\"30\"/>\n\n<img image=\"Main/textures/codex/registers/scanner_building.png\" width=\"280\" height=\"60\"/>\n\nさあ、スカウトを連れ出し、未解決の遺跡を探しに世界を探検しよう。\n\n注：スカウトのパワーを意識し、敵対的な遭遇が予想される場合は防御タレットを準備しておく事を忘れずに。", // <TRANSLATION>
 	"Completion": "完成",
 	"Congratulations! You have reached the end of the Navigation Training Simulator. Continue expanding on your base and exploring your world.": "おめでとうございます！ナビゲーション・トレーニング・シミュレーターはここまでです。引き続き基地を拡張し、世界を探索してください。",
 
@@ -1372,8 +1372,8 @@
 	"unlock": "アンロック",
 	"Metal Miner Behavior": "メタルマイナーの行動",
 	"Mines Metal Ore and drops it off to the specified location in the register": "金属鉱石を採掘し、レジスタの指定された場所に投下する。",
-	"Resource": "リソース",
-	"mine": "マイン",
+	"Resource": "資源",  //OK
+	"mine": "mine",  //おそらく不要
 
 	// FILE: Main/data/biomes.lua
 	"sand": "砂",
@@ -1527,7 +1527,7 @@
 	"Current researching technology": "現在の技術研究",  //OK
 //	"Missing ingredient":"",  他所で訳がある
 	"Manual": "マニュアル",  //おそらく不要
-	"Set Research": "研究する",  //仮
+	"Set Research": "研究開始",  //仮  アップリンクのユニットでは表示されない??  //行動プログラムでも使用
 	"Tech": "研究",  //おそらく不要 ここではウィンドウ名   ただし他で使用している
 
 	"Repair Component": "修理コンポーネント",  //OK
@@ -1652,9 +1652,9 @@
 	"Internal Storage": "内部ストレージ",  //OK
 	"Uses the internal socket as an item slot": "内部ソケットをアイテムスロットとして使用することで、インベントリが1つ追加される",  //仮
 	
-	"Behavior Controller": "行動パターンプログラム装置",  //仮
+	"Behavior Controller": "行動プログラム装置",  //仮
 	"Small, low-powered programmable device": "行動パターンをプログラムできる、小型で低消費電力なデバイス",  //仮
-	"Program Behavior": "行動パターンプログラム",  //仮
+	"Program Behavior": "行動プログラム",  //仮
 	"Program": "プログラム",  //OK
 	"STOP": "ストップ",  //OK
 	"STEP": "ステップ",  //OK
@@ -1968,7 +1968,8 @@
 	"tech/": "テック",
 	"explorables/": "探検家",
 	"Broken": "壊れた",
-	"Unpowered": "非力",
+	"Unpowered": "電源なし",  //OK
+	"PoweredDown": "電源OFF",  //OK
 	"Emergency": "緊急事態",
 	"Idle": "アイドル",
 	"Mouse Horizontal Move": "マウス水平移動",
@@ -2116,7 +2117,7 @@
 
 	// FILE: Main/data/explorables/alien_artifact.lua
 	"Alien Artifact": "エイリアン・アーティファクト",
-	"NEUTRAL": "ニュートラル",
+	"NEUTRAL": "中立",  //OK
 
 	// FILE: Main/data/explorables/alien_buildilng.lua
 	"Alien Building": "エイリアン・ビル",
@@ -2186,7 +2187,7 @@
 	"STORE": "保管場所",
 	"Curious Bot": "好奇心旺盛なボット",
 	"garage": "ガレージ",
-	"Scout": "偵察ボット",  //仮
+	"Scout": "スカウト",  //仮  行動プログラムに同名コマンドがあるため
 	"Advanced high-speed starter bot with a single small socket": "小型ソケット1個を搭載した先進の高速スターターボット",
 	"Unit": "ユニット",  //OK
 	"Worker": "作業ボット",  //仮
@@ -2285,19 +2286,19 @@
 	"OR": "または",
 
 	// FILE: Main/data/instructions.lua
-	"Behavior": "行動パターン",  //
+	"Behavior": "行動プログラム",  //
 	"Behavior exceeded loop recursion limit": "ループの再帰回数の上限を超えた動作",  //仮
 	"item": "項目",  //おそらく不要 タブのid
 	"Invalid Instruction": "無効な命令",
-	"Instruction has been removed, behavior needs to be updated": "インストラクションは削除されたため、行動パターンの更新が必要",  //よく分からない ダミーらしい
-	"Behavior exceeded call depth limit": "行動パターンの命令の深さの制限を超えた",
+	"Instruction has been removed, behavior needs to be updated": "インストラクションは削除されたため、行動プログラムの更新が必要",  //よく分からない ダミーらしい
+	"Behavior exceeded call depth limit": "行動プログラムの命令の深さの制限を超えた",
 
 	"Flow": "フロー",  //OK  カテゴリ
-	"Break called while not in loop": "ループ内以外でBreak",  //仮 エラーの意味は分かるが再現できない??
+	"Break called while not in loop": "ループ内以外で Break",  //仮 エラーの意味は分かるが再現できない??
 	"Break": "ブレイク",  //OK
-	"Break out of a loop": "ループからBreakする",  //OK 一般的なプログラム用語なので英語のまま
+	"Break out of a loop": "ループから Break する",  //OK 一般的なプログラム用語なので英語のまま
 	"Exit": "プログラム終了",  //OK
-	"Stops execution of the behavior": "行動パターンプログラムを停止する",
+	"Stops execution of the behavior": "行動プログラムを停止する",
 	"Unlock": "ロック解除",  //??? state.limit = 1000   なんのロックを解除するのかが分からない Wikiにも記載なし
 	"Run as many instructions as possible. Use wait instructions to throttle execution.": "できるだけ多くの命令を実行する。待機命令を使って実行を調整する",
 
@@ -2305,7 +2306,7 @@
 	"Label": "ラベル",  //OK
 	"Label identifier": "ラベル識別子",
 	"any": "any",  //おそらく不要 パラメータ
-	"Labels can be jumped to from anywhere in a behavior": "ラベルは行動のどこからでもジャンプできる",
+	"Labels can be jumped to from anywhere in a behavior": "行動プログラム内で Jump 先となる場所を定義する",
 	"label": "ラベル",  //おそらく不要 識別子
 
 	"Jump": "ジャンプ",  //OK
@@ -2332,13 +2333,13 @@
 	"Entity 1": "比較対象 1",  //OK  あえて比較対象に
 	"Entity 2": "比較対象 2",  //OK  あえて比較対象に
 	"Compare Entity": "等価比較 (エンティティ)",  //OK  Compare Entity
-	"Compares Entities": "2つのアイテムを比較し、実体そのものが同じものを指しているかを判定をする\n※例えば'金属鉱石'という種別は同じでも指定された実体そのものが異なる場合は不一致となる",
+	"Compares Entities": "2つのアイテムを比較し、エンティティそのものが同じかを判定をする\n※例えば'金属鉱石'という種別は同じでも指定された実体そのものが異なる場合は不一致となる",
 
 	"Is a": "Is-a",
-	"Compares if an item of entity is of a specific type": "エンティティが特定のタイプであるかを判定する",  //OK  'タイプ'にエンティティを指定すると不一致になった
+	"Compares if an item of entity is of a specific type": "エンティティが指定されたタイプであるかを判定する",  //OK  'タイプ'にエンティティを指定すると不一致になった
 	"Type":"タイプ",
 
-	"Get Type": "タイプの取得",
+	"Get Type": "タイプを取得",
 	"Gets the type from an item or entity": "アイテムまたはエンティティのタイプを取得する",
 	"Item/Entity":"アイテム/エンティティ",
 
@@ -2359,13 +2360,13 @@
 
 	"out": "out",  //おそらく不要
 	"The first locked item id with no item": "ロックされたスロットにアイテムがない状態のアイテム\n複数ある場合は最初のアイテム", //OK
-	"Get First Locked Id": "ロックされているが空のアイテムを取得", //OK
+	"Get First Locked Id": "ロック中かつ空のアイテムを取得", //OK
 	"Gets the first item where the locked slot exists but there is no item in it":
 	  "ロックされたスロットにアイテムがない状態のアイテムを取得する。複数ある場合は最初のアイテムを取得する",   //OK
 
 	"No Unit": "ユニット無し",  //OK
-	"No visible unit passed": "目に見えるユニットが通過していない",
-	"The unit to check for (if not self)": "チェックするユニット（自己でない場合）",  //Unit Typeでは使用しないが他所で使用する
+	"No visible unit passed": "ユニット無し",  //他でも使用
+	"The unit to check for (if not self)": "確認対象ユニット (自ユニット以外の場合に指定)",  //Unit Typeでは使用しないが他所で使用する
 	"The unit to check": "チェックするエンティティ",  //OK あえてエンティティ
 	"Building": "建物",  //仮  表記ゆれしている  建物 ビル 建築物
 	"Where to continue if the entity is a building": "エンティティが建物の場合",  //仮  表記ゆれしている 
@@ -2458,247 +2459,354 @@
 	// "Subtracts a number from another number": "2つの数値の減算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
   "Subtracts a number or coordinate from another number or coordinate":"2つの数値または座標の減算の結果を、指定のレジスタまたは変数に設定する",  //OK
 
-	"Multiply": "xxxx 乗算",  //OK
+	"Multiply": "乗算",  //OK
 	// "Multiplies a number by another number": "2つの数値の乗算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
   "Multiplies a number or coordinate from another number or coordinate":"2つの数値または座標の乗算の結果を、指定のレジスタまたは変数に設定する",  //OK
 
-	"Divide": "xxxx 除算",  //OK
+	"Divide": "除算",  //OK
 	// "Divides a number by another number": "2つの数値の除算の結果を、指定のレジスタまたは変数に設定する",  //使用されていない
   "Divides a number or coordinate from another number or coordinate":"2つの数値または座標の除算の結果を、指定のレジスタまたは変数に設定する",  //OK
 
-	"Item to check can fit": "適合確認項目",
-	"Number of a specific item that can fit on a unit": "ユニットに搭載可能な特定アイテムの数",
-	"Get space for item": "必要インベントリ数の取得",  //仮
-	"Returns how many of the input item can fit in the inventory": "入力されたアイテムが在庫に入る数を返します。",
+	"Item to check can fit": "確認対象アイテム",  //仮
+	"Number of a specific item that can fit on a unit": "確認対象アイテムの保管余力数",  //仮
+	"Get space for item": "アイテム保管余力数を取得",  //仮
+	"Returns how many of the input item can fit in the inventory":
+	  "指定アイテムがインベントリにあと何個保管可能かを取得する\nインベントリの空きスロットと現在の対象アイテム数を加味して計算される",  //仮
 
-	"Can't Fit": "フィットしない場合",
-	"Execution if it can't fit the item": "アイテムが入らない場合",
-	"Item and amount to check can fit": "適合確認項目と金額",
-	"Check space for item": "空インベントリの確認",  //仮
-	"Checks if free space is available for an item and amount": "アイテムに空き容量があるかどうか、またその量をチェックする。",
+	"Can't Fit": "保管不可の場合",  //仮
+	"Execution if it can't fit the item": "指定された個数のアイテムが保管不可の場合",  //仮
+	"Item and amount to check can fit": "確認対象アイテムと個数",
+	"Check space for item": "アイテム個数保管可否を取得",  //仮
+	"Checks if free space is available for an item and amount":
+	  "指定された個数のアイテムがインベントリに保管可能を判定する\nインベントリの空きスロットと現在の対象アイテム数を加味して判定される",  //仮
 
-	"Entity to check": "調査対象", // <TRANSLATION>
-	"Percent": "％", // <TRANSLATION>
-	"Percentage of health remaining": "健康維持率", // <TRANSLATION>
-	"Current": "現在", // <TRANSLATION>
-	"Value of health remaining": "健康維持の価値", // <TRANSLATION>
-	"Max": "マックス",
-	"Value of maximum health": "最大健康値", // <TRANSLATION>
-	"Get Health": "健康を手に入れる",
-	"Gets a units health as a percentage, current and max": "ユニットの体力をパーセンテージで取得する。", // <TRANSLATION>
-	"Get Grid Efficiency": "グリッド効率",
-	"Gets the value of the Grid Efficiency as a percent": "グリッド効率の値をパーセントで取得します。",
-	"Get Battery": "バッテリーを手に入れる",
-	"Gets the value of the Battery level as a percent": "バッテリーレベルの値をパーセントで取得します。",
-	"Get Self": "セルフ",
-	"Gets the value of the Unit executing the behavior": "行動を実行するユニットの値を取得します。",
-	"The owned unit to check for": "チェックすべき所有ユニット",
-	"Value of units Signal register": "単位の値 信号レジスタ",
-	"Read Signal": "信号を読む",
-	"Reads the Signal register of another unit": "他のユニットの信号レジスタを読み出す",
-	"Valley": "バレー",
-	"Where to continue if the unit is in a valley": "ユニットが谷間にある場合、どこに進むべきか",
-	"Plateau": "プラトー",
-	"Where to continue if the unit is on a plateau": "ユニットが高原にある場合、どこで続けるべきか",
-	"Check Altitude": "高度を確認する",
-	"Divert program depending on location of a unit": "ユニットの位置に応じてプログラムを変更する",
-	"Blight": "ブライト",
-	"Where to continue if the unit is in the blight": "もしユニットがボロボロの状態であれば、どこでプレイを続けるべきか？",
-	"Check Blightness": "白化度チェック",
-	"Full": "フル",
-	"Where to continue if at full health": "万全の状態ならどこで続けるか",
-	"Check Health": "健康チェック",
-	"Check a units health": "ユニットの健康状態をチェックする",
-	"Where to continue if battery power is fully recharged": "バッテリーが完全に充電された場合の継続場所",
-	"Check Battery": "バッテリーチェック",
-	"Checks the Battery level of a unit": "ユニットのバッテリー残量をチェック",
-	"Where to continue if at full efficiency": "フル稼働ならどこで続けるか",
-	"Check Grid Efficiency": "グリッド効率のチェック",
-	"Checks the Efficiency of the power grid the unit is on": "電源グリッドの効率をチェックします。",
-	"Item to count": "カウント項目",
-	"Number of this item in inventory or empty if none exist": "インベントリにあるこのアイテムの数。",
-	"Count Items": "カウント項目",
-	"Counts the number of the passed item in its inventory": "渡されたアイテムの在庫数をカウントする。",
-	"Counts the number of the passed item in your logistics network": "物流ネットワーク内の通過アイテムの数をカウントします",
-	"Have Item": "アイテムを持つ", // <TRANSLATION>
-	"have the specified item": "指定されたアイテムを持つ", // <TRANSLATION>
-	"Checks if you have at least a specified amount of an item": "あるアイテムを指定された量以上持っているかチェックする。", // <TRANSLATION>
-	"No Component": "コンポーネント無し",
-	"If you don't current hold the requested component": "要求されたコンポーネントを現在保持していない場合",
-	"Component to equip": "装備するコンポーネント",
-	"comp": "コンプ",
-	"Equip Component": "イクイップ・コンポーネント",
-	"Equips a component if it exists": "コンポーネントが存在する場合、それを装備する",
-	"Component to unequip": "装備解除コンポーネント",
-	"Unequip Component": "コンポーネントを取り外す",
-	"Unequips a component if it exists": "コンポーネントが存在する場合、それを解凍する",
-	"Output": "出力",
-	"Enemy unit": "敵ユニット",
-	"Get Closest Entity": "最も近いエンティティを取得",
-	"Gets the closest visible entity matching a filter": "フィルタに最も近い可視エンティティを取得する",
-	"Unit to Filter, defaults to Self": "フィルターする単位、デフォルトはSelf",
-	"Failed": "失敗",
-	"Did not match filter": "フィルタに一致しなかった",
-	"Match": "試合",
-	"Filters the passed entity": "渡されたエンティティをフィルタリングする",
-	"Destination": "目的地",
-	"Unit to bring items to": "持ち込みユニット",
-	"Item / Amount": "項目 / 金額",
-	"Item and amount to drop off": "お預かりする品目と金額",
-	"Drop Off Items": "ドロップオフ・アイテム",
-	"Drop off items at a unit\n\nIf a number is set it will drop off an amount to fill the target unit up to that amount\nIf unset it will try to drop off everything.": "ユニットに荷物を預ける\n\n数値が設定されている場合、対象ユニットがその数値まで満たされるように、その数値を落としていく\n未設定の場合、すべてのものを落とそうとする。",
-	"Source": "ソース",
-	"Unit to take items from": "アイテムを持ち出すユニット",
-	"Item and amount to pick up": "引き取り品目と金額",
-	"Pick Up Items": "ピックアップアイテム",
-	"Picks up a specific number of items from an entity\n\nWill try to pick up the specified amount, if no amount\nis specified it will try to pick up everything.": "エンティティから特定の数のアイテムをピックアップする\n\n指定された金額をピックアップしようとします。\nを指定すると、すべてをピックアップしようとする。",
-	"Item and amount to order": "ご注文の品目と金額",
-	"Request Item": "リクエスト項目",
-	"Requests an item if it doesn't exist in the inventory": "インベントリにアイテムがない場合、リクエストする。",
-	"Amount": "数量", // <TRANSLATION>
-	"Get Active Order": "注文を受ける", // <TRANSLATION>
-	"Gets the source, target and amount data from the current active order": "現在有効な注文から、注文元、注文先、注文数量を取得します。", // <TRANSLATION>
-	"Resource Node to check": "確認するリソース・ノード", // <TRANSLATION>
-	"Get Resource Num": "リソース番号の取得", // <TRANSLATION>
-	"Gets the amount of resource": "リソースの量を取得", // <TRANSLATION>
-	"No Items": "アイテム無し",
-	"No items in inventory": "在庫がありません",
-	"First Item": "最初の項目",
-	"Reads the first item in your inventory": "インベントリの最初のアイテムを読み取る",
-	"Target unit": "対象ユニット",
-	"Distance": "距離",
-	"Unit and its distance in the numerical part of the value": "数値部分の単位とその距離",
-	"The unit to measure from (if not self)": "測定単位（自己でない場合）",
-	"Returns distance to a unit": "単位までの距離を返す",
-	"Global": "グローバル",
-	"Item and amount to transfer": "譲渡する品目と金額",
-	"Order Transfer To": "注文の転送先",
-	"Transfers an Item to another Unit": "アイテムを他のユニットに転送する",
-	"Shutdown": "シャットダウン",
-	"Shuts down the power of the Unit": "ユニットの電源をシャットダウンする",
-	"Turn On": "オン",
-	"Turns on the power of the Unit": "ユニットの電源をオンにする",
-	"Connect": "接続",
-	"Connects Units from Logistics Network": "物流ネットワークからユニットを接続",
-	"Disconnect": "切断",
-	"Disconnects Units from Logistics Network": "ユニットを物流ネットワークから切り離す",
-	"Sort Storage": "ソートストレージ",
-	"Sorts Storage Containers on Unit": "収納容器の仕分け",
-	"Unpackage All": "すべて開梱",
-	"Tries to unpack all packaged items": "梱包された商品をすべて開梱しようとする",
-	"Package All": "パッケージ",
-	"Tries to pack all packable units into items": "パッカブル・ユニットをすべてアイテムに詰め込もうとする",
-	"Explorable to solve": "解決できる", // <TRANSLATION>
-	"Missing": "行方不明", // <TRANSLATION>
-	"Missing repair item, scanner component or Unpowered": "修理品、スキャナ部品、または電源が入っていない", // <TRANSLATION>
-	"Missing item, component or power to scan": "スキャンに必要なアイテム、コンポーネント、電源がない", // <TRANSLATION>
-	"Solve Explorable": "探検可能な解決策", // <TRANSLATION>
-	"Attempt to solve explorable with inventory items": "インベントリーアイテムを使った探索可能な解決策を試みる", // <TRANSLATION>
-	"Stop Unit": "停止ユニット",
-	"Stop movement and abort what is currently controlling the entities movement": "動きを止め、現在エンティティの動きを制御しているものを中止する。",
-	"Move": "移動",
-	"Unit to move to": "移籍先ユニット",
-	"Move Unit": "ユニット移動",
-	"Move to another unit": "他のユニットに移る",
-	"Number of tiles to move East": "東に移動するタイルの数",
-	"Move East": "ムーブ・イースト",
-	"Moves towards a tile East of the current location at the specified distance": "指定された距離で現在地から東のタイルに向かって移動する。",
-	"Number of tiles to move West": "西に移動するタイルの数",
-	"Move West": "ムーヴ・ウエスト",
-	"Moves towards a tile West of the current location at the specified distance": "現在地から西に指定した距離のタイルに向かって移動する。",
-	"Number of tiles to move North": "北に移動するタイルの数",
-	"Move North": "北へ移動",
-	"Moves towards a tile North of the current location at the specified distance": "指定された距離で現在地から北のタイルに向かって移動する。",
-	"Number of tiles to move South": "南に移動するタイルの数",
-	"Move South": "南へ移動",
-	"Moves towards a tile South of the current location at the specified distance": "指定された距離で現在位置の南側のタイルに向かって移動する。",
-	"Move Unit (Async)": "ユニット移動（非同期）",
-	"Move to another unit while continuing the program": "プログラムを続けながら他のユニットに移る",
+	"Entity to check": "調査対象", //仮
+	"Percent": "パーセント", //仮  同名の行動コマンドあり
+	"Percentage of health remaining": "現在の体力値の%", //仮
+	"Current": "現在", //OK
+	"Value of health remaining": "現在の体力値", //
+	"Max": "最大値",  //OK 他でも使われそうなので
+	"Value of maximum health": "最大体力値", //
+	"Get Health": "体力値を取得",  //OK
+	"Gets a units health as a percentage, current and max": "エンティティの体力値を取得する", //OK  指定値が'エンティティ'なので揃える
+
+	"Get Grid Efficiency": "電力充足率を取得",  //仮 
+	"Gets the value of the Grid Efficiency as a percent": "電力網における電力充足率を取得する",  //仮 
+
+	"Get Battery": "電力充足率を取得",  //仮 
+	"Gets the value of the Battery level as a percent": "バッテリーレベルの値をパーセントで取得します。",  //仮 
+
+	"Get Self": "自ユニットを取得",  //OK
+	"Gets the value of the Unit executing the behavior": "行動プログラムを実行している自ユニットを取得する",  //OK
+
+	"The owned unit to check for": "Signalレジスタ取得対象のユニット",  //仮
+	"Value of units Signal register": "Signalレジスタ取得対象のユニット",  //仮
+	"Read Signal": "Signalレジスタを取得",  //OK
+	"Reads the Signal register of another unit": "他のユニットのSignalレジスタの内容を取得する",  //OK
+
+  // "Signal":"", //重複
+  "Entity with signal":"ループ処理中の対象エンティティ",  //OK
+  "Finished looping through all entities with signal":"ループ終了の場合",  //OK
+  "*Loop Signal*":"[廃止] ループ (Signalレジスタ)", //OK
+  "*DEPRECATED* Use Loop Signal (Match) instead":"[廃止] 'ループ (条件一致)'を使用してください", //OK
+
+  "Found signal":"取得したSignalレジスタ",  //OK
+	"Loop Signal (Match)":"ループ (Signal一致)", //OK
+  "Loops through all units with a signal of similar type":
+	  "指定された内容とアイテムの'タイプ'が同じSignalレジスタを持つユニットをループする\n※'エンティティ'ではなく'アイテムのタイプ'である点に注意", //OK
+
+	"Valley": "平地",  //OK  ステータスでも使用される
+	"Where to continue if the unit is in a valley": "平地にいる場合",  //OK
+	"Plateau": "高地",  //OK
+	"Where to continue if the unit is on a plateau": "高地にいる場合",  //OK
+	"Check Altitude": "高地の判定",  //OK
+	"Divert program depending on location of a unit": "ユニットの現在の地点が高地かを判定する",  //OK
+	// "No visible unit passed":"目に見えるユニット合格なし",  //重複
+
+	"Blight": "ブライト",  //仮  同名のステータスがあるので注意
+	"Where to continue if the unit is in the blight": "ブライトの場合",  //OK
+	"Check Blightness": "ブライト地域の判定",  //OK
+	//説明文がない
+
+	"Full": "フルの場合",  //OK  他所でも使用
+	"Where to continue if at full health": "体力フルの場合",  //OK
+	"Check Health": "体力フルの判定",  //OK
+	"Check a units health": "ユニットが体力フルの状態かを判定する",  //OK
+
+	"Where to continue if battery power is fully recharged": "バッテリー充電フル",  //OK
+	"Check Battery": "バッテリーフルの判定",  //OK
+	"Checks the Battery level of a unit": "ユニットのバッテリーが充電フルの状態かを判定する",  //OK
+
+	"Where to continue if at full efficiency": "フルの場合\n※電力網内にいることを意味する",  //OK
+	"Check Grid Efficiency": "電力網受電フルの判定",  //OK
+	"Checks the Efficiency of the power grid the unit is on": "ユニットの電源網からの受電効率がフルであるかを判定する。\n※電力網内にいるかの判定",  //OK
+
+	"Item to count": "対象アイテム",  //OK
+	"Number of this item in inventory or empty if none exist": "アイテムの個数",  //OK
+	"Count Items": "アイテム数を取得",  //OK
+	"Counts the number of the passed item in its inventory": "ユニットのインベントリ内における指定されたアイテムの個数を取得する",  //OK
+
+	"Have Item": "アイテム指定数の有無",  //OK
+	"have the specified item": "指定されたアイテムを指定個数以上所持している場合",  //OK
+	"Checks if you have at least a specified amount of an item": "指定されたアイテムを指定個数以上所持しているかを判定する",  //OK
+
+	"No Component": "コンポーネントなし",  //OK
+	"If you don't current hold the requested component": "指定されたコンポーネントを所持していない場合\n※注:スロットがある前提",  //OK
+	"Component to equip": "装備するコンポーネント",  //OK
+	"comp": "コンプ",  //おそらく不要
+	"Equip Component": "コンポーネントを装備",  //OK
+	"Equips a component if it exists": "コンポーネントを所持している場合、それを装備する\n※コンポーネント用の空きスロットが必要\n※複数ある場合は指定できない",  //OK
+
+	"Component to unequip": "装備解除するコンポーネント",  //OK
+	"Unequip Component": "コンポーネントの装備解除",  //OK
+	"Unequips a component if it exists": "コンポーネントを装備している場合、それを取り外す\n※インベントリに空きスロットが必要\n※複数ある場合は指定できない",  //OK
+	//同じコンポーネントを複数所持してい場合は
+
+	"Output": "出力",  //使用されているのはここだけ
+	"Enemy unit": "敵ユニット",  //おそらく不要 使用されていない
+	"Get Closest Entity": "最も近いエンティティを取得",  //OK
+	"Gets the closest visible entity matching a filter": "フィルタ条件にマッチする、自ユニットに最も近いエンティティを取得する\n※自派閥の可視範囲が前提",  //OK
+
+	"Unit to Filter, defaults to Self": "フィルター確認対象ユニット (自ユニット以外の場合に指定)",  //OK
+	"Failed": "失敗",  //ここ以外でも使用  "Solve Explorable"で
+	"Did not match filter": "フィルタ条件のすべてに適合しなかった場合",  //OK
+	"Match": "フィルタ適合判定",  //仮 使われているのはここだけ
+	"Filters the passed entity": "指定されたユニットに対して、フィルタ条件に適合するかを判定する\n※フィルタ条件はすべて適合する必要がある",  //OK
+
+	"Destination": "手渡し先",  //仮 使用されているのはここだけ
+	"Unit to bring items to": "アイテムを手渡し相手のユニット",  //OK
+	"Item / Amount": "対象アイテム、個数",  //OK
+	"Item and amount to drop off": "配送するアイテムと個数",  //OK
+	"Drop Off Items": "アイテムの手渡しに行く",  //OK
+	"Drop off items at a unit\n\nIf a number is set it will drop off an amount to fill the target unit up to that amount\nIf unset it will try to drop off everything.":
+	  "指定されたユニットまで移動し、指定された個数のアイテムを手渡しに行く\n※アイテムの指定がない場合、全アイテムを渡せるだけ渡す",  //OK
+
+	"Source": "受取り先",  //仮 使用されているのはここだけ
+	"Unit to take items from": "アイテムを受取す相手のユニット",  //OK
+	"Item and amount to pick up": "対象アイテム、個数",  //OK  "Drop Off Items" と揃えた 
+	"Pick Up Items": "アイテムを受取りに行く",  //OK
+	"Picks up a specific number of items from an entity\n\nWill try to pick up the specified amount, if no amount\nis specified it will try to pick up everything.":
+	  "指定されたユニットまで移動し、指定された個数のアイテムを受取りに行く\n※アイテムの指定がない場合、全アイテムを受け取れるだけ受け取る",  //OK
+
+	"Item and amount to order": "対象アイテム、個数",  //OK  "Drop Off Items" と揃えた 
+	"Request Item": "アイテムをリクエスト",  //OK
+	"Requests an item if it doesn't exist in the inventory": "指定されたアイテムがインベントリにない場合、リクエストする",  //OK
+
+	//存在しない
+	// "Amount": "数量", 
+	// "Get Active Order": "オーダー内容を取得", //
+	// "Gets the source, target and amount data from the current active order": "現在有効な注文から、注文元、注文先、注文数量を取得します。", //
+
+	"Resource Node to check": "確認する資源", //仮
+	"Get Resource Num": "資源の埋蔵量を取得", //仮
+	"Gets the amount of resource": "指定されたワールド上の資源の埋蔵量を取得する", //仮
+
+	"No Items": "アイテムがない場合",  //OK
+	"No items in inventory": "インベントリにアイテムがない場合",  //OK
+	"First Item": "最初のアイテムを取得",  //OK
+  "Reads the first item in your inventory": "インベントリの最初のアイテムを取得する",  //OK
+
+  "Target unit": "対象ユニット",  //他でも使用
+	"Distance": "距離",  //仮  このコマンド内でも使用されているので"距離を取得"にはできない
+	"Unit and its distance in the numerical part of the value": "指定ユニットとの距離 (数値)",  //OK
+	"The unit to measure from (if not self)": "測定対象ユニット (自ユニット以外の場合に指定)", //OK  ここだけで使用
+	"Returns distance to a unit": "指定ユニットとの距離を取得する\n※任意の2つのユニット間の距離も取得可能",
+
+	"Global": "グローバル",  //OK  他でも使用
+	"Item and amount to transfer": "転送するオーダーのアイテムと個数",//OK
+	"Order Transfer To": "オーダーを転送",//OK
+	"Transfers an Item to another Unit": "アイテムのオーダーを他ユニットに転送する",//OK
+
+	"Shutdown": "電源OFF",  //OK ここだけで使用
+	"Shuts down the power of the Unit": "ユニットの電源をOFFにする\n※電源OFFの状態でも行動プログラムは動作する",  //OK 
+
+	"Turn On": "電源オン",  //OK ここだけで使用
+	"Turns on the power of the Unit": "ユニットの電源をONにする",  //OK 
+
+	"Connect": "ネットワークに接続",  //OK 
+	"Connects Units from Logistics Network": "ユニットを物流ネットワークに接続する", //OK 
+	"Disconnect": "ネットワークから切断",  //OK 
+	"Disconnects Units from Logistics Network": "ユニットを物流ネットワークから切断する", //OK 
+
+	"Sort Storage": "インベントリをソート",  //OK
+	"Sorts Storage Containers on Unit": "インベントリ内をソートする",  //OK
+
+	"Unpackage All": "パッケージを開梱",  //仮
+	"Tries to unpack all packaged items": "パッケージに梱包されたアイテムをすべて開梱する",  //仮 実機確認がまだ
+
+	"Package All": "パッケージに梱包",  //仮
+	"Tries to pack all packable units into items": "パッケージタイプのユニットにて、アイテムをパッケージする",  //仮 実機確認がまだ
+
+	"Explorable to solve": "解決対象の調査可能箇所",  //仮  '解決'でいいのか
+	"Missing": "不足",  // ここでしか使われていない
+	"Missing repair item, scanner component or Unpowered": "解決が失敗した場合、修理アイテム、スキャンアイテム、'電源なし'のステータスのいずれかが返る", //OK  '電源なし'
+	"Missing item, component or power to scan": "修理アイテム、スキャンアイテムがない、または電源が入っていない", //
+	"Solve Explorable": "調査可能箇所を解決", //仮  '解決'でいいのか
+	"Attempt to solve explorable with inventory items": "インベントリ内のアイテムを使用して調査可能箇所の解決を試みる", //OK
+
+	"Stop Unit": "停止",  //仮 詳細不明 内部的には Cancel() を実行している
+	"Stop movement and abort what is currently controlling the entities movement": "動きを止め、現在エンティティの動きを制御しているものを中止する",  //要修正 実機確認がまだ 意味がわからない
+
+	"Entity to get coordinates of":"座標取得対象のエンティティ",
+	"Coordinate of entity":"エンティティの座標",
+	"Get Location":"座標を取得",
+	"Gets location of a a seen entity":"指定されたエンティティの座標を取得する\n※視界範囲に限る",
+
+	"Move": "移動",  //行動プログラム内のカテゴリ名でしか使用されない
+	"Unit to move to": "移籍先ユニット",  //OK
+	"Move Unit": "移動",  //OK
+	// "Move to another unit": "他ユニットに移動する",  //使用されていない
+	"Moves to another unit or within a range of another unit":"指定されたユニットまたは座標に移動する",  //仮 範囲内?
+
+	"Number of tiles to move East": "東に移動するタイルの数",  //OK
+	"Move East": "東に移動",  //OK
+	"Moves towards a tile East of the current location at the specified distance": "指定されたタイル数を東に移動する", //OK
+
+	"Number of tiles to move West": "西に移動するタイルの数",  //OK
+	"Move West": "西に移動",  //OK
+	"Moves towards a tile West of the current location at the specified distance": "指定されたタイル数を西に移動する", //OK
+
+	"Number of tiles to move North": "北に移動するタイルの数",  //OK
+	"Move North": "北へ移動",  //OK
+	"Moves towards a tile North of the current location at the specified distance": "指定されたタイル数を北に移動する", //OK
+
+	"Number of tiles to move South": "南に移動するタイルの数",  //OK
+	"Move South": "南へ移動",  //OK
+	"Moves towards a tile South of the current location at the specified distance": "指定されたタイル数を南に移動する", //OK
+
+	"Move Unit (Async)": "ユニット移動 (Async)",  //OK Asyncはプログラム用語なのでそのまま
+	"Move to another unit while continuing the program": "行動プログラム処理をを続けながら他のユニットに移る",
+
 	"Unit to move to, the number specifies the range in which to be in": "移動する単位、数字は移動する範囲を指定する。",
-	"Move Unit (Range)": "移動単位（範囲）",
-	"Moves within a range of another unit": "他のユニットの範囲内に移動する",
-	"Unit to move away from": "から離れるユニット",
-	"Move Away (Range)": "離れる（レンジ）",
-	"Moves out of range of another unit": "他のユニットの射程外に移動する",
-	"Moves in a scouting pattern around the factions home location": "派閥の本拠地周辺を偵察するパターンで移動する。",
-	"Filter 1": "フィルター 1",
-	"First filter": "最初のフィルター",
-	"Filter 2": "フィルター 2",
-	"Second filter": "セカンドフィルター",
-	"Filter 3": "フィルター 3",
-	"Third filter": "第3フィルター",
-	"No Result": "結果無し",
-	"Execution path if no results are found": "結果が見つからなかった場合の実行パス",
-	"Radar": "レーダー",
-	"Scan for the closest unit that matches the filters": "フィルターに最も近いユニットをスキャンする",
+	// "Move Unit (Range)": "移動単位（範囲）",
+	"*Move Unit (Range)*": "[廃止] 移動 (範囲)",
+	// "Moves within a range of another unit": "他ユニットの範囲内に移動する",
+	"*DEPRECATED* Use Move Unit":"[廃止] '移動'を使用してください", //OK
+
+	"Unit to move away from": "対象ユニット",  //仮
+	"Move Away (Range)": "指定ユニットから離れる",  //仮
+	"Moves out of range of another unit": "指定されたユニットから離れるように移動する",  //仮 レンジが何を指すか分からない
+
+  //スカウト 偵察  ボットの名前と重複
+	"Moves in a scouting pattern around the factions home location": "派閥の本拠地周辺を周回するように移動する",  //仮
+
+	"Filter 1": "フィルター1",  //OK ループ (エンティティ)と揃える
+	"First filter": "フィルター1",  //OK 
+	"Filter 2": "フィルター2",  //OK 
+	"Second filter": "フィルター2",  //OK 
+	"Filter 3": "フィルター3",  //OK 
+	"Third filter": "フィルター3",  //OK 
+	"No Result": "結果なし",  //OK 
+	"Execution path if no results are found": "結果が見つからなかった場合\nポータブルレーダーを装備していない場合も含む",  //OK 
+	"Radar": "レーダー",  //訳としてはここだけ
+	"Scan for the closest unit that matches the filters": "フィルターに適合した中で自ユニットに最も近いものを取得する\n'ポータブルレーダー'の装備が前提",  //OK 
+
 	"Resource to Mine": "採掘する資源",
-	"Cannot Mine": "採掘できない",
-	"Execution path if mining was unable to be performed": "採掘できなかった場合の実行パス",
-	"Execution path if can't fit resource into inventory": "リソースがインベントリーに収まらない場合の実行パス",
-	"Mine": "マイン",
-	"Mines a single resource": "単一資源の採掘",
-	"Day": "日",
-	"Where to continue if it is nighttime": "夜間であればどこで続けるか",
-	"Night": "夜",
-	"Where to continue if it is daytime": "日中であればどこで続けるか",
-	"Is Day/Night": "デイ／ナイト",
-	"Divert program depending time of day": "時間帯によってプログラムを切り替える",
-	"Number of this item in your faction": "あなたの派閥内のこのアイテムの数",
-	"None": "無し",
-	"Execution path when none of this item exists in your faction": "自分の派閥にこのアイテムが存在しない場合の実行経路",
-	"Faction Item Amount": "派閥アイテム量",
-	"Frame": "フレーム",
-	"Structure to read the key for": "キーを読む構造",
-	"Number key of structure": "構造の番号キー",
-	"Read Key": "キーを読む",
-	"Attempts to reads the internal key of the unit": "内部キーの読み取りを試みます。",
-	"Can Produce": "プロデュース",
-	"Returns if a unit can produce an item": "ユニットがアイテムを生産できるかどうかを返します。",
-	"Cannot Produce": "生産できない",
-	"Where to continue if the item cannot be produced": "アイテムが生産できない場合、どこで続けるか",
-	"Where to continue if the item can be produced": "生産可能な場合、どこで継続するか",
-	"Production Item": "生産品目",
-	"Product": "製品",
-	"Out 1": "アウト1",
-	"First Ingredient": "最初の材料",
-	"Out 2": "アウト2",
-	"Second Ingredient": "第二の材料",
-	"Out 3": "アウト3",
-	"Third Ingredient": "第3の材料",
-	"Get Ingredients": "材料を手に入れる",
-	"Returns the ingredients required to produce an item": "アイテムを製造するのに必要な材料を返します。",
-	"Notify (%d)": "通知 (%d)",
-	"Notify": "通知",
-	"Notification": "お知らせ",
-	"Behavior Notification": "行動通知",
-	"Notify Value": "通知値",
-	"Notification Value": "通知値",
-	"Triggers a faction notification": "派閥通知をトリガーする",
-	"Resource Node": "リソース・ノード",
-	"Resource Type": "リソースタイプ",
-	"Not Resource": "リソースではない",
-	"Continue here if it wasn't a resource node": "リソース・ノードでない場合は、ここで続ける。",
-	"Gets the resource type from an resource node": "リソースノードからリソースタイプを取得する",
-	"No Unit Passed": "合格ユニット無し",
-	"Ally": "アリー",
-	"Target unit considers you an ally": "対象のユニットがあなたを味方とみなす",
-	"Neutral": "ニュートラル",
-	"Target unit considers you neutral": "対象のユニットがあなたを中立とみなす",
-	"Enemy": "敵",
-	"Target unit considers you an enemy": "対象のユニットがあなたを敵とみなす",
-	"Get Trust": "信頼を得る",
-	"Gets the trust level of the unit towards you": "あなたに対するユニットの信頼度を得る",
-	"Factions home unit": "派閥のホームユニット",
-	"Get Home": "ホーム",
-	"Gets the factions home unit": "ファクションのホームユニットを取得します。",
-	"Pings a Unit": "ユニットへのピング",
-	"Plays the Ping effect and notifies other players": "Pingエフェクトを再生し、他のプレーヤーに通知する。",
-	"Place Construction": "プレース・コンストラクション",
-	"Places a construction site for a specific structure": "特定の建造物の建設場所を指定する",
-	"Print Value": "プリント値",
-	"Debug print to log": "ログへのデバッグ出力",
+	"Cannot Mine": "採掘できない場合",
+	"Execution path if mining was unable to be performed": "採掘できない場合\n採掘機を装備していない場合も含む",  //OK
+	"Execution path if can't fit resource into inventory": "インベントリーに収納できない場合",
+	"Mine": "採掘",  //訳としてはここだけ
+	"Mines a single resource": "資源を採掘する\n'採掘機'の装備が前提",
+
+	"Day": "日中の場合",  //訳はここだけ
+	"Where to continue if it is nighttime": "日中の場合",  //英文の説明文が間違えているので、あえて逆にする
+	"Night": "夜間の場合",  //訳はここだけ
+	"Where to continue if it is daytime": "夜間の場合",  //英文の説明文が間違えているので、あえて逆にする
+	"Is Day/Night": "昼夜を取得",  //OK
+	"Divert program depending time of day": "時間帯が昼間か夜間かを取得する\n注意:'日中の場合'と'夜間の場合'の処理先の定義が必要",  //OK
+
+	"Number of this item in your faction": "対象アイテムの派閥内総数",
+	"None": "なし",  //不要
+	"Execution path when none of this item exists in your faction": "派閥内に対象アイテムが存在しない場合",
+	"Faction Item Amount": "派閥内アイテム総数を取得",  //仮 派閥
+	"Counts the number of the passed item in your logistics network": "指定されたアイテムにおける派閥内の総数を取得する",  //OK
+
+	// "Percent":"",   重複
+	"Value to check":"パーセントの分子となる値 (現在値などに相当)",  //OK
+	"Max Value":"分母になる値",  //OK
+	"Max Value to get percentage of":"パーセントの分母となる値 (最大値などに相当)",  //OK
+	"Gives you the percent that value is of Max Value":"パーセンテージを計算する",  //OK
+
+	"Frame": "フレーム",  //仮  なぜフレームなのか??
+	"Structure to read the key for": "対象の調査可能箇所",  //仮
+	"Number key of structure": "調査可能箇所のハッキングコード値",  //仮
+	"Read Key": "キーをスキャン",  //仮  あまり詳しく書かないほうがよさそうと判断
+	"Attempts to reads the internal key of the unit": "内部キーをスキャンする\n※'小型インテル スキャナー'の装備が前提",  //仮 詳しく書かない 必要なアイテムだけ記載
+
+	"Can Produce": "生産可",  //仮 分岐名でも使用しているので変えられない
+	"Returns if a unit can produce an item": "自ユニットが指定のアイテムを生産できるかを取得する",  //OK
+	"Cannot Produce": "生産不可",  //OK
+	"Where to continue if the item cannot be produced": "指定のアイテムを生産不可の場合",  //OK
+	"Where to continue if the item can be produced": "指定のアイテムを生産可能の場合",  //OK
+	"Production Item": "対象アイテム",  //OK
+
+	"Product": "対象アイテム",  //OK
+	"Out 1": "材料1",  //ここでしか使われていない
+	"First Ingredient": "材料1",  //OK
+	"Out 2": "材料2",  //ここでしか使われていない
+	"Second Ingredient": "材料2",  //OK
+	"Out 3": "材料3",  //ここでしか使われていない
+	"Third Ingredient": "材料3",  //OK
+	"Get Ingredients": "材料を取得",  //OK
+	"Returns the ingredients required to produce an item": "指定されたアイテムの生産に必要な材料となるアイテムを取得する",  //OK
+
+	"Notify (%d)": "通知 (%d)",  //OK
+	"Notify": "通知",  //ここでしか使われていない
+	"Notification": "通知",  //OK
+	"Behavior Notification": "行動プログラムからの通知",  //OK
+	"Notify Value": "通知する内容",  //OK
+	"Notification Value": "通知する内容",  //OK
+	"Triggers a faction notification": "通知内容を表示する",  //OK
+
+	"Resource Node": "確認対象のワールド上の資源",  //OK
+	"Resource Type": "資源タイプ",  //OK
+	"Not Resource": "資源でない場合",  //OK
+	"Continue here if it wasn't a resource node": "資源でない場合",  //OK
+	"Gets the resource type from an resource node": "指定されたワールド上の資源について、資源のタイプを取得する",  //OK
 
 
+	"No Unit Passed": "ユニットがない場合",  //OK
+	"Ally": "味方",  //OK
+	"Target unit considers you an ally": "対象のユニットはこちらを'味方'とみなす場合",  //OK
+	"Neutral": "中立",  //OK
+	"Target unit considers you neutral": "対象のユニットはこちらを'中立'とみなす場合",  //OK
+	"Enemy": "敵",  //OK
+	"Target unit considers you an enemy": "対象のユニットはこちらを'敵'とみなす場合",  //OK
+	"Get Trust": "信頼度を取得",  //OK ここでしか使われていない
+	"Gets the trust level of the unit towards you": "指定されたユニットからの信頼度を取得する",  //OK
+
+	"Factions home unit": "自派閥の本拠地となるユニット",  //OK
+	"Get Home": "本拠地を取得",  //OK
+	"Gets the factions home unit": "自派閥の本拠地となるユニットを取得する",  //OK
+
+	"Pings a Unit": "ユニットにPing",
+	"Plays the Ping effect and notifies other players": "指定のユニットにPingを打つ。他プレーヤーへの目印となる",
+
+	"Place Construction": "建設",
+	"Places a construction site for a specific structure": "指定の座標に建造物の建設する",
+
+	// すでに存在しない
+	// "Print Value": "プリント値",
+	// "Debug print to log": "ログへのデバッグ出力",
+
+	// "Value":"Value",  重複
+	"Value to Remap":"範囲変換(remap)する値",
+	"Input Low":"範囲1 下限",
+	"Low value for input":"範囲1 下限",
+  "Input High":"範囲1 上限",
+	"High value for input ":"範囲1 上限",
+  "Target Low":"範囲2 上限",
+	"Low value for target":"範囲2 上限",
+	"Target high":"範囲2 下限",
+	"High value for target":"範囲2 下限",
+	// "Result":"Result",  重複
+	"Remapped value":"範囲変換後の値",  //意味不明
+	"Remap":"範囲変換 (remap)",  //remapは一般的な用語
+	"Remaps a value between two ranges":
+	  "いわゆる remap関数。範囲1から範囲2に変換した際、範囲1中の値が変換後にいくつになるかを計算する\n※例: 1～11という範囲における6はちょうど真ん中に位置するが、21～60という範囲に変換すると40に相当する",  //OK
+
+  "Produce Unit":"ユニットを生産",  //OK
+	"Sets a production component to produce a blueprint":"指定されたブループリントを生産する\n※生産可能なユニットでの実行が前提",
 
 	// FILE: Main/data/items.lua
 	"Metal Ore": "金属鉱石",  //OK
