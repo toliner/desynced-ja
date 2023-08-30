@@ -540,9 +540,9 @@
 	"Power Save Mode": "省電力モード",
 	"HDR Output": "HDR出力",
 	"Quality": "品質",
-	// "Low": "低",  重複
-	// "Medium": "中",  重複
-	// "High": "高",  重複
+	// "Low": "低",  重複 消さないでね、次のアップデート用。
+	// "Medium": "中",  重複 消さないでね、次のアップデート用。
+	// "High": "高",  重複 消さないでね、次のアップデート用。
 	"Ultra": "ウルトラ",
 	"Resolution Scale": "解像度低下",
 	"View Distance": "距離の表示",
