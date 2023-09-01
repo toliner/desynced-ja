@@ -714,7 +714,7 @@
 	"Restart Playback": "再生を再開する",
 	"Play Game From Here": "ここからゲームをプレイ",
 	"Speed: %s": "スピード：%s",
-	"Paused": "ポーズ",
+	"Paused": "一時停止中",
 	"Day %d %02d:%02d": "%d日目 %02d:%02d",
 	"Time at cursor": "カーソル位置での時間",
 	"Current replay time": "現在の再生時間",
