@@ -3097,7 +3097,7 @@
 	// FILE: Main/data/tech/tech_blight.lua
 	"Blight Shield": "ブライトシールド",
 	"Allows units to enter the blight": "ユニットのブライトへの進入を許可する",
-	"Plasma Concentration": "血漿中濃度",
+	"Plasma Concentration": "プラズマ濃縮",
 	"Concentrated plasma allowing for constructing plasma weapons": "プラズマ兵器の生産を可能にする濃縮プラズマ",
 	"Blight Visibility": "視認性",
 	"Allows Visibility into the Blight": "ブライトを可視化する",
