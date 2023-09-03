@@ -202,8 +202,8 @@
 	"Mined Total": "総採掘量",  //OK
 	"Required Total": "総要求量",  //OK
 
-	"Show only order related to selected unit": "選択したユニットに関連する注文のみを表示",  //仮  注文
-	"Cancel All Orders": "すべての注文をキャンセルする",  //仮  注文
+	"Show only order related to selected unit": "選択したユニットに関連するオーダーのみを表示",  //仮  オーダー
+	"Cancel All Orders": "すべてのオーダーをキャンセルする",  //仮  オーダー
 	"Source:": "供給元",  //仮
 	"Carry:": "配達担当",  //仮
 	"Target:": "配達先",  //仮
@@ -232,8 +232,8 @@
 	"Moving": "移動中",
 	"Returning Home": "ホームへ帰り中",
 	"Controlled by Component": "コンポーネント",
-	"Order Delivery to %s": "%sへのご注文",
-	"Order Pickup from %s": "%sから注文ピックアップ",
+	"Order Delivery to %s": "%sへのオーダー",
+	"Order Pickup from %s": "%sからオーダーピックアップ",
 	"Moving to %s": "%sへ移動",
 	"Interacting with %s": "%sと相互作用",
 	"Queue": "キュー",
@@ -247,7 +247,7 @@
 	"Request an Item to be Delivered": "アイテムの配送を依頼する",
 	"No free slots available for reservation": "予約可能なフリースロットはありません",
 	"highlight": "ハイライト",
-	"Cancel Orders": "注文のキャンセル",
+	"Cancel Orders": "オーダーのキャンセル",
 	"Fix All Slots": "すべてのスロットを固定する",
 	"Fix Slots to an Item": "アイテムを指定してスロット固定",  //仮
 	"Unfix All Slots": "全スロットの固定解除",
@@ -256,7 +256,7 @@
 	"Storing Inventory": "インベントリの保管",
 	"Store:": "転送：",
 	"Component:": "コンポーネント",
-	"Order Delivery": "ご注文の配送",
+	"Order Delivery": "オーダーの配送",
 	"Picking up item from source": "ソースからアイテムをピックアップ",
 	"Dropping off item at target": "ターゲットにアイテムを預ける",
 	"Item:": "アイテム",
@@ -979,7 +979,7 @@
 	"You have lost a unit (%d)": "ユニットを失いました (%d)",
 	"Rich %s resource depleted": "豊富な%s資源が枯渇",
 	"Order Carrier": "オーダーキャリア",
-	"Order was aborted and carrier still holds the items": "注文は中断され、運送会社はまだアイテムを保有している。",
+	"Order was aborted and carrier still holds the items": "オーダーは中断され、運送会社はまだアイテムを保有している。",
 
 	// FILE: Main/ui/utilities.lua
 	"Message": "メッセージ",
@@ -1124,7 +1124,7 @@
 	"Welcome back Commander, your ship has been damaged and I've taken you out of stasis.\n\nI am <hl>ELAIN</>, Emergent Logistics Artificial Intelligence Network.  What you're seeing is a feed from an unidentified planet where I've deployed a team for you to command.\n\nThis planet seems to be the source of the damage and we are unable to leave the planet's orbit until our ship is repaired and the source of the damage is identified.":
 		"お目覚めですね、司令官。\n私たちの船は大きなダメージを受けたため、あなたを冷凍睡眠から呼び覚ましました。\n\n私は<hl>ELAIN</>(Emergent Logistics Artificial Intelligence Network)です。\n\nダメージの元凶は付近の惑星内にあることが分かりました。\nそれを特定しないと、船はその惑星の軌道から離れられません。船の修理も必要です。\n\nそこで私は、その惑星に調査チームを派遣しました。\n今ご覧いただいている画面は、調査チームからの映像です。",
 	"You will need to establish a small mining facility in order to proceed with ship repairs. <bl>This will be your primary objective.</>\n\nCommunications are currently limited so one of the first things you will need to do is to establish an uplink from ground level.\n\nTry to find <img id=\"metalore\"/><hl>Metal</> and <img id=\"crystal\"/><hl>Crystal</> deposits as we will need them for repairs.":
-		"ですが、調査チームとの通信は一部制限がかかっている状態です。\nこの惑星に'アップリンク'を設置できれば解消されます。\nそれに向けて、まずは必要となる素材を集めましょう。\n\n画面に<img id=\"metalore\"/><hl>金属鉱石</>と<img id=\"crystal\"/><hl>クリスタル原石</>があります。\nこのあたりに採掘する施設の整備しましょう。",
+		"ですが、調査チームとの通信は一部制限がかかっている状態です。\nこの惑星に<hl>アップリンク</>を設置できれば解消されます。\nそれに向けて、まずは必要となる素材を集めましょう。\n\n画面に<img id=\"metalore\"/><hl>金属鉱石</>と<img id=\"crystal\"/><hl>クリスタル原石</>があります。\nこのあたりに採掘する施設の整備しましょう。",
 
 	"Store Crystal": "クリスタルの保管",
 	"Gather or mine crystal": "クリスタルを採掘する",
@@ -1336,7 +1336,7 @@
 	"You can process Metal Ore using the <hl>Fabricator</>. Try equipping it onto your Command Center.\nSelect the <hl>Command Center</><img id=\"f_landingpod\" width=\"50\" height=\"50\"/>\nPlace the <hl>Fabricator</><img id=\"c_fabricator\" width=\"40\" height=\"40\"/> from its inventory into an <hl>[ M ] Medium Socket</> on the left side.":
 		"では、<hl>ファブリケーター</>というコンポーネントを使用して、金属鉱石を加工してみましょう。\n\nコマンドセンターに<hl>ファブリケーター</>装備します。\n<hl>コマンドセンター</><img id=\"f_landingpod\" width=\"50\" height=\"50\"/>を選択し、\nインベントリにある <hl>ファブリケーター</><img id=\"c_fabricator\" width=\"40\" height=\"40\"/> を左側の <hl>[ M ] 中型</>のソケットにドラッグします。",
 	"Good job, the <hl>Fabricator</> can now be set to produce <hl>Metal Bars</> from the gathered ore.\n\nSet the production and you'll notice the units will automatically deliver the required ingredients.\n\nClick on <hl>Production</><img image=\"Main/textures/codex/icons/prod_reg.png\" width=\"48\" height=\"48\"/> next to the fabricator.\n\nDouble click on the <hl>Metal Bars</><img id=\"metalbar\" width=\"50\" height=\"50\"/> icon to start production.":
-		"続いて、<hl>ファブリケーター</>に生産の指示を出します。\n<hl>ファブリケーター</>の隣にある<hl>生産物</><img image=\"Main/textures/codex/icons/prod_reg.png\" width=\"48\" height=\"48\"/>をクリック、そして<hl>金属インゴット</><img id=\"metalbar\" width=\"50\" height=\"50\"/>アイコンをダブルクリックします。",
+		"続いて、<hl>ファブリケーター</>に生産の指示を出します。\n<hl>ファブリケーター</>の隣にある<hl>生産物</><img image=\"Main/textures/codex/icons/prod_reg.png\" width=\"48\" height=\"48\"/>をクリック、\n<hl>金属インゴット</><img id=\"metalbar\" width=\"50\" height=\"50\"/>アイコンをダブルクリックします。",
 
 	"Expanding Production": "生産の拡大",
 	"Now automate production of <hl>Metal Bars</> by constructing a dedicated production building. Open the build menu and construct a small building.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct a <hl>Building</><img id=\"f_building1x1d\" width=\"50\" height=\"50\"/>":
@@ -1360,23 +1360,39 @@
 
 	//研究
 	"The Uplink is in place and you can start your Technology Research. Access the <hl>Tech Tree</> and choose one of the initial research nodes, then set it as your current research.\n\nClick the <hl>Research</> button <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\nClick and open the <hl>Basic Tree</> <img image=\"Main/textures/codex/techtree/basic_tree.png\" width=\"80\" height=\"80\"/>\n\nSelect one of the research nodes and then click <hl>Set Research</>":
-	  "アップリンクが完了し、技術研究を開始できます。<hl>技術ツリー</>にアクセスし、最初の研究ノードを1つ選び、現在の研究として設定します。\n\n<hl>研究</><img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>ボタンをクリック\n\n<hl>基本ツリー</><img image=\"Main/textures/codex/techtree/basic_tree.png\" width=\"80\" height=\"80\"/>をクリックして開く\n\nリサーチノードを1つ選択し、<hl>研究する</>をクリックします。",
+		"アップリンクが設置されたため、技術研究できるようになりました。\nさっそく研究を開始してみましょう。\n\n<hl>研究</><img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>ボタンをクリックし、\n<hl>基本</><img image=\"Main/textures/codex/techtree/basic_tree.png\" width=\"80\" height=\"80\"/>をクリックして開きます。\n\n開始する研究を1つ選択し、<hl>研究開始</>をクリックします。",
 
 	"Increase Mining Capacity": "採掘能力の向上",
-	"Our resource mining needs to increase in order to keep pace with our production.  We need to add more <hl>Mining Bots</>.\n\nOn your <hl>Command Center</> produce <normal>1</> <hl>Circuit Board</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>\nThen build a <hl>Miner</><img id=\"c_miner\" width=\"45\" height=\"45\"/> component and a <hl>Worker</> bot <img id=\"f_bot_1s_a\" width=\"50\" height=\"50\"/>\n\nMount the Miner on the Worker and set it to mine <hl>Metal Ore</>.": "生産量に追いつくためには、資源の採掘量を増やす必要があります。  <hl>採掘ボットを増やす</>必要があります。\n\n<hl>コマンドセンター</>で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>1つ</>生産します。\n\n次に、<hl>採掘装置</><img id=\"c_miner\" width=\"45\" height=\"45\"/>コンポーネントと<hl>作業ボット</><img id=\"f_bot_1s_a\" width=\"50\" height=\"50\"/>を生産します。\n\n作業ボットに採掘装置を取り付け、金属鉱石を採掘するようにセットします。",
+	"Our resource mining needs to increase in order to keep pace with our production.  We need to add more <hl>Mining Bots</>.\n\nOn your <hl>Command Center</> produce <normal>1</> <hl>Circuit Board</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>\nThen build a <hl>Miner</><img id=\"c_miner\" width=\"45\" height=\"45\"/> component and a <hl>Worker</> bot <img id=\"f_bot_1s_a\" width=\"50\" height=\"50\"/>\n\nMount the Miner on the Worker and set it to mine <hl>Metal Ore</>.":
+		"生産量が増強できたので、資源の採掘量も増強が必要です。\n<hl>採掘用のボット</>を追加しましょう。\n\n<hl>コマンドセンター</>で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>1つ</>生産し、\n<hl>採掘機</>と<hl>作業ボット</>を作成します。\n\n<hl>採掘機</>を<hl>作業ボット</>に取り付け、金属鉱石を採掘するように設定します。",
+
 	"Logistics Network Orders": "物流ネットワーク受注",
-	"When a unit is connected to the logistics network it will automatically try to fulfill any item transfer requests.\n\nFor example, if a <hl>Fabricator</> requires ingredients, any idle bots on the network will try to find that item inside the network, and carry it to the location of the fabricator.\n\nUnits can be connected and disconnected from the logistics network.\n\nWhen they are first built, robots are <hl>OFF</> the network by default.\n\nPressing (<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>) shows the <hl>Area</> that the <hl>Logistics Network</> covers.\n\nExplanation of advanced <hl>Automation</> options are available in the Codex (<Key action=\"Codex\" style=\"hl\"/>)": "ユニットが物流ネットワークに接続されると、自動的にアイテム転送のリクエストに応えようとします。\n\n例えば、<hl>ファブリケーター</>が材料を必要とする場合、ネットワーク上のアイドル状態のボットはネットワーク内でそのアイテムを見つけ、ファブリケーターの場所まで運ぼうとします。\n\nユニットは物流ネットワークから接続したり切り離したりできます。\n\n建設当初、ロボットはデフォルトでネットワークから外れています。\n\n(<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>)を押すと、<hl>物流ネットワーク</>がカバーする<hl>エリアが表示されます。</>\n\n詳細な<hl>自動化オプション</>の説明は、Codex (<Key action=\"Codex\" style=\"hl\"/>)にあります。",
-	"Add Miner to Network": "採掘ボットを物流ネットワークに追加",
-	"If your mining bot is on the Network then other robots on the Network will pick up the mined ore from it when required.\n\nAdd your <hl>Mining Bot</> to the Network by clicking the <Key action=\"SelectAction\" style=\"hl\"/> on the Network button <img image=\"Main/textures/codex/icons/network_button.png\" width=\"30\" height=\"30\"/>": "あなたの採掘ボットがネットワーク上にある場合、ネットワーク上の他のロボットが必要なときに採掘した鉱石をピックアップします。\n\nネットワーク上の<Key action=\"SelectAction\" style=\"hl\"/>をクリックして、<hl>採掘ボット</>をネットワークに追加します。",
+	"When a unit is connected to the logistics network it will automatically try to fulfill any item transfer requests.\n\nFor example, if a <hl>Fabricator</> requires ingredients, any idle bots on the network will try to find that item inside the network, and carry it to the location of the fabricator.\n\nUnits can be connected and disconnected from the logistics network.\n\nWhen they are first built, robots are <hl>OFF</> the network by default.\n\nPressing (<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>) shows the <hl>Area</> that the <hl>Logistics Network</> covers.\n\nExplanation of advanced <hl>Automation</> options are available in the Codex (<Key action=\"Codex\" style=\"hl\"/>)":
+		"ボット等のユニットは、物流ネットワークに接続されていると\nアイテム配送のオーダーに自動的に対応します。\n\n例えば、<hl>ファブリケーター</>が材料を必要とする場合、\nアイドル状態のボットはそれを探して取りに行き、運ぼうとします。\n\n物流ネットワークとの接続と切断は、いつでも可能です。\n生産直後のボットは、物流ネットワークから切断されています。\n\n<Key action=\"PowerInfo_Toggle\" style=\"hl\"/> を押すと、物流ネットワークがカバーするエリアが表示されます。\n\n高度なオートメーションオプションの説明は Codex を参照ください。",
+
+	"Add Miner to Network": "採掘ボットを物流ネットワークに接続",
+	"If your mining bot is on the Network then other robots on the Network will pick up the mined ore from it when required.\n\nAdd your <hl>Mining Bot</> to the Network by clicking the <Key action=\"SelectAction\" style=\"hl\"/> on the Network button <img image=\"Main/textures/codex/icons/network_button.png\" width=\"30\" height=\"30\"/>":
+		"先ほどの<hl>採掘用のボット</>が物流ネットワークに接続していると、\n他のボットが採掘した鉱石をピックアップに来ます。\n\n<hl>採掘用のボット</>を選択し、<hl>ネットワークボタン</>をクリックして、\n物流ネットワークに接続します。",
+
 	"Storage": "貯蔵",
-	"You will notice your miners are starting to reach capacity so it would be good to have a <hl>Storage</> unit to store excess items.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct a <hl>Storage</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/> Building.": "採掘機の収容量が限界に達し始めている事に気付いていますか、余分なアイテムを保管するための<hl>貯蔵ユニット</>があるといいでしょう。\n\n<hl>建設メニュー</><hl>(</><Key action=\"Build\" style=\"hl\"/><hl>) </><img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>を開く\n<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>を建設します。",
+	"You will notice your miners are starting to reach capacity so it would be good to have a <hl>Storage</> unit to store excess items.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct a <hl>Storage</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/> Building.":
+		"採掘中の各ボットのインベントリに余裕がなってきました。\nアイテムを保管するためのストレージ ユニットがあると便利です。\n<hl>建設メニュー</><hl>(</><Key action=\"Build\" style=\"hl\"/><hl>) </><img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>を開き、\n<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>を建設しましょう。",
+
 	"The <hl>Store Parameter</> tells the unit where it can store its inventory when it becomes full.\n\nWhen the mining bot can no longer hold resources it will place all its items onto the Storage Block, allowing it to continue mining.\n\nSelect one of your <hl>Miner Units</>\n\nClick on the <hl>Store parameter</> <img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/> and then specify the storage location by selecting the <hl>Storage Block</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>.":
-		"<hl>Store レジスタ</>は、ユニットが満杯になったとき、そのインベントリをどこに保管できるかを指示する。\n\n採掘ボットがリソースを保持できなくなると、すべてのアイテムをストレージブロックに置き、採掘を継続できるようにする。\n\n<hl>マイナーのユニットを</>1つ選択する\n\n<hl>Store レジスタ</>ボタン<img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/>をクリックし、<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>を選択して保存場所を指定します。",
-	"Unlocking more production materials is required to advance our technology so begin research of Basic Structures in the Tech tree.\n\nClick the <hl>Research</> button <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\nSelect <hl>Basic Structures</> and press the <hl>Set Research</> button.": "テクノロジーを進化させるには、より多くの生産資材をアンロックする必要がある。\n\n<hl>リサーチ</>ボタンをクリック <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\n<hl>基本構造」を</>選択し、「<hl>セットリサーチ」</>ボタンを押す。",
-	"<hl>Reinforced Plate</> is produced in an <hl>Assembler</>. A building with a Medium Socket is now available however it also requires Reinforced plate.\n\nYou will need to produce the required ingredients in the <hl>Command Center</> before setting up the dedicated production.\n\nOn your <hl>Command Center</> produce <normal>20</> <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>\nand <normal>2</> <hl>Circuit Boards</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>": "<hl>強化プレート</>は<hl>アセンブラー</>で生産される。[M]中型ソケットを持つ建屋が利用可能になりましたが、これには強化プレートも必要です。\n\n専用プロダクションを立ち上げる前に、<hl>コマンドセンターで</>必要な材料を生産する必要があります。\n\n<hl>コマンドセンター</>で<hl>強化プレート </><img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>を<normal>20</>個生産\nおよび<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>2つ</>生産します。",
+		"<hl>Store レジスタ</>は、インベントリが満杯になった時にアイテムを移す場所を指定します。\n\n採掘用のボットがアイテムを持てなくなった際に、\nすべてのアイテムを貯蔵ブロックに移し、採掘作業が継続できるようにしましょう。\n\n<hl>採掘用のボット</>を1つ選択し、\n<hl>Store レジスタ</>ボタン<img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/>をクリックし、\n先ほどの<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>まで<hl>ドラッグ</>します。",
+	
+	//強化プレート
+	"Unlocking more production materials is required to advance our technology so begin research of Basic Structures in the Tech tree.\n\nClick the <hl>Research</> button <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\nSelect <hl>Basic Structures</> and press the <hl>Set Research</> button.":
+		"技術の進化のため、さらに多くの生産資材をアンロックしましょう。\n<hl>研究</>ボタンをクリック <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>し、\n「<hl>基本構造</>」を選択し、<hl>研究開始</>ボタンを押します。",
+	"<hl>Reinforced Plate</> is produced in an <hl>Assembler</>. A building with a Medium Socket is now available however it also requires Reinforced plate.\n\nYou will need to produce the required ingredients in the <hl>Command Center</> before setting up the dedicated production.\n\nOn your <hl>Command Center</> produce <normal>20</> <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>\nand <normal>2</> <hl>Circuit Boards</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>":
+		"<hl>強化プレート</>の生産を始めましょう。\n\n<hl>強化プレート</>は<hl>アセンブラー</>で生産できますので、\n<hl>アセンブラー</>が装備できる[M]中型ソケットを持つ建屋を建設しましょう。\n\n材料となる<hl>強化プレート</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>を<normal>20</>個、<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>2</>つ、\nそれぞれを<hl>コマンドセンター</>で生産します。",
+
 	"Exploration": "探検",
-	"While you're waiting for production, now is a good time to scout your surroundings. There are many ruined structures scattered across the landscape. Some have requirements to open. There is a large one on the other side of the Metal Ore patch.\n\nContinue to produce <normal>20</> <hl>Reinforced Plate</> and <normal>2</> <hl>Circuit Boards</>": "生産を待つ間は、周囲を偵察するいい機会です。廃墟と化した建築物が数多く点在しています。開くには条件があるものも存在します。金属鉱石群の反対側に大きなものがあります。<hl>強化プレート</><normal>20</>個と<hl>回路基板</><normal>2</>つの生産を続けます。",
-	"Now to set up dedicated production of Reinforced Plates. Start by building the <hl>Medium Building</>.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct the <hl>Medium Building</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>": "次に、強化プレートの専用生産設備を設置します。まず、<hl>中型建屋</>を建設します。\n\n<hl>建設メニュー</><hl>(</><Key action=\"Build\" style=\"hl\"/><hl>) </><img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>を開き、\n<hl>中型建屋</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>を建設します。",
+	"While you're waiting for production, now is a good time to scout your surroundings. There are many ruined structures scattered across the landscape. Some have requirements to open. There is a large one on the other side of the Metal Ore patch.\n\nContinue to produce <normal>20</> <hl>Reinforced Plate</> and <normal>2</> <hl>Circuit Boards</>":
+		"生産を待っている間、拠点の周囲を偵察してみましょう。\n\n各地に廃墟と化した建造物が数多く点在しています。\n調査に課題が設けられているものもあります。\n\n金属鉱石パッチの少し先に大きな建造物が見えます。\n<hl>強化プレート</><normal>20</>個と<hl>回路基板</><normal>2</>の生産を待ちつつ\nそこからトライしてみてはいかがでしょう。",
+
+	"Now to set up dedicated production of Reinforced Plates. Start by building the <hl>Medium Building</>.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct the <hl>Medium Building</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>":
+	"次に、強化プレートの専用生産設備を設置します。まず、<hl>中型建屋</>を建設します。\n\n<hl>建設メニュー</><hl>(</><Key action=\"Build\" style=\"hl\"/><hl>) </><img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>を開き、\n<hl>中型建屋</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>を建設します。",
 	"Now set up the new building with an <hl>Assembler</> producing <hl>Reinforced Plates</>.\n\nProduce and equip an <hl>Assembler</> <img id=\"c_assembler\" width=\"50\" height=\"50\"/>\nSet it to produce <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>": "次に、<hl>強化板</>を生産する<hl>アセンブラー</>のある新しい建屋をセットアップします。\n\n<hl>アセンブラー</><img id=\"c_assembler\" width=\"50\" height=\"50\"/>を生産し、中型建屋に装備します。\n<hl>強化プレート</><img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>を生産するように設定します。",
 	"Circuit Boards": "回路基板",
 	"The last material that we should automate for now is <hl>Circuit Boards</> which is also produced in an Assembler. Follow the same process as setting up the Reinforced Plate dedicated building and set it to <hl>Circuit Boards</>.\n\nProduce another <hl>Assembler</> <img id=\"c_assembler\" width=\"50\" height=\"50\"/> in your <hl>Command Center</>\nSet up <hl>Circuit Board</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/> production building the same way as <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>production": "最後に自動化すべき材料は<hl>回路基板</>です。これもアセンブラーで生産されます。強化プレート専用建屋のセットアップと同じ手順で、<hl>回路基板</>をセットします。\n\n<hl>コマンドセンター</>で別の<hl>アセンブラー</><img id=\"c_assembler\" width=\"50\" height=\"50\"/>を作成します。\n<hl>強化プレート</><img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>生産と同じ方法で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>生産建屋をセットアップします。",
@@ -1722,7 +1738,8 @@
 	"Item Transporter": "アイテム転送装置",  //OK
 	"Enables automatic transfer of inventory directly between any Building or Unit in range": "範囲内の建築物やユニット間で、ボットを使用することなく直接アイテムの受け渡しができる",  //仮 範囲について記載をしたい
 	"Portable Transporter": "ポータブル アイテム転送装置",  //OK
-	"Enables automatic transfer of inventory directly between any adjacent Buildings or Units": "範囲内の建築物やユニット間で、ボットを使用することなく直接アイテムの受け渡しができる",  //仮 範囲について記載をしたい
+	"Enables automatic transfer of inventory directly between any adjacent Buildings or Units":
+  　"範囲内の建築物やユニット間で、ボットを使用することなく直接アイテムの受け渡しができる\n※装備したユニットのインベントリに空きスロットが必要になる点に注意",  //仮 範囲について記載をしたい
 
 	"Portable Radar": "ポータブルレーダー",  //OK
 	"Short range detection of resources and other objects in the world. All conditions must be met.": "近距離範囲内にある資源などを検知できる。複数の検知条件が指定でき、すべての条件を満たすものが検知される",  //仮
@@ -2684,7 +2701,7 @@
 	//存在しない
 	// "Amount": "数量", 
 	// "Get Active Order": "オーダー内容を取得", //
-	// "Gets the source, target and amount data from the current active order": "現在有効な注文から、注文元、注文先、注文数量を取得します。", //
+	// "Gets the source, target and amount data from the current active order": "現在有効なオーダーから、オーダー元、オーダー先、オーダー数量を取得します。", //
 
 	"Resource Node to check": "確認する資源", //仮
 	"Get Resource Num": "資源の埋蔵量を取得", //仮
