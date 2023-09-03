@@ -1739,7 +1739,7 @@
 	"Enables automatic transfer of inventory directly between any Building or Unit in range": "範囲内の建築物やユニット間で、ボットを使用することなく直接アイテムの受け渡しができる",  //仮 範囲について記載をしたい
 	"Portable Transporter": "ポータブル アイテム転送装置",  //OK
 	"Enables automatic transfer of inventory directly between any adjacent Buildings or Units":
-  　"範囲内の建築物やユニット間で、ボットを使用することなく直接アイテムの受け渡しができる\n※装備したユニットのインベントリに空きスロットが必要になる点に注意",  //仮 範囲について記載をしたい
+  	"範囲内の建築物やユニット間で、ボットを使用することなく直接アイテムの受け渡しができる\n※装備したユニットのインベントリに空きスロットが必要になる点に注意",  //仮 範囲について記載をしたい
 
 	"Portable Radar": "ポータブルレーダー",  //OK
 	"Short range detection of resources and other objects in the world. All conditions must be met.": "近距離範囲内にある資源などを検知できる。複数の検知条件が指定でき、すべての条件を満たすものが検知される",  //仮
