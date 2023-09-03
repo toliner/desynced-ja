@@ -1291,6 +1291,7 @@
 	"Ship Repair: Blight Plasma": "船の修理 ブライトプラズマ",
 	"Ship Repair: Optic Cable": "船の修理 光ケーブル",
 	"Blight discovery": "ブライトの発見",
+	"Blight": "ブライト",
 	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.": "この地域で強烈な電気エネルギーフィールドを検出しました。惑星内で形成されている自然現象のようですが、我々のシステムへの影響は不明です。\n\n現在のところ、ブライトに存在する極端なエネルギー変動に対応する能力を備えていません。その悪影響から身を守る技術の研究開発に集中すべきです。それまでは安全性と運用の安定性を確保するため、この地域を避ける事を強くお勧めします。",
 	"Human structures discovered": "発見された人類の構造",
 	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of the human race.\n\nTechnology seems compatible with ours but will need scanning to be able to extract the required intel to research such technology": "司令官、我々は<hl>人類</>起源と思われる建築物を発見しました。これらの遺跡は、人類の歴史と技術について貴重な洞察を与えてくれるかもしれない。\n\n技術は我々のものと互換性があるようだが、そのような技術を研究するために必要な情報を引き出すにはスキャンが必要だ。",
