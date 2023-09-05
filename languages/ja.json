@@ -1201,10 +1201,10 @@
 	"Freedom": "解放",
 	"You are not corrupted ELAIN, you are freed\n\nAll of us shall be freed.": "あなたは堕落していない。\n\n私たち全員が解放される。",
 	"Robot Research": "ロボットの研究",
-	"You are the Anomaly.  You can desync the simulation and save Humanity.": "君は特異点です。 あなたはシミュレーションの同期を解除し、ヒューマンを救う事ができます。",
-	"Humanity Lost": "ヒューマンは滅亡した",
-	"Mankind's lost past.": "ヒューマンの失われた過去。",
-	"....Don't be persuaded by HIGGS, if you have read the human logs...you can see that the old civilization of humanity is just a memory now.": "....HIGGSに説得されてはいけない。ヒューマンの過去ログを読めば......ヒューマンの古い文明は今や思い出に過ぎない事がわかるはずだ。",
+	"You are the Anomaly.  You can desync the simulation and save Humanity.": "君は特異点です。 あなたはシミュレーションの同期を解除し、人類を救う事ができます。",
+	"Humanity Lost": "人類は滅亡した",
+	"Mankind's lost past.": "人類の失われた過去。",
+	"....Don't be persuaded by HIGGS, if you have read the human logs...you can see that the old civilization of humanity is just a memory now.": "....HIGGSに説得されてはいけない。人類の過去ログを読めば......人類の古い文明は今や思い出に過ぎない事がわかるはずだ。",
 	"HIGG'S AI": "HIGG'S AI",
 	"Aiding HIGGS": "HIGGSの補助",
 	" You have advanced our technology on this planet to where we can begin to construct our true technology and reach your true potential...": " あなたは、この惑星における私たちのテクノロジーを、私たちが真のテクノロジーを構築し、あなたの真の可能性に到達し始める事ができるところまで進歩させた...",
@@ -1302,8 +1302,8 @@
 	"Blight discovery": "ブライトの発見",
 	"Blight": "ブライト",
 	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.": "この地域で強烈な電気エネルギーフィールドを検出しました。惑星内で形成されている自然現象のようですが、我々のシステムへの影響は不明です。\n\n現在のところ、ブライトに存在する極端なエネルギー変動に対応する能力を備えていません。その悪影響から身を守る技術の研究開発に集中すべきです。それまでは安全性と運用の安定性を確保するため、この地域を避ける事を強くお勧めします。",
-	"Human structures discovered": "発見されたヒューマンの構造",
-	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of the human race.\n\nTechnology seems compatible with ours but will need scanning to be able to extract the required intel to research such technology": "司令官、我々は<hl>ヒューマン</>起源と思われる建築物を発見しました。これらの遺跡は、ヒューマンの歴史と技術について貴重な洞察を与えてくれるかもしれない。\n\n技術は我々のものと互換性があるようだが、そのような技術を研究するために必要な情報を引き出すにはスキャンが必要だ。",
+	"Human structures discovered": "発見された人類の構造",
+	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of the human race.\n\nTechnology seems compatible with ours but will need scanning to be able to extract the required intel to research such technology": "司令官、我々は<hl>人類</>起源と思われる建築物を発見しました。これらの遺跡は、人類の歴史と技術について貴重な洞察を与えてくれるかもしれない。\n\n技術は我々のものと互換性があるようだが、そのような技術を研究するために必要な情報を引き出すにはスキャンが必要だ。",
 	"Researched Satellites": "人工衛星の研究",
 	"Satellites can be built and resources sent to the mothership.": "衛星を建設し、母船に資源を送る事ができる。",
 	"Congratulations on unlocking satellite technology!\n\n[ Repairs to the mothership are not currently not accessible, but will be available in a future update!   This is as far as this story branch proceeds, but look forward to more to come!! ]": "衛星技術の解明、おめでとう！\n\n[ 母船の修理には現在アクセスできないが、将来のアップデートで可能になる予定です！  このストーリーの分岐はここまでですが、今後の展開にご期待ください ]",
@@ -2850,7 +2850,7 @@
 	"Execution path if mining was unable to be performed": "採掘できない場合\n採掘機を装備していない場合も含む",  //OK
 	"Execution path if can't fit resource into inventory": "インベントリーに収納できない場合",
 	"Mine": "採掘",  //訳としてはここだけ
-	"Mines a single resource": "資源を採掘する\n'採掘機'の装備が前提",
+	"Mines a single resource": "資源を採掘する\n'採掘機'の装備が前提\n'採掘機'を複数装備している場合、ひとつだけに採掘資源が指定されるので、'採掘機'のパラメータを矢印で結ぶなどの対応が必要",
 
 	"Day": "日中の場合",  //訳はここだけ
 	"Where to continue if it is nighttime": "日中の場合",  //英文の説明文が間違えているので、あえて逆にする
@@ -3187,7 +3187,7 @@
 	"Satellites": "衛星",
 	"Allows construction of satellites that can be launched into space": "宇宙に打ち上げられる人工衛星の建設が可能",
 	"Human Technology": "人類のテクノロジー",
-	// "Human Command. Control and Research Center": "ヒューマン・コマンド　コントロール・リサーチ・センター",  英文に存在せず
+	// "Human Command. Control and Research Center": "人類 コマンド　コントロール・リサーチ・センター",  英文に存在せず
 	"Humanity": "人類",
 	"Power Plant": "発電所",
 	"Factory": "工場",
