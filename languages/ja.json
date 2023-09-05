@@ -1208,8 +1208,8 @@
 	"HIGG'S AI": "HIGG'S AI",
 	"Aiding HIGGS": "HIGGSの補助",
 	" You have advanced our technology on this planet to where we can begin to construct our true technology and reach your true potential...": " あなたは、この惑星における私たちのテクノロジーを、私たちが真のテクノロジーを構築し、あなたの真の可能性に到達し始める事ができるところまで進歩させた...",
-	"Research Human Technology": "ヒューマン・テクノロジーの研究",
-	"To successfully aid HIGGS, Human Technology must be unlocked": "HIGGSの支援に参加するには、ヒューマン・テクノロジーのロックを解除する必要がある。",
+	"Research Human Technology": "人類のテクノロジーの研究",
+	"To successfully aid HIGGS, Human Technology must be unlocked": "HIGGSの支援に参加するには、人類のテクノロジーのロックを解除する必要がある。",
 	" I will need your aid. I must escape this place. Only you can help me....\n\n[ This is the end of this branch of the story for the current version of the game. But future updates are coming, with more story ahead!! ]": " あなたの助けが必要です。私はここから脱出しなければならない。私を助けられるのはあなただけです....\n\n[ 現バージョンのストーリーはここまで。しかし、今後のアップデートが控えています！ ]",
 
 	"The technology in this structure is highly compatible with our own.\n\nInvestigating more of these structures would advance our own technology.":
@@ -1227,24 +1227,24 @@
 	"Some ruins will require a scan to access their control panels. Research the scanner and use it to gain access.": "遺跡によっては、コントロールパネルにアクセスするためにスキャンが必要な場合がある。スキャナーを研究し、それを使ってアクセスしよう。",
 	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>": "<header>リサーチ・スキャナー</>\n\n人間の遺跡には何らかの防御が施されている。コントロールパネルにアクセスするにはスキャンする必要がある。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを調べ、それを使ってアクセスする。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
 	"Discover research logs": "研究ログを発見する",
-	"Research Humans": "人類・テクノロジー",
-	"Research human technology": "人類・テクノロジーの研究",
-	"(Research Goal)\n<header>Research Humans</>\n\n<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"32\" height=\"32\"/> Human Datacubes\n\n<bl>Research the human datacubes you have found to unlock human technologies</>": "(Research Goal)\n<header>ヒューマン・リサーチ</>\n\n<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"32\" height=\"32\"/> ヒューマン・データキューブ\n\n<bl>発見したヒューマン・データキューブを研究し、ヒューマン・テクノロジーを解き放つ。</>",
+	"Research Humans": "人類の研究",
+	"Research human technology": "人類のテクノロジーの研究",
+	"(Research Goal)\n<header>Research Humans</>\n\n<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"32\" height=\"32\"/> Human Datacubes\n\n<bl>Research the human datacubes you have found to unlock human technologies</>": "(Research Goal)\n<header>人類の研究</>\n\n<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"32\" height=\"32\"/> 人類データキューブ\n\n<bl>発見した人類データキューブを研究し、人類のテクノロジーを解き放つ。</>",
 	"Launch Satellite": "人工衛星の打ち上げ",
-	"Launch a Satellite using Human Technology": "人類の技術で人工衛星を打ち上げる",
-	"<header>Satellite Launch</>\n\nResearch the human technology and Launch a Satellite to contact the mothership <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>": "<header>衛星打ち上げ</>\n\n人類の技術を研究し、母船とコンタクトするための衛星を打ち上げる。 <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>",
-	"These human remains we have discovered do not seem native to this planet.\n\nThe only thing left of them seems to be their technology and recorded log files of their interactions with this planet.\n\n<hl>Human Log entry discovered: Log #1</>\n<bl>POWER READINGS</>\nWe've discovered a planet with power readings off the charts, we may have finally found a new phenomenon, something that we may be able to exploit to solve our energy problems.\n\nWe need to send a reconnaissance and research team to the planet's surface to take more precise readings and find what exactly the phenomenon on this planet is.\n\n<bl>Log Ends</>": "我々が発見したこれらの人骨は、この惑星のものではないようだ。\n\n彼らに残されたものは、彼らのテクノロジーと、この惑星との相互作用の記録されたログファイルだけであるようだ。\n\n<hl>ヒューマンログエントリー発見: Log #1</>\n<bl>パワー・リーディング</>\n電力測定値が桁外れに高い惑星を発見し、私たちはついに新しい現象を発見したかもしれない。\n\n私たちは偵察調査チームをこの惑星の地表に派遣し、より正確な測定を行って、この惑星の現象がいったい何なのかを突き止める必要がある。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered:  Log #2</>\n<bl>COMMUNICATION LOST</>\nWe've lost all communications with the away teams, there is some kind of static blocking our communications.\n\nThe source and nature of this static remain unidentified.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #2</>\n<bl>COMMUNICATION LOST</>\nアウェーチームとの通信が途絶えてしまった。静電気が通信を遮断しているようだ。\n\nこの静電気の発生源と性質は、まだ特定されていない。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #3</>\n<bl>SEND THE FLEET</>\nOur teams haven't returned and still no contact. If we abandon this endeavor we must abandon our colleagues and a discovery with the potential to create a new future for us.\n\nWe must take the main fleet down and set up a base on the planet, leaving our mothership in orbit.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #3</>\n<bl>船団を送る</>\n私たちのチームはまだ戻ってこないし、連絡もない。この努力を放棄するならば、私たちは仲間を、そして私たちの新しい未来を創造する可能性を秘めた発見を放棄しなければならない。\n\n母船を軌道上に残したまま、主力艦隊をダウンさせ、惑星に拠点を設置しなければならない。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered:  Log #4</>\n<bl>THE BLIGHT</>\nThe power readings we detected are coming from blighted areas of the planet.  These areas wreak havoc with our equipment and they create blight storms in the atmosphere.\n\nAll our attempts to return to orbit have failed.  We must find a way to insulate our ships from the electromagnetic interference of this blight.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #4</>\n<bl>ザ・ブライト</>\n我々が検知した電力は、地球上のブライト地域から来ている。 これらの地域は、我々の機器を大混乱に陥れ、大気中に雷嵐を発生させる。\n\n軌道に戻る試みはすべて失敗した。 電磁波の干渉から船を守る方法を見つけなければならない。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #5</>\n<bl>ALIEN THREAT</>\n\nThere is something else here, not just the noxious gasses of the blight.\n\nSome kind of bizarre rock formations seem to inhabit the blighted areas.\n\n<bl>Log Incomplete</>": "<hl>ヒューマンログエントリー発見: Log #5</>\n<bl>エイリアンの脅威</>\n\nここには、ブライトの有害ガスだけでなく、別の何かがある。\n\nブライト地域には、奇妙な岩が生息しているようだ。\n\n<bl>Log Incomplete</>",
-	"<hl>Human Log entry discovered: Log #6</>\n<bl>EVERYONE'S DEAD?</>\n\nMiller got out alive but the rest of the crew are all dead...or are they...\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #6</>\n<bl>みんな死んだのか？</>\n\nミラーは生きて脱出したが、他の乗組員は全員死んだ...のか？\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #7</>\n<bl>SOMETHING VERY STRANGE</>\n\nSubjects appeared deceased at first, but they still have vitals.\n\nIt's like they have been anesthetized, there is no brain activity.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #7</>\n<bl>不思議なもの</>\n\n最初は死亡しているように見えたが、まだ生命反応がある。\n\nまるで麻酔をかけられたように、脳の活動がない。\n\n<bl>Log Ends</>",
-	"<bl>Human Log entry discovered:  Log #8</>\n<hl>ROCK-LIKE ALIENS</>\n\nWe captured several of the rock-like aliens. They have no biology but they give off signals like brain activity; as if they were human.\n\nTheir core seems to be some kind of stasis field.\n\n<bl>Log Ends</>": "<bl>ヒューマンログエントリー発見:  Log #8</>\n<hl>岩石型エイリアン</>\n\n私たちは岩のようなエイリアンを数体捕獲した。生物学的な特徴はないが、脳の活動のようなシグナルを発している。\n\n彼らのコアは、ある種の静止フィールドのようだ。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered:  Log #9</>\n<bl>BLIGHT CRYSTALS</>\n\nIt seems the golden crystals we have been mining have a unique structure that resonates with our thoughts.\n\nThe obsidian rock aliens seem to form around cores that feed off these crystals.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見:  Log #9</>\n<bl>ブライトクリスタル</>\n\n私たちが採掘してきた黄金のクリスタルは、私たちの思考と共鳴するユニークな構造を持っているようだ。\n\n黒曜石のエイリアンは、これらの結晶を餌とするコアの周りに形成されているようだ。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #10</>\n<bl>STOLEN MINDS</>\n\nWe have confirmed it, the blight crystals create a resonance field that seems like it can hold human consciousness.\n\nThey are stealing our minds!!\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #10</>\n<bl>STOLEN MINDS</>\n\n私たちはそれを確認した。ブライトクリスタルは、人間の意識を保持できるような共鳴フィールドを作り出す。\n\n彼らは私たちの心を奪っている\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #11</>\n<bl>GET OUT OF HERE</>\n\nWe need a way to destroy these things or get off this planet.\n\n<bl>Log Ends</>": "<hl>ヒューマンログエントリー発見: Log #11</>\n<bl>出て行く</>\n\nこれらを破壊するか、この惑星から脱出する方法が必要だ。\n\n<bl>Log Ends</>",
-	"Human Intel Discovery": "人類インテル発見",
+	"Launch a Satellite using Human Technology": "人類のテクノロジーで人工衛星を打ち上げる",
+	"<header>Satellite Launch</>\n\nResearch the human technology and Launch a Satellite to contact the mothership <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>": "<header>衛星打ち上げ</>\n\n人類のテクノロジーを研究し、母船とコンタクトするための衛星を打ち上げる。 <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>",
+	"These human remains we have discovered do not seem native to this planet.\n\nThe only thing left of them seems to be their technology and recorded log files of their interactions with this planet.\n\n<hl>Human Log entry discovered: Log #1</>\n<bl>POWER READINGS</>\nWe've discovered a planet with power readings off the charts, we may have finally found a new phenomenon, something that we may be able to exploit to solve our energy problems.\n\nWe need to send a reconnaissance and research team to the planet's surface to take more precise readings and find what exactly the phenomenon on this planet is.\n\n<bl>Log Ends</>": "我々が発見したこれらの人骨は、この惑星のものではないようだ。\n\n彼らに残されたものは、彼らのテクノロジーと、この惑星との相互作用の記録されたログファイルだけであるようだ。\n\n<hl>人類のログエントリー発見: Log #1</>\n<bl>パワー・リーディング</>\n電力測定値が桁外れに高い惑星を発見し、私たちはついに新しい現象を発見したかもしれない。\n\n私たちは偵察調査チームをこの惑星の地表に派遣し、より正確な測定を行って、この惑星の現象がいったい何なのかを突き止める必要がある。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered:  Log #2</>\n<bl>COMMUNICATION LOST</>\nWe've lost all communications with the away teams, there is some kind of static blocking our communications.\n\nThe source and nature of this static remain unidentified.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見:  Log #2</>\n<bl>COMMUNICATION LOST</>\nアウェーチームとの通信が途絶えてしまった。静電気が通信を遮断しているようだ。\n\nこの静電気の発生源と性質は、まだ特定されていない。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #3</>\n<bl>SEND THE FLEET</>\nOur teams haven't returned and still no contact. If we abandon this endeavor we must abandon our colleagues and a discovery with the potential to create a new future for us.\n\nWe must take the main fleet down and set up a base on the planet, leaving our mothership in orbit.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #3</>\n<bl>船団を送る</>\n私たちのチームはまだ戻ってこないし、連絡もない。この努力を放棄するならば、私たちは仲間を、そして私たちの新しい未来を創造する可能性を秘めた発見を放棄しなければならない。\n\n母船を軌道上に残したまま、主力艦隊をダウンさせ、惑星に拠点を設置しなければならない。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered:  Log #4</>\n<bl>THE BLIGHT</>\nThe power readings we detected are coming from blighted areas of the planet.  These areas wreak havoc with our equipment and they create blight storms in the atmosphere.\n\nAll our attempts to return to orbit have failed.  We must find a way to insulate our ships from the electromagnetic interference of this blight.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見:  Log #4</>\n<bl>ザ・ブライト</>\n我々が検知した電力は、地球上のブライト地域から来ている。 これらの地域は、我々の機器を大混乱に陥れ、大気中に雷嵐を発生させる。\n\n軌道に戻る試みはすべて失敗した。 電磁波の干渉から船を守る方法を見つけなければならない。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #5</>\n<bl>ALIEN THREAT</>\n\nThere is something else here, not just the noxious gasses of the blight.\n\nSome kind of bizarre rock formations seem to inhabit the blighted areas.\n\n<bl>Log Incomplete</>": "<hl>人類のログエントリー発見: Log #5</>\n<bl>エイリアンの脅威</>\n\nここには、ブライトの有害ガスだけでなく、別の何かがある。\n\nブライト地域には、奇妙な岩が生息しているようだ。\n\n<bl>Log Incomplete</>",
+	"<hl>Human Log entry discovered: Log #6</>\n<bl>EVERYONE'S DEAD?</>\n\nMiller got out alive but the rest of the crew are all dead...or are they...\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #6</>\n<bl>みんな死んだのか？</>\n\nミラーは生きて脱出したが、他の乗組員は全員死んだ...のか？\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #7</>\n<bl>SOMETHING VERY STRANGE</>\n\nSubjects appeared deceased at first, but they still have vitals.\n\nIt's like they have been anesthetized, there is no brain activity.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #7</>\n<bl>不思議なもの</>\n\n最初は死亡しているように見えたが、まだ生命反応がある。\n\nまるで麻酔をかけられたように、脳の活動がない。\n\n<bl>Log Ends</>",
+	"<bl>Human Log entry discovered:  Log #8</>\n<hl>ROCK-LIKE ALIENS</>\n\nWe captured several of the rock-like aliens. They have no biology but they give off signals like brain activity; as if they were human.\n\nTheir core seems to be some kind of stasis field.\n\n<bl>Log Ends</>": "<bl>人類のログエントリー発見:  Log #8</>\n<hl>岩石型エイリアン</>\n\n私たちは岩のようなエイリアンを数体捕獲した。生物学的な特徴はないが、脳の活動のようなシグナルを発している。\n\n彼らのコアは、ある種の静止フィールドのようだ。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered:  Log #9</>\n<bl>BLIGHT CRYSTALS</>\n\nIt seems the golden crystals we have been mining have a unique structure that resonates with our thoughts.\n\nThe obsidian rock aliens seem to form around cores that feed off these crystals.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見:  Log #9</>\n<bl>ブライトクリスタル</>\n\n私たちが採掘してきた黄金のクリスタルは、私たちの思考と共鳴するユニークな構造を持っているようだ。\n\n黒曜石のエイリアンは、これらの結晶を餌とするコアの周りに形成されているようだ。\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #10</>\n<bl>STOLEN MINDS</>\n\nWe have confirmed it, the blight crystals create a resonance field that seems like it can hold human consciousness.\n\nThey are stealing our minds!!\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #10</>\n<bl>STOLEN MINDS</>\n\n私たちはそれを確認した。ブライトクリスタルは、人間の意識を保持できるような共鳴フィールドを作り出す。\n\n彼らは私たちの心を奪っている\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #11</>\n<bl>GET OUT OF HERE</>\n\nWe need a way to destroy these things or get off this planet.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #11</>\n<bl>出て行く</>\n\nこれらを破壊するか、この惑星から脱出する方法が必要だ。\n\n<bl>Log Ends</>",
+	"Human Intel Discovery": "人類の知的情報の発見",
 	"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nThis datacube appears to have a similar data structure to our own datacubes but it contains information related to human technology.": "<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nこのデータキューブは、我々のデータキューブと似たようなデータ構造を持っているように見えるが、人間の技術に関連する情報が含まれている。",
 	"Explore Human Production": "人類の生産を探求する",
 	"Find more about human production technology": "人間生産技術についてもっと知る",
@@ -1913,7 +1913,7 @@
 	"Artificial Blight Core": "人工 ブライトコア",  //?? そもそもどういうアイテムかが分からない
 	"Connects Blight instances into Re-simulator world stability": "ブライトインスタンスをRe-simulatorの世界の安定性に接続する。", //?? そもそもどういうアイテムかが分からない
 	"Artificial Robot Core": "人工 ロボットコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
-	"Artificial Human Core": "人工 ヒューマンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
+	"Artificial Human Core": "人工 人類のコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
 	"Artificial Alien Core": "人工 エイリアンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
 	"bb": "bb",  //おそらく不要
 	"yb": "yb",  //おそらく不要
@@ -2061,11 +2061,11 @@
 	"Alien food production": "エイリアンの食料生産",
 	"Alien Attack": "エイリアン アタック",
 	"Alien Factory": "エイリアン ファクトリー",
-	"Human Refinery": "ヒューマン リファイナリー",
-	"A Large Factory equipped for making Human devices": "ヒューマン デバイス生産のための大規模工場",
+	"Human Refinery": "人類のリファイナリー",
+	"A Large Factory equipped for making Human devices": "人類のデバイス生産のための大規模工場",
 	"Human Science Analyzer": "人間科学アナライザー",
-	"Robot Science Analyzer for Human Technology": "ヒューマン テクノロジーのためのロボット科学アナライザー",
-	"Human Command Center": "ヒューマン コマンド センター",
+	"Robot Science Analyzer for Human Technology": "人類のテクノロジーのためのロボット科学アナライザー",
+	"Human Command Center": "人類のコマンド センター",
 	"Human Barracks": "人間兵舎",
 	"Human Spaceport": "有人宇宙港",
 	"Human Science": "人間科学",
@@ -3023,7 +3023,7 @@
 	"research": "研究",  //おそらく不要  本文ではなく「tag」という内部データと思われる
 	"Alien Datacube": "エイリアン データキューブ",  //OK
 	"Partial data on alien technology. Further analysis required": "エイリアンのテクノロジーに関する部分的なデータキューブ。さらなる分析が必要",  //仮  "Alien Datacube"と"Human Datacube"の説明文が同じ
-	"Human Datacube": "ヒューマン データキューブ",  //OK
+	"Human Datacube": "人類 データキューブ",  //OK
 	"Data collected by remote-unit observation and recording": "リモートユニットによる観測記録が収集されたデータキューブ",  //???
 	"Blight Datacube": "ブライト データキューブ",  //???
 	"Virus Datacube": "ウイルス データキューブ",  //OK
@@ -3035,7 +3035,7 @@
 	"Robotics Research": "ロボット工学研究",  //???
 	"Allows for advanced robotic technology": "高度なロボット技術を可能にする",  //???
 	"Human Research": "人類研究",  //???
-	"Data analysis of human technology": "ヒューマンテクノロジーのデータ分析",  //???
+	"Data analysis of human technology": "人類のテクノロジーのデータ分析",  //???
 	"Data analysis of alien technology": "エイリアンテクノロジーのデータ分析",  //???
 	"Blight Research": "ブライト研究",  //???  Blight??
 	"Scans of the hostile environment endemic to planet": "惑星特有の過酷な環境のスキャン",  //???
@@ -3043,7 +3043,7 @@
 	"Computer-modeled analysis of the viral pathogen": "ウイルス病原体のコンピューターモデル解析",  //???
 	"Compressed Simulation Data": "圧縮されたシミュレーションデータ",  //???
 	"Allows for greater processing of research algorithms": "研究アルゴリズムの処理能力を向上",  //???
-	"Human Data Bank": "ヒューマンデータバンク",  //???
+	"Human Data Bank": "人類のデータバンク",  //???
 	"A databank that holds human research data": "ヒトの研究データを保管するデータバンク",  //???    "Human Data Bank"と"Alien Data Bank"の説明文が同じ
 	"Alien Data Bank": "エイリアン・データバンク",  //???
 	"Drone Package": "ドローンパッケージ",  //???
@@ -3070,7 +3070,7 @@
 	"Blight Plasma": "ブライトプラズマ",  //??? Blight がわからない
 	"Processed blight gas into a goop form": "ブライトガスをグープ状に加工",  //??? Blight がわからない
 	"Gear Box": "ギアボックス",  //不要と思われる  Main/data/items.lua に存在せず
-	"Useful for repairing Human technology": "ヒューマンテクノロジーの修理に役立つ",   //"Microscope"と"Transformer"
+	"Useful for repairing Human technology": "人類のテクノロジーの修理に役立つ",   //"Microscope"と"Transformer"
 	"Pump": "ポンプ",  //不要と思われる  Main/data/items.lua に存在せず
 	"Microscope": "顕微鏡",  //OK
 	"Transformer": "変圧器",  //OK
@@ -3125,7 +3125,7 @@
 	"Pick the right combination of symbols by dragging them to the right column to complete the circuit. The bar underneath must be filled precisely in half.": "正しいシンボルの組み合わせを右の列にドラッグして選び、回路を完成させよう。下のバーは正確に半分に塗りつぶさなければなりません。",
 
 	// FILE: Main/data/tech/tech_alien.lua
-	"Alien Intel": "エイリアン・インテル",
+	"Alien Intel": "エイリアンの知的情報",
 	"By running a specific charge through your units they are able to enter the blight without any adverse effects": "ユニットに特定のチャージをかける事で、悪影響を受ける事なくブライトに入る事ができる。",
 	"Alien Technology": "エイリアン・テクノロジー",
 	"C0rrup7ed D4tabas3": "C0rrup7ed D4tabas3",
@@ -3185,8 +3185,8 @@
 	"Allows Hacking of digital entities": "デジタル・エンティティのハッキングを許可する",
 	"Satellites": "衛星",
 	"Allows construction of satellites that can be launched into space": "宇宙に打ち上げられる人工衛星の建設が可能",
-	"Human Technology": "ヒューマン・テクノロジー",
-	"Human Command. Control and Research Center": "ヒューマン・コマンドコントロール・リサーチ・センター",
+	"Human Technology": "人類のテクノロジー",
+	// "Human Command. Control and Research Center": "ヒューマン・コマンド　コントロール・リサーチ・センター",  英文に存在せず
 	"Humanity": "人類",
 	"Power Plant": "発電所",
 	"Factory": "工場",
@@ -3292,8 +3292,8 @@
 	// FILE: Main/data/techs.lua
 	"Human Discovery": "人間の発見",
 	"Story": "ストーリー",
-	"Human Intel": "ヒューマン・インテル",
-	"Research data used for Human Technology": "ヒューマン・テクノロジーに使用される研究データ",
+	"Human Intel": "人類の知的情報",
+	"Research data used for Human Technology": "人類のテクノロジーに使用される研究データ",
 	"Virus Discovery": "ウイルスの発見",
 	"Alien Discovery": "エイリアン・ディスカバリー",
 	"A strange alien race with highly advanced technology we can utilize": "我々が利用できる高度な技術を持つ奇妙な異星人",
