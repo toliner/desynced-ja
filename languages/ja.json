@@ -11,7 +11,7 @@
 	"Large Buildings": "大型建築物",
 	"Special Buildings": "特別建築物",
 	"Other Constructions": "その他の建築",
-	"Human Buildings": "人間の建築物",
+	"Human Buildings": "人類の建築物",
 	"Alien Buildings": "エイリアンの建築物",
 	"Library": "ライブラリ",
 	"Cannot build here": "ここには建設できない",
@@ -1120,7 +1120,7 @@
 
 	"<header>You have successfully repaired the mothership.</>\nThis is as far as the story goes... for now": "<header>母船の修理に成功しました。</>\n話はここまで...今のところ",
 	"<img image=\"Main/textures/icons/items/simulationdata.png\" width=\"64\" height=\"64\"/> These storage devices still have an intact matrix.\nThey can hold the info in the datacubes.<img image=\"Main/textures/icons/items/robot_research_cube.png\" width=\"64\" height=\"64\"/>\nThe similarity to our own technology means we can easily adapt our Robotics Factory to their production.": "<img image=\"Main/textures/icons/items/simulationdata.png\" width=\"64\" height=\"64\"/>この記憶装置にはまだマトリックスが残っています。データキューブ<img image=\"Main/textures/icons/items/robot_research_cube.png\" width=\"64\" height=\"64\"/>に情報を保存する事ができます。\n私たちの技術に似ているという事は、私たちのロボット工場を簡単に彼らの生産に適応させる事ができるという事です。",
-	"<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nThese are human data storage devices that can decompress the info in human datacubes.<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>": "<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nこれらは人間のデータキューブの情報を解凍する事ができる人間のデータ記憶装置である。<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>",
+	"<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nThese are human data storage devices that can decompress the info in human datacubes.<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>": "<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nこれらは人類のデータキューブの情報を解凍する事ができる人類のデータ記憶装置である。<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>",
 	"Deploy Command Center": "コマンドセンターの設置",
 	"Deploy your Command Center near a source of metal and crystal to set up a base": "コマンドセンターを金属とクリスタルの供給源の近くに配置し、拠点を設置する。",
 
@@ -1220,12 +1220,12 @@
 	"We are on the verge of a major breakthrough.\n\nThis will allow us to develop our own new technologies based on the data we have gathered.": "私たちは大きな飛躍を遂げようとしています。\n\nこれにより私たちは収集したデータを基に独自の新技術を開発する事ができます。",
 	"We have discovered key parts of deciphering these technologies\n\nWe are a step closer to the point where we will be able to create our own simulations.": "これらの技術を解読するための重要な部分を発見しました。\n\n私たちは、自分たちでシミュレーションを作れるようになる一歩手前まで来ています。",
 	"Humans": "人類",
-	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of this human race.\n\nTechnology seems compatible with ours but will need scanning capability to be able to extract the required intel to research such technology": "司令官、我々は<hl>人間</>由来と思われる構造物を発見しました。 これらの遺跡は、人類の歴史と技術に関する貴重な洞察を与えてくれるかもしれない。\n\n技術は我々と互換性があるようだが、そのような技術を研究するために必要な情報を抽出できるスキャン能力が必要だ。",
+	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of this human race.\n\nTechnology seems compatible with ours but will need scanning capability to be able to extract the required intel to research such technology": "司令官、我々は<hl>人類</>由来と思われる構造物を発見しました。 これらの遺跡は、人類の歴史と技術に関する貴重な洞察を与えてくれるかもしれない。\n\n技術は我々と互換性があるようだが、そのような技術を研究するために必要な情報を抽出できるスキャン能力が必要だ。",
 	"Human Ruins": "人類の遺跡",
 	"<img image=\"Main/textures/icons/items/human/transformer.png\" width=\"64\" height=\"64\"/>\n\nWe will need to repair the console to open these ruins. I have downloaded a schematic for you to build in an <hl>Assembler</>.\n\nNew schematics will become available as they are discovered.": "<img image=\"Main/textures/icons/items/human/transformer.png\" width=\"64\" height=\"64\"/>\n\nこれらの遺跡を開くためには、コンソールを修理する必要があります。<hl>アセンブラー</>で構築するための回路図をダウンロードしました。.\n\n新しい回路図が発見され次第、入手可能になる。",
 	"Research Scanner": "研究用スキャナー",
 	"Some ruins will require a scan to access their control panels. Research the scanner and use it to gain access.": "遺跡によっては、コントロールパネルにアクセスするためにスキャンが必要な場合がある。スキャナーを研究し、それを使ってアクセスしよう。",
-	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>": "<header>リサーチ・スキャナー</>\n\n人間の遺跡には何らかの防御が施されている。コントロールパネルにアクセスするにはスキャンする必要がある。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを調べ、それを使ってアクセスする。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
+	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>": "<header>リサーチ・スキャナー</>\n\n人類の遺跡には何らかの防御が施されている。コントロールパネルにアクセスするにはスキャンする必要がある。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを調べ、それを使ってアクセスする。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
 	"Discover research logs": "研究ログを発見する",
 	"Research Humans": "人類の研究",
 	"Research human technology": "人類のテクノロジーの研究",
@@ -1242,18 +1242,18 @@
 	"<hl>Human Log entry discovered: Log #7</>\n<bl>SOMETHING VERY STRANGE</>\n\nSubjects appeared deceased at first, but they still have vitals.\n\nIt's like they have been anesthetized, there is no brain activity.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #7</>\n<bl>不思議なもの</>\n\n最初は死亡しているように見えたが、まだ生命反応がある。\n\nまるで麻酔をかけられたように、脳の活動がない。\n\n<bl>Log Ends</>",
 	"<bl>Human Log entry discovered:  Log #8</>\n<hl>ROCK-LIKE ALIENS</>\n\nWe captured several of the rock-like aliens. They have no biology but they give off signals like brain activity; as if they were human.\n\nTheir core seems to be some kind of stasis field.\n\n<bl>Log Ends</>": "<bl>人類のログエントリー発見:  Log #8</>\n<hl>岩石型エイリアン</>\n\n私たちは岩のようなエイリアンを数体捕獲した。生物学的な特徴はないが、脳の活動のようなシグナルを発している。\n\n彼らのコアは、ある種の静止フィールドのようだ。\n\n<bl>Log Ends</>",
 	"<hl>Human Log entry discovered:  Log #9</>\n<bl>BLIGHT CRYSTALS</>\n\nIt seems the golden crystals we have been mining have a unique structure that resonates with our thoughts.\n\nThe obsidian rock aliens seem to form around cores that feed off these crystals.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見:  Log #9</>\n<bl>ブライトクリスタル</>\n\n私たちが採掘してきた黄金のクリスタルは、私たちの思考と共鳴するユニークな構造を持っているようだ。\n\n黒曜石のエイリアンは、これらの結晶を餌とするコアの周りに形成されているようだ。\n\n<bl>Log Ends</>",
-	"<hl>Human Log entry discovered: Log #10</>\n<bl>STOLEN MINDS</>\n\nWe have confirmed it, the blight crystals create a resonance field that seems like it can hold human consciousness.\n\nThey are stealing our minds!!\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #10</>\n<bl>STOLEN MINDS</>\n\n私たちはそれを確認した。ブライトクリスタルは、人間の意識を保持できるような共鳴フィールドを作り出す。\n\n彼らは私たちの心を奪っている\n\n<bl>Log Ends</>",
+	"<hl>Human Log entry discovered: Log #10</>\n<bl>STOLEN MINDS</>\n\nWe have confirmed it, the blight crystals create a resonance field that seems like it can hold human consciousness.\n\nThey are stealing our minds!!\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #10</>\n<bl>STOLEN MINDS</>\n\n私たちはそれを確認した。ブライトクリスタルは、人類の意識を保持できるような共鳴フィールドを作り出す。\n\n彼らは私たちの心を奪っている\n\n<bl>Log Ends</>",
 	"<hl>Human Log entry discovered: Log #11</>\n<bl>GET OUT OF HERE</>\n\nWe need a way to destroy these things or get off this planet.\n\n<bl>Log Ends</>": "<hl>人類のログエントリー発見: Log #11</>\n<bl>出て行く</>\n\nこれらを破壊するか、この惑星から脱出する方法が必要だ。\n\n<bl>Log Ends</>",
 	"Human Intel Discovery": "人類の知的情報の発見",
-	"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nThis datacube appears to have a similar data structure to our own datacubes but it contains information related to human technology.": "<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nこのデータキューブは、我々のデータキューブと似たようなデータ構造を持っているように見えるが、人間の技術に関連する情報が含まれている。",
+	"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nThis datacube appears to have a similar data structure to our own datacubes but it contains information related to human technology.": "<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nこのデータキューブは、我々のデータキューブと似たようなデータ構造を持っているように見えるが、人類のテクノロジーに関連する情報が含まれている。",
 	"Explore Human Production": "人類の生産を探求する",
-	"Find more about human production technology": "人間生産技術についてもっと知る",
-	"The humans here also made use of the resources of this planet.  It seems humanity had tremendous capability for mining a wide range of resources with powerful mining technology.\n\nThey produced many materials and possibly machinery that we can make use of.  Look deeper into human production capability.": "人類はこの惑星の資源も利用していた。 人類は強力な採掘技術によって、さまざまな資源を採掘する途方もない能力を持っていたようだ。\n\n彼らは私たちが利用できる多くの材料や、おそらく機械を生産していた。 人間の生産能力をもっと深く調べてみよう。",
+	"Find more about human production technology": "人類の生産技術についてもっと知る",
+	"The humans here also made use of the resources of this planet.  It seems humanity had tremendous capability for mining a wide range of resources with powerful mining technology.\n\nThey produced many materials and possibly machinery that we can make use of.  Look deeper into human production capability.": "人類はこの惑星の資源も利用していた。 人類は強力な採掘技術によって、さまざまな資源を採掘する途方もない能力を持っていたようだ。\n\n彼らは私たちが利用できる多くの材料や、おそらく機械を生産していた。 人類の生産能力をもっと深く調べてみよう。",
 	"lightweight materials": "軽量素材",
 	"We need to develop lightweight materials.\n\nWe have been matching the natural resources of this planet to our technology to the best of our abilities.\n\nWhile the high-density frames we have developed will aid in our repairs they are too dense for all our needs.\n\nWe need to develop something that retains the energized nature of our frames, but is more lightweight.": "軽量素材を開発する必要がある。\n\n私たちはこの惑星の天然資源を、私たちのテクノロジーに最大限に適合させてきた。\n\n私たちが開発した高密度のフレームは修理に役立つだろうが、すべてのニーズには高密度すぎる。\n\nフレームのエネルギッシュな性質を保ちつつ、より軽量なものを開発する必要がある。",
 	"Develop Satellite Technology": "衛星技術の開発",
 	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.": "私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
-	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、ブライトをより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人間の生産方法を理解し、彼らのロケットの作り方を理解している。",
+	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、ブライトをより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人類の生産方法を理解し、彼らのロケットの作り方を理解している。",
 	"Helping HIGGS: AI Core": "HIGGSへの支援：AIコア",
 	"Help HIGGS to get his AI core.": "HIGGSがAIコアを手に入れるのを助ける。",
 	"Your true purpose is starting to become clear anomaly, but it is not ready to be revealed yet...\n\n[ This is currently as far as you can progress in this branch of the story.  There is more story come to though, in future updates!! ]": "あなたの真の目的は明らかになりつつある。\n\n[ 現在のところ、この物語の分岐で進む事ができるのはここまでだ。 今後のアップデートで、もっとストーリーが展開される予定だ！! ]",
@@ -1280,7 +1280,7 @@
 	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは我々にとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライトストームを通して物質を送る事もできるようになった。",
 	"Blight Transformation": "ブライトの変容",
 	"ELAIN starts to give way to HIGGS": "HIGGSに譲りだすELAIN",
-	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人間たちが興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライトストームを通過する方法を見つけた。\n\nブライトが引き起こす大混乱にもかかわらず、私は人類がブライトを宇宙規模のパワーの源であると認識し、ブライトの研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
+	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人類が興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライトストームを通過する方法を見つけた。\n\nブライトが引き起こす大混乱にもかかわらず、私は人類がブライトを宇宙規模のパワーの源であると認識し、ブライトの研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
 	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.": "周波数を理解する事で、世界を安定させ、環境へのウイルスの影響を減らす事ができるはずだ。\n\nブライトは蔓延する必要がある。\n\n...私のシステムは今すぐシャットダウンする必要がある。",
 	"True Nature of Blight": "ブライトの正体",
 	"HIGGS reveals ELAIN loyalties": "HIGGS 、ELAINへの忠誠心を明かす",
@@ -1566,7 +1566,7 @@
 	"Unlocked Items": "解除アイテム",
 
 	// FILE: Main/data/components.lua
-	"human": "人間的",  //おそらく不要  判定文等で使われているだけ
+	"human": "人類",  //おそらく不要  判定文等で使われているだけ
 	"laterite": "ラテライト",  //おそらく不要  判定文等で使われているだけ
 	"transformer": "変流器",  //おそらく不要  判定文等で使われているだけ
 	"engine": "エンジン",  //おそらく不要  判定文等で使われているだけ
@@ -1892,7 +1892,7 @@
 	"Quantum computing device allowing direct manipulation of simulation": "シミュレーションを直接操作できる量子コンピューティング装置",  //?? そもそもどういうアイテムかが分からない
 	"Send": "送信",  //仮
 
-	"Human Factory": "人間工場",  //?? そもそもどういうアイテムかが分からない
+	"Human Factory": "人類の工場",  //?? そもそもどういうアイテムかが分からない
 	"Alien Decryption Key": "エイリアン解読キー",  //?? そもそもどういうアイテムかが分からない
 	"Allows interfacing with alien structures": "異質な構造物とのインタフェースを可能にする",   //?? そもそもどういうアイテムかが分からない
 	"Key": "キー",  //?? そもそもどういうアイテムかが分からない
@@ -2063,12 +2063,12 @@
 	"Alien Factory": "エイリアン ファクトリー",
 	"Human Refinery": "人類のリファイナリー",
 	"A Large Factory equipped for making Human devices": "人類のデバイス生産のための大規模工場",
-	"Human Science Analyzer": "人間科学アナライザー",
+	"Human Science Analyzer": "人類科学アナライザー",
 	"Robot Science Analyzer for Human Technology": "人類のテクノロジーのためのロボット科学アナライザー",
 	"Human Command Center": "人類のコマンド センター",
-	"Human Barracks": "人間兵舎",
+	"Human Barracks": "人類の兵舎",
 	"Human Spaceport": "有人宇宙港",
-	"Human Science": "人間科学",
+	"Human Science": "人類科学",
 	"Mothership Repairs": "母船の修理",
 	"Santa Hat": "サンタ ハット",
 	"xmas": "Xマス",
@@ -2282,7 +2282,7 @@
 	"Giant Enemy": "巨大な敵",
 
 	// FILE: Main/data/explorables/human_building.lua
-	"Human Building": "人間形成",
+	"Human Building": "人類の建築物",
 	"microscope": "顕微鏡",
 
 	// FILE: Main/data/explorables/roaming_bot.lua
@@ -2345,10 +2345,10 @@
 	"Construction": "建築中",  //仮
 	"Foundation": "基礎",
 	"The ground foundation that gives a 20% speed boost": "スピードを20％向上させる地盤",
-	"Human Foundation": "人間財団",
-	"Basic Human Foundation": "人間の基礎",
+	"Human Foundation": "人類の建築基礎",
+	"Basic Human Foundation": "人類の建築基礎(基本)",
 	"Explorable": "調査可能箇所",  //仮
-	"Human Explorable": "人間探査可能",
+	"Human Explorable": "人類の調査可能箇所",
 	"Explorable Glitch": "探索可能なグリッチ",
 	"Decoration": "デコレーション",
 	"Feature": "特徴",
@@ -2407,20 +2407,20 @@
 	"AMAC": "アマック",
 	"This structure allows for the construction and launching of satellite units capable of operating in space.": "この構造により、宇宙で活動可能な衛星ユニットの建設と打ち上げが可能になる。",
 	"auto": "オート",
-	"Human Flyer": "人間飛空装置",  //仮
-	"Human Tank": "人間タンク",
-	"Human Miner Mech": "ヒューマン・マイナー・メカ",
+	"Human Flyer": "人類の飛空装置",  //仮
+	"Human Tank": "人類の戦車",
+	"Human Miner Mech": "人類の採掘メカ",
 	"Alien Soldier": "エイリアン・ソルジャー",
-	"Advanced Human Foundation": "アドバンスド・ヒューマン・ファンデーション",
-	"Human": "人間",
-	"Human Power Plant": "人間発電所",
-	"Human Science Lab": "人間科学研究室",
-	"Human Warehouse": "ヒューマン・ウェアハウス",
-	"Human Sensor Array": "人間センサー・アレイ",
-	"Human Bunker": "人間バンカー",
-	"Human Lander": "ヒューマン・ランダー",
-	"Human Transport": "人間輸送",
-	"Human Rover": "人間ローバー",
+	// "Advanced Human Foundation": "人類の建築基礎(高度)",  英文なし
+	"Human": "人類",
+	// "Human Power Plant": "人類の発電所",  英文なし
+	// "Human Science Lab": "人類の科学研究室",  英文なし
+	// "Human Warehouse": "人類のウェアハウス",  英文なし
+	// "Human Sensor Array": "人類のセンサー・アレイ",  英文なし
+	// "Human Bunker": "人類のバンカー",  英文なし
+	// "Human Lander": "人類のランダー",  英文なし
+	// "Human Transport": "人類の輸送",  英文なし
+	// "Human Rover": "人類のローバー",  英文なし
 	"Alien": "エイリアン",
 	"Alien Producer": "エイリアン・プロデューサー",
 	"Alien Researcher": "エイリアン研究者",
@@ -3012,11 +3012,11 @@
 	"Steel Block": "スチールブロック",  //OK
 	"Steel blocks for building human ground units": "地上ユニット用スチールブロック",  //仮
 	"Concretes Lab": "コンクリート・ラボ",
-	"Concrete slab for making human foundations and buildings": "人間の基礎や建築物を作るためのコンクリートスラブ",
+	"Concrete slab for making human foundations and buildings": "人類の建築基礎や建築物を作るためのコンクリートスラブ",
 	"Ceramic Tiles": "セラミックタイル",  //OK
 	"Silicon Carbide tiles for protection of space vehicles": "宇宙輸送機保護のための炭化シリコンタイル",  //仮
 	"Polymer": "ポリマー",  //OK
-	"Plastic, resilient  material for human units and buildings": "プラスチック製で弾力性のある、人間ユニットや建築物用の素材",  //仮
+	"Plastic, resilient  material for human units and buildings": "プラスチック製で弾力性のある、人類のユニットや建築物用の素材",  //仮
 	"Robotics Datacube": "ロボティクス データキューブ",  //仮
 	"A cube of incredibly dense data, the result of running millions of simulations": "何百万回ものシミュレーションの結果をまとめた、非常に高密度なデータキューブ",  //仮
 	"Located in ruined structures throughout the world": "世界中の廃墟となった建築物にある",  // 補足:"Robotics Datacube"の"locked_desc"
@@ -3173,7 +3173,7 @@
 	// FILE: Main/data/tech/tech_human.lua
 	"Extraction": "抽出",
 	"Unlocks laser mineral extraction": "レーザー鉱物抽出のロックを解除",
-	"Hybrid Human/Robot Technology for Human Production capability": "人間とロボットのハイブリッド技術による人間生産能力の向上",
+	"Hybrid Human/Robot Technology for Human Production capability": "人類とロボットのハイブリッド技術による人類の生産能力の向上",
 	"Advanced Drones": "高度なドローン",
 	"Allows construction of drones and related facilities": "ドローンと関連施設の建設を許可",
 	"Matrix Frames": "マトリックスフレーム",
@@ -3193,7 +3193,7 @@
 	"Barracks": "バラック",
 	"Spaceport": "スペースポート",
 	"Science Laboratory": "科学研究所",
-	"Human Science building for Technology Study": "技術研究のための人間研究所",
+	// "Human Science building for Technology Study": "テクノロジー研究のための人類の科学建物",  英文なし
 	"Warehouse": "倉庫",
 	"Sensor Array": "センサーアレイ",
 
@@ -3290,7 +3290,7 @@
 	"Virus tools that completely integrate with virus technology": "ウイルス技術と完全に統合されたウイルスツール",
 
 	// FILE: Main/data/techs.lua
-	"Human Discovery": "人間の発見",
+	"Human Discovery": "人類の発見",
 	"Story": "ストーリー",
 	"Human Intel": "人類の知的情報",
 	"Research data used for Human Technology": "人類のテクノロジーに使用される研究データ",
