@@ -167,7 +167,7 @@
 	"Items": "アイテム一覧",  //OK
 	"Orders": "受注状況",  //OK
 	"Faction": "派閥",  //派閥
-	"power": "パワー",  //おそらく不要 タブのID
+	"power": "電力",  //おそらく不要 タブのID
 	"Total Battery Power": "総発電電力量",  //OK
 	"Total Energy Used": "総消費電力量",  //OK
 	"<bl>Producing</>": "<bl>発電電力量</>",  //OK
@@ -265,8 +265,8 @@
 	"Action Queue:": "アクションキュー",
 	"Move:": "移動する：",
 	"Health: %d/%d": "体力値: %d/%d",  //OK
-	"powerbar": "パワーバー",
-	"Powered Down": "パワーダウン",
+	"powerbar": "電力バー",
+	"Powered Down": "電力切れ",
 	"Producing": "発電中",  //
 	"Requiring": "要求",
 	"Overclocked": "オーバークロック",
@@ -275,7 +275,7 @@
 	"Yes": "はい",
 	"No": "いいえ",
 	"Transmitting": "送信",
-	"Insufficient power for transmission": "トランスミッションのパワー不足",
+	"Insufficient power for transmission": "トランスミッションの電力不足",
 	"Transfer Radius": "移動半径",
 	"Receiving": "レシーブ",
 	"Efficiency": "効率性",
@@ -304,7 +304,7 @@
 	"High Priority Construction Sites": "優先度の高い建設現場",
 	"Selected %d construction sites": "厳選された%dの建設現場",
 	"Resume Constructions": "建築再開",
-	"%s <hl>Ctrl-E</>\n\nPowered down units stop functioning and\ndo not consume power.": "%s <hl>Ctrl-E</>\n\nパワーダウンしたユニットは機能しなくなり\nは電力を消費しない。",
+	"%s <hl>Ctrl-E</>\n\nPowered down units stop functioning and\ndo not consume power.": "%s <hl>Ctrl-E</>\n\n電力の切れたユニットは機能しなくなり\nは電力を消費しません。",
 	"%s (Logistics Network)<hl>Shift-E</>\n\nUnits Connected to the logistics network will\nautomatically deliver requested items and\nmake their own inventory items available to\nthe network":
 		"%s（物流ネットワーク）<hl>シフトE</>\n\n物流ネットワークに接続されたユニット\nリクエストされたアイテムを自動的に配達し\n自社のインベントリ アイテムを\nネットワーク",
 
@@ -312,7 +312,7 @@
 	"<Key action=\"ExecuteAction\" style=\"hl\"/> to pick up": "<Key action=\"ExecuteAction\" style=\"hl\"/>で受け取り",
 	"<rl>Paused Construction</>": "<rl>建設中断</>",
 	"Right click to Investigate": "右クリックで調査",
-	"<rl>Powered Down</>": "<rl>パワーダウン</>",
+	"<rl>Powered Down</>": "<rl>電力切れ</>",
 	"Selected by: %S": "選択者%S",
 
 	// FILE: Main/ui/InGameMenu.lua
@@ -843,7 +843,7 @@
 	"Dismiss": "解散",
 	"Leave Game": "ゲーム終了",
 	"cannot move into the blight": "ブライト地域に移動できない",
-	"Cannot move powered down unit": "パワーダウンしたユニットを動かせない",
+	"Cannot move powered down unit": "電力の切れたユニットを動かせない",
 	"Cannot queue action while Goto register is linked": "GoTo レジスタがリンクされている間は、アクションをキューに入れる事ができない。",
 	"Cannot interact while Goto register is linked": "GoTo レジスタがリンクされている間は対話できない",
 	"No free inventory space to pick up items": "アイテムをピックアップするためのインベントリの空きスペースがない",
@@ -1275,12 +1275,12 @@
 	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.": "私たちはこのブライトの研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
 	"Blight Magnification": "ブライトの拡大",
 	"Blight can magnify things in the world.": "ブライトは世界の物事を拡大させる。",
-	"The Blight seems to interfere with our equipment by magnifying frequencies and power. The forces it generates seem transformational.": "ブライトは周波数とパワーを拡大する事で、我々の機器に干渉しているようだ。その力は変容をもたらすようだ。",
+	"The Blight seems to interfere with our equipment by magnifying frequencies and power. The forces it generates seem transformational.": "ブライトは周波数と電力を拡大する事で、我々の機器に干渉しているようだ。その力は変容をもたらすようだ。",
 	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、ブライトの予防が必要である。",
 	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは我々にとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライトストームを通して物質を送る事もできるようになった。",
 	"Blight Transformation": "ブライトの変容",
 	"ELAIN starts to give way to HIGGS": "HIGGSに譲りだすELAIN",
-	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人類が興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライトストームを通過する方法を見つけた。\n\nブライトが引き起こす大混乱にもかかわらず、私は人類がブライトを宇宙規模のパワーの源であると認識し、ブライトの研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
+	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人類が興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライトストームを通過する方法を見つけた。\n\nブライトが引き起こす大混乱にもかかわらず、私は人類がブライトを宇宙規模の電力源であると認識し、ブライトの研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
 	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.": "周波数を理解する事で、世界を安定させ、環境へのウイルスの影響を減らす事ができるはずだ。\n\nブライトは蔓延する必要がある。\n\n...私のシステムは今すぐシャットダウンする必要がある。",
 	"True Nature of Blight": "ブライトの正体",
 	"HIGGS reveals ELAIN loyalties": "HIGGS 、ELAINへの忠誠心を明かす",
@@ -1977,17 +1977,17 @@
 	"Missile turret": "ミサイルタレット",
 	"Tank Turret": "戦車砲塔",
 	"A turret weapon for mounting on tanks": "戦車に搭載するタレット兵器",
-	"Power Unit": "パワーユニット",
-	"produces continuous power over a small area": "小面積で継続的なパワーを生み出す",
-	"Blight Power Generator": "ブライト パワー ジェネレーター",
-	"Blight power extraction cell generating power inside the blight": "ブライト内で電力を生成するブライトパワー抽出セル",
+	"Power Unit": "電力ユニット",
+	"produces continuous power over a small area": "小面積で継続的な電力を生み出す",
+	"Blight Power Generator": "ブライト発電機",
+	"Blight power extraction cell generating power inside the blight": "ブライト内で電力を生成するブライト電力抽出セル",
 	"Fusion Generator": "フュージョンジェネレーター",
 	"Medium Battery": "中型バッテリー",
 	"Rechargeable cell that can store up to <hl>50,000</> power": "<hl>50,000</>回まで蓄電可能な充電式セル",
 	"Large Battery": "大容量バッテリー",
 	"Rechargeable cell that can store a large amount of power": "大容量の電力を蓄える事ができる充電式電池",
 	"Large Power Transmitter": "大電力トランスミッター",
-	"Transmits <hl>500</> power to a remote target": "<hl>500</>パワーを遠隔地に送信",
+	"Transmits <hl>500</> power to a remote target": "<hl>500</>電力を遠隔地に送信",
 	"Medium Storage": "中型ストレージ",
 	"Expands storage of Frame by <hl>9 slots</>": "フレームのストレージを<hl>9スロット</>拡張",
 	"Drone Launcher": "ドローンランチャー",
@@ -2001,7 +2001,7 @@
 	"Launch Pad": "発射台",
 	"Launches satellites": "人工衛星打ち上げ",
 	"Blight Charger": "ブライト チャージャー",
-	"Allows bots to move into blighted areas, provides a small amount of power from the blight": "ボットがブライト地域に移動できるようなり、ブライトから少量のパワーを供給する",
+	"Allows bots to move into blighted areas, provides a small amount of power from the blight": "ボットがブライト地域に移動できるようなり、ブライトから少量の電力を供給する",
 	"Long-range Radar": "中型レーダー",
 	"External mount doubles scanning range": "外部マウントによりスキャン範囲が2倍に",
 	"Alien Translator": "エイリアン翻訳者",
@@ -2013,9 +2013,9 @@
 	"Alien Terraformer": "エイリアン テラフォーマー",
 	"Alien technology that extracts blight from the ground creating an area of blight": "地上からブライトを抽出し、ブライト地帯を作り出すエイリアン テクノロジー",
 	"Shield Generator": "シールド生成装置",
-	"Energy shield - Uses power to charge a shield that mitigates up to <hl>40</> damage": "エネルギー シールド - パワーを使ってシールドをチャージし、最大<hl>40</>ダメージを軽減する。",
+	"Energy shield - Uses power to charge a shield that mitigates up to <hl>40</> damage": "エネルギー シールド - 電力を使ってシールドをチャージし、最大<hl>40</>ダメージを軽減する。",
 	"Hyper Shield Generator": "ハイパー シールド生成装置",
-	"Energy shield - Uses power to charge a shield that mitigates up to <hl>80</> damage": "エネルギー シールド - パワーを使ってシールドをチャージし、最大<hl>80</>ダメージを軽減する。",
+	"Energy shield - Uses power to charge a shield that mitigates up to <hl>80</> damage": "エネルギー シールド - 電力を使ってシールドをチャージし、最大<hl>80</>ダメージを軽減する。",
 	"Internal Blight Container": "内部ブライトコンテナ",
 	"Container for holding blight gas": "防疫ガス保持容器",
 	"Internal Virus Containment": "内部ウイルスの封じ込め",
@@ -3062,7 +3062,7 @@
 	"Satellite Package": "衛星パッケージ",
 	"Compacted satellite package": "コンパクトな衛星パッケージ",
 	"Blight Crystal Chunk": "ブライトクリスタル原石",
-	"A crystal energized with power": "パワーに満ちたクリスタル",
+	"A crystal energized with power": "電力に満ちたクリスタル",
 	"Blight Extraction": "ブライト抽出",
 	"Extracted blight gas essence": "抽出された殺虫ガスエッセンス",
 	"gas": "ガス",  //おそらく不要  本文ではなく「slot_type」という内部データと思われる
@@ -3076,7 +3076,7 @@
 	"Microscope": "顕微鏡",  //OK
 	"Transformer": "変圧器",  //OK
 	"Small Modular Reactor": "小型モジュラーリアクター",  //OK
-	"Mini Power Reactor for Small Units": "小型ユニット用ミニパワーリアクター",  //仮  Powerは電力 ??
+	"Mini Power Reactor for Small Units": "小型ユニット用ミニ電力リアクター",  //仮  Powerは電力 ??
 	"Engines": "エンジン",  //OK
 	"Develop Human Flight Capability": "有人飛行能力の開発",
 	"Data Key": "データキー",  //OK
@@ -3160,7 +3160,7 @@
 	"Blight mechanics for creating System Stability. Allows units to enter the blight without any adverse effects.": "システムの安定性を生み出す ブライトメカニクス。ユニットが悪影響を受ける事なく ブライト に入る事を可能にする。",
 	"Magnification": "倍率",
 	"Blight mechanics for magnification of System Resources": "システムリソースを拡大するブライトメカニクス",
-	"Blight Power": "ブライトパワー",
+	"Blight Power": "ブライト電力",
 	"Enables advanced power generation and storage applications": "先進的な発電・蓄電アプリケーションを実現",
 	"Basic Terraformer": "基本的なテラフォーマー",
 	"Reversing the effects of Blight on the landscape": "景観に及ぼすブライトの影響を回復させる",
@@ -3179,7 +3179,7 @@
 	"Allows construction of drones and related facilities": "ドローンと関連施設の建設を許可",
 	"Matrix Frames": "マトリックスフレーム",
 	"Create frames that are strong but low-weight": "丈夫で軽量なフレームを作る",
-	"Power Units": "パワーユニット",
+	"Power Units": "電力ユニット",
 	"Shuttles": "シャトル",
 	"Allows construction of long distance shuttles and related facilities": "長距離シャトルと関連施設の建設を許可する。",
 	"Hacking": "ハッキング",
@@ -3240,7 +3240,7 @@
 	"Advanced": "上級",
 	"Advanced Materials": "先端材料",
 	"Advanced material refinement expanding building options.": "建築物の選択肢を広げる高度な素材の改良",
-	"Power Upgrade": "パワーアップ",
+	"Power Upgrade": "電力アップグレード",
 	"Unlocks options to send power over greater distances": "より長距離に電力を送るためのオプションのロックを解除",
 	"Drone Storage": "ドローン・ストレージ",
 	"Medium sized storage and small automated drones": "中型ストレージと小型自動無人機",
