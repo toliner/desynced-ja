@@ -2861,7 +2861,7 @@ Drone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> a
 	"Where to continue if the entity is a bot": "エンティティがボットの場合",  //OK
 	// "Construction":"",//重複
 	"Where to continue if the entity is a construction site": "エンティティが建設中の場合",  //OK
-	// "Unit Type": "ユニットタイプ", //重複
+	"Unit Type": "ユニットタイプ", //ここだけ
 	"Divert program depending on unit type": "指定されたエンティティのユニットタイプに応じて処理を分岐する",  //OK
 
 	"A is nearer (or equal)": "A の方が近い(または自ユニットと同エンティティ)場合",  //OK
@@ -3098,7 +3098,7 @@ Drone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> a
 	"Request Item": "アイテムをリクエスト",  //OK
 	"Requests an item if it doesn't exist in the inventory": "指定されたアイテムがインベントリにない場合、リクエストする",  //OK
 
-	"Order to Shared Storage":"Order to Shared Storage",
+	"Order to Shared Storage":"共有ストレージ 転送要求",
 	"Request Inventory to be sent to nearest shared storage with corresponding locked slots":
 	  "最寄りの共有ストレージに送られるようにリクエストする",  //仮  locked slots??  要動作検証
 
