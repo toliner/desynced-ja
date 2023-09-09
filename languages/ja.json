@@ -184,7 +184,7 @@
 	"Path Blocked": "経路なし",  //要修正
 	"PathBlocked": "経路なし",  //要修正
 	"No Power": "電源なし",  //OK
-	"Shut Down": "シャットダウン",  //OK
+	"Shut Down": "電源OFF",  //OK
 	"Logistics Network": "物流ネットワーク",  //OK
 //	"Damaged": "破損",  //重複
 	"DOWN": "ダウン",  //おそらく不要 ボタン名
@@ -2251,7 +2251,7 @@
 	"explorables/": "探検家",
 	"Broken": "壊れた",
 	"Unpowered": "電源なし",  //OK
-	"PoweredDown": "電源OFF",  //OK
+	"PoweredDown": "電源オフ",  //OK
 	"Emergency": "緊急事態",
 	"Idle": "アイドル",
 	"Mouse Horizontal Move": "マウス水平移動",
@@ -2931,11 +2931,11 @@
 	"Order Transfer To": "オーダーを転送",//OK
 	"Transfers an Item to another Unit": "アイテムのオーダーを他ユニットに転送する",//OK
 
-	"Shutdown": "電源OFF",  //OK ここだけで使用
-	"Shuts down the power of the Unit": "ユニットの電源をOFFにする\n※電源OFFの状態でも行動プログラムは動作する",  //OK 
+	"Shutdown": "電源オフ",  //OK ここだけで使用
+	"Shuts down the power of the Unit": "ユニットを電源オフにする\n※電源オフの状態でも行動プログラムは動作する",  //OK 
 
-	"Turn On": "電源ON",  //OK ここだけで使用
-	"Turns on the power of the Unit": "ユニットの電源をONにする",  //OK 
+	"Turn On": "電源オン",  //OK ここだけで使用
+	"Turns on the power of the Unit": "ユニットを電源オンにする",  //OK 
 
 	"Connect": "物流ネットワーク 接続",  //OK
 	"Connects Units from Logistics Network": "ユニットを物流ネットワークに接続する", //OK 
@@ -3391,8 +3391,8 @@
 	"<hl>Power</> is required to run your base. If you go over your power threshold the <hl>Efficiency</> of your Units will decrease making them run slower until they are unable to function at all.\n\nUnits have emergency stored power that allows them to return to base in the case of a power outage. You can check your power usage in the <hl>Command Center</>":
 		"<hl>電力</>は拠点を動かすために必要です。\n電力のしきい値を超えると、ユニットの<hl>効率</>が低下し、動作が遅くなり、まったく機能しなくなります。\n\nユニットには、停電時に拠点に戻るための非常用バッテリーが搭載されています。\n<hl>コマンドセンター</>で電力使用量を確認できます。",
 
-	"Behaviors": "行動",
-	"Introduces Behaviors that allow increased and finer control of units for automation purposes": "自動化を目的として、ユニットをより細かく制御できる行動を導入。",
+	"Behaviors": "行動プログラム",
+	"Introduces Behaviors that allow increased and finer control of units for automation purposes": "自動化を目的として、ユニットをより細かく制御できる行動プログラムを導入",
 	"Basic Robotics": "基本的なロボット工学",
 	"Introduction of Robotics Assembler allowing production of units with greater capabilities": "ロボティクス アセンブラーの導入により、より高機能なユニットの生産が可能になる。",
 	"Power Transference": "電力伝達",
