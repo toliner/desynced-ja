@@ -553,9 +553,6 @@
 	"Gamma": "ガンマ値",
 	"Quality": "品質",
 	"Quality Presets": "品質プリセット",
-	// "Low": "低",  重複 消さないでね、次のアップデート用。
-	// "Medium": "中",  重複 消さないでね、次のアップデート用。
-	// "High": "高",  重複 消さないでね、次のアップデート用。
 	"TX_QUALITY_LOW": "低",
 	"TX_QUALITY_MEDIUM": "中",
 	"TX_QUALITY_HIGH": "高",
@@ -1785,6 +1782,79 @@
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Bugs</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Native Bug Life on the Planet</>\n\n<img image=\"Main/textures/codex/bugs/bug_trillo.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_slug.png\" width=\"250\" height=\"150\"/>\n\nThe bug life on the planet is inherently hostile to those who enter onto their territory.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/bugs/bug_nest.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_hive.png\" width=\"250\" height=\"150\"/>\n\nThese bugs live underground and in hive nests predominantly in the rocky plateau regions of the planet.\n\nThese hives and burrows need to be destroyed in order to cut off the bugs from the surface.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>バグ</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>地表の原生昆虫</>\n\n<img image=\"Main/textures/codex/bugs/bug_trillo.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_slug.png\" width=\"250\" height=\"150\"/>\n\nこの惑星に生息するバグは、自分たちのテリトリーに侵入するものに対して本質的に敵対的です。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/bugs/bug_nest.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_hive.png\" width=\"250\" height=\"150\"/>\n\nこれらのバグは主に岩の多い高地の地下や巣穴に生息しています。\n\n地表からバグを断つためには、これらの巣や巣穴を破壊する必要があります。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Components": "コンポーネント",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Units can be customized by placing a</> <hl>Component</> <bl>into any available</> <hl>Socket</><bl>, enabling new functionality for that unit.</>\n\n<img image=\"Main/textures/codex/codex_components.png\" width=\"540\" height=\"360\"/>\n\nComponents come in four sizes, <hl>Small</>, <hl>Medium</>, <hl>Large</> and <hl>Internal</> and can fit into sockets of the same size or larger.\n\n<img image=\"Main/textures/codex/ui/sockets.png\"/>\n\nComponents need to be constructed separately to allow them to be equipped and can be linked together via <hl>Parameters</> to automate various functions.\n\nUnits have limited functionality until equipped with a component, however mobile units are able to pick up and drop items freely while buildings can not do so without a supporting component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>ユニットは、利用可能な</> <hl>ソケット</>に <hl>コンポーネント</>を配置する事でカスタマイズできます。\n\n<img image=\"Main/textures/codex/codex_components.png\" width=\"540\" height=\"360\"/>\n\nコンポーネントには<hl>小</>、<hl>中</>、<hl>大</>、<hl>内部</>の4つのサイズがあり、同じサイズかそれ以上のサイズのソケットに装備できます。\n\n<img image=\"Main/textures/codex/ui/sockets.png\"/>\n\nコンポーネントは、装備を個別に構築する必要があり、<hl>パラメータ</>を介してリンクし、さまざまな機能を自動化する事ができます。\n\nユニットはコンポーネントを装備するまで機能が制限されますが、移動ユニットに直接指示をすることでアイテムを自由にピックアップ、ドロップできます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+
+	//20230909追加
+	"Logistics 1:  Radar":"物流1: レーダー",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>RADAR</>\n\nThe <hl>Portable Radar</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/> is one of the first key components you will unlock in logistics technology.\n<bl>Radar can be set to search for one particular item or entity.  (multiple filters are Not for multiple items)</>\n\nFor example it could be set to search for metal ore <img width=\"50\" height=\"50\" id=\"metalore\"/> or enemies<img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/> or unsolved ruins<img width=\"50\" height=\"50\" id=\"v_unsolved\"/>\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\nThe first three boxes <rl>(1)</> are <hl>Filters</>, and the last box <rl>(2)</> is the <hl>Radar Result</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Multiple Filters</>\n\n<bl>Multiple filters can be used to refine a search.</>\n\nFor example this setting will look for <hl>Silica</> and <hl>Dropped Item</>.  It will only look for 'scattered or dropped silica' on the ground and not mineable nodes.\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>物流1: レーダー</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>レーダー</>\n\n<hl>ポータブルレーダー</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/>は、ロジスティクス技術で最初に解放される主要なコンポーネントの一つです。\n\n<bl>レーダーは特定のアイテムやエンティティを検索するように設定することができます。\n（各フィルターは AND 条件です。複数のフィルターを使っても、複数のアイテムを検索することはできません)</>\n\n\n例えば、金属鉱石 <img width=\"50\" height=\"50\" id=\"metalore\"/>、敵 <img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/>、または未解明の遺跡 <img width=\"50\" height=\"50\" id=\"v_unsolved\"/>を検索するように設定することができます。\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\n最初の3つのボックス <rl>(1)</> は<hl>フィルター</>として機能し、最後のボックス <rl>(2)</> は<hl>レーダーの結果</>を表示します。\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>複数フィルター</>\n\n<bl>複数のフィルターを使用して検索を精緻化することができます。.</>\n\n例えば、この設定では<hl>シリカ砂</>と<hl>落下物</>を探します。これにより、採掘可能なノードではなく、'地面上に散らばっている' か '落ちている' シリカ砂だけを探すことになります。\n\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"Logistics 2:  Signal Readers":"物流2: シグナルリーダー",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>SIGNAL READERS</>\n\n<bl>With a </><hl>Signal Reader</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>one entity can Read from the </><hl>Signal Parameter</> <img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/> <bl> of another entity.</>\n\nExample: Twin Bot reading from Cub's signal parameter\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  In the example above the Twinbot's <hl>Signal Reader</> is set to Target the Cub.\n\n<rl>(2)</>  A result of <bl>[ Metal Ore ]</><img width=\"50\" height=\"50\" id=\"metalore\"/> is being returned from the Cub's <hl>Signal Parameter</>\n\n<rl>(3)</>  It is then feeding that result into it's miner component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+"翻訳中
+<img image=\"Main/textures/codex/ui/line_h2.png\"/>
+<header>Components: Logistics</>
+
+<img image=\"Main/textures/codex/ui/line_h1.png\"/>
+
+<header>SIGNAL READERS</>
+
+<bl>With a </><hl>Signal Reader</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>one entity can Read from the </><hl>Signal Parameter</> <img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/> <bl> of another entity.</>
+
+Example: Twin Bot reading from Cub's signal parameter
+
+<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>
+
+
+<rl>(1)</>  In the example above the Twinbot's <hl>Signal Reader</> is set to Target the Cub.
+
+<rl>(2)</>  A result of <bl>[ Metal Ore ]</><img width=\"50\" height=\"50\" id=\"metalore\"/> is being returned from the Cub's <hl>Signal Parameter</>
+
+<rl>(3)</>  It is then feeding that result into it's miner component.
+
+
+<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+"Logistics 3:  Transporters":"物流3: アイテム転送装置",
+"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>TRANSPORTERS</>\n\n<bl>With a </><hl>Portable Transporter</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> (Range 1) a unit is able to pass items or components directly to another unit that is located beside it.\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\nIn the above example the Production building in the center has a Portable Transporter in one of it's internal slots.  With this:\n\n<rl>(1)</>  <bl>Metal Bars</> and <bl>Metal plates</> being stored in the <hl>Storage block</> on the left will be transported to the <hl>Production building</>\n\n<rl>(2)</>  <bl>Reinforced Plates</> being produced in the <hl>Production building</> will be transported to the <hl>Storage block</> on the right.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+"翻訳中
+<img image=\"Main/textures/codex/ui/line_h2.png\"/>
+<header>Components: Logistics</>
+
+<img image=\"Main/textures/codex/ui/line_h1.png\"/>
+
+<header>TRANSPORTERS</>
+
+<bl>With a </><hl>Portable Transporter</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> (Range 1) a unit is able to pass items or components directly to another unit that is located beside it.
+
+<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>
+
+In the above example the Production building in the center has a Portable Transporter in one of it's internal slots.  With this:
+
+<rl>(1)</>  <bl>Metal Bars</> and <bl>Metal plates</> being stored in the <hl>Storage block</> on the left will be transported to the <hl>Production building</>
+
+<rl>(2)</>  <bl>Reinforced Plates</> being produced in the <hl>Production building</> will be transported to the <hl>Storage block</> on the right.
+
+
+<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+"Logistics 4:  Drones":"物流4: ドローン",
+"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>DRONES and DRONE PORTS</>\n\n<bl>Drone Ports</> <img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>house Drones</> <img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/> <bl>that perform logistics functions (fulfilling orders) on your network.</>\n\nDrone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> are produced separately from the Drone Ports and must be drag and dropped into the Port's inventory to load the Drones.\n\n<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>\n\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+"翻訳中
+<img image=\"Main/textures/codex/ui/line_h2.png\"/>
+<header>Components: Logistics</>
+
+<img image=\"Main/textures/codex/ui/line_h1.png\"/>
+
+<header>DRONES and DRONE PORTS</>
+
+<bl>Drone Ports</> <img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>house Drones</> <img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/> <bl>that perform logistics functions (fulfilling orders) on your network.</>
+
+Drone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> are produced separately from the Drone Ports and must be drag and dropped into the Port's inventory to load the Drones.
+
+<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>
+
+
+
+<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+
+
 	"Getting Started": "はじめに",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>GETTING STARTED</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>Introduction Quick Notes:</>\n\n* Robots will initially seem quite dumb as they will only do what you instruct them to do.\n\n* Equipping new <hl>Components</> will allow the robots to perform more actions.\n\n* You can see what actions any particular robot can do in the <hl>Components</> section.\n\n* Each bot has a set of four basic general purpose <bl>Parameters:  Signal, Visual, Store and Goto</> , however each has some extra functionality associated with it.\n\n* The <bl>Goto Parameter</> can also be set by right clicking on something in the world.\n\n* The <bl>Store Parameter</> if it points to another robot or building will go back there and pass all its inventory into it when it is idle. It can also be set by ctrl + <Key action=\"ExecuteAction\"/>\n\n* The <bl>Visual Parameter</> can be set to anything and will be what is displayed when you view popups using the tab key.\n\n* <bl>Parameters</> can be linked to each other and copies the value from the source Parameter to the target. Create a link by dragging from one Parameter to another. Remove a link by recreating the same link.\n\n* Many game systems and components interact with each other via <bl>Parameters</>, such as in behaviors.  They may also be referred to as <hl>Registers</>.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>GOALS</>\n\n<bl>To follow the Goals:</>  Click on each <hl>Goal</> to learn about what to do\n\n<img image=\"Main/textures/codex/gettingstarted/tutorial_list.png\"/>   <desc>Previous goals can also be viewed in the Codex or the Progress menu</>\n\n\nIf you don't want a <hl>Goal</> to show in the list, you can open the Progress menu and uncheck the box 'Show on Game Screen'\n\n<img image=\"Main/textures/codex/gettingstarted/show_on_screen.png\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Here are some Basics to get you started:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>CAMERA MOVEMENT</>\n\nIn addition to using <hl>WASD</> to move the camera you can <hl>Right Click</> and Screen Drag.\n\n<img image=\"Main/textures/codex/gettingstarted/mouse_camera.png\"/>\n\n\n<bl>GIVING INSTRUCTIONS</>\n\n\n<hl>Right Click</> is used for movement and to issue commands and instructions. (e.g. Right click on a node to mine)\n\n<img image=\"Main/textures/codex/gettingstarted/right_click_move.png\"/>   <img image=\"Main/textures/codex/gettingstarted/right_click_mine.png\"/>\n\n\nRight click on a component to get a context menu\n\n<img image=\"Main/textures/codex/gettingstarted/set_mining_target.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>MOVING ITEMS</>\n\nItems are either moved around Automatically (see: Automation in the Codex) or Manually.\n\n<hl>Manually Moving Items:</>\n\nYou can drag and drop items from one unit to another or between units and buildings.\n\n<img image=\"Main/textures/codex/gettingstarted/drag_and_drop.png\"/>  <desc>Dropping crystal directly from a robot to a building</>\n\n\nYou can drag and drop items to the ground as well.\n\n<img image=\"Main/textures/codex/gettingstarted/drop_on_ground.png\"/>  <desc>Items on the ground are NOT recognized by the Logistics Network</>\n\n<hl>NOTE:</> Items dropped on the ground not recognized by the Logistics Network and will need to either be picked up manually or detected by radar and retrieved.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>VISUAL DISPLAYS</>\n\nKey Displays for understanding your network:\n\n1) <hl>The Grid</>  -  <hl>P</>  Key\n2) <bl>Visual Modes (3)</>  -  <hl>TAB</>   (cycles through the 3 modes)\n\n\n1) <hl>THE GRID</> represents both the <bl>POWER GRID</> AND the <bl>LOGISTICS NETWORK</>\n\n<img image=\"Main/textures/codex/gettingstarted/power_network.png\"/>\n\n\nA robot on <hl>THE GRID</>\n\n1)  will receive <bl>Power</> from the Grid\n\n2)  will fulfill Orders for the Network if their <bl>Logistics Network</> button is ON\n    <desc>(see: Connect to the Logistics Network in the Codex)</> <icon icon=\"icon_carry\" height=\"50\" width=\"50\"/>\n\n<img image=\"Main/textures/codex/gettingstarted/bot_on_network.png\"/>\n\n\n\n\n2) <bl>VISUAL MODES (3)</>    <hl>TAB</>   (cycles through the 3 modes)\n\n<hl>MODE 1:</>  Display Visual Parameters Only (Default)\n\n<img image=\"Main/textures/codex/gettingstarted/visual_only.png\"/>  <desc>Visual overlay on robot shows what it is mining</>\n\n\n<hl>MODE 2:</>  Display Visual Parameters, Status Icons and Ranges\n\n<img image=\"Main/textures/codex/gettingstarted/displaying_all.png\"/>  <desc>Robots storing to a storage unit</>\n\n<img image=\"Main/textures/codex/gettingstarted/status_blocked.png\"/>  <desc>A status icon showing a robot is Blocked</>\n\n<img image=\"Main/textures/codex/gettingstarted/visual_ranges.png\"/>   <desc>The current order a robot is fulfilling</>\n\n\n<hl>MODE 3:</>  All visuals are OFF (except for the No Power status icon when a frame is out of power)\n\n<img image=\"Main/textures/codex/gettingstarted/no_power_status.png\"/>   <desc>'No Power' Status icon shows in all Modes</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 	  "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>はじめに</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>クイックノート:</>\n\n* ロボットは指示した事しかしないので、最初はかなり愚かに見えるでしょう。\n\n* 新しい<hl>コンポーネント</>を装備する事で、ロボットはより多くのアクションを行えるようになります。\n\n* 特定のロボットがどのようなアクションを行えるかは、<hl>コンポーネント</hl>セクションで確認できます。\n\n* 各ボットは、4つの基本的な汎用<bl>パラメータがあります：Signal レジスタ、Visual レジスタ、Store レジスタ、Goto レジスタ</> の4つです。\n\n* <bl>GoTo レジスタ</>は、ワールド内の何かを右クリックして設定する事もできます。\n\n* <bl>Store レジスタ</>が他のロボットや建築物を指している場合、アイドル時にそこに戻り、すべてのインベントリをそこに渡します。また、Ctrl + <Key action=\"ExecuteAction\"/>でも設定できます。\n\n* <bl>Visual レジスタ</>は何でも設定でき、タブキーを使ってポップアップを表示するときに表示されます。\n\n* <bl>パラメータ</>は互いにリンクする事ができ、ソースパラメータからターゲットパラメータに値をコピーします。あるパラメータから別のパラメータへドラッグする事でリンクを作成します。リンクを削除するには、同じリンクを再作成します。\n\n* 多くのゲームシステムやコンポーネントは、行動のように<bl>パラメータ</>を介して相互に作用します。  また、<hl>レジスタ</>と呼ばれる事もあります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>目標</>\n\n<bl>目標を達成するために:</>  それぞれの<hl>目標</>をクリックすると、何をすべきか確認できます。\n\n<img image=\"Main/textures/codex/gettingstarted/tutorial_list.png\"/>   <desc>過去の目標は、コーデックスや進行状況メニューでも確認できます。</>\n\n\n<hl>目標</>をリストに表示したくない場合は、「進行状況」メニューを開き、「ゲーム画面に表示」のチェックを外してください。'\n\n<img image=\"Main/textures/codex/gettingstarted/show_on_screen.png\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>ここでは、いくつかの基本操作を紹介します:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>カメラ移動</>\n\n<hl>WASD</> キーを使用してカメラを移動するだけでなく、<hl>右クリック</>でスクリーンをドラッグできます。\n\n<img image=\"Main/textures/codex/gettingstarted/mouse_camera.png\"/>\n\n\n<bl>指示を出す</>\n\n\n<hl>右クリック</>は移動に使われ、命令や指示を出すのに使われます。(例: 採掘するノードを右クリック)\n\n<img image=\"Main/textures/codex/gettingstarted/right_click_move.png\"/>   <img image=\"Main/textures/codex/gettingstarted/right_click_mine.png\"/>\n\n\nコンポーネントを右クリックするとコンテキストメニューが表示されます。\n\n<img image=\"Main/textures/codex/gettingstarted/set_mining_target.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>アイテムの移動</>\n\nアイテムの移動は、自動（参照：コーデックスの自動化）または手動で行われる。\n\n<hl>手動でアイテムを移動:</>\n\nあるユニットから別のユニットへ、またはユニットと建築物の間でアイテムをドラッグ＆ドロップする事ができます。\n\n<img image=\"Main/textures/codex/gettingstarted/drag_and_drop.png\"/>  <desc>ロボットから建築物に直接クリスタルをドロップできます</>\n\n\nアイテムを地面にドラッグ＆ドロップする事もできます。\n\n<img image=\"Main/textures/codex/gettingstarted/drop_on_ground.png\"/>  <desc>地上のアイテムは物流ネットワークによって認識されません</>\n\n<hl>注意:</> 地上に落ちているアイテムは物流ネットワークに認識されないため、手動で拾うか、レーダーで検知して回収する必要があります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>視覚ディスプレイ</>\n\nネットワークを理解するための主なディスプレイ:\n\n1) <hl>グリッド</>  -  <hl>P</> キー\n2) <bl>視覚モード (3)</>  -  <hl>TAB</>   (3つのモードを切り替えます)\n\n\n1) <hl>グリッド</> は<bl>電力グリッド</>と<bl>物流ネットワーク</>の両方を表しています。\n\n<img image=\"Main/textures/codex/gettingstarted/power_network.png\"/>\n\n\n<hl>グリッド</>上のロボット\n\n1)  グリッドから<bl>電力</>を受け取る。\n\n2) <bl>物流ネットワーク</>ボタン<icon icon=\"icon_carry\" height=\"50\" width=\"50\"/>がオンになっている場合、ネットワークからの注文に応じます。\n    <desc>(参照： コーデックスの物流ネットワークに接続する)</>\n\n<img image=\"Main/textures/codex/gettingstarted/bot_on_network.png\"/>\n\n\n\n\n2) <bl>視覚モード (3)</>    <hl>TAB</>   (3つのモードを切り替えます)\n\n<hl>モード 1:</> Visual レジスタのみ表示（デフォルト）\n\n<img image=\"Main/textures/codex/gettingstarted/visual_only.png\"/>  <desc>ロボットの視覚的オーバーレイで採掘内容を表示</>\n\n\n<hl>モード 2:</> 視覚的なパラメータ、ステータスアイコン、範囲の表示\n\n<img image=\"Main/textures/codex/gettingstarted/displaying_all.png\"/>  <desc>倉庫に収納するロボット</>\n\n<img image=\"Main/textures/codex/gettingstarted/status_blocked.png\"/>  <desc>ロボットがブロックされている事を示すステータスアイコン</>\n\n<img image=\"Main/textures/codex/gettingstarted/visual_ranges.png\"/>   <desc>ロボットが実行中のオーダー</>\n\n\n<hl>モード 3:</>  すべての視覚的な表示はオフ（ただし、フレームが電源なしの場合、「電源なし」ステータスのアイコンが表示されます。）\n\n<img image=\"Main/textures/codex/gettingstarted/no_power_status.png\"/>   <desc>すべてのモードで「電源なし」ステータスアイコンが表示されます。</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
@@ -2287,7 +2357,9 @@
 	"Virus Possessor": "ウイルス所持者",
 	"Virus Tool for spawning hives and bugs": "蜂の巣と昆虫を生み出すウイルスツール",
 	"Blight Magnifier": "ブライト拡大鏡",
-	"Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
+	//20230909変更
+	// "Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
+	"Slowly regenerates nearby resources up to 200, only works if placed inside the blight":"近くの資源をゆっくりと再生させる (上限200)",
 	"Blight Stabilizer": "ブライト スタビライザー",
 	"Resource Converter": "リソース コンバーター",
 	"When placed inside the blight will convert laterite to metal ore and silica": "このような場合、ブライトはラテライトをメタロアとシリカに変えます。",
@@ -3374,7 +3446,10 @@
 
 	// FILE: Main/data/tech/tech_alien.lua
 	"Alien Intel": "エイリアンの知的情報",
-	"By running a specific charge through your units they are able to enter the blight without any adverse effects": "ユニットに特定のチャージをかける事で、悪影響を受ける事なくブライトに入る事ができる。",
+	// 20230909変更
+	// "By running a specific charge through your units they are able to enter the blight without any adverse effects": "ユニットに特定のチャージをかける事で、悪影響を受ける事なくブライトに入る事ができる。",
+	"There is a alien presence on this planet which seems connected to the blight in some way.":
+		"この惑星にはエイリアンが存在し、ブライトと何らかの関係がありそう...",
 	"Alien Technology": "エイリアン テクノロジー",
 	"C0rrup7ed D4tabas3": "C0rrup7ed D4tabas3",
 	"Alien Signals": "エイリアン シグナル",
