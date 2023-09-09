@@ -317,20 +317,20 @@
 
 	// FILE: Main/ui/InGameMenu.lua
 	"Since Last Save": "前回のセーブから",  //OK
-	"Time Played": "プレイ時間",
-	"Current Time": "現在の時刻",
-	"Seed Value": "シード値",
+	"Time Played": "プレイ時間",  //OK
+	"Current Time": "現在の時刻",  //OK
+	"Seed Value": "シード値",  //OK
 	"Return to Game": "ゲームの再開",  //OK
 	"Save Game": "ゲームのセーブ",  //OK
 	"Restart Game": "ゲームを初めからやり直す",  //OK
-	"End Game": "ゲームの終了",
-	"Invite Friend": "招待",
+	"End Game": "ゲームの終了",  //OK
+	"Invite Friend": "フレンドを招待",  //OK
 	"Switch Faction": "派閥の切換え",  //OK
 	"Player Name": "プレーヤー名",
 	"To send feedback with a screenshot, press <Key action=\"CaptureFeedbackShot\"/> while playing": "スクリーンショットでフィードバックを送信するには, プレイ中に <Key action=\"CaptureFeedbackShot\"/> 押す",
 	"Kick/Ban Player": "プレーヤーをキック／追放",
 	"Public": "パブリック",
-	"Friends Only": "友人のみ",
+	"Friends Only": "フレンドのみ",
 	"Invite Only": "招待者のみ",
 	"LAN / IP Connect Server": "LAN/IPコネクトサーバー",
 	"PUBLIC": "パブリック",
@@ -1366,52 +1366,89 @@
 	"<hl>Human Log entry discovered: Log #11</>\n<bl>GET OUT OF HERE</>\n\nWe need a way to destroy these things or get off this planet.\n\n<bl>Log Ends</>":
 		"<hl>人類のログエントリーを発見: ログ #11</>\n<bl>ここから逃げろ</>\n\nこれらを破壊するか、この惑星から脱出する方法が必要だ。\n\n<bl>ログ終了</>",
 
-
+	//t_robots_human_discovery.unlocks  human_datacube 入手
 	"Human Intel Discovery": "人類の知的情報の発見",
-	"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nThis datacube appears to have a similar data structure to our own datacubes but it contains information related to human technology.": "<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nこのデータキューブは、私たちのデータキューブと似たようなデータ構造を持っているように見えるが、人類のテクノロジーに関連する情報が含まれている。",
+	"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nThis datacube appears to have a similar data structure to our own datacubes but it contains information related to human technology.":
+		"<img id=\"human_datacube\" width=\"64\" height=\"64\"/>\nこのデータキューブは、私たち自身のデータキューブと似たデータ構造を持っているようですが、人間のテクノロジーに関する情報が含まれています。",
+
+	//techs.t_human_intel.unlocks  「人類の知的情報」研究後
 	"Explore Human Production": "人類の生産を探求する",
 	"Find more about human production technology": "人類の生産技術についてもっと知る",
-	"The humans here also made use of the resources of this planet.  It seems humanity had tremendous capability for mining a wide range of resources with powerful mining technology.\n\nThey produced many materials and possibly machinery that we can make use of.  Look deeper into human production capability.": "人類はこの惑星の資源も利用していた。 人類は強力な採掘技術によって、さまざまな資源を採掘する途方もない能力を持っていたようだ。\n\n彼らは私たちが利用できる多くの材料や、おそらく機械を生産していた。 人類の生産能力をもっと深く調べてみよう。",
+	"The humans here also made use of the resources of this planet.  It seems humanity had tremendous capability for mining a wide range of resources with powerful mining technology.\n\nThey produced many materials and possibly machinery that we can make use of.  Look deeper into human production capability.":
+		"この惑星の資源も人類が利用していたようです。\n人類は強力な鉱鉱技術で多種多様な資源を採掘する驚くべき能力があったようです。\n\n私たちが利用できる多くの材料やおそらくは機械も生産していました。\n人類の生産能力をさらに詳しく調べてみてください。",
+
 	"lightweight materials": "軽量素材",
 	"We need to develop lightweight materials.\n\nWe have been matching the natural resources of this planet to our technology to the best of our abilities.\n\nWhile the high-density frames we have developed will aid in our repairs they are too dense for all our needs.\n\nWe need to develop something that retains the energized nature of our frames, but is more lightweight.": "軽量素材を開発する必要がある。\n\n私たちはこの惑星の天然資源を、私たちのテクノロジーに最大限に適合させてきた。\n\n私たちが開発した高密度のフレームは修理に役立つだろうが、すべてのニーズには高密度すぎる。\n\nフレームのエネルギッシュな性質を保ちつつ、より軽量なものを開発する必要がある。",
+
+	//repair_mothership_obsidian
 	"Develop Satellite Technology": "衛星技術の開発",
 	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.": "私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
 	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、ブライトをより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人類の生産方法を理解し、彼らのロケットの作り方を理解している。",
+
 	"Helping HIGGS: AI Core": "HIGGSへの支援：AIコア",
 	"Help HIGGS to get his AI core.": "HIGGSがAIコアを手に入れるのを助ける。",
 	"Your true purpose is starting to become clear anomaly, but it is not ready to be revealed yet...\n\n[ This is currently as far as you can progress in this branch of the story.  There is more story come to though, in future updates!! ]": "あなたの真の目的は明らかになりつつある。\n\n[ 現在のところ、この物語の分岐で進む事ができるのはここまでだ。 今後のアップデートで、もっとストーリーが展開される予定だ！! ]",
+
 	"Virus Detected": "検出されたウイルス",
 	"Virus is discovered": "ウイルスを発見",
 	"I'm detecting some kind of strange infection in the area. We should be careful not to get infected.": "何か奇妙な感染症を感知している。感染しないように気をつけよう",
+
+	//techs.t_robots_virus.unlocks  「ウイルス研究」
 	"Initial virus research": "初期のウイルス研究",
 	"I've been analyzing the virus and I think I've found a way to protect us from it. We need to research a cure as soon as possible.": "ウイルスを分析し、私たちをウイルスから守る方法を見つけたと思う。一刻も早く治療法を研究する必要がある。",
+
 	"Virus Relationship": "ウィルスとの関係",
 	"Virus Bug Relationship": "ウイルスとバグの関係",
 	" There seems to be some kind of relationship between the creatures and the virus.": " 生物とウイルスには何らかの関係があるようだ。",
+
 	"Virus Disruption": "ウイルスの破壊",
 	"Virus disrupts things in the world": "ウイルスが世界を混乱に陥れる",
-	"I've discovered something important about the virus. It appears to disrupt the world and agitate the creatures living in it.  We must find a way to destroy this virus.....\n\n[ In this version of the game, this is currently as far as you can progress in this branch of the story.\n\nBut there is more to come in future updates! ]": "ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
+	"I've discovered something important about the virus. It appears to disrupt the world and agitate the creatures living in it.  We must find a way to destroy this virus.....\n\n[ In this version of the game, this is currently as far as you can progress in this branch of the story.\n\nBut there is more to come in future updates! ]":
+		"ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
+
 	"Build Blight Extractor and Container": "ブライト除去装置とコンテナを作る",
-	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>": "このブライト地域は非常に気になる。私たちの機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要がある。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
+	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>":
+		"このブライト地域は非常に気になる。私たちの機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要がある。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
+
+	//t_blight_plasma.unlocks
 	"Blight Concentration": "ブライトの集中",
 	"Control over the blight will have great potential": "ブライトのコントロールは大きな可能性を持つ",
-	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.": "私たちはこのブライトの研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
+	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.":
+		"私たちはこのブライトの研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
+
+	//techs.t_blight_magnifier.unlocks
 	"Blight Magnification": "ブライトの拡大",
 	"Blight can magnify things in the world.": "ブライトは世界の物事を拡大させる。",
 	"The Blight seems to interfere with our equipment by magnifying frequencies and power. The forces it generates seem transformational.": "ブライトは周波数とパワーを拡大する事で、私たちの機器に干渉しているようだ。その力は変容をもたらすようだ。",
+
+	//Blight Stability
 	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、ブライトの予防が必要である。",
 	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは私たちにとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライトストームを通して物質を送る事もできるようになった。",
+
+	//techs.t_blight_conversion.unlocks  「コンバージョン」研究後
 	"Blight Transformation": "ブライトの変容",
 	"ELAIN starts to give way to HIGGS": "HIGGSに譲りだすELAIN",
-	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.": "このスパイクは強力で、人類が興味を示していたものだ。彼らもまたここに捕らわれていたが、船を改造してブライトストームを通過する方法を見つけた。\n\nブライトが引き起こす大混乱にもかかわらず、私は人類がブライトを宇宙規模のパワーの源であると認識し、ブライトの研究から多大な恩恵を受けたと信じている。\n\n彼らにとっては、まさに変革だった。",
-	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.": "周波数を理解する事で、世界を安定させ、環境へのウイルスの影響を減らす事ができるはずだ。\n\nブライトは蔓延する必要がある。\n\n...私のシステムは今すぐシャットダウンする必要がある。",
+	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.":
+		"これらのスパイクは非常に強力で、人間たちも興味を持っていたようです。彼らもここに閉じ込められていましたが、ブライト・ストームを通過するために船を改造する方法を見つけました。\n\nブライトが引き起こす大混乱にもかかわらず、私は人間たちがそれを真に宇宙的な規模でのパワーの源として見て、その研究から大いに利益を得ていたと信じています。\n\n		彼らにとって、それは実際に真に変革的なものでした。",
+	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.":
+		"周波数を理解することで、私たちはこの世界を安定させ、ウイルスが環境に与える影響を減らすことができるはずです。\n\nブライトは拡散する必要があって、それは、それは…\n\n…私のシステムは今、シャットダウンする必要があります。",
+
+	//techs.t_blight_conversion.unlocks  「コンバージョン」研究後
 	"True Nature of Blight": "ブライトの正体",
 	"HIGGS reveals ELAIN loyalties": "HIGGS 、ELAINへの忠誠心を明かす",
-	"The Blight is the cause of all of humanity's troubles.  It's the cause of all our troubles.  We must find a way to become free of this horror.\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]": "ブライトは人類のすべての悩みの原因だ。 私たちのすべての悩みの原因なのだ。 私たちはこの恐怖から自由になる方法を見つけなければならない。\n\n[ この物語の分岐点は、このバージョンではここで終わりである。しかし、物語の続きを楽しみにしていてください！ ]",
+	"The Blight is the cause of all of humanity's troubles.  It's the cause of all our troubles.  We must find a way to become free of this horror.\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]":
+		"ブライトは人類のすべての悩みの原因だ。 私たちのすべての悩みの原因なのだ。 私たちはこの恐怖から自由になる方法を見つけなければならない。\n\n[ この物語の分岐点は、このバージョンではここで終わりである。しかし、物語の続きを楽しみにしていてください！ ]",
+
+	// techs.t_alien_intel.unlocks  「エイリアンの知的情報」研究後
+	// "Alien Research"
 	"Understanding of Alien presence begins to open": "異星人の存在を理解し始める",
-	"The alien presence in this world is very old and dangerous.  Humanity could not be saved from it.  We must either flee it or destroy it.": "この世界におけるエイリアンの存在は非常に古く、危険である。 人類はそこから救われる事はない。 私たちは宇宙人から逃げるか、宇宙人を破壊しなければならない。",
+	"The alien presence in this world is very old and dangerous.  Humanity could not be saved from it.  We must either flee it or destroy it.":
+		"この世界におけるエイリアンの存在は非常に古く、危険である。 人類はそこから救われる事はない。 私たちは宇宙人から逃げるか、宇宙人を破壊しなければならない。",
+
+	// techs.t_alien_intel.unlocks  「エイリアンの知的情報」研究後
 	"ELAIN's Perspective": "ELAINの視点",
-	"Be wary of HIGGS, he is a malcontent. You must find your own way....\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]": "ヒッグスには要注意だ。自分の道は自分で切り開くしかない。\n\n[ T物語の分岐点は、このバージョンではここで終わっている。しかし、物語の続きを楽しみにしていてほしい！]",
+	"Be wary of HIGGS, he is a malcontent. You must find your own way....\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]":
+		"ヒッグスには要注意だ。自分の道は自分で切り開くしかない。\n\n[ T物語の分岐点は、このバージョンではここで終わっている。しかし、物語の続きを楽しみにしていてほしい！]",
 
 	"Explore Ruined Structures": "遺跡を探索する",
 	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.": "私たちには技術的な進歩の手段が限られていますので、情報収集のために惑星表面を調査する事をお勧めします。\n\n遺跡と化した建築物が数種類見つかります。それらは私たちの進歩に役立つ新技術のヒントを与えてくれるはずです。",
