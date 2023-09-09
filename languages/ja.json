@@ -1148,20 +1148,25 @@
 	"Deploy your Command Center near a source of metal and crystal to set up a base": "金属鉱石とクリスタル原石の近くにコマンドセンターを設置する",
 	"Welcome back Commander, your ship has been damaged and I've taken you out of stasis.\n\nI am <hl>ELAIN</>, Emergent Logistics Artificial Intelligence Network.  What you're seeing is a feed from an unidentified planet where I've deployed a team for you to command.\n\nThis planet seems to be the source of the damage and we are unable to leave the planet's orbit until our ship is repaired and the source of the damage is identified.":
 		"お目覚めですね、司令官。\n私たちの船は大きなダメージを受けたため、あなたを冷凍睡眠から呼び覚ましました。\n\n私は<hl>ELAIN</>(Emergent Logistics Artificial Intelligence Network)です。\n\nダメージの元凶は付近の惑星内にあることが分かりました。\nそれを特定しないと、船はその惑星の軌道から離れられません。船の修理も必要です。\n\nそこで私は、その惑星に調査チームを派遣しました。\n今ご覧いただいている画面は、調査チームからの映像です。",
-	"You will need to establish a small mining facility in order to proceed with ship repairs. <bl>This will be your primary objective.</>\n\nCommunications are currently limited so one of the first things you will need to do is to establish an uplink from ground level.\n\nTry to find <img id=\"metalore\"/><hl>Metal</> and <img id=\"crystal\"/><hl>Crystal</> deposits as we will need them for repairs.":
-		"ですが、調査チームとの通信は一部制限がかかっている状態です。\nこの惑星に<hl>アップリンク</>を設置できれば解消されます。\nそれに向けて、まずは必要となる素材を集めましょう。\n\n画面に<img id=\"metalore\"/><hl>金属鉱石</>と<img id=\"crystal\"/><hl>クリスタル原石</>があります。\nこのあたりに採掘する施設の整備しましょう。",
+	//20230909セリフ修正
+	// "You will need to establish a small mining facility in order to proceed with ship repairs. <bl>This will be your primary objective.</>\n\nCommunications are currently limited so one of the first things you will need to do is to establish an uplink from ground level.\n\nTry to find <img id=\"metalore\"/><hl>Metal</> and <img id=\"crystal\"/><hl>Crystal</> deposits as we will need them for repairs.":
+	// 	"ですが、調査チームとの通信は一部制限がかかっている状態です。\nこの惑星に<hl>アップリンク</>を設置できれば解消されます。\nそれに向けて、まずは必要となる素材を集めましょう。\n\n画面に<img id=\"metalore\"/><hl>金属鉱石</>と<img id=\"crystal\"/><hl>クリスタル原石</>があります。\nこのあたりに採掘する施設の整備しましょう。",
+	"You will need to establish a small mining facility in order to proceed with ship repairs. <bl>This will be your primary objective.</>\n\nCommunications are currently limited so one of the first things you will need to do is to establish an uplink from ground level.":
+		"ですが、調査チームとの通信は一部制限がかかっている状態です。\nこの惑星に<hl>アップリンク</>を設置できれば解消されでしょう。",
 
 	//crystal 入手
 	"Store Crystal": "クリスタルの保管",
 	"Gather or mine crystal": "クリスタルを採掘する",
-	"<img id=\"crystal\"/><hl>Crystal</> can be used in its raw form for now. <img id=\"metalore\"/><hl>Metal Ore</> will need to be processed into <img id=\"metalbar\"/><hl>Metal Bars</>.\n\nThis can be achieved in the <img id=\"c_fabricator\"/><hl>Fabricator</> which you will find on your Command Center.":
-		"<img id=\"metalore\"/><hl>金属鉱石</>は<img id=\"metalbar\"/><hl>金属インゴット</>に加工する必要があります。\nコマンドセンターのインベントリに<img id=\"c_fabricator\"/><hl>ファブリケーター</>があります。\n\n<img id=\"crystal\"/><hl>クリスタル原石</>は加工せずに使用できます。",
+	//20230909セリフ削除
+	// "<img id=\"crystal\"/><hl>Crystal</> can be used in its raw form for now. <img id=\"metalore\"/><hl>Metal Ore</> will need to be processed into <img id=\"metalbar\"/><hl>Metal Bars</>.\n\nThis can be achieved in the <img id=\"c_fabricator\"/><hl>Fabricator</> which you will find on your Command Center.":
+	// 	"<img id=\"metalore\"/><hl>金属鉱石</>は<img id=\"metalbar\"/><hl>金属インゴット</>に加工する必要があります。\nコマンドセンターのインベントリに<img id=\"c_fabricator\"/><hl>ファブリケーター</>があります。\n\n<img id=\"crystal\"/><hl>クリスタル原石</>は加工せずに使用できます。",
 
 	//metalore 入手
 	"Process Metal Bars": "金属インゴットの加工",
 	"Use fabricator to refine metal ore into bars.": "ファブリケーターを使って鉱石を精製し、インゴットにする",
-	"The Fabricator can process metal ore you have gathered into construction materials.\n\nWe're going to need <img id=\"metalbar\"/><hl>Metal Bar</> and <img id=\"metalplate\"/><hl>Metal Plate</> production going in order to start expanding our base.  To repair our ship we will need to continue this expansion as well as laying the groundwork to research more technology.\n\nFor now produce metal bars.":
-		"ファブリケーターは、集めた金属鉱石を<img id=\"metalbar\"/><hl>金属インゴット</>や<img id=\"metalplate\"/><hl>金属板</>などの建築資材に加工できます。\n拠点の拡大のためにも、多くの金属インゴットや金属板が必要となりますので生産しましょう。\n\n船を修理には、さらにより多くのテクノロジーが必要となりますので、それらの研究の基礎を築く必要もあります。\n\nまずは、金属インゴットの生産を目指しましょう。",
+	//20230909セリフ削除
+	// "The Fabricator can process metal ore you have gathered into construction materials.\n\nWe're going to need <img id=\"metalbar\"/><hl>Metal Bar</> and <img id=\"metalplate\"/><hl>Metal Plate</> production going in order to start expanding our base.  To repair our ship we will need to continue this expansion as well as laying the groundwork to research more technology.\n\nFor now produce metal bars.":
+	// 	"ファブリケーターは、集めた金属鉱石を<img id=\"metalbar\"/><hl>金属インゴット</>や<img id=\"metalplate\"/><hl>金属板</>などの建築資材に加工できます。\n拠点の拡大のためにも、多くの金属インゴットや金属板が必要となりますので生産しましょう。\n\n船を修理には、さらにより多くのテクノロジーが必要となりますので、それらの研究の基礎を築く必要もあります。\n\nまずは、金属インゴットの生産を目指しましょう。",
 
 	//equipped_assembler
 	"Establish Uplink": "アップリンクの確立",
@@ -1172,13 +1177,15 @@
 	//equipped_uplink アップリンク 設置後
 	"Research Basic Structures": "「基本構造」の研究",
 	"From the Technology tree research Basic Structures": "技術ツリーから「基本構造」を研究する",
-	"We have established a connection to the surface and I have already begun synchronizing our databases.\n\nWith this we are now able to research new technology from the <img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>Tech Tree</> (<Key action=\"Tech\" style=\"hl\"/>) interface. This will help us replace the missing data from the damaged data center.":
-		"惑星との通信が確立できました。\n\nデータベースの同期が開始されており、<img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>技術ツリー</>(<Key action=\"Tech\" style=\"hl\"/>) の新しいテクノロジーが研究できるようになりました。\nこれで、失われたデータの補完作業が進められます。",
+	//20230909セリフ削除
+	// "We have established a connection to the surface and I have already begun synchronizing our databases.\n\nWith this we are now able to research new technology from the <img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>Tech Tree</> (<Key action=\"Tech\" style=\"hl\"/>) interface. This will help us replace the missing data from the damaged data center.":
+	// 	"惑星との通信が確立できました。\n\nデータベースの同期が開始されており、<img image=\"icon50_Tech\" width=\"24\" height=\"24\"/><hl>技術ツリー</>(<Key action=\"Tech\" style=\"hl\"/>) の新しいテクノロジーが研究できるようになりました。\nこれで、失われたデータの補完作業が進められます。",
 
 	//techs.t_structures1.unlocks  「基本構造」研究後
 	"Produce Reinforced Plate": "強化プレートの生産",
-	"For <bl>Mothership repairs</> we need higher level material production.\n\nAdvanced Materials are the next level of development, which can be produced in The Assembler.\n\nWe will require a high volume of materials so you will need more buildings and mining units to keep up with resource demand.":
-		"<bl>マザーシップの修理</>には、より高いレベルの素材生産が必要です。\n\nそのような資材は、次のレベルの工程でも必要となり、アセンブラーで生産できます。\n\n私たちは大量の資材が必要となるので、それらを生産するためにもより多くの資源や加工施設のが必要になるでしょう。",
+	//20230909セリフ削除
+	// "For <bl>Mothership repairs</> we need higher level material production.\n\nAdvanced Materials are the next level of development, which can be produced in The Assembler.\n\nWe will require a high volume of materials so you will need more buildings and mining units to keep up with resource demand.":
+	// 	"<bl>マザーシップの修理</>には、より高いレベルの素材生産が必要です。\n\nそのような資材は、次のレベルの工程でも必要となり、アセンブラーで生産できます。\n\n私たちは大量の資材が必要となるので、それらを生産するためにもより多くの資源や加工施設のが必要になるでしょう。",
 
 	// 強化プレート入手後、遺跡(ロボット)、遺跡(エイリアン)接触後
 	"Explore Ruins": "遺跡探索",
@@ -1189,28 +1196,32 @@
 	//have_40_reinforced    強化プレート 40枚
 	"Research Basic Robotics": "「基本的なロボット工学」の研究",
 	"Research Basic Robotics from the tech tree": "技術ツリーから「基本的なロボット工学」を研究する",
-	"We have a wider range of structures now with which to expand our base.\n\nWe will need to research <hl>Basic Robotics</> to produce more advanced materials needed for <bl>Mothership repairs</> and more efficient units to manage our base.":
-	  "私たちは今、幅広いストラクチャーを手に入れ、拠点を拡大しています。\n\n母船の修理に必要なより高度な材料や、拠点を管理するためのより効率的なユニットを生産するために、<hl>「基本的なロボット工学」</>の研究をおすすめします。",
+	//20230909セリフ削除
+	// "We have a wider range of structures now with which to expand our base.\n\nWe will need to research <hl>Basic Robotics</> to produce more advanced materials needed for <bl>Mothership repairs</> and more efficient units to manage our base.":
+	//   "私たちは今、幅広いストラクチャーを手に入れ、拠点を拡大しています。\n\n母船の修理に必要なより高度な材料や、拠点を管理するためのより効率的なユニットを生産するために、<hl>「基本的なロボット工学」</>の研究をおすすめします。",
 
 	//Robotics Assembler 入手
 	"Store Silicon": "シリコンの収集",
 	"Scout the area for silica and turn it into Silicon": "シリカ砂を採掘してシリコンに変える",
+	//20230909セリフ削除
   //text
-	"<header>Silica</>\n\n<bl>Silica naturally occurs in the plateau regions of the world in large amounts and is your primary source of silica.</>\n\n<img image=\"Main/textures/codex/codex_silica_node.png\" width=\"220\" height=\"180\"/>\n\n* Warning!  Extreme caution must be observed while on the plateau however, as mass life signs have been observed and it appears they use the silica to construct their hives.\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Note:</>\nTrace amounts of <hl>Silica</> are scattered on the grasslands. These are able to be picked up without being mined however it is hard to detect.\n\n<img image=\"Main/textures/codex/botshots/codex_silica_scatter.png\" width=\"600\" height=\"220\"/>\n* A useful method is to use a <hl>Radar</> component to detect it. <img width=\"64\" height=\"64\" id=\"c_portable_radar\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
-		"<header>シリカ砂</>\n\n<bl>シリカ砂は世界の高地に自然に大量に存在し、あなたのシリカ砂の主要な供給源です。</>\n\n<img image=\"Main/textures/codex/codex_silica_node.png\" width=\"220\" height=\"180\"/>\n\n* 警告！ しかし、高地にいる間は細心の注意が必要である。集団生活の兆候が観察されており、彼らはシリカ砂を使って巣を作るようだ。\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>注意:</>\n草原には微量の<hl>シリカ砂</>が散らばっている。これらは採掘せずに拾うことができるが、発見するのは難しい。\n\n<img image=\"Main/textures/codex/botshots/codex_silica_scatter.png\" width=\"600\" height=\"220\"/>\n* <hl>レーダー</>コンポーネントで検出できるので便利である。 <img width=\"64\" height=\"64\" id=\"c_portable_radar\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	// "<header>Silica</>\n\n<bl>Silica naturally occurs in the plateau regions of the world in large amounts and is your primary source of silica.</>\n\n<img image=\"Main/textures/codex/codex_silica_node.png\" width=\"220\" height=\"180\"/>\n\n* Warning!  Extreme caution must be observed while on the plateau however, as mass life signs have been observed and it appears they use the silica to construct their hives.\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Note:</>\nTrace amounts of <hl>Silica</> are scattered on the grasslands. These are able to be picked up without being mined however it is hard to detect.\n\n<img image=\"Main/textures/codex/botshots/codex_silica_scatter.png\" width=\"600\" height=\"220\"/>\n* A useful method is to use a <hl>Radar</> component to detect it. <img width=\"64\" height=\"64\" id=\"c_portable_radar\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+	// 	"<header>シリカ砂</>\n\n<bl>シリカ砂は世界の高地に自然に大量に存在し、あなたのシリカ砂の主要な供給源です。</>\n\n<img image=\"Main/textures/codex/codex_silica_node.png\" width=\"220\" height=\"180\"/>\n\n* 警告！ しかし、高地にいる間は細心の注意が必要である。集団生活の兆候が観察されており、彼らはシリカ砂を使って巣を作るようだ。\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>注意:</>\n草原には微量の<hl>シリカ砂</>が散らばっている。これらは採掘せずに拾うことができるが、発見するのは難しい。\n\n<img image=\"Main/textures/codex/botshots/codex_silica_scatter.png\" width=\"600\" height=\"220\"/>\n* <hl>レーダー</>コンポーネントで検出できるので便利である。 <img width=\"64\" height=\"64\" id=\"c_portable_radar\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
   //talkinghead
-	"<img id=\"silica\"/><hl>Silica</> naturally occurs in the plateau regions of the world in large amounts and is your primary ingredient for producing <img id=\"silicon\"/><hl>Silicon</>.\n\n<bl>Extreme Caution</> must be observed while on the plateau however, as mass life signs have been observed and it appears they use the silica to construct their hives. It is highly recommended to bring a <img id=\"c_portable_turret\"/><hl>Portable Turret</> with you for defense.":
-		"<img id=\"silica\"/><hl>シリカ砂</>は世界の高地で大量に存在し、<img id=\"silicon\"/><hl>シリコン</>を生産するための主原料になります。\n\n大量の生命体の痕跡が観察されており、彼らはシリカ砂を使って巣を作っているようです。<bl>細心の注意</>が必要です。防衛のために<img id=\"c_portable_turret\"/><hl>ポータブルタレット</>を持っていくことを強くお勧めします。",
+	// "<img id=\"silica\"/><hl>Silica</> naturally occurs in the plateau regions of the world in large amounts and is your primary ingredient for producing <img id=\"silicon\"/><hl>Silicon</>.\n\n<bl>Extreme Caution</> must be observed while on the plateau however, as mass life signs have been observed and it appears they use the silica to construct their hives. It is highly recommended to bring a <img id=\"c_portable_turret\"/><hl>Portable Turret</> with you for defense.":
+	// 	"<img id=\"silica\"/><hl>シリカ砂</>は世界の高地で大量に存在し、<img id=\"silicon\"/><hl>シリコン</>を生産するための主原料になります。\n\n大量の生命体の痕跡が観察されており、彼らはシリカ砂を使って巣を作っているようです。<bl>細心の注意</>が必要です。防衛のために<img id=\"c_portable_turret\"/><hl>ポータブルタレット</>を持っていくことを強くお勧めします。",
 
 	//techs.t_robotics10.unlocks　「基本的なロボット工学」研究後
 	"Build Robotics Assembler": "ロボティクス アセンブラーの設置",
-	"The <img id=\"c_robotics_factory\"/><hl>Robotics Assembler</> will be the primary production component for our energized materials such as <img id=\"energized_plate\"/><hl>Energized Plates</>, a foundation material for construction and repairs.\n\nIt is also a component that focuses on more sophisticated robot assembly methods.\n\nProduce one of these components so that we can build a larger variety and more efficient robots such as the <img id=\"f_bot_1s_b\"/><hl>Dashbot</>":
-		"<img id=\"c_robotics_factory\"/><hl>ロボティクス アセンブラー</>は、エネルギーを帯びた材料、例えば建設や修理の基礎材料である<img id=\"energized_plate\"/><hl>帯電プレート</>などを生産する機械です。\n\nまた、より高度なロボットを組み立てられる機械でもあります。\nこのような機械がひとつあれば、<img id=\"f_bot_1s_b\"/>ダッシュボットのようなより多様で効率的なロボットを組み立てることができます。",
+	//20230909セリフ削除
+	// "The <img id=\"c_robotics_factory\"/><hl>Robotics Assembler</> will be the primary production component for our energized materials such as <img id=\"energized_plate\"/><hl>Energized Plates</>, a foundation material for construction and repairs.\n\nIt is also a component that focuses on more sophisticated robot assembly methods.\n\nProduce one of these components so that we can build a larger variety and more efficient robots such as the <img id=\"f_bot_1s_b\"/><hl>Dashbot</>":
+	// 	"<img id=\"c_robotics_factory\"/><hl>ロボティクス アセンブラー</>は、エネルギーを帯びた材料、例えば建設や修理の基礎材料である<img id=\"energized_plate\"/><hl>帯電プレート</>などを生産する機械です。\n\nまた、より高度なロボットを組み立てられる機械でもあります。\nこのような機械がひとつあれば、<img id=\"f_bot_1s_b\"/>ダッシュボットのようなより多様で効率的なロボットを組み立てることができます。",
 
 	//Robotics Assembler 入手
 	"Research Robotics Production": "「ロボット生産」の研究",
-	"We have achieved some integration of this planet's natural resources into our technology, which will allow us to make the necessary repairs to our <bl>Mothership</>.\n\nFurther research into <bl>Robotics Production</> is required to continue to expand upon what the <img id=\"c_robotics_factory\"/><hl>Robotics Assembler</> can produce.\n\nBuilding new types of robot units will help drive us towards our goal.":
-		"この惑星の天然資源を私たちのテクノロジーと統合することに成功しました。\nこれによって、私たちの母船の修理が可能となりました。\n\n引き続き、「<bl>ロボット生産</>」の研究をしましょう。\nそれによって<img id=\"c_robotics_factory\"/><hl>ロボット アセンブラー</>が生産できるものを拡充できます。\n\n新しい種類のロボットユニットを生産することで、私たちの目標に向かって進展を遂げることができるでしょう。",
+	//20230909セリフ削除
+	// "We have achieved some integration of this planet's natural resources into our technology, which will allow us to make the necessary repairs to our <bl>Mothership</>.\n\nFurther research into <bl>Robotics Production</> is required to continue to expand upon what the <img id=\"c_robotics_factory\"/><hl>Robotics Assembler</> can produce.\n\nBuilding new types of robot units will help drive us towards our goal.":
+	// 	"この惑星の天然資源を私たちのテクノロジーと統合することに成功しました。\nこれによって、私たちの母船の修理が可能となりました。\n\n引き続き、「<bl>ロボット生産</>」の研究をしましょう。\nそれによって<img id=\"c_robotics_factory\"/><hl>ロボット アセンブラー</>が生産できるものを拡充できます。\n\n新しい種類のロボットユニットを生産することで、私たちの目標に向かって進展を遂げることができるでしょう。",
 
 	//techs.t_robotics0.unlocks  「ロボット生産」研究後
 	"Research Gateway Technology": "「ゲートウェイ テクノロジー」の研究",
@@ -1230,21 +1241,24 @@
 	"Be mindful that the <hl>Re-Simulator's</> functionality may yield unpredictable outcomes, leading to interesting discoveries through experimentation.\n\nBe advised: increased production capabilities may be required due to the Re-Simulator's resource demands.":
 		"<hl>リシミュレーター</>の機能は、予測不可能な結果をもたらす可能性があり、実験を通じて興味深い発見につながるかもしれません。\nリシミュレーターのリソース要求により、生産能力の増加が必要となる場合があるということに注意してください。",
 
+	//20230909 削除
 	//techs.t_research1.unlocks  「ゲートウェイテクノロジー」研究後
-	"Research Advanced Materials": "「先端材料」の研究 ",
-	"Research a new level of composite material layering.": "新たなレベルの複合素材積層の研究",
-	"We now have our fundamental material technology, but to fully repair our ship we will have to pursue even more sophisticated materials.  Research Advanced Materials.":
-		"私たちは基本的な材料技術を手にしていますが、船を完全に修復するには、さらに高度な材料が必要です。 「先端材料」を研究しましょう。",
+	// "Research Advanced Materials": "「先端材料」の研究 ",
+	// "Research a new level of composite material layering.": "新たなレベルの複合素材積層の研究",
+	// "We now have our fundamental material technology, but to fully repair our ship we will have to pursue even more sophisticated materials.  Research Advanced Materials.":
+	// 	"私たちは基本的な材料技術を手にしていますが、船を完全に修復するには、さらに高度な材料が必要です。 「先端材料」を研究しましょう。",
 
+	//20230909 削除
 	//techs.t_structures2.unlocks  「先端材料」研究後
-	"Research Advanced Structures": "「高度な構造」の研究",
-	"Developing more advanced material processing and construction methods.": "より高度な材料加工と工法の開発。",
-	"We must dedicate resources to the development of more complex micro circuitry.\n\nWith this we move our building production to another level and be able to produce more advanced buildings.":
-		"より複雑なマイクロ回路の開発にリソースを割かなければなりません。\n\nこれにより、私たちの建築物生産は新たな段階に進み、より高度な建築物を生産できるようになります。",
+	// "Research Advanced Structures": "「高度な構造」の研究",
+	// "Developing more advanced material processing and construction methods.": "より高度な材料加工と工法の開発。",
+	// "We must dedicate resources to the development of more complex micro circuitry.\n\nWith this we move our building production to another level and be able to produce more advanced buildings.":
+	// 	"より複雑なマイクロ回路の開発にリソースを割かなければなりません。\n\nこれにより、私たちの建築物生産は新たな段階に進み、より高度な建築物を生産できるようになります。",
 
 	//techs.t_structures4.unlocks  「高度な構造」研究後
 	"Research Matrix Technology": "「マトリックス テクノロジー」の研究",
 	"Matrix Technology for advancing our research ability.": "マトリックス テクノロジーは私たちの研究能力を向上させる",
+	//20230909セリフ削除
 	"We need to research Matrix Technology, this will allow us to better utilize our datacubes and make a major push ahead in our research.":
 		"「マトリックス テクノロジー」を研究する必要があります。\nこの研究により、データキューブをより有効に活用でき、研究を大きく前進させることができるでしょう。",
 
@@ -1579,15 +1593,19 @@
 	"The <hl>Store Parameter</> tells the unit where it can store its inventory when it becomes full.\n\nWhen the mining bot can no longer hold resources it will place all its items onto the Storage Block, allowing it to continue mining.\n\nSelect one of your <hl>Miner Units</>\n\nClick on the <hl>Store parameter</> <img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/> and then specify the storage location by selecting the <hl>Storage Block</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>.":
 		"<hl>Store レジスタ</>は、インベントリが満杯になった時にアイテムを移す場所を指定します。\n\n採掘用のボットがアイテムを持てなくなった際、\nアイテムを<hl>貯蔵ブロック</>に移して、採掘作業が継続できるようにしましょう。\n\n<hl>採掘用のボット</>を1つ選択し、\n<hl>Store レジスタ</>ボタン<img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/>をクリック、\n先ほどの<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>まで<hl>ドラッグ</>します。",
 	
-	//強化プレート
+	//研究
 	"Unlocking more production materials is required to advance our technology so begin research of Basic Structures in the Tech tree.\n\nClick the <hl>Research</> button <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\nSelect <hl>Basic Structures</> and press the <hl>Set Research</> button.":
 		"技術の進化のため、さらに多くの生産資材をアンロックしましょう。\n<hl>研究</>ボタンをクリック <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>し、\n「<hl>基本構造</>」を選択し、<hl>研究開始</>ボタンを押します。",
-	"<hl>Reinforced Plate</> is produced in an <hl>Assembler</>. A building with a Medium Socket is now available however it also requires Reinforced plate.\n\nYou will need to produce the required ingredients in the <hl>Command Center</> before setting up the dedicated production.\n\nOn your <hl>Command Center</> produce <normal>20</> <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>\nand <normal>2</> <hl>Circuit Boards</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>":
-		"<hl>強化プレート</>の生産を始めましょう。\n\n<hl>強化プレート</>は<hl>アセンブラー</>で生産できますので、\n<hl>アセンブラー</>が装備できる[M]中型ソケットを持つ建屋が必要です。\n\n材料となる<hl>強化プレート</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>を<normal>20</>個、<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>2</>つ、\nそれぞれを<hl>コマンドセンター</>で生産します。",
 
-	"Exploration": "探検",
-	"While you're waiting for production, now is a good time to scout your surroundings. There are many ruined structures scattered across the landscape. Some have requirements to open. There is a large one on the other side of the Metal Ore patch.\n\nContinue to produce <normal>20</> <hl>Reinforced Plate</> and <normal>2</> <hl>Circuit Boards</>":
-		"生産を待っている間、拠点の周囲を偵察してみましょう。\n\n各地に遺跡と化した建築物が数多く点在しています。\n調査に課題が設けられているものもあります。\n\n金属鉱石パッチの少し先に<hl>大きな建築物</>が見えます。\n\n<hl>強化プレート</><normal>20</>枚と<hl>回路基板</><normal>2</>枚の生産を待ちつつ、\nこの<hl>建築物</>からトライしてみてはいかがでしょう。",
+	//20230909セリフ削除
+	//強化プレート
+	// "<hl>Reinforced Plate</> is produced in an <hl>Assembler</>. A building with a Medium Socket is now available however it also requires Reinforced plate.\n\nYou will need to produce the required ingredients in the <hl>Command Center</> before setting up the dedicated production.\n\nOn your <hl>Command Center</> produce <normal>20</> <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>\nand <normal>2</> <hl>Circuit Boards</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>":
+	// 	"<hl>強化プレート</>の生産を始めましょう。\n\n<hl>強化プレート</>は<hl>アセンブラー</>で生産できますので、\n<hl>アセンブラー</>が装備できる[M]中型ソケットを持つ建屋が必要です。\n\n材料となる<hl>強化プレート</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>を<normal>20</>個、<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>2</>つ、\nそれぞれを<hl>コマンドセンター</>で生産します。",
+
+	//20230909セリフ削除
+	// "Exploration": "探検",
+	// "While you're waiting for production, now is a good time to scout your surroundings. There are many ruined structures scattered across the landscape. Some have requirements to open. There is a large one on the other side of the Metal Ore patch.\n\nContinue to produce <normal>20</> <hl>Reinforced Plate</> and <normal>2</> <hl>Circuit Boards</>":
+	// 	"生産を待っている間、拠点の周囲を偵察してみましょう。\n\n各地に遺跡と化した建築物が数多く点在しています。\n調査に課題が設けられているものもあります。\n\n金属鉱石パッチの少し先に<hl>大きな建築物</>が見えます。\n\n<hl>強化プレート</><normal>20</>枚と<hl>回路基板</><normal>2</>枚の生産を待ちつつ、\nこの<hl>建築物</>からトライしてみてはいかがでしょう。",
 
 	//強化プレート  つづき
 	"Now to set up dedicated production of Reinforced Plates. Start by building the <hl>Medium Building</>.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct the <hl>Medium Building</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>":
@@ -1602,12 +1620,18 @@
 	"Power Grid": "電力グリッド",
 	"Your <bl>Units</> and <bl>Components</> receive <hl>Power</> while they are within a <hl>Power Grid</> (<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>)\n\nWhile they are outside the grid they will begin to drain power from their battery until it is depleted.\n\nThe power grid is what defines the area of the logistics network.  Expanding your power grid will also expand your logistics network.":
 		"<hl>ユニット</>と<hl>コンポーネント</>は<hl>電力グリッド</>(<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>)内にいる間、<hl>電力</>を受け取ります。\n\n<hl>電力グリッド</>の外にいる間は、バッテリーを消費して活動します。\n\nまた、<hl>電力グリッド</>は<hl>物流ネットワーク</>のエリアでもあります。\nつまり、<hl>電力グリッド</>の拡大は<hl>物流ネットワーク</>の拡大でもあります。",
+
+	//研究
 	"Research Basic Power to be able to produce <hl>Crystal Power</> and <hl>Power Field</> components.\n\n<hl>Crystal Power</> components will store power similar to a battery by consuming crystal and acting as a buffer should you start to have insufficient power for your grid.\n\n<hl>Power Fields</> will help to expand the area of your power grid, making it easier to get to resources further away such as silica nodes.\n\nClick the <hl>Research</> button <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\nSelect <hl>Basic Power</> and start Research.":
 		"「<hl>電力の基礎</>」を研究して、<hl>クリスタル電力装置</>と<hl>電力アンテナ</>のコンポーネントを生産できるようにしましょう。\n\n<hl>クリスタル電力装置</>コンポーネントは、クリスタルを消費してバッテリーのように電力を蓄え、電力グリッドの電力が不足している時にバッファーの役割を果たします。\n\n<hl>電力アンテナ</>は電力グリッドのエリアを広げ、シリカ砂のような遠くの資源にもアクセスしやすくなります。\n\n<hl>研究</><img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>ボタンをクリックし、\n\n「<hl>電力の基礎</>」を選択して「<hl>研究開始</>」をクリックします。",
 
 	"Power Expansion": "電力グリッドの拡張",
-	"With Basic Power researched you are able to produce <hl>Power Fields</>\n\nThese components allow you to increase the size of your <hl>Power Grid</> or to start an entirely new and separate grid.\n\nYou should begin expanding your power grid so that you can reach resources further away.\n\nProduce a <hl>Small Power Field</> <img id=\"c_small_relay\" width=\"40\" height=\"40\"/>":
-		"「<hl>電力の基礎</>」の研究により、<hl>電力アンテナ</>の生産が可能になりました。\n<hl>電力アンテナ</>を使うことで<hl>電力グリッド</>の拡張ができ、\nより遠くの資源に到達しやすくなります。\nまた、<hl>電力グリッド</>の拡張だけでなく、\n別の場所に新しく<hl>電力グリッド</>を作ることもできます。\n<hl>小型電力アンテナ</><img id=\"c_small_relay\" width=\"40\" height=\"40\"/>を生産しましょう。",
+	//20230909セリフ変更
+	// "With Basic Power researched you are able to produce <hl>Power Fields</>\n\nThese components allow you to increase the size of your <hl>Power Grid</> or to start an entirely new and separate grid.\n\nYou should begin expanding your power grid so that you can reach resources further away.\n\nProduce a <hl>Small Power Field</> <img id=\"c_small_relay\" width=\"40\" height=\"40\"/>":
+	// 	"「<hl>電力の基礎</>」の研究により、<hl>電力アンテナ</>の生産が可能になりました。\n<hl>電力アンテナ</>を使うことで<hl>電力グリッド</>の拡張ができ、\nより遠くの資源に到達しやすくなります。\nまた、<hl>電力グリッド</>の拡張だけでなく、\n別の場所に新しく<hl>電力グリッド</>を作ることもできます。\n<hl>小型電力アンテナ</><img id=\"c_small_relay\" width=\"40\" height=\"40\"/>を生産しましょう。",
+	//20230909セリフ変更
+	"With Basic Power researched you are able to produce <hl>Power Fields</>\n\nPower Fields are <hl>Components</>\n\nThey allow you to increase the size of your <hl>Power Grid</> or to start an entirely new and separate grid.\n\nYou should begin expanding your power grid so that you can reach resources further away.\n\nProduce a <hl>Small Power Field</> <img id=\"c_small_relay\" width=\"40\" height=\"40\"/> component.":
+		"「<hl>電力の基礎</>」の研究により、<hl>電力アンテナ</>の生産が可能になりました。\n\n<hl>電力アンテナ</>を使うことで<hl>電力グリッド</>の拡張ができ、\nより遠くの資源に到達しやすくなります。\nまた、既存の<hl>電力グリッド</>の拡張だけでなく、\n別の場所に新しく<hl>電力グリッド</>を作ることもできます。\n\n<hl>小型電力アンテナ</><img id=\"c_small_relay\" width=\"40\" height=\"40\"/>を生産しましょう。",
 
 	"Mine Silica": "シリカ砂の採掘",
 	"Silica <img id=\"silica\"/> is a new resource required to research higher tiers of technology.\n\nSilica nodes can be found on the plateau.  You can produce <hl>Power Fields</> to expand your <hl>Power Grid</> to help reach these nodes.\n\n\nExpand your power grid towards the <hl>Silica</> resource.\n\nSet a bot to Mine <hl>Silica</> <img id=\"silica\" width=\"40\" height=\"40\"/>":
@@ -1625,17 +1649,25 @@
 	"Lastly, you need to set the Store point (the point to drop off to).\n\nWith the <hl>Worker Bot</> selected, click with the <Key action=\"SelectAction\" style=\"bl\"/> on the <hl>STORE</> button and then click on the <hl>Storage</> building you built before to set it as the Store (drop off) point.\n\nNote: Again you can do this by dragging directly or by clicking on it (in this case with <hl>Ctrl +</> <Key action=\"ExecuteAction\" style=\"hl\"/>)":
 		"GoTo レジスタの次は、<hl>Store レジスタ</>を設定します。\n(アイテムを貯蔵するユニット）\n\n<hl>運搬用のボット</>を選択し、<hl>Store レジスタ</>をクリック、\n続いて<hl>貯蔵ブロック</>をクリックします。\n\n補足：他にも、<hl>Store レジスタ</>ボタンからのドラッグ、\nもしくは <hl>Ctrl +</> <Key action=\"ExecuteAction\" style=\"hl\"/>でも指定可能です",
 
+	//20230909セリフ追加
+  //Deconstructor
+	"There is a <hl>Deconstructor</> component <img id=\"c_deconstructor\" width=\"35\" height=\"35\"/>that is produced by the assembler.\n\nThe <hl>deconstructor</> can break down units and buildings into their construction ingredients with a <hl>100%</> return.\n\nClick the deconstructor's parameter and then click the target unit or building you would like to deconstruct.":
+		"<hl>解体機</>は、ユニットや建物を解体し材料に戻すコンポーネントです。<hl>アセンブラー</>で生産することができます。解体する際は、<hl>解体機</>のパラメータをクリックし、対象のユニットや建物をクリックします。",
+
 	//研究
 	"Finally researching Basic Signals will allow you to begin producing components that can allow your units to scan the environment and to set up specific communications with each other.\n\nProducing radar components will allow you to scan the environment for a wide range of elements such as enemies and structures.":
-		"「<hl>基本シグナル</>」を研究することで、\n例えば「<hl>ポータブルレーダー</>」というコンポーネントが生産でき、\n周囲の敵や建築物などを探し出すことができるようになります。\nその他に、ユニット間での通信などができるようなコンポーネントもあります。\n「<hl>基本シグナル</>」を研究しましょう。",
+		"「<hl>基本シグナル</>」を研究することで、\n例えば「<hl>ポータブルレーダー</>」というコンポーネントが生産でき、\n周囲の敵や建築物などを探し出すことができるようになります。\n\nその他に、ユニット間での通信などができるようなコンポーネントもあります。\n\n「<hl>基本シグナル</>」を研究しましょう。",
 
 	"Explore Using Radar": "レーダーを使った探索",
 	"Having researched Basic Signals you are able to produce Radar Components. One way you can use the radar is to search for ruins like the one you explored before.\n<bl>Using an Assembler make an </><hl>Portable Radar</><img image=\"Main/textures/icons/components/portable_radar.png\" width=\"50\" height=\"50\"/>\nPut the radar on one of your scout bots and set the first <hl>Search Filter</> to scan for <hl>Unsolved</> (in the Information Tab)\n\n<img image=\"Main/textures/codex/registers/information_tab.png\" width=\"400\" height=\"30\"/>\n\n<img image=\"Main/textures/codex/registers/scanner_building.png\" width=\"280\" height=\"60\"/>\n\nNow you can take the scout out and explore the world for unsolved ruins.\n\nNote: Remember to be aware of your scout's power and to be prepared with defensive turrets if you anticipate hostile encounters.":
 		"「<hl>基本シグナル</>」の研究により、レーダーのコンポーネントを生産できるようになりました。\n\nレーダーの使い方の例として、以前探索したような遺跡を探してみましょう。\n\n<hl>ポータブルレーダー</><img image=\"Main/textures/icons/components/portable_radar.png\" width=\"50\" height=\"50\"/>を生産し<hl>スカウト</>の1台に装備させます。\n\n<hl>ポータブルレーダー</>「検索条件」のひとつ目に、\n「インフォメーション」タブ内の「<hl>未解決</>」を選択します。\n\n<img image=\"Main/textures/codex/registers/information_tab.png\" width=\"400\" height=\"30\"/>\n\n<img image=\"Main/textures/codex/registers/scanner_building.png\" width=\"280\" height=\"60\"/>\n\nこれで、この<hl>スカウト</>で世界中にある未解決の遺跡を探索できます。\n\n注意：敵との遭遇が予想されます。スカウトの電力の状態に注意し、\n防御用に<hl>タレット</>を備えておくことをおすすめします。",
 
 	"Completion": "修了",
-	"Congratulations! You have reached the end of the Navigation Training Simulator. Continue expanding on your base and exploring your world.":
-		"おめでとうございます！\n\nナビゲーション トレーニング シミュレーターはここまでです。\n引き続き、拠点を拡大し世界を探索してください。",
+	//20230909セリフ変更
+	// "Congratulations! You have reached the end of the Navigation Training Simulator. Continue expanding on your base and exploring your world.":
+	// 	"おめでとうございます！\n\nナビゲーション トレーニング シミュレーターはここまでです。\n引き続き、拠点を拡大し世界を探索してください。",
+	"Congratulations! You have reached the end of the Navigation Training Simulator.\n\nInformation and Story Dialogue can be found in the <hl>Codex</> (<Key action=\"Codex\" style=\"hl\"/>) and it also includes a sample <hl>Behavior</>.\n\nThe native population of bugs were preset to be passive during the tutorial, feel free to continue playing this way without interruption.\n\nIf you wish however, you can choose to engage and turn them hostile.":
+		"おめでとうございます！\nナビゲーション トレーニング シミュレーターはここまでです。\n\nインフォメーションとストーリーダイアログは、<hl>コーデックス</> (<Key action=\"Codex\" style=\"hl\"/>) にあります。\n<hl>行動プログラム</>のサンプルもあります。\n\nチュートリアルでは、バグは「消極的」に設定されており、\n彼らから攻撃されることはありませんでした。\n\nこのままプレイを続けていただいて構いませんが、\nこちらから戦闘を挑んでみてもいいか知れません。",
 
 
 	// FILE: Main/data/actions.lua
