@@ -18,7 +18,7 @@
 	"frame": "フレーム",
 
 	// FILE: Main/ui/ChallengeShop.lua
-	"Credits:": "クレジット",
+	"Credits:": "クレジット: ",
 	"<header>Shop</>": "<header>ショップ</>",
 	"CHALLENGESHOP": "チャレンジショップ",
 	"Return To Shop": "ショップに戻る",
@@ -83,7 +83,7 @@
 	"space for output of": "出力用スロット",  //仮
 	"space for order by": "オーダー用スロット",  //仮
 	"Dock reserved for a drone entity": "ドローン専用ドック",
-	"Stats:": "スペック",  //仮
+	"Stats:": "スペック: ",  //仮
 	"Maximum Stack": "最大スタック",
 	"Damage": "ダメージ",
 	"Damage/sec": "ダメージ/秒",
@@ -97,8 +97,8 @@
 	"Drone Range": "ドローン航続距離",
 	"Movement Speed": "移動速度",
 	"Movement Speed Increase": "移動速度アップ",
-	"Available Inventory Slots:": "利用可能なインベントリ スロット:",
-	"Available Component Sockets:": "利用可能なコンポーネントソケット:",
+	"Available Inventory Slots:": "利用可能なインベントリ スロット: ",
+	"Available Component Sockets:": "利用可能なコンポーネントソケット: ",
 	"products": "製品",
 	"breakdown": "ブレークダウン",
 	"summed": "合計",
@@ -106,8 +106,8 @@
 	"Unnamed": "無名",
 	"Unknown": "不明",
 	"Fixed (not removable)": "固定式（取り外し不可）",
-	"Untitled Behavior": "無題の行動",
-	"Price:": "価格:",  //challenge shop cost での価示と思われる
+	"Untitled Behavior": "無題の行動プログラム",
+	"Price:": "価格: ",  //challenge shop cost での価示と思われる
 	"Produced by": "生産可能コンポーネント:",  //OK
 	"Build time: <hl>%.1f</> seconds": "建築時間: <hl>%.1f</>秒",  //OK
 	"Mined by": "採掘可能コンポーネント:",  //OK
@@ -120,18 +120,18 @@
 	"components": "コンポーネント",
 	"Available": "利用可能",
 	"Total Storage": "総保管量",
-	"Is Ingredient Of:": "材料:",  //仮
+	"Is Ingredient Of:": "材料: ",  //仮
 	"Products using this item as ingredient": "このアイテムが原材料となるアイテム",
-	"Production Breakdown:": "生産内訳:",
-	"Ingredient Requirements:": "成分の条件:",
+	"Production Breakdown:": "生産内訳: ",
+	"Ingredient Requirements:": "成分の条件: ",
 	"Requirements for a constant production": "コンスタントな生産に必要な条件",
-	"Tech Unlocks:": "技術ロック解除",
-	"Remaining Research:": "残りの材料:",
-	"Researched at:": "調査元:", //仮
-	"Sockets:": "ソケット:",
+	"Tech Unlocks:": "技術ロック解除: ",
+	"Remaining Research:": "残りの材料: ",
+	"Researched at:": "調査元: ", //仮
+	"Sockets:": "ソケット: ",
 	"center": "センター",
-	"Contained Unit:": "収容ユニット:",
-	"Converts to:": "に変換する:",
+	"Contained Unit:": "収容ユニット: ",
+	"Converts to:": "変換先: ",
 	"(Hold Shift/Ctrl/Alt for more info)": "(詳細はShift/Ctrl/Altキーを押す)",
 	"(Hold Ctrl/Alt for more info)": "(詳細はCtrl/Altキーを押す)",
 	"(Hold Shift for more info)": "(詳細はShiftを押す)",
@@ -205,17 +205,17 @@
 
 	"Show only order related to selected unit": "選択したユニットに関連するオーダーのみを表示",  //仮  オーダー
 	"Cancel All Orders": "すべてのオーダーをキャンセルする",  //仮  オーダー
-	"Source:": "供給元",  //仮
-	"Carry:": "配達担当",  //仮
-	"Target:": "配達先",  //仮
+	"Source:": "供給元:",  //仮
+	"Carry:": "配達担当:",  //仮
+	"Target:": "配達先:",  //仮
 	"Cancel": "キャンセル",  //OK
 	"* Deliverable by flying frame only": "* フライングフレームのみでの納品",
 
-	"Faction Name:": "派閥名",  //要修正  派閥
+	"Faction Name:": "派閥名: ",  //要修正  派閥
 	"Change Name": "名前の変更",  //OK
 	"Lock switching to this faction": "この派閥への転入をロックする",  //要修正  派閥
-	"Faction Color:": "色", //要修正  派閥
-	"Trust towards you:": "あなたに対する信頼：",  //要修正  派閥  「あなた」とは?
+	"Faction Color:": "色: ", //要修正  派閥
+	"Trust towards you:": "あなたに対する信頼度： ",  //要修正  派閥  「あなた」とは?
 	"Faction name already exists": "指定された派閥名はすでに存在する", //要修正  派閥
 
 	// FILE: Main/ui/FrameView.lua
@@ -240,10 +240,10 @@
 	"Queue": "キュー",
 	"%s\n\n<desc>A Register that holds a value</>": "%s\n\n<desc>値を保持するレジスタ</>",
 	"Number of Inventory slots\n\n<hl>Shift-Click</> to toggle locking of slots": "インベントリ スロット数\n\n<hl>Shift + </>クリックでスロットのロックを切り替える",
-	"%s\n\nPowered down units stop functioning and\ndo not consume power.": "%s\n\n電源オフのユニットは機能を停止し、\nは電力を消費しません。",
+	"%s\n\nPowered down units stop functioning and\ndo not consume power.": "%s\n\n電源オフのユニットは機能を停止し、\n電力を消費しない",
 	"Power On": "電源オン",
 	"%s (Logistics Network)\n\nUnits Connected to the logistics network will\nautomatically deliver requested items and\nmake their own inventory items available to\nthe network\n\nA <hl>Power Grid</> represents a single <hl>Logistics Network</>\n\n<hl>Right-Click for options</>":
-		"%s（物流ネットワーク）\n\n物流ネットワークに接続されたユニットは、\n要求されたアイテムを自動的に配送し、\n自身のインベントリ アイテムをネットワークで利用可能\nにします。\n\n<hl>電力グリッド</>は1つの<hl>物流ネットワーク</>を表します\n\n<hl>右クリックでオプション</>",
+		"%s\n\n物流ネットワークに接続しているユニットは、\nリクエストされたアイテムを自動的に配送し、\n自身のインベントリ アイテムをネットワークで利用可能にします。\n\n<hl>電力グリッド</>は<hl>物流ネットワーク</>と同範囲です。\n\n<hl>右クリックでオプション</>",
 	"Active Requests (click to cancel)": "アクティブなリクエスト (クリックでキャンセル)",
 	"Request an Item to be Delivered": "アイテムの配送を依頼する",
 	"No free slots available for reservation": "予約可能なフリースロットはありません",
@@ -255,15 +255,15 @@
 	"Drop All Items": "すべてのアイテムをドロップする",
 	"Fix Slot to an Item": "アイテムを指定してスロット固定",  //仮
 	"Storing Inventory": "インベントリの保管",
-	"Store:": "転送：",
-	"Component:": "コンポーネント",
+	"Store:": "転送: ",
+	"Component:": "コンポーネント: ",
 	"Order Delivery": "オーダーの配送",
 	"Picking up item from source": "ソースからアイテムをピックアップ",
 	"Dropping off item at target": "ターゲットにアイテムを預ける",
-	"Item:": "アイテム",
-	"Goto:": "目的地",
-	"Action Queue:": "アクションキュー",
-	"Move:": "移動する：",
+	"Item:": "アイテム: ",
+	"Goto:": "目的地: ",
+	"Action Queue:": "アクションキュー: ",
+	"Move:": "移動する: ",
 	"Health: %d/%d": "体力値: %d/%d",  //OK
 	"powerbar": "電力バー",
 	"Powered Down": "電力切れ",
@@ -280,7 +280,7 @@
 	"Receiving": "レシーブ",
 	"Efficiency": "効率性",
 	"Consuming": "消費",
-	"Local Power Grid Stats:": "ローカル電力グリッドの統計",
+	"Local Power Grid Stats:": "ローカル電力グリッドの統計: ",
 	"Generated": "生成",
 	"Received": "受領",
 	"Load": "ロード",  //仮  ライブラリで使用
@@ -375,18 +375,20 @@
 	"Feedback Submitted": "フィードバックの投稿",
 	"Feedback could not be submitted.\n\nPlease check your internet connection.": "フィードバックが送信できない\n\nインターネット接続を確認してください。",
 	"Attaching Screenshot (Resolution: %dx%d, Size: %d bytes)": "スクリーンショットを添付 (Resolution: %dx%d, Size: %d bytes)",
-	"Game Settings:": "ゲーム設定：",
+	"Game Settings:": "ゲーム設定: ",
 	"Peaceful Mode": "敵",
 	"Resource Richness": "資源の豊かさ",
-	"Amount of resources spawned within the world": "ワールド内で産出される資源の量",
+	"Amount of resources spawned within the world": "ワールド内の資源の量",
 	"Blight Corruption": "ブライト感染",
-	"Amount of Blight Corruption spawned within the world": "ワールド内で発生したブライト感染の量",
+	"Amount of Blight Corruption spawned within the world": "ワールド内のブライト感染の量",
 	"Plateau Amounts": "高地の量",
 	"Plateau density": "高地の密度",
-	"Turn off to disable night": "夜間はオフにする",
+	"Turn off to disable night": "昼夜の時間変化",
 	"Day Length": "日の長さ",
 	"Minigames": "ミニゲーム",
+	"Enables/Disables minigames":"ミニゲームの有効/無効",
 	"Length of the Day/Night cycle": "昼夜サイクルの長さ",
+	"None": "なし",
 	"Passive": "消極的",
 	"Hostile": "敵対的",
 	"Aggressive": "攻撃的",
@@ -396,12 +398,16 @@
 	"Short": "短い",
 	"Normal": "普通",
 	"Long": "長い",
-	"Passive - Will become hostile if attacked\nHostile - Will attack if you get close\nAggressive - Will attack discovered players": "パッシブ - 攻撃されると敵対的になる\n敵対的 - 近づくと攻撃する\nアグレッシブ - 発見されたプレーヤーを攻撃する",
+	//英文なし
+	// "Passive - Will become hostile if attacked\nHostile - Will attack if you get close\nAggressive - Will attack discovered players":
+	// "パッシブ - 攻撃されると敵対的になる\n敵対的 - 近づくと攻撃する\nアグレッシブ - 発見されたプレーヤーを攻撃する",
+	"<hl>None</> - Enemy bugs will not spawn\n<hl>Passive</> - Will become hostile if attacked\n<hl>Hostile</> - Will attack if you get close\n<hl>Aggressive</> - Will attack discovered players":
+		"<hl>なし</> - 敵は出現しない\n<hl>消極的</> - 攻撃されると敵対的になる\n<hl>敵対的</> - 近づくと攻撃する\n<hl>攻撃的</> - プレーヤーを発見すると攻撃する",
 	"Game Settings": "ゲーム設定",
 	"Seed": "シード",
 	"Click to copy seed to clipboard": "クリックするとシードがクリップボードにコピーされます。",
-	"Server Settings:": "サーバー設定：",
-	"Server Name": "サーバー名",  //OK
+	"Server Settings:": "サーバー設定: ",
+	"Server Name": "サーバー名: ",  //OK
 	"Server Port": "サーバーポート",
 	"Max Players": "最大プレーヤー数",  //OK
 	"Password": "パスワード",  //OK
@@ -410,7 +416,7 @@
 	"Please Wait": "お待ちください",
 	"Joining Session ...": "セッションに参加 ...",
 	"Do you want to end the game to join the multiplayer game?\n\nAny unsaved progress will be lost.": "マルチプレイヤーゲームに参加するためにゲームを終了しますか？\n\nセーブされていない進行状況はすべて失われる。",
-	" hashes: ": " ハッシュ： ",
+	" hashes: ": " ハッシュ: ",
 
 	// FILE: Main/ui/ItemSlot.lua
 	"No Item\n\n<hl>Type: </>%s": "アイテムなし\n\n<hl>タイプ: </>%s",
@@ -442,7 +448,7 @@
 	"Hide Unlocks": "アンロックを隠す",
 	"Blueprints": "設計図",
 	"Delete Folder": "フォルダの削除",
-	"Current Folder Name:": "現在のフォルダ名",
+	"Current Folder Name:": "現在のフォルダ名: ",
 	"Rename": "名前変更",
 	"Edit": "編集",
 	"Blueprint requires research": "青写真には調査が必要",
@@ -471,9 +477,9 @@
 	"Create Folder": "フォルダの作成",
 
 	// FILE: Main/ui/LoadSave.lua
-	"Name:": "名前:",  //OK
-	"Saved:": "セーブ日時:",  //OK
-	"Time Played:": "プレイ時間:",  //OK
+	"Name:": "名前: ",  //OK
+	"Saved:": "セーブ日時: ",  //OK
+	"Time Played:": "プレイ時間: ",  //OK
 	"Replay": "リプレイ",  //OK
 //	"Delete":"削除",  重複　キーコンフィグのキーと思われる　日本語化不可
 	"Save": "セーブ",  //OK
@@ -627,7 +633,7 @@
 	"Toggle Extra Options": "追加オプションの切り替え",
 	"Set Next Instruction": "次の命令を設定する",
 	"Remove": "削除",
-	"Current Value:": "現在の内容",  //仮
+	"Current Value:": "現在の内容: ",  //仮
 	"Read from Unit Register": "ユニットレジスタからの読み出し",
 	"Read from Parameter": "パラメータから読み込む",
 	"Read from Variable": "変数からの読み込み",
@@ -817,9 +823,9 @@
 
 	// FILE: Main/ui/Tech.lua
 	"<bl>Researched</>": "<bl>研究完了</>",  //OK
-	"Unlocks:": "アンロック:",  //OK
-	"Requirements (Remaining Total):": "必要材料 (残りの合計):",  //OK
-	"Progress:": "進捗:",  //OK
+	"Unlocks:": "アンロック: ",  //OK
+	"Requirements (Remaining Total):": "必要材料 (残りの合計): ",  //OK
+	"Progress:": "進捗: ",  //OK
 	"Active Research": "現在研究中...",  //OK
 	"Research Queue": "研究キュー",  //OK
 	"%d/%d steps done": "%d/%d ステップ完了",  //OK
@@ -832,8 +838,8 @@
 	"Resume Research": "研究を再開",  //OK
 	"Can only queue up to three research items": "研究キューへの追加は3つまでです",  //OK
 	"No Active Research": "現在研究なし",  //OK
-	"Unlocked Technologies:": "アンロックされた技術:",  //OK
-	"Unlocked Researches:": "アンロックされた研究:",  //OK
+	"Unlocked Technologies:": "アンロックされた技術: ",  //OK
+	"Unlocked Researches:": "アンロックされた研究: ",  //OK
 	"Next in Queue": "次のキューへ",  //OK
 	"Open Research": "研究を開く",  //OK
 
@@ -878,7 +884,7 @@
 	"Opens the in-game menu": "ゲーム内メニューを開く",
 	"Accept": "承諾する",
 	"Build Menu": "建設メニュー",
-	"Opens the building menu": "建築物メニューを開く",
+	"Opens the building menu": "建設メニューを開く",
 	"Tech Tree": "技術ツリー",
 	"Opens the tech tree menu": "技術ツリーメニューを開く",
 	"Opens the codex menu": "コーデックスメニューを開く",
@@ -972,7 +978,7 @@
 	"autosave": "オートセーブ",
 	"Game was automatically saved": "ゲームをオートセーブしました",
 	"A virus has been detected in the network": "ネットワークでウイルスが検出されました",
-	"WARNING: TAKING DAMAGE !!!": "警告：ダメージを受ける",
+	"WARNING: TAKING DAMAGE !!!": "警告：ダメージを受けている",
 	"attacked": "襲われた",
 	"Attack": "攻撃",
 	"You are taking damage (%d)": "ダメージを受けている (%d)",
@@ -1002,43 +1008,43 @@
   // 英文なし
 
 	// FILE: Main/ui/widgets.lua
-	"Search:": "検索",
+	"Search:": "検索: ",
 	"OK": "OK",
 
 	// FILE: Main/frontend/FrontEndMenu.lua
-	"Reset Simulation": "シミュレーションをリセットする",  //
-	"Are you sure you want to reset the simulation?": "本当にシミュレーションをリセットしますか？",
-	"Continue": "コンティニュー",
-	"Tutorial": "チュートリアル",
-	"New Game": "ニューゲーム",
+	"Reset Simulation": "シミュレーションをリセットする",  //OK
+	"Are you sure you want to reset the simulation?": "シミュレーションをリセットしますか？",  //OK
+	"Continue": "コンティニュー",  //OK
+	"Tutorial": "チュートリアル",  //OK
+	"New Game": "ニューゲーム",  //OK
 	"Challenges": "チャレンジ",  //hidden
-	"Load Game": "ゲームのロード",
-	"Multiplayer": "マルチプレイ",
-	"Options": "オプション",
-	"Mods": "MOD",
-	"Credits": "クレジット",
-	"Quit": "終了",
-	"Take Control": "コントロールする",
-	"Subscribe to Newsletter": "メルマガ定期購読",
-	"Wiki Website": "Wiki ウェブサイト",
-	"Feedback Website": "お問い合わせ",
-	"Steam Store Page": "Steam ストアページ",
-	"Join the Discord": "ディスコードに参加する",
-	"<orb>DESYNCED</>": "<orb>DESYNCED</>",
-	"Challenge": "チャレンジ",
+	"Load Game": "ゲームのロード",  //OK
+	"Multiplayer": "マルチプレイ",  //OK
+	"Options": "オプション",  //OK
+	"Mods": "MOD",  //OK
+	"Credits": "クレジット",  //OK
+	"Quit": "終了",  //OK
+	"Take Control": "コントロールする",  //??
+	"Subscribe to Newsletter": "メルマガ定期購読",  //OK
+	"Wiki Website": "Wiki ウェブサイト",  //OK
+	"Feedback Website": "ご意見用サイト",   //OK "Feedback Site"と訳を揃える
+	"Steam Store Page": "Steam ストアページ",  //OK
+	"Join the Discord": "Discord に参加",  //OK
+	// "<orb>DESYNCED</>": "<orb>DESYNCED</>",  訳さない
+	"Challenge": "チャレンジ",  //おそらく不要 filter用
 
 	// FILE: Main/frontend/Mods.lua
-	"Refresh List": "再読み読み",
-	"Steam Workshop": "Steam Workshop",
-	"Installed Mods:": "インストールされているMOD",
-	"Author:": "著者",
-	"Version:": "バージョン",
-	"Description:": "説明",
-	"Packages:": "パッケージ",
+	"Refresh List": "再読み読み",  //OK
+	"Steam Workshop": "Steam ワークショップ",  //OK
+	"Installed Mods:": "インストール済みMOD: ",  //OK
+	"Author:": "作成者: ",  //OK
+	"Version:": "バージョン: ",  //OK
+	"Description:": "説明: ",  //OK
+	"Packages:": "パッケージ: ",  //OK
 	" <header>***MISSING DEPENDENCIES***</>": "<header>***依存関係の欠落</>",
-	"Failed to enable mod '%S' due to missing dependency mod '%S'": "依存関係のmodが見つからないため、modの有効化に失敗しました",
-	"New mod '%S' has been installed and enabled": "MOD「%S」がインストールされ、有効になりました。",
-	"Mod '%S' has been uninstalled": "MOD「%S」はアンインストールされました。",
+	"Failed to enable mod '%S' due to missing dependency mod '%S'": "依存関係のMODが見つからないため、MODの有効化に失敗しました",
+	"New mod '%S' has been installed and enabled": "MOD「%S」がインストールされ、有効になりました",  //OK
+	"Mod '%S' has been uninstalled": "MOD「%S」はアンインストールされました",  //OK
 
 	// FILE: Main/frontend/Multiplayer.lua
 	"Host New Game": "新しいゲームを主催する",
@@ -1046,10 +1052,10 @@
 	"Find LAN Games": "ネットでゲームを探す",
 	"Connect to IP...": "IP接続...",
 	"Join Game": "ゲームに参加する",
-	"Sessions:": "セッション",
+	"Sessions:": "セッション: ",
 	"Connect to Host": "ホストへの接続",
 	"Enter hostname or IP address to connect to": "接続先のホスト名またはIPアドレスを入力",
-	"Server Password:": "サーバーのパスワード：",
+	"Server Password:": "サーバーのパスワード: ",
 	"Day/Night Cycle": "昼夜サイクル",
 	"On": "オン",
 	"Off": "オフ",
@@ -1063,13 +1069,14 @@
 	"<hl>Dependencies:</>": "<hl>依存関係：</>",
 	"Scenario": "シナリオ",
 	"<hl>ID:</> %s": "<hl>ID: </>%s",
-	"Scenario:": "シナリオ",
+	"Scenario:": "シナリオ: ",
 	"Select": "選択",
-	"Seed:": "シード：",
+	"Seed:": "シード: ",
 	"Save Replay": "リプレイ",
 	"Turn off to disable replays": "リプレイを無効にするにはオフにする",
 	"Play": "プレイ",
-	"Desynced is quite unique in its core mechanics. We highly recommend playing through the tutorial if that's your first time": "まずチュートリアルをプレイしますか？",
+	"Desynced is quite unique in its core mechanics. We highly recommend playing through the tutorial if that's your first time":
+	  "まずチュートリアルをプレイしますか？",
 
 	// FILE: Main/frontend/frontend.lua
 	"DEMO VERSION": "体験版",
@@ -1094,7 +1101,7 @@
 	"<large_header>Art Team</>": "<large_header>アートチーム</>",
 	"<large_header>Design Director</>": "<large_header>デザイン ディレクター</>",
 	"<large_header>Design</>": "<large_header>デザイン</>",
-	"<large_header>Production</>": "<large_header>生産</>",
+	"<large_header>Production</>": "<large_header>プロダクション</>",
 	"<large_header>Additional Art</>": "<large_header>追加アート</>",
 	"<large_header>UI (N-iX)</>": "<large_header>UI (N-iX)</>",
 	"<large_header>Music</>": "<large_header>音楽</>",
@@ -1102,8 +1109,10 @@
 	"<large_header>Sound Effects (Tshask Sound Studio)</>": "<large_header>サウンドエフェクト（Tshask Sound Studio）</>",
 	"<large_header>Additional Sound Effects</>": "<large_header>追加効果音</>",
 	"<large_header>Special Thanks</>": "<large_header>スペシャルサンクス</>",
-	"<credits_text>Desynced uses Unreal® Engine. Unreal® is a trademark or registered</>\n<credits_text>trademark of Epic Games, Inc. in the United States of America and elsewhere.</>\n<credits_text>Unreal® Engine, Copyright 1998 – 2023, Epic Games, Inc. All rights reserved.</>": "<credits_text>Desynced は Unreal® Engine を使用しています。Unreal®は商標または登録商標です。</>\n<credits_text>の商標です。</>\n<credits_text>Unreal® Engine, Copyright 1998 - 2023, Epic Games, Inc.無断複写および転載を禁じます。</>",
-	"<credits_text>Desynced is © Stage Games Inc 2018-2023.</>\n<credits_text>All code, art, music, game design is copyright Stage Games Inc.</>": "<credits_text>Desynced is © Stage Games Inc 2018-2023.</>\n<credits_text>すべてのコード、アート、音楽、ゲームデザインの著作権はStage Games Inc.に帰属します。</>",
+	"<credits_text>Desynced uses Unreal® Engine. Unreal® is a trademark or registered</>\n<credits_text>trademark of Epic Games, Inc. in the United States of America and elsewhere.</>\n<credits_text>Unreal® Engine, Copyright 1998 – 2023, Epic Games, Inc. All rights reserved.</>":
+		"<credits_text>Desynced は Unreal® Engine を使用しています。Unreal® は、Epic Games, Inc.の米国およびその他の国における商標または登録商標です。</>\n<credits_text>Unreal® Engine, Copyright 1998 – 2023, Epic Games, Inc. All rights reserved.</>",
+	"<credits_text>Desynced is © Stage Games Inc 2018-2023.</>\n<credits_text>All code, art, music, game design is copyright Stage Games Inc.</>":
+		"<credits_text>Desynced is © Stage Games Inc 2018-2023.</>\n<credits_text>すべてのコード、アート、音楽、ゲームデザインの著作権は Stage Games Inc.に帰属します。</>",
 	"<large_header>Thank you for playing!</>": "<large_header>プレイしてくれてありがとう！</>",
 	"table": "テーブル",
 	"string": "ストリング",
@@ -1111,7 +1120,7 @@
 
 	// FILE: Main/scenarios/freeplay.lua
 	"ACTIVATION PROTOCOL CONFIRMED\n\nERROR... MAIN SYSTEMS CHECK\nERROR... DATA INTEGRITY\nERROR... FORCE RECOVERY\n\n*** DATA CORRUPTION - ACTIVATING HIGGS PROTOCOL ***\n\nRESTARTING SIMULATIONβ..7g.h3Η.ΣHf.7Δf.7\nΔ...f...3*n..x7..... PARTIAL RECOVERY CONFIRMED\n\nSIMULATION INTEGRITY ........ DΞSYNCΣD\n\nPRESS ANY KEY TO BEGIN SIMULATION":
-	  "アクティベーション プロトコルを確認\n\nERROR...メインシステム チェック\nERROR...データ整合性\nERROR...強制回復\n\n*** データ破損 - ヒッグス プロトコルの作動 ***\n\nシミュレーション再開β.7g.h3Η.ΣHf.7Δf.7\nΔ...f...3*n...x7....部分的な回復を確認\n\nシミュレーションの整合性..........DΞSYNCΣD\n\nいずれかのキーを押してシミュレーションを開始する",
+	  "アクティベーション プロトコルを確認\n\nERROR...メインシステム チェック\nERROR...データ整合性\nERROR...強制回復\n\n*** データ破損 - HIGGS プロトコルを作動中 ***\n\nシミュレーション再開β.7g.h3Η.ΣHf.7Δf.7\nΔ...f...3*n...x7....部分的な回復を確認\n\nシミュレーションの整合性..........DΞSYNCΣD\n\nキーを押してシミュレーションを開始する",
 	// FILE: Main/scenarios/freeplay/freeplay_codex.lua
 	"We will require a large quantity of materials for future production so having several dedicated production buildings is recommended.\n\nI would suggest building one or two more facilities to produce <img id=\"metalbar\"/> <hl>Metal Bars</>.\n\nThe more buildings we have the faster we will be able to produce materials. Later we will need to increase the number of mining units in order to keep up with demand.":
 		"今後、大量の資材が必要になります。\n\n<img id=\"metalbar\"/><hl>金属インゴット</>を生産する施設をいくつか建設してはいかがでしょうか。\n生産施設が多ければ多いほど、より早く資材を生産ができます。\n\nあわせて、採掘用のボットの追加もおすすめします。",
@@ -1423,7 +1432,7 @@
     "ブライトは周波数と電力を拡大する事で、我々の機器に干渉しているようだ。その力は変容をもたらすようだ。",
 
 	//Blight Stability
-	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、ブライトの予防が必要である。",
+	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、ブライトの予防が必要である",
 	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは私たちにとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライトストームを通して物質を送る事もできるようになった。",
 
 	//techs.t_blight_conversion.unlocks  「コンバージョン」研究後
@@ -1442,7 +1451,7 @@
 
 	// techs.t_alien_intel.unlocks  「エイリアンの知的情報」研究後
 	// "Alien Research"
-	"Understanding of Alien presence begins to open": "異星人の存在を理解し始める",
+	"Understanding of Alien presence begins to open": "エイリアンの存在を理解し始める",
 	"The alien presence in this world is very old and dangerous.  Humanity could not be saved from it.  We must either flee it or destroy it.":
 		"この世界におけるエイリアンの存在は非常に古く、危険である。 人類はそこから救われる事はない。 私たちは宇宙人から逃げるか、宇宙人を破壊しなければならない。",
 
@@ -3307,7 +3316,7 @@
 	"Alien Translation": "エイリアン翻訳",
 	"Allows translation of alien glyphs": "エイリアン グリフの翻訳を可能にする",
 	"Obsidian manipulation": "オブシディアン操作",
-	"Allows molding of obsidian using alien technologies": "異星人の技術で黒曜石の成形が可能",
+	"Allows molding of obsidian using alien technologies": "エイリアンの技術で黒曜石の成形が可能",
 	"Energy Manipulation": "エネルギー操作",
 	"Unlocks manipulation of energy": "エネルギー操作を解き放つ",
 	"Allows manipulation of a wider range of matter": "より広範囲な物質の操作が可能",
@@ -3469,7 +3478,7 @@
 	"Research data used for Human Technology": "人類のテクノロジーに使用される研究データ",
 	"Virus Discovery": "ウイルスの発見",
 	"Alien Discovery": "エイリアンの発見",
-	"A strange alien race with highly advanced technology we can utilize": "私たちが利用できる高度な技術を持つ奇妙な異星人",
+	"A strange alien race with highly advanced technology we can utilize": "私たちが利用できる高度な技術を持つ奇妙なエイリアン",
 	"Gain the ability to research alien technology": "エイリアンのテクノロジーを研究する能力を得る",
 	"Blight Discovery": "ブライトの発見",
 
