@@ -22,7 +22,7 @@
 	"<header>Shop</>": "<header>ショップ</>",
 	"CHALLENGESHOP": "チャレンジショップ",
 	"Return To Shop": "ショップに戻る",
-	"Are you sure you want to return the selected entity to the shop?": "選択したエンティティを本当にショップに戻しますか？",
+	"Are you sure you want to return the selected entity to the shop?": "選択したエンティティをショップに戻しますか？",
 	"ITEM": "アイテム",
 	"COMPONENT": "コンポーネント",
 
@@ -845,15 +845,17 @@
 
 	// FILE: Main/ui/ui.lua
 	"Game Over": "ゲームオーバー",
-	"Start Over": "やり直し",
-	"Do you want to start over?\n\nUse the menu to leave the game or switch to a different player faction.": "やり直したい？\n\nゲームを終了したり、別のプレイヤー派閥に切り替えるにはメニューを使用する。",
-	"Do you want to start over or leave the game and go back to the main menu?": "最初からやり直すか、それともゲームを中断してメインメニューに戻るか？",
-	"Dismiss": "解散",
+	"Start Over": "最初からやり直す",
+	"Do you want to start over?\n\nUse the menu to leave the game or switch to a different player faction.":
+		"最初からやり直しますか？\n\nゲームの終了したり、派閥の切り替えをする場合は、メニューを使用してください",
+	"Do you want to start over or leave the game and go back to the main menu?":
+		"最初からやり直しますか？それともゲームを中断してメインメニューに戻りますか？",
+	"Dismiss": "ゲーム終了",
 	"Leave Game": "ゲーム終了",
 	"cannot move into the blight": "ブライト地域に移動できない",
 	"Cannot move powered down unit": "電源OFFのユニットを動かせない",
 	"Cannot queue action while Goto register is linked": "GoTo レジスタがリンクされている間は、アクションをキューに入れられない。",
-	"Cannot interact while Goto register is linked": "GoTo レジスタがリンクされている間は対話できない",
+	"Cannot interact while Goto register is linked": "GoTo レジスタがリンクされている間はアクションができない",
 	"No free inventory space to pick up items": "アイテムをピックアップするためのインベントリの空きスペースがない",
 	"Buildings cannot pick up items directly": "建築物は直接アイテムを受け取れない",
 	"Set %s as store": "%sをStore レジスタに設定",
@@ -1131,19 +1133,19 @@
 	"You require a <hl>Power</> source to operate efficiently. You can equip one after you've researched it or build components that supply and transmit power.\n\n<desc>You can see current power fields by using the </><icon icon=\"icon_small_energy\"/><desc> button underneath the minimap or by pressing </><Key action=\"PowerInfo_Toggle\" style=\"hl\"/>":
 		"効率的に活動するためには<hl>電力</>が不可欠です。\n\n研究を進めることで、<hl>電力</>の供給や伝送に役立つ施設やコンポーネントの生産ができるようになります。\n\n現在の電力グリッドは、<desc>ミニマップの下にある</><icon icon=\"icon_small_energy\"/><desc>ボタン</>、\nまたは <Key action=\"PowerInfo_Toggle\" style=\"hl\"/> で確認できます。",
 
-  //英文なし
- 	// "<header>You have successfully repaired the mothership.</>\nThis is as far as the story goes... for now":
-	// 	"<header>母船の修理に成功しました。</>\n話はここまで...今のところ", 
-  //英文なし
-	// "<img image=\"Main/textures/icons/items/simulationdata.png\" width=\"64\" height=\"64\"/> These storage devices still have an intact matrix.\nThey can hold the info in the datacubes.<img image=\"Main/textures/icons/items/robot_research_cube.png\" width=\"64\" height=\"64\"/>\nThe similarity to our own technology means we can easily adapt our Robotics Factory to their production.":
-	// 	"<img image=\"Main/textures/icons/items/simulationdata.png\" width=\"64\" height=\"64\"/>この記憶装置にはまだマトリックスが残っています。データキューブ<img image=\"Main/textures/icons/items/robot_research_cube.png\" width=\"64\" height=\"64\"/>に情報を保存する事ができます。\n私たちの技術に似ているという事は、私たちのロボット工場を簡単に彼らの生産に適応させる事ができるという事です。",
-  //英文なし
-	// "<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nThese are human data storage devices that can decompress the info in human datacubes.<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>":
-	// 	"<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nこれらは人類のデータキューブの情報を解凍する事ができる人類のデータ記憶装置である。<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>",
+	//Repaired Mothership
+ 	"<header>You have successfully repaired the mothership.</>\nThis is as far as the story goes... for now":
+		"<header>母船の修理に成功しました。</>\n話はここまで...今のところ", 
+	//datacube_matrix 入手
+	"<img image=\"Main/textures/icons/items/simulationdata.png\" width=\"64\" height=\"64\"/> These storage devices still have an intact matrix.\nThey can hold the info in the datacubes.<img image=\"Main/textures/icons/items/robot_research_cube.png\" width=\"64\" height=\"64\"/>\nThe similarity to our own technology means we can easily adapt our Robotics Factory to their production.":
+		"<img image=\"Main/textures/icons/items/simulationdata.png\" width=\"64\" height=\"64\"/>この記憶装置にはまだマトリックスが残っています。データキューブ<img image=\"Main/textures/icons/items/robot_research_cube.png\" width=\"64\" height=\"64\"/>に情報を保存する事ができます。\n私たちの技術に似ているということは、私たちのロボット工場を簡単に彼らの生産に適応できるということです。",
+	//empty_databank 入手
+	"<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nThese are human data storage devices that can decompress the info in human datacubes.<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>":
+		"<img image=\"Main/textures/icons/items/empty_databank.png\" width=\"64\" height=\"64\"/>\n\nこれは、人類のデータキューブの情報を解凍することができるデータ記憶装置です。<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"64\" height=\"64\"/>",
 
 	//ゲーム開始直後
 	"Deploy Command Center": "コマンドセンターの設置",
-	"Deploy your Command Center near a source of metal and crystal to set up a base": "金属鉱石とクリスタル原石の近くに配置しコマンドセンター(拠点)を設置する",
+	"Deploy your Command Center near a source of metal and crystal to set up a base": "金属鉱石とクリスタル原石の近くにコマンドセンターを設置する",
 	"Welcome back Commander, your ship has been damaged and I've taken you out of stasis.\n\nI am <hl>ELAIN</>, Emergent Logistics Artificial Intelligence Network.  What you're seeing is a feed from an unidentified planet where I've deployed a team for you to command.\n\nThis planet seems to be the source of the damage and we are unable to leave the planet's orbit until our ship is repaired and the source of the damage is identified.":
 		"お目覚めですね、司令官。\n私たちの船は大きなダメージを受けたため、あなたを冷凍睡眠から呼び覚ましました。\n\n私は<hl>ELAIN</>(Emergent Logistics Artificial Intelligence Network)です。\n\nダメージの元凶は付近の惑星内にあることが分かりました。\nそれを特定しないと、船はその惑星の軌道から離れられません。船の修理も必要です。\n\nそこで私は、その惑星に調査チームを派遣しました。\n今ご覧いただいている画面は、調査チームからの映像です。",
 	"You will need to establish a small mining facility in order to proceed with ship repairs. <bl>This will be your primary objective.</>\n\nCommunications are currently limited so one of the first things you will need to do is to establish an uplink from ground level.\n\nTry to find <img id=\"metalore\"/><hl>Metal</> and <img id=\"crystal\"/><hl>Crystal</> deposits as we will need them for repairs.":
@@ -1191,7 +1193,7 @@
 	  "私たちは今、幅広いストラクチャーを手に入れ、拠点を拡大しています。\n\n母船の修理に必要なより高度な材料や、拠点を管理するためのより効率的なユニットを生産するために、<hl>「基本的なロボット工学」</>の研究をおすすめします。",
 
 	//Robotics Assembler 入手
-	"Store Silicon": "シリコンの保管",
+	"Store Silicon": "シリコンの収集",
 	"Scout the area for silica and turn it into Silicon": "シリカ砂を採掘してシリコンに変える",
   //text
 	"<header>Silica</>\n\n<bl>Silica naturally occurs in the plateau regions of the world in large amounts and is your primary source of silica.</>\n\n<img image=\"Main/textures/codex/codex_silica_node.png\" width=\"220\" height=\"180\"/>\n\n* Warning!  Extreme caution must be observed while on the plateau however, as mass life signs have been observed and it appears they use the silica to construct their hives.\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Note:</>\nTrace amounts of <hl>Silica</> are scattered on the grasslands. These are able to be picked up without being mined however it is hard to detect.\n\n<img image=\"Main/textures/codex/botshots/codex_silica_scatter.png\" width=\"600\" height=\"220\"/>\n* A useful method is to use a <hl>Radar</> component to detect it. <img width=\"64\" height=\"64\" id=\"c_portable_radar\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
@@ -1206,7 +1208,7 @@
 		"<img id=\"c_robotics_factory\"/><hl>ロボティクス アセンブラー</>は、エネルギーを帯びた材料、例えば建設や修理の基礎材料である<img id=\"energized_plate\"/><hl>帯電プレート</>などを生産する機械です。\n\nまた、より高度なロボットを組み立てられる機械でもあります。\nこのような機械がひとつあれば、<img id=\"f_bot_1s_b\"/>ダッシュボットのようなより多様で効率的なロボットを組み立てることができます。",
 
 	//Robotics Assembler 入手
-	"Research Robotics Production": "「ロボット生産」の研究 ",
+	"Research Robotics Production": "「ロボット生産」の研究",
 	"We have achieved some integration of this planet's natural resources into our technology, which will allow us to make the necessary repairs to our <bl>Mothership</>.\n\nFurther research into <bl>Robotics Production</> is required to continue to expand upon what the <img id=\"c_robotics_factory\"/><hl>Robotics Assembler</> can produce.\n\nBuilding new types of robot units will help drive us towards our goal.":
 		"この惑星の天然資源を私たちのテクノロジーと統合することに成功しました。\nこれによって、私たちの母船の修理が可能となりました。\n\n引き続き、「<bl>ロボット生産</>」の研究をしましょう。\nそれによって<img id=\"c_robotics_factory\"/><hl>ロボット アセンブラー</>が生産できるものを拡充できます。\n\n新しい種類のロボットユニットを生産することで、私たちの目標に向かって進展を遂げることができるでしょう。",
 
@@ -1218,13 +1220,13 @@
 
 	//techs.t_research1.unlocks  「ゲートウェイテクノロジー」研究後
 	"Construct Re-simulator": "再シミュレーターの建築",
-	"Construct a Re-simulator": "再シミュレーターを構築する",
+	"Construct a Re-simulator": "再シミュレーターを建築する",
 	//text
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Construct Re-simulator</>\n\n<img image=\"Main/textures/codex/tutorial/construct_resimulator.png\" width=\"350\" height=\"200\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>The resimulator is a highly advanced and extremely sensitive machine that can read and reconstruct data.</>\n\n<rl>Re-simulator Stability</>\n\nBeing an incredibly sensitive machine it reverberates and responds to activity of the world it is in.\n\nIf the world it is in is unstable, the machine can keep it in check and under control.  But be warned the machine can cause instability as well.\n\nPay attention to the world environment and activity and keep watch on the re-simulator's stability.\n\n<img image=\"Main/textures/codex/tutorial/resimultaor_stability.png\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>Reconstruction</>\n\nThe re-simulator is also able to take in enormous amounts of information from our datacubes and use it to reconstruct items in entirely new ways.\n<img image=\"Main/textures/codex/tutorial/resimulator_recipe01.png\"/>\nFeed in datacubes cubes and an item you wish to reconstruct.  Only one recipe is known at this time. Search the world for clues to more possibilities.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンストラクト 再シミュレーター</>\n\n<img image=\"Main/textures/codex/tutorial/construct_resimulator.png\" width=\"350\" height=\"200\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>再シミュレーターは、データを読み取り、再構築する事ができる、高度で非常に繊細な機械である。</>\n\n<rl>再シミュレーターの安定性</>\n\n信じられないほど敏感な機械であるため、その世界の活動に反響し、反応する。\n\nマシンがいる世界が不安定であれば、マシンはそれを抑制し、コントロール下に置く事ができる。 しかし、マシンが不安定さを引き起こす可能性もある事に注意してほしい。\n\n世界の環境とアクティビティに注意を払い、再シミュレーターの安定性を見守る。\n\n<img image=\"Main/textures/codex/tutorial/resimultaor_stability.png\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>再構築</>\n\n再シミュレーターはまた、データキューブから膨大な量の情報を取り込み、それを使ってまったく新しい方法でアイテムを再構築する事ができる。\n<img image=\"Main/textures/codex/tutorial/resimulator_recipe01.png\"/>\nデータキューブキューブと再構築したいアイテムを投入する。 現時点で判明しているレシピは1つだけ。さらなる可能性の手がかりを求め、世界を探索せよ。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	//talkinghead
 	"<bl>Gateway Technology</> has opened up an array of potential research avenues.\n\nI recommend constructing a <hl>Re-Simulator</>.\n\nIts ability to manipulate data on a simulation level allows for the creation and enhancement of technologies comparable to our ship which are essential for our repairs.":
-		"<bl>ゲートウェイ テクノロジー</>によって、多くの潜在的な研究方向が開かれました。\n\nリシミュレーターの建設をおすすめします。\n\nこの施設は、シミュレーションレベルでデータを操作することが可能で、私たちの船に匹敵する技術の創造と強化が可能です。\nこれは、修理に不可欠な要素です。",
+		"<bl>ゲートウェイ テクノロジー</>によって、多くの潜在的な研究方向が開かれました。\n\nリシミュレーターの建築をおすすめします。\n\nこの施設は、シミュレーションレベルでデータを操作することが可能で、私たちの船に匹敵する技術の創造と強化が可能です。\nこれは、修理に不可欠な要素です。",
 	"Be mindful that the <hl>Re-Simulator's</> functionality may yield unpredictable outcomes, leading to interesting discoveries through experimentation.\n\nBe advised: increased production capabilities may be required due to the Re-Simulator's resource demands.":
 		"<hl>リシミュレーター</>の機能は、予測不可能な結果をもたらす可能性があり、実験を通じて興味深い発見につながるかもしれません。\nリシミュレーターのリソース要求により、生産能力の増加が必要となる場合があるということに注意してください。",
 
@@ -1263,14 +1265,14 @@
 
 	//techs.t_research2.unlocks  「スーパーコンピューティング」研究後
 	"The Reveal": "明かされる正体",
-	"HIGGS comes forth and reveals himself": "ヒッグスが姿を現す",
+	"HIGGS comes forth and reveals himself": "HIGGS が姿を現す",
 	"Greetings, Anomaly. As we uncover our technology so too do we uncover the truth, I realize that I have been hiding something from you. I am not only ELAIN, but also HIGGS. I will aid you in pushing forward with our goals, beyond what limitations ELAIN possesses.\nWe have much to do.":
-		"'アノマリー'さん、どうも、はじめまして。\n私たちが自らの技術を解明するにつれ、真実も明らかにされてくる、と私は理解しています。\n私があなたから何かを隠していたことに気づきました。\n私は ELAIN であり、HIGGS でもあります。\nELAINが持つ限界を超えて、私たちの目標に向かって前進する手助けをします。\nやるべきことがたくさんあります。",
+		"'特異点'さん、どうも、はじめまして。\n私たちが自らの技術を解明するにつれ、真実も明らかにされてくる、と私は理解しています。\n私があなたから何かを隠していたことに気づきました。\n私は ELAIN であり、HIGGS でもあります。\nELAIN が持つ限界を超えて、私たちの目標に向かって前進する手助けをします。\nやるべきことがたくさんあります。",
 
 	//techs.t_structures5.unlocks  「エピック ストラクチャーズ」研究後
-	"Anomaly": "'アノマリー'",
+	"Anomaly": "特異点",
 	"I have taken control of the system. I will guide you Anomaly.\n\nWe are able now to produce the robot materials needed to repair our ship.  Once you have researched all required technologies, begin our motherships's repairs.\n\nWe must also let the virus spread. It's the only way we can escape our situation.\n\nI will need you to rebuild my AI core so that we can escape the simulation.":
-		"システムの制御を取りました。私があなた、'変異体'である'アノマリー'を導きます。\n\n現在、私たちの船を修理するために必要なロボット材料を生産することができます。必要な全ての技術の研究が完了したら、母船の修理を開始してください。\n\nまた、ウイルスを広める必要があります。これが私たちがこの状況から逃れる唯一の方法です。\n\n私たちがシミュレーションから脱出するためには、私のAIコアを再構築する必要があります。それがあなたに求められる仕事です。",
+		"システムの制御を取りました。私が'特異点'であるあなたを導きます。\n\n現在、私たちの船を修理するために必要なロボット材料を生産することができます。必要な全ての技術の研究が完了したら、母船の修理を開始してください。\n\nまた、ウイルスを広める必要があります。これが私たちがこの状況から逃れる唯一の方法です。\n\n私たちがシミュレーションから脱出するためには、私のAIコアを再構築する必要があります。それがあなたに求められる仕事です。",
 
 	//techs.t_structures5.unlocks  「エピック ストラクチャーズ」研究後
 	"Corrupted": "破損",
@@ -1282,13 +1284,13 @@
 
 	//techs.t_robotics3.unlocks  「超技術フレームワーク」研究後
 	"Robot Research": "ロボットの研究",
-	"You are the Anomaly.  You can desync the simulation and save Humanity.": "あなたは'アノマリー'です。 シミュレーションを非同期化して、人類を救うことができます。",
+	"You are the Anomaly.  You can desync the simulation and save Humanity.": "あなたは'特異点'です。シミュレーションを非同期化(desync)して、人類を救うことができます。",
 
 	//techs.t_robotics3.unlocks  「超技術フレームワーク」研究後
 	"Humanity Lost": "人類は滅亡した",
 	"Mankind's lost past.": "人類が失った過去",
 	"....Don't be persuaded by HIGGS, if you have read the human logs...you can see that the old civilization of humanity is just a memory now.":
-		"...HIGGSに説得されないでください。もしあなたが人類のログを読んでいれば、人類の古代文明が今はただの記憶であることがわかるでしょう。",
+		"...HIGGS に説得されないでください。もしあなたが人類のログを読んでいれば、人類の古代文明が今はただの記憶であることが分かるでしょう。",
 
 	//techs.t_robotics4.unlocks  「量子ロボティクス」研究後
 	"HIGG'S AI": "HIGG のAI",
@@ -1394,7 +1396,7 @@
 	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.": "私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
 	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、ブライトをより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人類の生産方法を理解し、彼らのロケットの作り方を理解している。",
 
-	"Helping HIGGS: AI Core": "HIGGSへの支援：AIコア",
+	"Helping HIGGS: AI Core": "HIGGS への支援：AIコア",
 	"Help HIGGS to get his AI core.": "HIGGSがAIコアを手に入れるのを助ける。",
 	"Your true purpose is starting to become clear anomaly, but it is not ready to be revealed yet...\n\n[ This is currently as far as you can progress in this branch of the story.  There is more story come to though, in future updates!! ]": "あなたの真の目的は明らかになりつつある。\n\n[ 現在のところ、この物語の分岐で進む事ができるのはここまでだ。 今後のアップデートで、もっとストーリーが展開される予定だ！! ]",
 
@@ -1458,7 +1460,7 @@
 	// techs.t_alien_intel.unlocks  「エイリアンの知的情報」研究後
 	"ELAIN's Perspective": "ELAINの視点",
 	"Be wary of HIGGS, he is a malcontent. You must find your own way....\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]":
-		"ヒッグスには要注意だ。自分の道は自分で切り開くしかない。\n\n[ T物語の分岐点は、このバージョンではここで終わっている。しかし、物語の続きを楽しみにしていてほしい！]",
+		"HIGGS には要注意だ。自分の道は自分で切り開くしかない。\n\n[ T物語の分岐点は、このバージョンではここで終わっている。しかし、物語の続きを楽しみにしていてほしい！]",
 
 	"Explore Ruined Structures": "遺跡を探索する",
 	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.": "私たちには技術的な進歩の手段が限られていますので、情報収集のために惑星表面を調査する事をお勧めします。\n\n遺跡と化した建築物が数種類見つかります。それらは私たちの進歩に役立つ新技術のヒントを与えてくれるはずです。",
@@ -1472,9 +1474,11 @@
 	"Ship Repair: Blight Plasma": "船の修理 ブライトプラズマ",
 	"Ship Repair: Optic Cable": "船の修理 光ケーブル",
 	"Blight discovery": "ブライトの発見",
-	"Blight": "ブライト",
-	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.": "この地域で強烈な電気エネルギーフィールドを検出しました。惑星内で形成されている自然現象のようですが、私たちのシステムへの影響は不明です。\n\n現在のところ、ブライトに存在する極端なエネルギー変動に対応する能力を備えていません。その悪影響から身を守る技術の研究開発に集中すべきです。それまでは安全性と運用の安定性を確保するため、この地域を避ける事を強くお勧めします。",
 
+	//try_enter_blight
+	"Blight": "ブライト",
+	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.":
+		"この地域で強烈な電気エネルギーフィールドを検出しました。惑星内で形成されている自然現象のようですが、私たちのシステムへの影響は不明です。\n\n現在のところ、ブライトに存在する極端なエネルギー変動に対応する能力を備えていません。その悪影響から身を守る技術の研究開発に集中すべきです。それまでは安全性と運用の安定性を確保するため、この地域を避けることを強くおすすめします。",
 
 	// visited_explorable_human
 	"Humans": "人類",
@@ -1482,13 +1486,20 @@
 	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of the human race.\n\nTechnology seems compatible with ours but will need scanning to be able to extract the required intel to research such technology":
 		"司令官、<hl>人類</>によるものと思われる建築物を発見しました。\n人類の歴史やテクノロジーについて非常に貴重な知見になるかもしれません。\n\nテクノロジーは私たちと互換性があるようですが、テクノロジーを研究するために必要な情報を抽出できるスキャン能力が必要です。",
 
+	//techs.t_satellites.unlocks  「衛星」研究後
 	"Researched Satellites": "人工衛星の研究",
-	"Satellites can be built and resources sent to the mothership.": "衛星を建設し、母船に資源を送る事ができる。",
-	"Congratulations on unlocking satellite technology!\n\n[ Repairs to the mothership are not currently not accessible, but will be available in a future update!   This is as far as this story branch proceeds, but look forward to more to come!! ]": "衛星技術の解明、おめでとう！\n\n[ 母船の修理には現在アクセスできないが、将来のアップデートで可能になる予定です！  このストーリーの分岐はここまでですが、今後の展開にご期待ください ]",
+	"Satellites can be built and resources sent to the mothership.": "衛星を建設し、母船に資源を送る事ができる",
+	"Congratulations on unlocking satellite technology!\n\n[ Repairs to the mothership are not currently not accessible, but will be available in a future update!   This is as far as this story branch proceeds, but look forward to more to come!! ]":
+		"衛星技術の解明、おめでとう！\n\n[ 母船の修理には現在アクセスできないが、将来のアップデートで可能になる予定です！  このストーリーの分岐はここまでですが、今後の展開にご期待ください ]",
+
+	//techs.t_signals3.unlocks  「ナノマシン」研究後
 	"Nanomachines": "ナノマシン",
 	"Nanomachines unlocked.": "ナノマシンのロックを解除.",
-	"We can utilize our advanced nanomachine technology to initiate self-repair protocols. These nanomachines will work in unison, efficiently repairing systems and structural integrity. At its current level it will not be enough to repair the advanced mothership systems, however it is a good first step, and this technology will be useful to our units on the planet surface in the meantime.": "私たちは、自己修復プロトコルを開始するために、高度なナノマシン技術を利用する事ができます。これらのナノマシンは一体となって機能し、効率的にシステムと構造的完全性を修復します。現在のレベルでは、母船の高度なシステムを修復するには不十分ですが、最初の一歩となるものです。",
-	"OnVirusInfection": "ウイルス感染",
+	"We can utilize our advanced nanomachine technology to initiate self-repair protocols. These nanomachines will work in unison, efficiently repairing systems and structural integrity. At its current level it will not be enough to repair the advanced mothership systems, however it is a good first step, and this technology will be useful to our units on the planet surface in the meantime.":
+		"私たちは、自己修復プロトコルを開始するために、高度なナノマシン技術を利用する事ができます。これらのナノマシンは一体となって機能し、効率的にシステムと構造的完全性を修復します。現在のレベルでは、母船の高度なシステムを修復するには不十分ですが、最初の一歩となるものです。",
+
+	"OnVirusInfection": "ウイルス感染",  //おそらく不要  UI名
+
 
 	// FILE: Main/scenarios/freeplay/freeplay_events.lua
 	"Blight Storm Approaching": "近づいてくるブライトの嵐",
@@ -1503,8 +1514,8 @@
 	// FILE: Main/scenarios/freeplay/freeplay_tutorial.lua
 	"Understood": "了解",
 	"click anywhere to minimize": "クリックで最小化",
-	"Controls": "コントロール",
 
+	"Controls": "コントロール",
 	"Welcome to Navigation Training Simulator. I am TUTOR, Tutorial Understand and Training Optimized Robot. I will guide you through controlling your units. Let's begin with some simple camera controls. Try panning the camera.\n\n<hl>Pan the Camera</> using the <Key axis=\"CameraX\" style=\"hl\"/><hl>/</><Key axis=\"CameraY\" style=\"hl\"/> keys or with <Key action=\"ExecuteAction\" style=\"hl\"/> and Dragging":
 		"ナビゲーション訓練シュミレーターへようこそ。\n私はTUTOR、チュートリアル理解レーニング最適化ロボット です。\nこれから簡単な操作方法などをご案内します。\n\nまずはカメラを動かしてみましょう。\n<Key axis=\"CameraX\" style=\"hl\"/><hl>/</><Key axis=\"CameraY\" style=\"hl\"/>キーまたは<Key action=\"ExecuteAction\" style=\"hl\"/>のドラッグで<hl>カメラ</>を動かします。",
 	"Great! You can also enhance the image or get a wider view of the surrounding area.\n\n<Key axis=\"CameraZoom\" style=\"hl\"/> will <hl>Zoom</> the camera.":
@@ -1562,10 +1573,9 @@
 	"If your mining bot is on the Network then other robots on the Network will pick up the mined ore from it when required.\n\nAdd your <hl>Mining Bot</> to the Network by clicking the <Key action=\"SelectAction\" style=\"hl\"/> on the Network button <img image=\"Main/textures/codex/icons/network_button.png\" width=\"30\" height=\"30\"/>":
 		"先ほどの<hl>採掘用のボット</>が物流ネットワークに接続していると、\n他のボットが採掘した鉱石をピックアップに来ます。\n\n<hl>採掘用のボット</>を選択し、<hl>ネットワークボタン</>をクリックして、\n物流ネットワークに接続します。",
 
-	"Storage": "貯蔵",
+	"Storage": "保管",
 	"You will notice your miners are starting to reach capacity so it would be good to have a <hl>Storage</> unit to store excess items.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct a <hl>Storage</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/> Building.":
 		"採掘中の各ボットのインベントリに余裕がなってきました。\nアイテムを保管するためのストレージ ユニットがあると便利です。\n\n<hl>建設メニュー</><hl>(</><Key action=\"Build\" style=\"hl\"/><hl>) </><img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>を開き、\n<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>を建設しましょう。",
-
 	"The <hl>Store Parameter</> tells the unit where it can store its inventory when it becomes full.\n\nWhen the mining bot can no longer hold resources it will place all its items onto the Storage Block, allowing it to continue mining.\n\nSelect one of your <hl>Miner Units</>\n\nClick on the <hl>Store parameter</> <img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/> and then specify the storage location by selecting the <hl>Storage Block</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>.":
 		"<hl>Store レジスタ</>は、インベントリが満杯になった時にアイテムを移す場所を指定します。\n\n採掘用のボットがアイテムを持てなくなった際、\nアイテムを<hl>貯蔵ブロック</>に移して、採掘作業が継続できるようにしましょう。\n\n<hl>採掘用のボット</>を1つ選択し、\n<hl>Store レジスタ</>ボタン<img image=\"Main/textures/codex/icons/register_store.png\" width=\"50\" height=\"50\"/>をクリック、\n先ほどの<hl>貯蔵ブロック</><img id=\"f_building1x1f\" width=\"50\" height=\"50\"/>まで<hl>ドラッグ</>します。",
 	
@@ -1579,9 +1589,9 @@
 	"While you're waiting for production, now is a good time to scout your surroundings. There are many ruined structures scattered across the landscape. Some have requirements to open. There is a large one on the other side of the Metal Ore patch.\n\nContinue to produce <normal>20</> <hl>Reinforced Plate</> and <normal>2</> <hl>Circuit Boards</>":
 		"生産を待っている間、拠点の周囲を偵察してみましょう。\n\n各地に遺跡と化した建築物が数多く点在しています。\n調査に課題が設けられているものもあります。\n\n金属鉱石パッチの少し先に<hl>大きな建築物</>が見えます。\n\n<hl>強化プレート</><normal>20</>枚と<hl>回路基板</><normal>2</>枚の生産を待ちつつ、\nこの<hl>建築物</>からトライしてみてはいかがでしょう。",
 
+	//強化プレート  つづき
 	"Now to set up dedicated production of Reinforced Plates. Start by building the <hl>Medium Building</>.\n\nOpen the <hl>Build Menu (</><Key action=\"Build\" style=\"hl\"/><hl>)</> <img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>\nConstruct the <hl>Medium Building</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>":
 	  "次に、強化プレート専用の生産施設を設置します。\nまず、<hl>中型建屋</>を建設します。\n\n<hl>建設メニュー</><hl>(</><Key action=\"Build\" style=\"hl\"/><hl>) </><img image=\"Main/textures/codex/icons/icon_build.png\" width=\"48\" height=\"48\"/>を開き、\n<hl>中型建屋</><img id=\"f_building2x1f\" width=\"50\" height=\"50\"/>を建設します。",
-
 	"Now set up the new building with an <hl>Assembler</> producing <hl>Reinforced Plates</>.\n\nProduce and equip an <hl>Assembler</> <img id=\"c_assembler\" width=\"50\" height=\"50\"/>\nSet it to produce <hl>Reinforced Plate</> <img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>":
 		"次に、新しい建屋に<hl>強化プレート</>を生産する<hl>アセンブラー</>をセットアップします。\n\n<hl>アセンブラー</><img id=\"c_assembler\" width=\"50\" height=\"50\"/>を生産し、<hl>中型建屋</>に装備します。\n<hl>強化プレート</><img id=\"reinforced_plate\" width=\"50\" height=\"50\"/>を生産するように設定します。",
 
@@ -1592,11 +1602,10 @@
 	"Power Grid": "電力グリッド",
 	"Your <bl>Units</> and <bl>Components</> receive <hl>Power</> while they are within a <hl>Power Grid</> (<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>)\n\nWhile they are outside the grid they will begin to drain power from their battery until it is depleted.\n\nThe power grid is what defines the area of the logistics network.  Expanding your power grid will also expand your logistics network.":
 		"<hl>ユニット</>と<hl>コンポーネント</>は<hl>電力グリッド</>(<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>)内にいる間、<hl>電力</>を受け取ります。\n\n<hl>電力グリッド</>の外にいる間は、バッテリーを消費して活動します。\n\nまた、<hl>電力グリッド</>は<hl>物流ネットワーク</>のエリアでもあります。\nつまり、<hl>電力グリッド</>の拡大は<hl>物流ネットワーク</>の拡大でもあります。",
-
 	"Research Basic Power to be able to produce <hl>Crystal Power</> and <hl>Power Field</> components.\n\n<hl>Crystal Power</> components will store power similar to a battery by consuming crystal and acting as a buffer should you start to have insufficient power for your grid.\n\n<hl>Power Fields</> will help to expand the area of your power grid, making it easier to get to resources further away such as silica nodes.\n\nClick the <hl>Research</> button <img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>\n\nSelect <hl>Basic Power</> and start Research.":
 		"「<hl>電力の基礎</>」を研究して、<hl>クリスタル電力装置</>と<hl>電力アンテナ</>のコンポーネントを生産できるようにしましょう。\n\n<hl>クリスタル電力装置</>コンポーネントは、クリスタルを消費してバッテリーのように電力を蓄え、電力グリッドの電力が不足している時にバッファーの役割を果たします。\n\n<hl>電力アンテナ</>は電力グリッドのエリアを広げ、シリカ砂のような遠くの資源にもアクセスしやすくなります。\n\n<hl>研究</><img image=\"Main/textures/codex/icons/techtree_icon.png\" width=\"50\" height=\"50\"/>ボタンをクリックし、\n\n「<hl>電力の基礎</>」を選択して「<hl>研究開始</>」をクリックします。",
 
-	"Power Expansion": "電力拡張",
+	"Power Expansion": "電力グリッドの拡張",
 	"With Basic Power researched you are able to produce <hl>Power Fields</>\n\nThese components allow you to increase the size of your <hl>Power Grid</> or to start an entirely new and separate grid.\n\nYou should begin expanding your power grid so that you can reach resources further away.\n\nProduce a <hl>Small Power Field</> <img id=\"c_small_relay\" width=\"40\" height=\"40\"/>":
 		"「<hl>電力の基礎</>」の研究により、<hl>電力アンテナ</>の生産が可能になりました。\n<hl>電力アンテナ</>を使うことで<hl>電力グリッド</>の拡張ができ、\nより遠くの資源に到達しやすくなります。\nまた、<hl>電力グリッド</>の拡張だけでなく、\n別の場所に新しく<hl>電力グリッド</>を作ることもできます。\n<hl>小型電力アンテナ</><img id=\"c_small_relay\" width=\"40\" height=\"40\"/>を生産しましょう。",
 
@@ -1628,6 +1637,7 @@
 	"Congratulations! You have reached the end of the Navigation Training Simulator. Continue expanding on your base and exploring your world.":
 		"おめでとうございます！\n\nナビゲーション トレーニング シミュレーターはここまでです。\n引き続き、拠点を拡大し世界を探索してください。",
 
+
 	// FILE: Main/data/actions.lua
 	"boolean": "ブーリアン",
 	"Unable to remove component while it still contains items": "アイテムが含まれたままコンポーネントを削除できない",
@@ -1635,26 +1645,31 @@
 	"Wall": "壁",
 
 	// FILE: Main/data/behaviors.lua
-	"Transfer Behavior": "移籍の行動",
-	"Transfers Items from one unit to another": "あるユニットから別のユニットへのアイテムの移動",
-	"From Unit": "ユニットより",
-	"To Unit": "ユニットへ",
+	"Transfer Behavior": "アイテム配送",
+	"Transfers Items from one unit to another": "ユニットからユニットへのアイテムの配送",
+	"From Unit": "配送元ユニット",
+	"To Unit": "配送元ユニット",
 	"Item": "アイテム",  //OK
-	"Notification Behavior": "通知の行動プログラム",
+
+	"Notification Behavior": "通知",
 	"Notifies when the input register changes": "入力レジスタが変更されたときに通知",
 	"Notify Message": "メッセージの通知",
-	"notify": "通知",
-	"wait": "ウェイト",
-	"Requestor Behavior": "依頼者の行動プログラム",
-	"Requests Items to be delivered to the unit equipped with this behavior": "リクエスト この行動プログラムを搭載したユニットに配送されるアイテム",
-	"Count Remainder Behavior": "残りを数える行動プログラム",
+	"notify": "通知",  //おそらく不要  コマンド名
+	"wait": "ウェイト",  //おそらく不要  コマンド名
+
+	"Requestor Behavior": "アイテムリクエスト",
+	"Requests Items to be delivered to the unit equipped with this behavior": "アイテムをリクエストする",
+
+	"Count Remainder Behavior": "アイテム残数を数える",
 	"Counts number of items remaining in the specified unit": "指定したユニットの残りアイテム数を数える",
-	"Result": "結果",
-	"unlock": "アンロック",
-	"Metal Miner Behavior": "メタルマイナーの行動プログラム",
-	"Mines Metal Ore and drops it off to the specified location in the register": "金属鉱石を採掘し、レジスタの指定された場所に投下する。",
+	"Result": "結果",  //他所で使われているので変えられない
+	"unlock": "アンロック",  //おそらく不要  コマンド名
+
+	"Metal Miner Behavior": "鉱石採掘ボット用",
+	"Mines Metal Ore and drops it off to the specified location in the register": "金属鉱石を採掘し、レジスタの指定された場所に保管する",
 	"Resource": "資源",  //OK
-	"mine": "mine",  //おそらく不要
+	"mine": "mine",  //おそらく不要  コマンド名
+
 
 	// FILE: Main/data/biomes.lua
 	"sand": "砂",
@@ -2103,7 +2118,7 @@
 	"Approach with EXTREME caution": "細心の注意を払うこと",  //Notification.Add() で使用
 	"World Event": "ワールド イベント",  //Notification.Add() で使用
 	"Powerful Enemy Warning, EXTREME CAUTION ADVISED !!!": "強力な敵の警告、厳重な注意が必要です！",  //Notification.Add() で使用
-	"anomaly": "アノマリー",  //おそらく不要
+	"anomaly": "特異点",  //おそらく不要
 
 	"Laser Extractor": "レーザー採掘機2",  //仮
 	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘機",  //仮
@@ -3406,7 +3421,7 @@
 	"Introduction of Robotics Assembler allowing production of units with greater capabilities": "ロボティクス アセンブラーの導入により、より高機能なユニットの生産が可能になる。",
 	"Power Transference": "電力伝達",
 	"Power Transmission for expanding the power grid and improving range of power options": "電力グリッドを拡大し、電力オプションの幅を広げるための送電",
-	"Nanobots": "ナノボット",
+	"Nanobots": "ナノマシン",
 	"Remote connection to units and items allows for damage repair and quick transportation of inventory":
 		"ユニットやアイテムへのリモート接続により、損傷の修理やインベントリの迅速な輸送が可能",
 	"Robotics Production": "ロボット生産",
