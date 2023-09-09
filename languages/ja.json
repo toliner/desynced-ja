@@ -2070,8 +2070,12 @@ Drone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> a
 
 	"Signal Reader": "シグナルリーダー",  //OK
 	"Allow reading of the signal register from a specific unit or building.": "特定のユニットまたは建築物の Signal レジスタの内容を取得する",  //OK
-	"Unit to read signal from\n\nDrag to unit to set": "Signal レジスタの内容を取得するユニット\n\nドラッグしてユニットを指定",  //OK
-	"Received signal": "取得した内容",  //OK
+	// "Unit to read signal from\n\nDrag to unit to set": "Signal レジスタの内容を取得するユニット\n\nドラッグしてユニットを指定",  //OK
+	"<header>TARGET ENTITY</>\n\n <bl>Use to Select Entity to 'Read Signal' from</>\n\nDrag to Entity to set":
+		"<header>Signal レジスタ 読取り対象</>\n\n<hl>Signal レジスタ</><bl>を読取る対象のエンティティ</>\n\nエンティティにドラッグして設定",  //OK
+	// "Received signal": "取得した内容",  //OK
+	"<header>RECEIVED SIGNAL</>\n\n<bl>The Result returned from the Target's</> <hl>Signal Parameter</>":
+		"<header>受信内容</>\n\n<bl>指定した対象の</><hl>Signal レジスタ</><bl>から読み取った内容</>",  //OK
 
 	"Shared Storage": "共有ストレージ",  //仮
 	"Set locked slots on unit to allow dumping of excess items": "ユニットのインベントリを設定し、ユニットが満杯になった場合、未使用のアイテムをそこに捨てることができるようにする。",  //??
@@ -2095,6 +2099,15 @@ Drone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> a
 
 	"Portable Radar": "ポータブルレーダー",  //OK
 	"Short range detection of resources and other objects in the world. All conditions must be met.": "近距離範囲内にある資源などを検知できる。複数の検知条件が指定でき、すべての条件を満たすものが検知される",  //仮
+	"<header>Search Filter [1]</>\n\n<bl>Search Filter [1] is Required to return a Radar Result</>\n\n\nClick to choose from <hl>Inventory Items</> or <hl>Information</> icons\n\n":
+		"<header>検索フィルター[1]</>\n\n<bl>検索フィルター[1]は、レーダーの結果を返すために必要です</>\n\n\nクリックして<hl>インベントリ内のアイテム</> or <hl>インフォメーション</>選択してください\n\n",
+	"<header>Search Filter [2]</>\n\n<bl>Search Filter [2] Refines the Radar Result</>\n\n\nClick to choose from <hl>Inventory Items</> or <hl>Information</> icons\n\n":
+		"<header>検索フィルター[2]</>\n\n<bl>検索フィルター[2]は、レーダーの追加条件になります</>\n\n\nクリックして<hl>インベントリ内のアイテム</> or <hl>インフォメーション</>選択してください\n\n",
+	"<header>Search Filter [3]</>\n\n<bl>Search Filter [3] Refines the Radar Result</>\n\n\nClick to choose from <hl>Inventory Items</> or <hl>Information</> icons\n\n":
+		"<header>検索フィルター[3]</>\n\n<bl>検索フィルター[3]は、レーダーの追加条件になります</>\n\n\nクリックして<hl>インベントリ内のアイテム</> or <hl>インフォメーション</>選択してください\n\n",
+	"<header>RADAR RESULT</>\n\n<bl>SINGLE Result returned from combination (additive) of 1 - 3 filters</>\n\n\n<hl>Mouse Over</> To highlight 'Result' in the world\n\n<Key action=\"ExecuteAction\" style=\"hl\"/> to move camera to 'Result' in the world\n\n":
+		"<header>レーダーの検知結果</>\n\n<bl>1〜3のフィルターの組合せ (AND条件) で所得された結果 (ひとつのみ)</>\n\n\nこのアイコンに<hl>マウスカーソルを合わせる</>と、マップ上でハイライトされます\n\n<Key action=\"ExecuteAction\" style=\"hl\"/>で、その場所にカメラが移動します",
+
 	"radar": "レーダー",  //おそらく不要
 	"Search filter": "検索条件",  //OK
 	"Set Filter": "セットフィルター",  //OK
@@ -2247,11 +2260,13 @@ Drone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> a
 	"Extracts blight gas when placed inside a blighted area": "ブライト地域内に発生しているブライトガスを収集する",  //
 
 	"Virus Cure": "ウイルス治療", //?? そもそもどういうアイテムかが分からない
-	"Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットをウイルスからの保護する", //?? そもそもどういうアイテムかが分からない
+	// "Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットをウイルスからの保護する", //?? そもそもどういうアイテムかが分からない
+	"Protection from the virus for nearby units": "近くのユニットをウイルスから保護する", //?? そもそもどういうアイテムかが分からない
 	"virus": "ウィルス",  //おそらく不要  race
 
 	"Large Storage": "大型ストレージ",  //OK
-	"A larger storage component with smart storage capabilities": "スマートストレージ機能を備えた大型ストレージ装置",  //仮 スマートストレージ機能とは??
+	// "A larger storage component with smart storage capabilities": "スマートストレージ機能を備えた大型ストレージ装置",  //仮 スマートストレージ機能とは??
+	"A larger storage component": "大型ストレージ装置",  //OK
 
 	"Unit Teleporter": "ユニットテレポーター", //?? そもそもどういうアイテムかが分からない
 	"Transports units over a great distance. Interact with the unit equipped with the teleporter to dock the unit you wish to teleport":
