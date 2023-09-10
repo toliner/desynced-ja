@@ -228,6 +228,7 @@
 	"Reset Settings": "設定のリセット",
 	"UP": "UP",
 	"IDLE": "アイドル",
+	"Inventory": "インベントリ",
 	"Store Inventory": "保管場所インベントリ",
 	"MOVE": "ムーヴ",
 	"Moving": "移動中",
@@ -767,7 +768,7 @@
 	// FILE: Main/ui/SideBar.lua
 	"Show Units on Minimap": "ミニマップにユニットを表示",
 	"Show Power Grids on Minimap": "ミニマップに電力グリッドを表示",
-	"Minimap Follows Camera": "ミニマップがカメラを追う",
+	"Minimap Follows Camera": "カメラに追従",
 	"Reset Camera": "カメラのリセット",
 	"Toggle Power Grid": "電力グリッドの切り替え",
 	"Toggle Cursor Grid": "カーソルグリッドの切り替え",
