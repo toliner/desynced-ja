@@ -284,7 +284,7 @@
 	"Local Power Grid Stats:": "ローカル電力グリッドの統計: ",
 	"Generated": "発電量",
 	"Received": "受領",
-	"Load": "要求量",  //左上電力グリッドの統計で使用
+	"Load": "ロード",  //ライブラリで使用　　左上電力グリッドの統計でも使用、英文修正依頼中
 	"Batteries/Transmitters": "バッテリー/トランスミッター",
 	"Unused": "未使用",
 	"cannot lock on to target inside the blight": "ブライト内のターゲットにロックオンできない",
@@ -390,7 +390,7 @@
 	"Minigames": "ミニゲーム",
 	"Enables/Disables minigames":"ミニゲームの有効/無効",
 	"Length of the Day/Night cycle": "昼夜サイクルの長さ",
-	"None": "なし",
+	// "None": "なし",
 	"Passive": "消極的",
 	"Hostile": "敵対的",
 	"Aggressive": "攻撃的",
@@ -1482,7 +1482,7 @@
 	"Blight Transformation": "ブライトの変容",
 	"ELAIN starts to give way to HIGGS": "HIGGSに譲りだすELAIN",
 	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.":
-		"これらのスパイクは非常に強力で、人間たちも興味を持っていたようです。彼らもここに閉じ込められていましたが、ブライト・ストームを通過するために船を改造する方法を見つけました。\n\nブライトが引き起こす大混乱にもかかわらず、私は人間たちがそれを真に宇宙的な規模での電力源として見て、その研究から大いに利益を得ていたと信じています。\n\n		彼らにとって、それは実際に真に変革的なものでした。",
+		"これらのスパイクは非常に強力で、人間たちも興味を持っていたようです。彼らもここに閉じ込められていましたが、ブライト・ストームを通過するために船を改造する方法を見つけました。\n\nブライトが引き起こす大混乱にもかかわらず、私は人間たちがそれを真に宇宙的な規模での電力源として見て、その研究から大いに利益を得ていたと信じています。\n\n彼らにとって、それは実際に真に変革的なものでした。",
 	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.":
 		"周波数を理解することで、私たちはこの世界を安定させ、ウイルスが環境に与える影響を減らすことができるはずです。\n\nブライトは拡散する必要があって、それは、それは…\n\n…私のシステムは今、シャットダウンする必要があります。",
 
@@ -1517,7 +1517,7 @@
 	"Blight discovery": "ブライトの発見",
 
 	//try_enter_blight
-	"Blight": "ブライト",
+	// "Blight": "ブライト",
 	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.":
 		"この地域で強烈な電気エネルギーフィールドを検出しました。惑星内で形成されている自然現象のようですが、私たちのシステムへの影響は不明です。\n\n現在のところ、ブライトに存在する極端なエネルギー変動に対応する能力を備えていません。その悪影響から身を守る技術の研究開発に集中すべきです。それまでは安全性と運用の安定性を確保するため、この地域を避けることを強くおすすめします。",
 
