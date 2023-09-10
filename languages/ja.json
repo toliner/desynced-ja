@@ -3080,9 +3080,9 @@
 	"Returns distance to a unit": "指定ユニットとの距離を取得する\n※任意の2つのユニット間の距離も取得可能",
 
 	"Global": "グローバル",  //OK  他でも使用
-	"Item and amount to transfer": "転送するオーダーのアイテムと個数",//OK
-	"Order Transfer To": "オーダーを転送",//OK
-	"Transfers an Item to another Unit": "アイテムのオーダーを他ユニットに転送する",//OK
+	"Item and amount to transfer": "転送するアイテムと個数",//OK
+	"Order Transfer To": "アイテム配送を依頼",//OK
+	"Transfers an Item to another Unit": "他のユニットへのアイテムの配送を依頼する",//OK
 
 	"Is Same Grid":"同グリッドの判定",
 	"Checks if two entities are in the same power grid":"2つのエンティティが同じ電力グリッド内にいるかを判定する",
