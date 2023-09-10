@@ -1860,7 +1860,7 @@
 	"Light": "ライト",  //OK
 	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスタで明るさや色を設定可能",  //OK
 	"Light RGB":"RGB ライト",  //OK
-	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスタで明るさや色を設定可能。色はRGBで設定可能。",  //OK
+	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスタで明るさや色を設定可能。色はRGBで設定可能",  //OK
 	"Red (0-31)":"赤 (0-31)",  //OK
 	"Green (0-31)":"緑 (0-31)",  //OK
 	"Blue  (0-31)":"青 (0-31)",  //OK
@@ -2118,13 +2118,13 @@
 	"Increase unit visibility range by 20": "ユニットの視野を 20 拡大", //OK
 
 	"Internal Efficiency Module": "内部 効率モジュール",  //OK
-	"Increase component efficiency by 20%": "部品効率を 20% 向上",  //OK
+	"Increase component efficiency by 20%": "部品効率を 20% 向上、コンポーネントの速度が向上",  //OK
 	"Small Efficiency Module": "小型 効率モジュール",  //OK
-	"Increase component efficiency by 50%": "部品効率を 50% 向上",  //OK
+	"Increase component efficiency by 50%": "部品効率を 50% 向上、コンポーネントの速度が向上",  //OK
 	"Medium Efficiency Module": "中型 効率モジュール", //OK
-	"Increase component efficiency by 100%": "部品効率を 100% 向上", //OK
+	"Increase component efficiency by 100%": "部品効率を 100% 向上、コンポーネントの速度が向上", //OK
 	"Large Efficiency Module": "大型 効率モジュール", //OK
-	"Increase component efficiency by 150%": "部品効率を 150% 向上", //OK
+	"Increase component efficiency by 150%": "部品効率を 150% 向上、コンポーネントの速度が向上", //OK
 
 	"Internal Speed Module": "内部 高速化モジュール",  //OK
 	"Increase unit speed by 20%": "ユニット速度を 20% 向上",  //OK
@@ -2213,7 +2213,7 @@
 	"Approach with EXTREME caution": "細心の注意を払うこと",  //Notification.Add() で使用
 	"World Event": "ワールド イベント",  //Notification.Add() で使用
 	"Powerful Enemy Warning, EXTREME CAUTION ADVISED !!!": "強力な敵の警告、厳重な注意が必要です！",  //Notification.Add() で使用
-	"anomaly": "特異点",  //おそらく不要
+	"anomaly": "アノマリー",  //
 
 	"Laser Extractor": "レーザー採掘機2",  //仮
 	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘機",  //仮
