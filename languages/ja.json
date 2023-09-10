@@ -344,6 +344,7 @@
 	"client": "クライアント",
 	"Unable to host a multiplayer session while playing on another server": "他のサーバーでプレイ中にマルチプレイヤーセッションをホストできない",
 	"<header>Early Access</>\nFor feedback or bug reports use the form on the right or contact us via Discord.": "<header>Early Access</>\nフィードバックやバグレポートについては、右のフォームを使用するか、Discord経由でお問い合わせください。",
+	"<header>Early Access</>\n\nFor questions or bug reports contact us through our discord server.": "<header>Early Access</>\n\n質問やバグのご報告は、Discordサーバーまでご連絡ください。\n（日本語チャンネルもあります）",
 	"Stop Server": "サーバー停止",
 	"Start Server": "サーバ起動",
 	"Server Info": "サーバー情報",
