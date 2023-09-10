@@ -278,12 +278,12 @@
 	"Insufficient power for transmission": "トランスミッションの電力不足",
 	"Transfer Radius": "移動半径",
 	"Receiving": "レシーブ",
-	"Efficiency": "効率性",
+	"Efficiency": "稼働率",
 	"Consuming": "消費",
 	"Local Power Grid Stats:": "ローカル電力グリッドの統計: ",
-	"Generated": "生成",
+	"Generated": "発電量",
 	"Received": "受領",
-	"Load": "ロード",  //仮  ライブラリで使用
+	"Load": "要求量",  //左上電力グリッドの統計で使用
 	"Batteries/Transmitters": "バッテリー/トランスミッター",
 	"Unused": "未使用",
 	"cannot lock on to target inside the blight": "ブライト内のターゲットにロックオンできない",
@@ -747,10 +747,10 @@
 	// FILE: Main/ui/ResourceBar.lua
 	"No Power Grid": "電力グリッドなし",
 	"Local Power Grid": "ローカル電力グリッド",
-	"Total Generated": "総発生量",
-	"Total Load": "総負荷",
+	"Total Generated": "総発電量",
+	"Total Load": "総要求量",
 	"Total Unused": "未使用",
-	"Average Efficiency": "平均効率",
+	"Average Efficiency": "平均稼働率",
 	"Largest Power Grids": "最大の電力グリッド",
 
 	// FILE: Main/ui/ShortcutBar.lua
@@ -778,7 +778,7 @@
 	"Progress": "進捗状況",
 	"Control Center": "コントロールセンター",
 	"Sunrise": "日の出",
-	"Sunset": "サンセット",
+	"Sunset": "日没",
 	"Simulation Tick": "シミュレーション",
 	"No entity selected to follow": "フォローするエンティティが選択されていない",
 	"Cannot follow unit not on map": "地図上にないユニットを追えない",
@@ -1828,7 +1828,7 @@
 
 	"Resources": "資源",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Resources</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>Basic Resources</>    metal ore, crystal and silica\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Basic Resources</> can be found throughout the world and are harvested with the miner. Other types of resources may require more advanced extraction components and be processed in different production facilities.\n\nSelecting a unit equipped with a mining component and interacting with a resource will begin harvesting the resources if it is able to. This will put the resource node into the Parameter of the component. Once this node has depleted it will look for nodes of a similar resource type and continue mining.\n\n\n<hl>Setting in a Parameter</>\nYou can also set a resource item into the component Parameter and the unit will look for resource nodes in a visible radius automatically. If a number is set into the Parameter then the miner will only extract while there are less than that many of the resources in its inventory.\n\nThe range of mining equipment can be extended by linking a radar component to the miner components Parameter.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>資源</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>基本資源</> 金属鉱石、水晶、シリカ\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>基本的な資源</>は世界中にあり、採掘機で採取する事ができます。他の種類の資源は、より高度な抽出コンポーネントを必要とし、別の生産施設で処理されるかもしれません。\n\n採掘コンポーネントを装備したユニットを選択し、資源に接すると、可能であれば資源の収穫を開始します。これにより資源ノードはコンポーネントのパラメータに入ります。このノードが枯渇すると、同じような資源タイプのノードを探し、採掘を続けます。\n\n\n<hl>パラメータ設定</>\nまた、コンポーネントのパラメータに資源アイテムを設定すると、ユニットは自動的に可視半径内の資源ノードを探します。パラメータに数値を設定すると、採掘機はインベントリにその数以下の資源がある間だけ採掘します。\n\nレーダー コンポーネントを採掘機のコンポーネント パラメータにリンクさせる事で、採掘機の範囲を拡張する事ができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
-	"Unlocked Items": "解除アイテム",
+	"Unlocked Items": "アンロック済みアイテム",
 
 	"Rotation":"建築物とコンポーネントの回転",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<hl>ROTATION:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Buildings and Components can be rotated.</>\n\n\nPress <Key action=\"RotateConstructionSite\" style=\"bl\"/> when constructing a building to set it's orientation.\n\n<img image=\"Main/textures/codex/buildingshots/construction_rotate.png\" width=\"500\" height=\"180\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nYou can also rotate buildings after they have been built.  Just mouse over the building and press the <Key action=\"RotateConstructionSite\" style=\"bl\"/> key.\n\n<img image=\"Main/textures/codex/buildingshots/building_rotate.png\" width=\"500\" height=\"180\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nTo rotate components, mouse over a socketed component's icon and press the <Key action=\"RotateConstructionSite\" style=\"bl\"/> key.\n\n<img image=\"Main/textures/codex/buildingshots/component_rotate.png\" width=\"500\" height=\"200\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
