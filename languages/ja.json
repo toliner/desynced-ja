@@ -34,13 +34,13 @@
 	// FILE: Main/ui/Codex.lua
 	"Mark All Read": "すべて既読にする",  //OK
 	"Mine Metal Ore": "金属鉱石の採掘",  //OK
-	"Use a miner component to mine metal ore": "'採掘機'コンポーネントを使用して金属鉱石を採掘する",  //OK
+	"Use a miner component to mine metal ore": "'採掘装置'コンポーネントを使用して金属鉱石を採掘する",  //OK
 	"Mine Crystal Chunks": "クリスタル原石を採掘",  //OK
-	"Use a miner component to mine crystal chunks": "'採掘機'コンポーネントを使ってクリスタル原石を採掘する",  //OK
+	"Use a miner component to mine crystal chunks": "'採掘装置'コンポーネントを使ってクリスタル原石を採掘する",  //OK
 	"Mine Silica Sand": "シリカ砂の採掘",  //OK
-	"Use a miner component to mine silica sand": "'採掘機'コンポーネントを使って珪砂を採掘する",  //OK
+	"Use a miner component to mine silica sand": "'採掘装置'コンポーネントを使って珪砂を採掘する",  //OK
 	"Mine Laterite Ore": "ラテライト鉱石の採掘",  //OK
-	"Use a laser extractor component to mine laterite ore": "'レーザー採掘機2'コンポーネントを使用してラテライト鉱石の採掘する",  //OK
+	"Use a laser extractor component to mine laterite ore": "'レーザー採掘装置2'コンポーネントを使用してラテライト鉱石の採掘する",  //OK
 	"Fabricate Metal Bars": "金属インゴットの生産",  //OK
 	"Use a fabricator component to fabricate metal bars": "'ファブリケーター'コンポーネントを使用して金属インゴットを生産する",  //OK
 	"Bots Built": "ボットの生産",  //OK
@@ -814,7 +814,7 @@
 	  "<header>Store レジスタ</>\n\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>で指定\n指定された<hl>ユニット</>または<hl>建築物</>まで移動し、所持しているアイテムを渡す\n\n※詳しくはCodexの<hl>自動化</>の章を参照のこと",
 	"Visual": "Visual レジスタ",
 	"<header>Visual</>\n\nShown in the game world, useful to link to production\nby dragging from the <hl>Production</> to the <hl>Visual</>\n\nChange visibility with <Key action=\"MapOverlay\" style=\"hl\"/>":
-	  "<header>Visual レジスタ</>\n\n指定されたアイコンがユニット上に表示される\n掘削中や生産中のものを認識しやすくなる\n\n※<Key action=\"MapOverlay\" style=\"hl\"/>で表示情報の切換えが可能",
+	  "<header>Visual レジスタ</>\n\n指定されたアイコンがユニット上に表示される\n採掘中や生産中のものを認識しやすくなる\n\n※<Key action=\"MapOverlay\" style=\"hl\"/>で表示情報の切換えが可能",
 	"Signal": "Signal レジスタ",
 	"<header>Signal</>\n\nThe unit emits this signal which can be read through\nsignal related components or through behaviors.\n\nUseful for advanced automation":
 	  "<header>Signal レジスタ</>\n\n指定されたアイコンをユニットから発信する\n他ユニットは、<hl>シグナルリーダー</>、<hl>行動プログラム装置</>で受信できる\n高度な自動化が実現可能になる",
@@ -1154,7 +1154,7 @@
 		"今後、大量の資材が必要になります。\n\n<img id=\"metalbar\"/><hl>金属インゴット</>を生産する施設をいくつか建設してはいかがでしょうか。\n生産施設が多ければ多いほど、より早く資材を生産ができます。\n\nあわせて、採掘用のボットの追加もおすすめします。",
 
 	"To produce more mining units you must fabricate an <img id=\"c_assembler\"/><hl>Assembler</>. With it you will be able to produce a <img id=\"f_bot_1s_a\"/><hl>Worker</> Unit and equip it with a <img id=\"c_miner\"/><hl>Miner</> Component. Both of these are produced in the <img id=\"c_assembler\"/><hl>Assembler</>.\n\nIt is also capable of producing <img id=\"circuit_board\"/><hl>Circuit Boards</> which are used in unit and component production.":
-		"生産設備は整えられたようですね。\n次は採掘用のボットを追加しましょう。\n\nそのためには、<img id=\"c_assembler\"/><hl>アセンブラー</>が必要になります。\n\nアセンブラーで<img id=\"f_bot_1s_a\"/><hl>作業ボット</> および <img id=\"c_miner\"/><hl>採掘機</> のコンポーネントが生産できます。\nまた、これらの材料になる<img id=\"circuit_board\"/><hl>回路基板</>も生産できます。",
+		"生産設備は整えられたようですね。\n次は採掘用のボットを追加しましょう。\n\nそのためには、<img id=\"c_assembler\"/><hl>アセンブラー</>が必要になります。\n\nアセンブラーで<img id=\"f_bot_1s_a\"/><hl>作業ボット</> および <img id=\"c_miner\"/><hl>採掘装置</> のコンポーネントが生産できます。\nまた、これらの材料になる<img id=\"circuit_board\"/><hl>回路基板</>も生産できます。",
 
 	"You require a <hl>Power</> source to operate efficiently. You can equip one after you've researched it or build components that supply and transmit power.\n\n<desc>You can see current power fields by using the </><icon icon=\"icon_small_energy\"/><desc> button underneath the minimap or by pressing </><Key action=\"PowerInfo_Toggle\" style=\"hl\"/>":
 		"効率的に活動するためには<hl>電力</>が不可欠です。\n\n研究を進めることで、<hl>電力</>の供給や伝送に役立つ施設やコンポーネントの生産ができるようになります。\n\n現在の電力グリッドは、<desc>ミニマップの下にある</><icon icon=\"icon_small_energy\"/><desc>ボタン</>、\nまたは <Key action=\"PowerInfo_Toggle\" style=\"hl\"/> で確認できます。",
@@ -1566,9 +1566,9 @@
 	"You have the ability to deploy your <hl>Command Center</>. <img id=\"f_bot_2m_as\" width=\"50\" height=\"50\"/>\nTry deploying in between the two resources for optimal accessibility.\n\n<hl>Deploy</> your <hl>Command Center</> using the <hl>[ Deploy Base ]</> button.":
 		"さて、調査チームにいる<hl>コマンドセンター</><img id=\"f_bot_2m_as\" width=\"50\" height=\"50\"/>は、拠点を設置することができます。\n金属鉱石とクリスタル原石にアクセスしやすいように、2つの資源の間に設置してみてください。\n\n<hl>コマンドセンター</>を選択後、<hl>[ コマンドセンターを設置 ] </>ボタンをクリックし、設置する場所を指定してください。",
 	"Now let's begin mining the metal ore deposit.\n\nSelect a <hl>Scout</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/> with a <img id=\"c_adv_miner\" width=\"40\" height=\"40\"/> <hl>Laser Mining Tool</>\n\nClick the <Key action=\"ExecuteAction\" style=\"hl\"/> on the <img id=\"metalore\" width=\"40\" height=\"40\"/> <hl>Metal Ore</> resource to start mining.":
-		"では、金属鉱石の採掘を始めましょう。\n\n<img id=\"c_adv_miner\" width=\"40\" height=\"40\"/><hl>レーザー採掘機</>を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>金属鉱石</><img id=\"metalore\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると、採掘を開始します。",
+		"では、金属鉱石の採掘を始めましょう。\n\n<img id=\"c_adv_miner\" width=\"40\" height=\"40\"/><hl>レーザー採掘装置</>を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>金属鉱石</><img id=\"metalore\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると、採掘を開始します。",
 	"Now let's begin mining crystals.\n\nSelect the other <hl>Scout</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/> with a miner\n\nClick the <Key action=\"ExecuteAction\" style=\"hl\"/> on the <img id=\"crystal\" width=\"40\" height=\"40\"/> <hl>Crystal</> resource to start mining.\n\nYou are also able to pick up <hl>Scattered</> Crystal without the need to mine it.":
-		"次に、クリスタルの採掘を始めましょう。\n\n同じくレーザー採掘機を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>クリスタル原石</><img id=\"crystal\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると採掘を開始します。\n\nまた、<hl>散らばっている資源</>は採掘しなくても拾うことができます。",
+		"次に、クリスタルの採掘を始めましょう。\n\n同じくレーザー採掘装置を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>クリスタル原石</><img id=\"crystal\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると採掘を開始します。\n\nまた、<hl>散らばっている資源</>は採掘しなくても拾うことができます。",
 
 	"Sockets": "ソケット",
 	"<bl>Units</> and <bl>Buildings</> gain functionality via <hl>Components</> that need to be constructed separately..\n\n<hl>Components</> are placed into <hl>Sockets</> which come in four sizes:  <hl>Small</>, <hl>Medium</>, <hl>Large</> and <hl>Internal</> . You can equip a Component into the same size <hl>Sockets</> or larger.":
@@ -1604,7 +1604,7 @@
 
 	"Increase Mining Capacity": "採掘能力の向上",
 	"Our resource mining needs to increase in order to keep pace with our production.  We need to add more <hl>Mining Bots</>.\n\nOn your <hl>Command Center</> produce <normal>1</> <hl>Circuit Board</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>\nThen build a <hl>Miner</><img id=\"c_miner\" width=\"45\" height=\"45\"/> component and a <hl>Worker</> bot <img id=\"f_bot_1s_a\" width=\"50\" height=\"50\"/>\n\nMount the Miner on the Worker and set it to mine <hl>Metal Ore</>.":
-		"生産量が増強できたので、資源の採掘量も増強が必要です。\n<hl>採掘用のボット</>を追加しましょう。\n\n<hl>コマンドセンター</>で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>1つ</>生産した後、\n<hl>作業ボット</>を生産します。\n\n続いて<hl>採掘機</>を生産し、<hl>作業ボット</>に取り付けたら、\n<hl>金属鉱石</>を採掘するように設定します。",
+		"生産量が増強できたので、資源の採掘量も増強が必要です。\n<hl>採掘用のボット</>を追加しましょう。\n\n<hl>コマンドセンター</>で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>1つ</>生産した後、\n<hl>作業ボット</>を生産します。\n\n続いて<hl>採掘装置</>を生産し、<hl>作業ボット</>に取り付けたら、\n<hl>金属鉱石</>を採掘するように設定します。",
 
 	"Logistics Network Orders": "物流ネットワーク受注",
 	"When a unit is connected to the logistics network it will automatically try to fulfill any item transfer requests.\n\nFor example, if a <hl>Fabricator</> requires ingredients, any idle bots on the network will try to find that item inside the network, and carry it to the location of the fabricator.\n\nUnits can be connected and disconnected from the logistics network.\n\nWhen they are first built, robots are <hl>OFF</> the network by default.\n\nPressing (<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>) shows the <hl>Area</> that the <hl>Logistics Network</> covers.\n\nExplanation of advanced <hl>Automation</> options are available in the Codex (<Key action=\"Codex\" style=\"hl\"/>)":
@@ -1803,7 +1803,7 @@
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>レーダー</>\n\n<hl>ポータブルレーダー</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/>は、ロジスティクス技術で最初に解放される主要なコンポーネントの一つです。\n\n<bl>レーダーは特定のアイテムやエンティティを検索するように設定することができます。</>\n<bl>（各フィルターは AND 条件です。複数のフィルターを使っても、複数のアイテムを検索することはできません)</>\n\n\n例えば、金属鉱石 <img width=\"50\" height=\"50\" id=\"metalore\"/>、敵 <img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/>、または未解明の遺跡 <img width=\"50\" height=\"50\" id=\"v_unsolved\"/>を検索するように設定することができます。\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\n最初の3つのボックス <rl>(1)</> は<hl>フィルター</>として機能し、最後のボックス <rl>(2)</> は<hl>レーダーの結果</>を表示します。\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>複数フィルター</>\n\n<bl>複数のフィルターを使用して検索を精緻化することができます。</>\n\n例えば、この設定では<hl>シリカ砂</>と<hl>落下物</>を探します。これにより、採掘可能なノードではなく、'地面上に散らばっている' か '落ちている' シリカ砂だけを探すことになります。\n\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Logistics 2:  Signal Readers":"物流2: シグナルリーダー",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>SIGNAL READERS</>\n\n<bl>With a </><hl>Signal Reader</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>one entity can Read from the </><hl>Signal Parameter</> <img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/> <bl> of another entity.</>\n\nExample: Twin Bot reading from Cub's signal parameter\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  In the example above the Twinbot's <hl>Signal Reader</> is set to Target the Cub.\n\n<rl>(2)</>  A result of <bl>[ Metal Ore ]</><img width=\"50\" height=\"50\" id=\"metalore\"/> is being returned from the Cub's <hl>Signal Parameter</>\n\n<rl>(3)</>  It is then feeding that result into it's miner component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
-		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>シグナルリーダー</>\n\n<bl>シグナルリーダー</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>を使用すると、指定のエンティティの</><hl>Signal レジスタ</><img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/><bl>を読み取ることができます。</>\n\n例: <hl>ツインボット</>が<hl>カブ</>のSignal レジスタを読み取ります\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  上の例では、ツインボットの<hl>シグナルリーダー</>はカブをターゲットに設定\n\n<rl>(2)</>  カブの<hl>Signal レジスタ</>から<bl>[金屬鉱石]</> <img width=\"50\" height=\"50\" id=\"metalore\"/>を読み取った結果\n\n<rl>(3)</>  その結果を採掘機のパラメータに連携\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>シグナルリーダー</>\n\n<bl>シグナルリーダー</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>を使用すると、指定のエンティティの</><hl>Signal レジスタ</><img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/><bl>を読み取ることができます。</>\n\n例: <hl>ツインボット</>が<hl>カブ</>のSignal レジスタを読み取ります\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  上の例では、ツインボットの<hl>シグナルリーダー</>はカブをターゲットに設定\n\n<rl>(2)</>  カブの<hl>Signal レジスタ</>から<bl>[金屬鉱石]</> <img width=\"50\" height=\"50\" id=\"metalore\"/>を読み取った結果\n\n<rl>(3)</>  その結果を採掘装置のパラメータに連携\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Logistics 3:  Transporters":"物流3: アイテム転送装置",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>TRANSPORTERS</>\n\n<bl>With a </><hl>Portable Transporter</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> (Range 1) a unit is able to pass items or components directly to another unit that is located beside it.\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\nIn the above example the Production building in the center has a Portable Transporter in one of it's internal slots.  With this:\n\n<rl>(1)</>  <bl>Metal Bars</> and <bl>Metal plates</> being stored in the <hl>Storage block</> on the left will be transported to the <hl>Production building</>\n\n<rl>(2)</>  <bl>Reinforced Plates</> being produced in the <hl>Production building</> will be transported to the <hl>Storage block</> on the right.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>アイテム転送装置</>\n\n<hl>アイテム転送装置</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> <bl>(範囲 1)を使用すると、そのユニットに隣接している他のユニットにアイテムやコンポーネントを直接渡すことができます。</>\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\n上の例では、中央の生産建屋の内部スロットの1つに<hl>アイテム転送装置</>があります。\nこれにより:\n\n<rl>(1)</>  左側の<hl>保管ブロック</>にある<bl>金属インゴット</>と<bl>金属板</>は、<hl>生産建屋</>によって運搬\n\n<rl>(2)</>  <hl>生産建屋</>で生産された<bl>強化プレート</>は、右側の<hl>保管ブロック</>に運搬\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
@@ -1833,7 +1833,7 @@
 	  "今入手した<img id=\"robot_datacube\" width=\"25\" height=\"25\"/><hl>データキューブ</>には非常に高密度の情報量が詰まっています。\n\n今は表面レベルのデータにしかアクセスできないようです。\n\nこのキューブをもっと回収できれば、この世界についてより深い知識を得る事ができます。\n\n十分な量があれば、<bl>ゲートウェイ テクノロジー</>を解明するのに役立つでしょう。",
 
 	"Resources": "資源",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Resources</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>Basic Resources</>    metal ore, crystal and silica\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Basic Resources</> can be found throughout the world and are harvested with the miner. Other types of resources may require more advanced extraction components and be processed in different production facilities.\n\nSelecting a unit equipped with a mining component and interacting with a resource will begin harvesting the resources if it is able to. This will put the resource node into the Parameter of the component. Once this node has depleted it will look for nodes of a similar resource type and continue mining.\n\n\n<hl>Setting in a Parameter</>\nYou can also set a resource item into the component Parameter and the unit will look for resource nodes in a visible radius automatically. If a number is set into the Parameter then the miner will only extract while there are less than that many of the resources in its inventory.\n\nThe range of mining equipment can be extended by linking a radar component to the miner components Parameter.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>資源</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>基本資源</> 金属鉱石、水晶、シリカ\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>基本的な資源</>は世界中にあり、採掘機で採取する事ができます。他の種類の資源は、より高度な抽出コンポーネントを必要とし、別の生産施設で処理されるかもしれません。\n\n採掘コンポーネントを装備したユニットを選択し、資源に接すると、可能であれば資源の収穫を開始します。これにより資源ノードはコンポーネントのパラメータに入ります。このノードが枯渇すると、同じような資源タイプのノードを探し、採掘を続けます。\n\n\n<hl>パラメータ設定</>\nまた、コンポーネントのパラメータに資源アイテムを設定すると、ユニットは自動的に可視半径内の資源ノードを探します。パラメータに数値を設定すると、採掘機はインベントリにその数以下の資源がある間だけ採掘します。\n\nレーダー コンポーネントを採掘機のコンポーネント パラメータにリンクさせる事で、採掘機の範囲を拡張する事ができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Resources</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>Basic Resources</>    metal ore, crystal and silica\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Basic Resources</> can be found throughout the world and are harvested with the miner. Other types of resources may require more advanced extraction components and be processed in different production facilities.\n\nSelecting a unit equipped with a mining component and interacting with a resource will begin harvesting the resources if it is able to. This will put the resource node into the Parameter of the component. Once this node has depleted it will look for nodes of a similar resource type and continue mining.\n\n\n<hl>Setting in a Parameter</>\nYou can also set a resource item into the component Parameter and the unit will look for resource nodes in a visible radius automatically. If a number is set into the Parameter then the miner will only extract while there are less than that many of the resources in its inventory.\n\nThe range of mining equipment can be extended by linking a radar component to the miner components Parameter.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>資源</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>基本資源</> 金属鉱石、水晶、シリカ\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>基本的な資源</>は世界中にあり、採掘装置で採取する事ができます。他の種類の資源は、より高度な抽出コンポーネントを必要とし、別の生産施設で処理されるかもしれません。\n\n採掘コンポーネントを装備したユニットを選択し、資源に接すると、可能であれば資源の収穫を開始します。これにより資源ノードはコンポーネントのパラメータに入ります。このノードが枯渇すると、同じような資源タイプのノードを探し、採掘を続けます。\n\n\n<hl>パラメータ設定</>\nまた、コンポーネントのパラメータに資源アイテムを設定すると、ユニットは自動的に可視半径内の資源ノードを探します。パラメータに数値を設定すると、採掘装置はインベントリにその数以下の資源がある間だけ採掘します。\n\nレーダーコンポーネントを採掘装置コンポーネントパラメータにリンクさせる事で、採掘対象の探知範囲を拡張する事ができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Unlocked Items": "アンロック済みアイテム",
 
 	"Rotation":"建築物とコンポーネントの回転",
@@ -1959,7 +1959,7 @@
 	"Other": "その他",  //おそらく不要
 
 	//c_miner
-	"Miner": "採掘機",  //OK
+	"Miner": "採掘装置",  //OK
 	"Basic mining drill - extracts metal and crystal": "簡易な採掘ドリル。金属やクリスタルを採掘できる",  //仮
 	"miner": "miner",  //おそらく不要
 	"Resource to mine and amount": "採掘資源と採掘量を設定",  //仮
@@ -1970,8 +1970,8 @@
 	"No space in inventory for %s": "空きストレージが不足している",  //仮
 	"No %s found in range": "範囲内に %s が見つからない",  //仮
 
-	"Laser Mining Tool": "レーザー採掘機",  //OK
-	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘機。採掘機の2倍の速度で金属やクリスタルを採掘できる",  //OK
+	"Laser Mining Tool": "レーザー採掘装置",  //OK
+	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘装置。採掘装置の2倍の速度で金属やクリスタルを採掘できる",  //OK
 
 	"Deconstructor": "解体機",  //仮
 	"Allows disassembly of completed Units and Building refunding 100% of their cost": "ユニットや建築物を解体し、生産時の材料に戻す",  //OK
@@ -2215,8 +2215,8 @@
 	"Powerful Enemy Warning, EXTREME CAUTION ADVISED !!!": "強力な敵の警告、厳重な注意が必要です！",  //Notification.Add() で使用
 	"anomaly": "特異点",  //おそらく不要
 
-	"Laser Extractor": "レーザー採掘機2",  //仮
-	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘機",  //仮
+	"Laser Extractor": "レーザー採掘装置2",  //仮
+	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘装置",  //仮
 	"Blight Extractor": "ブライトガス収集装置",  //仮
 	"Extracts blight gas when placed inside a blighted area": "ブライト地域内に発生しているブライトガスを収集する",  //
 
@@ -3174,10 +3174,10 @@
 
 	"Resource to Mine": "採掘する資源",
 	"Cannot Mine": "採掘できない場合",
-	"Execution path if mining was unable to be performed": "採掘できない場合\n採掘機を装備していない場合も含む",  //OK
+	"Execution path if mining was unable to be performed": "採掘できない場合\n採掘装置を装備していない場合も含む",  //OK
 	"Execution path if can't fit resource into inventory": "インベントリーに収納できない場合",
 	"Mine": "採掘",  //訳としてはここだけ
-	"Mines a single resource": "資源を採掘する\n'採掘機'の装備が前提\n'採掘機'を複数装備している場合、ひとつだけに採掘資源が指定されるので、'採掘機'のパラメータを矢印で結ぶなどの対応が必要",
+	"Mines a single resource": "資源を採掘する\n'採掘装置'の装備が前提\n'採掘装置'を複数装備している場合、ひとつだけに採掘資源が指定されるので、'採掘装置'のパラメータを矢印で結ぶなどの対応が必要",
 
 	"Day": "日中の場合",  //訳はここだけ
 	"Where to continue if it is nighttime": "日中の場合",  //英文の説明文が間違えているので、あえて逆にする
