@@ -267,7 +267,7 @@
 	"Move:": "移動する: ",
 	"Health: %d/%d": "体力値: %d/%d",  //OK
 	"powerbar": "電力バー",
-	"Powered Down": "電力切れ",
+	"Powered Down": "電源オフ",  //
 	"Producing": "発電中",  //
 	"Requiring": "要求",
 	"Overclocked": "オーバークロック",
@@ -313,7 +313,7 @@
 	"<Key action=\"ExecuteAction\" style=\"hl\"/> to pick up": "<Key action=\"ExecuteAction\" style=\"hl\"/>で受け取り",
 	"<rl>Paused Construction</>": "<rl>建設中断</>",
 	"Right click to Investigate": "右クリックで調査",
-	"<rl>Powered Down</>": "<rl>電力切れ</>",
+	"<rl>Powered Down</>": "<rl>電源オフ</>",
 	"Selected by: %S": "選択者%S",
 
 	// FILE: Main/ui/InGameMenu.lua
@@ -473,7 +473,7 @@
 	"Instructions": "使用方法",
 	"Subroutines": "サブルーチン",
 	"Behavior copied to clipboard": "クリップボードにコピーされた動作",
-	"Are you sure you want to delete the behavior '%S'?": "行動プログラム「%S」を削除したいのですか？",
+	"Are you sure you want to delete the behavior '%S'?": "行動プログラム「%S」を削除しますか？",
 	"New Folder": "新しいフォルダ",
 	"Are you sure you want to remove the folder '%S'?\n\nAll blueprints will default back to the top level": "フォルダ「%S」を削除しますか？\n\nすべてのブループリントはデフォルトでトップレベルに戻ります。",
 	"Create Folder": "フォルダの作成",
@@ -1458,6 +1458,7 @@
 		"ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
 
 	"Build Blight Extractor and Container": "ブライト除去装置とコンテナを作る",
+	//要修正
 	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>":
 		"このブライト地域は非常に気になる。私たちの機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要がある。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
 
@@ -1678,7 +1679,7 @@
 	//20230909セリフ追加
   //Deconstructor
 	"There is a <hl>Deconstructor</> component <img id=\"c_deconstructor\" width=\"35\" height=\"35\"/>that is produced by the assembler.\n\nThe <hl>deconstructor</> can break down units and buildings into their construction ingredients with a <hl>100%</> return.\n\nClick the deconstructor's parameter and then click the target unit or building you would like to deconstruct.":
-		"<hl>解体機</>は、ユニットや建築物を解体し材料に戻すコンポーネントです。<hl>アセンブラー</>で生産することができます。解体する際は、<hl>解体機</>のパラメータをクリックし、対象のユニットや建築物をクリックします。",
+		"<hl>解体機</>はユニットや建築物を解体し材料に戻すコンポーネントです。\n<hl>アセンブラー</>で生産することができます。\n\n解体する際は、<hl>解体機</>のパラメータをクリックし、\n対象のユニットや建築物をクリックします。",
 
 	//研究
 	"Finally researching Basic Signals will allow you to begin producing components that can allow your units to scan the environment and to set up specific communications with each other.\n\nProducing radar components will allow you to scan the environment for a wide range of elements such as enemies and structures.":
@@ -1693,7 +1694,7 @@
 	// "Congratulations! You have reached the end of the Navigation Training Simulator. Continue expanding on your base and exploring your world.":
 	// 	"おめでとうございます！\n\nナビゲーション トレーニング シミュレーターはここまでです。\n引き続き、拠点を拡大し世界を探索してください。",
 	"Congratulations! You have reached the end of the Navigation Training Simulator.\n\nInformation and Story Dialogue can be found in the <hl>Codex</> (<Key action=\"Codex\" style=\"hl\"/>) and it also includes a sample <hl>Behavior</>.\n\nThe native population of bugs were preset to be passive during the tutorial, feel free to continue playing this way without interruption.\n\nIf you wish however, you can choose to engage and turn them hostile.":
-		"おめでとうございます！\nナビゲーション トレーニング シミュレーターはここまでです。\n\nインフォメーションとストーリーダイアログは、<hl>コーデックス</> (<Key action=\"Codex\" style=\"hl\"/>) にあります。\n<hl>行動プログラム</>のサンプルもあります。\n\nチュートリアルでは、バグは「消極的」に設定されており、\n彼らから攻撃されることはありませんでした。\n\nこのままプレイを続けていただいて構いませんが、\nこちらから戦闘を挑んでみてもいいか知れません。",
+		"おめでとうございます！\nナビゲーション トレーニング シミュレーターはここまでです。\n\nインフォメーションとストーリーダイアログは、<hl>コーデックス</> (<Key action=\"Codex\" style=\"hl\"/>) にあります。\n<hl>行動プログラム</>のサンプルもあります。\n\nチュートリアルでは、バグは「消極的」に設定されており、\n彼らから攻撃されることはありませんでした。\n\nこのままプレイを続けていただいて構いませんが、\nこちらから戦闘を挑んでみてもいいかもしれません。",
 
 
 	// FILE: Main/data/actions.lua
@@ -1757,7 +1758,10 @@
 	"Research Blight": "ブライトの研究",
 	"Extract and Research Blight Gas": "ブライトガスの抽出と研究",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>リサーチ ブライト</>\n\n<bl>エキスと研究 ブライトガス</>\n\n<hl>ブライト エクストラクター</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライトガス</>\n\nブライトエキストラクターを装備したユニットをブライト発生エリアに配置し、ガスを抽出させる。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>ブライトガス封じ込め</>\nブライトガスは通常のインベントリー スロットには収納できない。 エクストラクターにはガスを入れるための特別なチャンバーがある。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、殺虫ガスを封じ込めるために特別に設計された部品もある。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
-	"A <hl>blight</> seems to be corrupting the planet. Electrical interference prevents entry. We would need to research it more if we wanted to enter...": "<hl>ブライト</>が惑星を堕落させているようだ。電気的な干渉が進入を妨げている。入るにはもっと調査が必要だ。",
+
+	"A <hl>blight</> seems to be corrupting the planet. Electrical interference prevents entry. We would need to research it more if we wanted to enter...":
+		"<hl>ブライト</>が惑星を堕落させているようだ。電気的な干渉が進入を妨げている。入るにはもっと調査が必要だ。",  //要修正
+
 	"Virus Protection": "ウイルス対策",
 	"You have been infected with a virus\nand must make yourself some protection": "ウイルスに汚染されたから、自分を防護する必要がある",
 	"You have contracted what seems to be a proximity based self-replicating virus. Effects are unknown but I have manufactured a component that gives you temporary protection from the virus.\n\nYou can produce the component in the assembler. In the meantime keep the infected unit away from other units to avoid more infection.": "近接型の自己複製ウイルスに感染したようだ。効果は不明だが、ウイルスから一時的に身を守る部品を作った。\n\nアセンブラーで部品を生産する事ができる。感染したユニットを他のユニットに近づけないようにしてください。",
@@ -1844,7 +1848,7 @@
 	"engine": "エンジン",  //おそらく不要  判定文等で使われているだけ
 	"aluminiumsheet": "アルミシート",  //おそらく不要  判定文等で使われているだけ
 	"micropro": "マイクロプロ",  //おそらく不要  判定文等で使われているだけ
-	"alien": "外国人",  //おそらく不要  判定文等で使われているだけ
+	"alien": "エイリアン",  //
 	"world": "世界",  //おそらく不要  判定文等で使われているだけ
 	"glitch": "グリッチ",  //おそらく不要  判定文等で使われているだけ
 	"color": "カラー",  //おそらく不要  判定文等で使われているだけ
@@ -3053,7 +3057,7 @@
 
 	// "Item and amount to order":"Item and amount to order",
 	"Request Wait":"リクエスト待機",
-	"Requests an item and waits until it exists in inventory":"	インベントリ内にアイテムが存在するまでアイテムをリクエストし待機する",
+	"Requests an item and waits until it exists in inventory":"インベントリ内にアイテムが存在するまでアイテムをリクエストし待機する",
 
 	//存在しない
 	// "Amount": "数量", 
