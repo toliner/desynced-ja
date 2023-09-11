@@ -1465,9 +1465,9 @@
 
 	//t_blight_plasma.unlocks
 	"Blight Concentration": "ブライトの集中",
-	"Control over the blight will have great potential": "ブライトのコントロールは大きな可能性を持つ",
+	"Control over the blight will have great potential": "ブライトのコントロールが持つ大きな可能性",
 	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.":
-		"私たちはこのブライトの研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
+		"このままブライトの研究を続け、私たちの装置を妨害する嵐に対抗する方法を見つけるべきです。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通過して資源を送る事ができるようになります。",
 
 	//techs.t_blight_magnifier.unlocks
 	"Blight Magnification": "ブライトの拡大",
