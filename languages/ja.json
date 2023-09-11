@@ -34,13 +34,13 @@
 	// FILE: Main/ui/Codex.lua
 	"Mark All Read": "すべて既読にする",  //OK
 	"Mine Metal Ore": "金属鉱石の採掘",  //OK
-	"Use a miner component to mine metal ore": "'採掘機'コンポーネントを使用して金属鉱石を採掘する",  //OK
+	"Use a miner component to mine metal ore": "'採掘装置'コンポーネントを使用して金属鉱石を採掘する",  //OK
 	"Mine Crystal Chunks": "クリスタル原石を採掘",  //OK
-	"Use a miner component to mine crystal chunks": "'採掘機'コンポーネントを使ってクリスタル原石を採掘する",  //OK
+	"Use a miner component to mine crystal chunks": "'採掘装置'コンポーネントを使ってクリスタル原石を採掘する",  //OK
 	"Mine Silica Sand": "シリカ砂の採掘",  //OK
-	"Use a miner component to mine silica sand": "'採掘機'コンポーネントを使って珪砂を採掘する",  //OK
+	"Use a miner component to mine silica sand": "'採掘装置'コンポーネントを使って珪砂を採掘する",  //OK
 	"Mine Laterite Ore": "ラテライト鉱石の採掘",  //OK
-	"Use a laser extractor component to mine laterite ore": "'レーザー採掘機2'コンポーネントを使用してラテライト鉱石の採掘する",  //OK
+	"Use a laser extractor component to mine laterite ore": "'レーザー採掘装置2'コンポーネントを使用してラテライト鉱石の採掘する",  //OK
 	"Fabricate Metal Bars": "金属インゴットの生産",  //OK
 	"Use a fabricator component to fabricate metal bars": "'ファブリケーター'コンポーネントを使用して金属インゴットを生産する",  //OK
 	"Bots Built": "ボットの生産",  //OK
@@ -228,6 +228,7 @@
 	"Reset Settings": "設定のリセット",
 	"UP": "UP",
 	"IDLE": "アイドル",
+	"Inventory": "インベントリ",
 	"Store Inventory": "保管場所インベントリ",
 	"MOVE": "ムーヴ",
 	"Moving": "移動中",
@@ -266,7 +267,7 @@
 	"Move:": "移動する: ",
 	"Health: %d/%d": "体力値: %d/%d",  //OK
 	"powerbar": "電力バー",
-	"Powered Down": "電力切れ",
+	"Powered Down": "電源オフ",  //
 	"Producing": "発電中",  //
 	"Requiring": "要求",
 	"Overclocked": "オーバークロック",
@@ -278,12 +279,12 @@
 	"Insufficient power for transmission": "トランスミッションの電力不足",
 	"Transfer Radius": "移動半径",
 	"Receiving": "レシーブ",
-	"Efficiency": "効率性",
+	"Efficiency": "稼働率",
 	"Consuming": "消費",
 	"Local Power Grid Stats:": "ローカル電力グリッドの統計: ",
-	"Generated": "生成",
+	"Generated": "発電量",
 	"Received": "受領",
-	"Load": "ロード",  //仮  ライブラリで使用
+	"Load": "ロード",  //ライブラリで使用　　左上電力グリッドの統計でも使用、英文修正依頼中
 	"Batteries/Transmitters": "バッテリー/トランスミッター",
 	"Unused": "未使用",
 	"cannot lock on to target inside the blight": "ブライト内のターゲットにロックオンできない",
@@ -312,7 +313,7 @@
 	"<Key action=\"ExecuteAction\" style=\"hl\"/> to pick up": "<Key action=\"ExecuteAction\" style=\"hl\"/>で受け取り",
 	"<rl>Paused Construction</>": "<rl>建設中断</>",
 	"Right click to Investigate": "右クリックで調査",
-	"<rl>Powered Down</>": "<rl>電力切れ</>",
+	"<rl>Powered Down</>": "<rl>電源オフ</>",
 	"Selected by: %S": "選択者%S",
 
 	// FILE: Main/ui/InGameMenu.lua
@@ -344,6 +345,7 @@
 	"client": "クライアント",
 	"Unable to host a multiplayer session while playing on another server": "他のサーバーでプレイ中にマルチプレイヤーセッションをホストできない",
 	"<header>Early Access</>\nFor feedback or bug reports use the form on the right or contact us via Discord.": "<header>Early Access</>\nフィードバックやバグレポートについては、右のフォームを使用するか、Discord経由でお問い合わせください。",
+	"<header>Early Access</>\n\nFor questions or bug reports contact us through our discord server.": "<header>Early Access</>\n\n質問やバグのご報告は、Discordサーバーまでご連絡ください。\n（日本語チャンネルもあります）",
 	"Stop Server": "サーバー停止",
 	"Start Server": "サーバ起動",
 	"Server Info": "サーバー情報",
@@ -388,7 +390,7 @@
 	"Minigames": "ミニゲーム",
 	"Enables/Disables minigames":"ミニゲームの有効/無効",
 	"Length of the Day/Night cycle": "昼夜サイクルの長さ",
-	"None": "なし",
+	// "None": "なし",
 	"Passive": "消極的",
 	"Hostile": "敵対的",
 	"Aggressive": "攻撃的",
@@ -471,7 +473,7 @@
 	"Instructions": "使用方法",
 	"Subroutines": "サブルーチン",
 	"Behavior copied to clipboard": "クリップボードにコピーされた動作",
-	"Are you sure you want to delete the behavior '%S'?": "行動プログラム「%S」を削除したいのですか？",
+	"Are you sure you want to delete the behavior '%S'?": "行動プログラム「%S」を削除しますか？",
 	"New Folder": "新しいフォルダ",
 	"Are you sure you want to remove the folder '%S'?\n\nAll blueprints will default back to the top level": "フォルダ「%S」を削除しますか？\n\nすべてのブループリントはデフォルトでトップレベルに戻ります。",
 	"Create Folder": "フォルダの作成",
@@ -553,9 +555,6 @@
 	"Gamma": "ガンマ値",
 	"Quality": "品質",
 	"Quality Presets": "品質プリセット",
-	// "Low": "低",  重複 消さないでね、次のアップデート用。
-	// "Medium": "中",  重複 消さないでね、次のアップデート用。
-	// "High": "高",  重複 消さないでね、次のアップデート用。
 	"TX_QUALITY_LOW": "低",
 	"TX_QUALITY_MEDIUM": "中",
 	"TX_QUALITY_HIGH": "高",
@@ -750,10 +749,10 @@
 	// FILE: Main/ui/ResourceBar.lua
 	"No Power Grid": "電力グリッドなし",
 	"Local Power Grid": "ローカル電力グリッド",
-	"Total Generated": "総発生量",
-	"Total Load": "総負荷",
+	"Total Generated": "総発電量",
+	"Total Load": "総要求量",
 	"Total Unused": "未使用",
-	"Average Efficiency": "平均効率",
+	"Average Efficiency": "平均稼働率",
 	"Largest Power Grids": "最大の電力グリッド",
 
 	// FILE: Main/ui/ShortcutBar.lua
@@ -770,7 +769,7 @@
 	// FILE: Main/ui/SideBar.lua
 	"Show Units on Minimap": "ミニマップにユニットを表示",
 	"Show Power Grids on Minimap": "ミニマップに電力グリッドを表示",
-	"Minimap Follows Camera": "ミニマップがカメラを追う",
+	"Minimap Follows Camera": "カメラに追従",
 	"Reset Camera": "カメラのリセット",
 	"Toggle Power Grid": "電力グリッドの切り替え",
 	"Toggle Cursor Grid": "カーソルグリッドの切り替え",
@@ -781,7 +780,7 @@
 	"Progress": "進捗状況",
 	"Control Center": "コントロールセンター",
 	"Sunrise": "日の出",
-	"Sunset": "サンセット",
+	"Sunset": "日没",
 	"Simulation Tick": "シミュレーション",
 	"No entity selected to follow": "フォローするエンティティが選択されていない",
 	"Cannot follow unit not on map": "地図上にないユニットを追えない",
@@ -815,7 +814,7 @@
 	  "<header>Store レジスタ</>\n\n<hl>Ctrl+</><Key action=\"ExecuteAction\" style=\"hl\"/>または<hl>ドラッグ</>で指定\n指定された<hl>ユニット</>または<hl>建築物</>まで移動し、所持しているアイテムを渡す\n\n※詳しくはCodexの<hl>自動化</>の章を参照のこと",
 	"Visual": "Visual レジスタ",
 	"<header>Visual</>\n\nShown in the game world, useful to link to production\nby dragging from the <hl>Production</> to the <hl>Visual</>\n\nChange visibility with <Key action=\"MapOverlay\" style=\"hl\"/>":
-	  "<header>Visual レジスタ</>\n\n指定されたアイコンがユニット上に表示される\n掘削中や生産中のものを認識しやすくなる\n\n※<Key action=\"MapOverlay\" style=\"hl\"/>で表示情報の切換えが可能",
+	  "<header>Visual レジスタ</>\n\n指定されたアイコンがユニット上に表示される\n採掘中や生産中のものを認識しやすくなる\n\n※<Key action=\"MapOverlay\" style=\"hl\"/>で表示情報の切換えが可能",
 	"Signal": "Signal レジスタ",
 	"<header>Signal</>\n\nThe unit emits this signal which can be read through\nsignal related components or through behaviors.\n\nUseful for advanced automation":
 	  "<header>Signal レジスタ</>\n\n指定されたアイコンをユニットから発信する\n他ユニットは、<hl>シグナルリーダー</>、<hl>行動プログラム装置</>で受信できる\n高度な自動化が実現可能になる",
@@ -959,7 +958,7 @@
 	"Feedback with Screenshot": "スクリーンショットのフィードバック",
 	"Capture the screen and open the form to send feedback to the developers": "画面をキャプチャしてフォームを開き、開発者にフィードバックを送る",
 	"Construct from Building": "建築物から建設する",
-	"Create a construction site from a building on the map (while the mouse cursor is over a building)": "地図上の建物から建設現場を作る（マウスカーソルが建築物の上にある間）",
+	"Create a construction site from a building on the map (while the mouse cursor is over a building)": "地図上の建築物から建設現場を作る（マウスカーソルが建築物の上にある間）",
 	"Unit Settings Copy": "ユニット設定コピー",
 	"Copy a units settings": "ユニットの設定をコピーする",
 	"Unit Settings Paste": "ユニット設定 ペースト",
@@ -1097,7 +1096,15 @@
 	"Turn off to disable replays": "リプレイを無効にするにはオフにする",
 	"Play": "プレイ",
 	"Desynced is quite unique in its core mechanics. We highly recommend playing through the tutorial if that's your first time":
-	  "まずチュートリアルをプレイしますか？",
+	  "まずチュートリアルをプレイしますか？",  //要修正
+	"Custom":"カスタマイズ",
+	"These settings change the intended gameplay experience":"下記のゲーム設定はゲーム体験に影響します",
+	"Landscape":"草原と砂漠の起伏",
+	"<hl>Normal</> - Normal bumpy landscape generation\n<hl>Flat</>Flat desert and grasslands to make building bases easier":
+		"<hl>通常</> - 通常の凹凸のある世界を生成\n<hl>フラット</>：平らな草原と砂漠 拠点が作りやすい",
+	"Flat":"フラット",
+	"Base Game Data":"ベースとなるゲームデータ",
+
 
 	// FILE: Main/frontend/frontend.lua
 	"DEMO VERSION": "体験版",
@@ -1147,7 +1154,7 @@
 		"今後、大量の資材が必要になります。\n\n<img id=\"metalbar\"/><hl>金属インゴット</>を生産する施設をいくつか建設してはいかがでしょうか。\n生産施設が多ければ多いほど、より早く資材を生産ができます。\n\nあわせて、採掘用のボットの追加もおすすめします。",
 
 	"To produce more mining units you must fabricate an <img id=\"c_assembler\"/><hl>Assembler</>. With it you will be able to produce a <img id=\"f_bot_1s_a\"/><hl>Worker</> Unit and equip it with a <img id=\"c_miner\"/><hl>Miner</> Component. Both of these are produced in the <img id=\"c_assembler\"/><hl>Assembler</>.\n\nIt is also capable of producing <img id=\"circuit_board\"/><hl>Circuit Boards</> which are used in unit and component production.":
-		"生産設備は整えられたようですね。\n次は採掘用のボットを追加しましょう。\n\nそのためには、<img id=\"c_assembler\"/><hl>アセンブラー</>が必要になります。\n\nアセンブラーで<img id=\"f_bot_1s_a\"/><hl>作業ボット</> および <img id=\"c_miner\"/><hl>採掘機</> のコンポーネントが生産できます。\nまた、これらの材料になる<img id=\"circuit_board\"/><hl>回路基板</>も生産できます。",
+		"生産設備は整えられたようですね。\n次は採掘用のボットを追加しましょう。\n\nそのためには、<img id=\"c_assembler\"/><hl>アセンブラー</>が必要になります。\n\nアセンブラーで<img id=\"f_bot_1s_a\"/><hl>作業ボット</> および <img id=\"c_miner\"/><hl>採掘装置</> のコンポーネントが生産できます。\nまた、これらの材料になる<img id=\"circuit_board\"/><hl>回路基板</>も生産できます。",
 
 	"You require a <hl>Power</> source to operate efficiently. You can equip one after you've researched it or build components that supply and transmit power.\n\n<desc>You can see current power fields by using the </><icon icon=\"icon_small_energy\"/><desc> button underneath the minimap or by pressing </><Key action=\"PowerInfo_Toggle\" style=\"hl\"/>":
 		"効率的に活動するためには<hl>電力</>が不可欠です。\n\n研究を進めることで、<hl>電力</>の供給や伝送に役立つ施設やコンポーネントの生産ができるようになります。\n\n現在の電力グリッドは、<desc>ミニマップの下にある</><icon icon=\"icon_small_energy\"/><desc>ボタン</>、\nまたは <Key action=\"PowerInfo_Toggle\" style=\"hl\"/> で確認できます。",
@@ -1451,6 +1458,7 @@
 		"ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
 
 	"Build Blight Extractor and Container": "ブライト除去装置とコンテナを作る",
+	//要修正
 	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>":
 		"このブライト地域は非常に気になる。私たちの機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要がある。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
 
@@ -1474,7 +1482,7 @@
 	"Blight Transformation": "ブライトの変容",
 	"ELAIN starts to give way to HIGGS": "HIGGSに譲りだすELAIN",
 	"These spikes are powerful and are what the humans seemed interested in. They were trapped here as well, but they found a way to modify their ships to pass through the Blight Storms.\n\nDespite the havoc the Blight causes I believe the humans found it to be truly a source of power with cosmic proportions and they benefited greatly from its research.\n\nFor them it was in fact truly transformational.":
-		"これらのスパイクは非常に強力で、人間たちも興味を持っていたようです。彼らもここに閉じ込められていましたが、ブライト・ストームを通過するために船を改造する方法を見つけました。\n\nブライトが引き起こす大混乱にもかかわらず、私は人間たちがそれを真に宇宙的な規模での電力源として見て、その研究から大いに利益を得ていたと信じています。\n\n		彼らにとって、それは実際に真に変革的なものでした。",
+		"これらのスパイクは非常に強力で、人間たちも興味を持っていたようです。彼らもここに閉じ込められていましたが、ブライト・ストームを通過するために船を改造する方法を見つけました。\n\nブライトが引き起こす大混乱にもかかわらず、私は人間たちがそれを真に宇宙的な規模での電力源として見て、その研究から大いに利益を得ていたと信じています。\n\n彼らにとって、それは実際に真に変革的なものでした。",
 	"Understanding the frequencies should allow us to stabilize the world and reduce the impact of the virus upon the environment.\n\nThe Blight needs to spread so that it...it...\n\n..my system needs to shut down now.":
 		"周波数を理解することで、私たちはこの世界を安定させ、ウイルスが環境に与える影響を減らすことができるはずです。\n\nブライトは拡散する必要があって、それは、それは…\n\n…私のシステムは今、シャットダウンする必要があります。",
 
@@ -1509,7 +1517,7 @@
 	"Blight discovery": "ブライトの発見",
 
 	//try_enter_blight
-	"Blight": "ブライト",
+	// "Blight": "ブライト",
 	"I've detected an intense field of electrical energy in the region that appears to be a natural phenomenon forming within the planet, but its effects on our systems are still unknown.\n\nCurrently, your systems are not equipped to handle the extreme energy fluctuations present within the Blight. We should focus on researching and developing technology capable of protecting you from its adverse effects. Until then, I strongly recommend avoiding the area to ensure your safety and operational stability.":
 		"この地域で強烈な電気エネルギーフィールドを検出しました。惑星内で形成されている自然現象のようですが、私たちのシステムへの影響は不明です。\n\n現在のところ、ブライトに存在する極端なエネルギー変動に対応する能力を備えていません。その悪影響から身を守る技術の研究開発に集中すべきです。それまでは安全性と運用の安定性を確保するため、この地域を避けることを強くおすすめします。",
 
@@ -1558,9 +1566,9 @@
 	"You have the ability to deploy your <hl>Command Center</>. <img id=\"f_bot_2m_as\" width=\"50\" height=\"50\"/>\nTry deploying in between the two resources for optimal accessibility.\n\n<hl>Deploy</> your <hl>Command Center</> using the <hl>[ Deploy Base ]</> button.":
 		"さて、調査チームにいる<hl>コマンドセンター</><img id=\"f_bot_2m_as\" width=\"50\" height=\"50\"/>は、拠点を設置することができます。\n金属鉱石とクリスタル原石にアクセスしやすいように、2つの資源の間に設置してみてください。\n\n<hl>コマンドセンター</>を選択後、<hl>[ コマンドセンターを設置 ] </>ボタンをクリックし、設置する場所を指定してください。",
 	"Now let's begin mining the metal ore deposit.\n\nSelect a <hl>Scout</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/> with a <img id=\"c_adv_miner\" width=\"40\" height=\"40\"/> <hl>Laser Mining Tool</>\n\nClick the <Key action=\"ExecuteAction\" style=\"hl\"/> on the <img id=\"metalore\" width=\"40\" height=\"40\"/> <hl>Metal Ore</> resource to start mining.":
-		"では、金属鉱石の採掘を始めましょう。\n\n<img id=\"c_adv_miner\" width=\"40\" height=\"40\"/><hl>レーザー採掘機</>を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>金属鉱石</><img id=\"metalore\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると、採掘を開始します。",
+		"では、金属鉱石の採掘を始めましょう。\n\n<img id=\"c_adv_miner\" width=\"40\" height=\"40\"/><hl>レーザー採掘装置</>を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>金属鉱石</><img id=\"metalore\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると、採掘を開始します。",
 	"Now let's begin mining crystals.\n\nSelect the other <hl>Scout</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/> with a miner\n\nClick the <Key action=\"ExecuteAction\" style=\"hl\"/> on the <img id=\"crystal\" width=\"40\" height=\"40\"/> <hl>Crystal</> resource to start mining.\n\nYou are also able to pick up <hl>Scattered</> Crystal without the need to mine it.":
-		"次に、クリスタルの採掘を始めましょう。\n\n同じくレーザー採掘機を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>クリスタル原石</><img id=\"crystal\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると採掘を開始します。\n\nまた、<hl>散らばっている資源</>は採掘しなくても拾うことができます。",
+		"次に、クリスタルの採掘を始めましょう。\n\n同じくレーザー採掘装置を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>クリスタル原石</><img id=\"crystal\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると採掘を開始します。\n\nまた、<hl>散らばっている資源</>は採掘しなくても拾うことができます。",
 
 	"Sockets": "ソケット",
 	"<bl>Units</> and <bl>Buildings</> gain functionality via <hl>Components</> that need to be constructed separately..\n\n<hl>Components</> are placed into <hl>Sockets</> which come in four sizes:  <hl>Small</>, <hl>Medium</>, <hl>Large</> and <hl>Internal</> . You can equip a Component into the same size <hl>Sockets</> or larger.":
@@ -1596,7 +1604,7 @@
 
 	"Increase Mining Capacity": "採掘能力の向上",
 	"Our resource mining needs to increase in order to keep pace with our production.  We need to add more <hl>Mining Bots</>.\n\nOn your <hl>Command Center</> produce <normal>1</> <hl>Circuit Board</> <img id=\"circuit_board\" width=\"50\" height=\"50\"/>\nThen build a <hl>Miner</><img id=\"c_miner\" width=\"45\" height=\"45\"/> component and a <hl>Worker</> bot <img id=\"f_bot_1s_a\" width=\"50\" height=\"50\"/>\n\nMount the Miner on the Worker and set it to mine <hl>Metal Ore</>.":
-		"生産量が増強できたので、資源の採掘量も増強が必要です。\n<hl>採掘用のボット</>を追加しましょう。\n\n<hl>コマンドセンター</>で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>1つ</>生産した後、\n<hl>作業ボット</>を生産します。\n\n続いて<hl>採掘機</>を生産し、<hl>作業ボット</>に取り付けたら、\n<hl>金属鉱石</>を採掘するように設定します。",
+		"生産量が増強できたので、資源の採掘量も増強が必要です。\n<hl>採掘用のボット</>を追加しましょう。\n\n<hl>コマンドセンター</>で<hl>回路基板</><img id=\"circuit_board\" width=\"50\" height=\"50\"/>を<normal>1つ</>生産した後、\n<hl>作業ボット</>を生産します。\n\n続いて<hl>採掘装置</>を生産し、<hl>作業ボット</>に取り付けたら、\n<hl>金属鉱石</>を採掘するように設定します。",
 
 	"Logistics Network Orders": "物流ネットワーク受注",
 	"When a unit is connected to the logistics network it will automatically try to fulfill any item transfer requests.\n\nFor example, if a <hl>Fabricator</> requires ingredients, any idle bots on the network will try to find that item inside the network, and carry it to the location of the fabricator.\n\nUnits can be connected and disconnected from the logistics network.\n\nWhen they are first built, robots are <hl>OFF</> the network by default.\n\nPressing (<Key action=\"PowerInfo_Toggle\" style=\"hl\"/>) shows the <hl>Area</> that the <hl>Logistics Network</> covers.\n\nExplanation of advanced <hl>Automation</> options are available in the Codex (<Key action=\"Codex\" style=\"hl\"/>)":
@@ -1671,7 +1679,7 @@
 	//20230909セリフ追加
   //Deconstructor
 	"There is a <hl>Deconstructor</> component <img id=\"c_deconstructor\" width=\"35\" height=\"35\"/>that is produced by the assembler.\n\nThe <hl>deconstructor</> can break down units and buildings into their construction ingredients with a <hl>100%</> return.\n\nClick the deconstructor's parameter and then click the target unit or building you would like to deconstruct.":
-		"<hl>解体機</>は、ユニットや建物を解体し材料に戻すコンポーネントです。<hl>アセンブラー</>で生産することができます。解体する際は、<hl>解体機</>のパラメータをクリックし、対象のユニットや建物をクリックします。",
+		"<hl>解体機</>はユニットや建築物を解体し材料に戻すコンポーネントです。\n<hl>アセンブラー</>で生産することができます。\n\n解体する際は、<hl>解体機</>のパラメータをクリックし、\n対象のユニットや建築物をクリックします。",
 
 	//研究
 	"Finally researching Basic Signals will allow you to begin producing components that can allow your units to scan the environment and to set up specific communications with each other.\n\nProducing radar components will allow you to scan the environment for a wide range of elements such as enemies and structures.":
@@ -1686,7 +1694,7 @@
 	// "Congratulations! You have reached the end of the Navigation Training Simulator. Continue expanding on your base and exploring your world.":
 	// 	"おめでとうございます！\n\nナビゲーション トレーニング シミュレーターはここまでです。\n引き続き、拠点を拡大し世界を探索してください。",
 	"Congratulations! You have reached the end of the Navigation Training Simulator.\n\nInformation and Story Dialogue can be found in the <hl>Codex</> (<Key action=\"Codex\" style=\"hl\"/>) and it also includes a sample <hl>Behavior</>.\n\nThe native population of bugs were preset to be passive during the tutorial, feel free to continue playing this way without interruption.\n\nIf you wish however, you can choose to engage and turn them hostile.":
-		"おめでとうございます！\nナビゲーション トレーニング シミュレーターはここまでです。\n\nインフォメーションとストーリーダイアログは、<hl>コーデックス</> (<Key action=\"Codex\" style=\"hl\"/>) にあります。\n<hl>行動プログラム</>のサンプルもあります。\n\nチュートリアルでは、バグは「消極的」に設定されており、\n彼らから攻撃されることはありませんでした。\n\nこのままプレイを続けていただいて構いませんが、\nこちらから戦闘を挑んでみてもいいか知れません。",
+		"おめでとうございます！\nナビゲーション トレーニング シミュレーターはここまでです。\n\nインフォメーションとストーリーダイアログは、<hl>コーデックス</> (<Key action=\"Codex\" style=\"hl\"/>) にあります。\n<hl>行動プログラム</>のサンプルもあります。\n\nチュートリアルでは、バグは「消極的」に設定されており、\n彼らから攻撃されることはありませんでした。\n\nこのままプレイを続けていただいて構いませんが、\nこちらから戦闘を挑んでみてもいいかもしれません。",
 
 
 	// FILE: Main/data/actions.lua
@@ -1749,8 +1757,12 @@
 	"Goals": "目標",
 	"Research Blight": "ブライトの研究",
 	"Extract and Research Blight Gas": "ブライトガスの抽出と研究",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>ブライトの研究</>\n\n<bl>ブライトガスの研究と抽出 </>\n\n<hl>ブライトガス収集装置</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライトガス</>\n\nブライトガス収集装置を装備したユニットをブライト発生エリアに配置すると、ガスを抽出できます。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>ブライトガスの収容</>\nブライトガスは通常のインベントリースロットには収納できません。 収集装置にはガスを入れるための特別なタンクがあります。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、ブライトガス収容用のコンポーネントもあります。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
-	"A <hl>blight</> seems to be corrupting the planet. Electrical interference prevents entry. We would need to research it more if we wanted to enter...": "<hl>ブライト</>が惑星を堕落させているようだ。電気的な干渉が進入を妨げている。入るにはもっと調査が必要だ。",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": 
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>ブライトの研究</>\n\n<bl>ブライトガスの研究と抽出 </>\n\n<hl>ブライトガス収集装置</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライトガス</>\n\nブライトガス収集装置を装備したユニットをブライト発生エリアに配置すると、ガスを抽出できます。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>ブライトガスの収容</>\nブライトガスは通常のインベントリースロットには収納できません。 収集装置にはガスを入れるための特別なタンクがあります。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、ブライトガス収容用のコンポーネントもあります。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+
+	"A <hl>blight</> seems to be corrupting the planet. Electrical interference prevents entry. We would need to research it more if we wanted to enter...":
+		"<hl>ブライト</>が惑星を堕落させているようだ。電気的な干渉が進入を妨げている。入るにはもっと調査が必要だ。",  //要修正
+
 	"Virus Protection": "ウイルス対策",
 	"You have been infected with a virus\nand must make yourself some protection": "ウイルスに汚染されたから、自分を防護する必要がある",
 	"You have contracted what seems to be a proximity based self-replicating virus. Effects are unknown but I have manufactured a component that gives you temporary protection from the virus.\n\nYou can produce the component in the assembler. In the meantime keep the infected unit away from other units to avoid more infection.": "近接型の自己複製ウイルスに感染したようだ。効果は不明だが、ウイルスから一時的に身を守る部品を作った。\n\nアセンブラーで部品を生産する事ができる。感染したユニットを他のユニットに近づけないようにしてください。",
@@ -1785,6 +1797,21 @@
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Bugs</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Native Bug Life on the Planet</>\n\n<img image=\"Main/textures/codex/bugs/bug_trillo.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_slug.png\" width=\"250\" height=\"150\"/>\n\nThe bug life on the planet is inherently hostile to those who enter onto their territory.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/bugs/bug_nest.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_hive.png\" width=\"250\" height=\"150\"/>\n\nThese bugs live underground and in hive nests predominantly in the rocky plateau regions of the planet.\n\nThese hives and burrows need to be destroyed in order to cut off the bugs from the surface.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>バグ</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>地表の原生昆虫</>\n\n<img image=\"Main/textures/codex/bugs/bug_trillo.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_slug.png\" width=\"250\" height=\"150\"/>\n\nこの惑星に生息するバグは、自分たちのテリトリーに侵入するものに対して本質的に敵対的です。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/bugs/bug_nest.png\" width=\"250\" height=\"150\"/>  <img image=\"Main/textures/codex/bugs/bug_hive.png\" width=\"250\" height=\"150\"/>\n\nこれらのバグは主に岩の多い高地の地下や巣穴に生息しています。\n\n地表からバグを断つためには、これらの巣や巣穴を破壊する必要があります。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Components": "コンポーネント",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Units can be customized by placing a</> <hl>Component</> <bl>into any available</> <hl>Socket</><bl>, enabling new functionality for that unit.</>\n\n<img image=\"Main/textures/codex/codex_components.png\" width=\"540\" height=\"360\"/>\n\nComponents come in four sizes, <hl>Small</>, <hl>Medium</>, <hl>Large</> and <hl>Internal</> and can fit into sockets of the same size or larger.\n\n<img image=\"Main/textures/codex/ui/sockets.png\"/>\n\nComponents need to be constructed separately to allow them to be equipped and can be linked together via <hl>Parameters</> to automate various functions.\n\nUnits have limited functionality until equipped with a component, however mobile units are able to pick up and drop items freely while buildings can not do so without a supporting component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>ユニットは、利用可能な</> <hl>ソケット</>に <hl>コンポーネント</>を配置する事でカスタマイズできます。\n\n<img image=\"Main/textures/codex/codex_components.png\" width=\"540\" height=\"360\"/>\n\nコンポーネントには<hl>小</>、<hl>中</>、<hl>大</>、<hl>内部</>の4つのサイズがあり、同じサイズかそれ以上のサイズのソケットに装備できます。\n\n<img image=\"Main/textures/codex/ui/sockets.png\"/>\n\nコンポーネントは、装備を個別に構築する必要があり、<hl>パラメータ</>を介してリンクし、さまざまな機能を自動化する事ができます。\n\nユニットはコンポーネントを装備するまで機能が制限されますが、移動ユニットに直接指示をすることでアイテムを自由にピックアップ、ドロップできます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+
+	//20230909追加
+	"Logistics 1:  Radar":"物流1: レーダー",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>RADAR</>\n\nThe <hl>Portable Radar</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/> is one of the first key components you will unlock in logistics technology.\n<bl>Radar can be set to search for one particular item or entity.  (multiple filters are Not for multiple items)</>\n\nFor example it could be set to search for metal ore <img width=\"50\" height=\"50\" id=\"metalore\"/> or enemies<img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/> or unsolved ruins<img width=\"50\" height=\"50\" id=\"v_unsolved\"/>\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\nThe first three boxes <rl>(1)</> are <hl>Filters</>, and the last box <rl>(2)</> is the <hl>Radar Result</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Multiple Filters</>\n\n<bl>Multiple filters can be used to refine a search.</>\n\nFor example this setting will look for <hl>Silica</> and <hl>Dropped Item</>.  It will only look for 'scattered or dropped silica' on the ground and not mineable nodes.\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>レーダー</>\n\n<hl>ポータブルレーダー</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/>は、ロジスティクス技術で最初に解放される主要なコンポーネントの一つです。\n\n<bl>レーダーは特定のアイテムやエンティティを検索するように設定することができます。</>\n<bl>（各フィルターは AND 条件です。複数のフィルターを使っても、複数のアイテムを検索することはできません)</>\n\n\n例えば、金属鉱石 <img width=\"50\" height=\"50\" id=\"metalore\"/>、敵 <img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/>、または未解明の遺跡 <img width=\"50\" height=\"50\" id=\"v_unsolved\"/>を検索するように設定することができます。\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\n最初の3つのボックス <rl>(1)</> は<hl>フィルター</>として機能し、最後のボックス <rl>(2)</> は<hl>レーダーの結果</>を表示します。\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>複数フィルター</>\n\n<bl>複数のフィルターを使用して検索を精緻化することができます。</>\n\n例えば、この設定では<hl>シリカ砂</>と<hl>落下物</>を探します。これにより、採掘可能なノードではなく、'地面上に散らばっている' か '落ちている' シリカ砂だけを探すことになります。\n\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"Logistics 2:  Signal Readers":"物流2: シグナルリーダー",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>SIGNAL READERS</>\n\n<bl>With a </><hl>Signal Reader</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>one entity can Read from the </><hl>Signal Parameter</> <img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/> <bl> of another entity.</>\n\nExample: Twin Bot reading from Cub's signal parameter\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  In the example above the Twinbot's <hl>Signal Reader</> is set to Target the Cub.\n\n<rl>(2)</>  A result of <bl>[ Metal Ore ]</><img width=\"50\" height=\"50\" id=\"metalore\"/> is being returned from the Cub's <hl>Signal Parameter</>\n\n<rl>(3)</>  It is then feeding that result into it's miner component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>シグナルリーダー</>\n\n<bl>シグナルリーダー</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>を使用すると、指定のエンティティの</><hl>Signal レジスタ</><img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/><bl>を読み取ることができます。</>\n\n例: <hl>ツインボット</>が<hl>カブ</>のSignal レジスタを読み取ります\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  上の例では、ツインボットの<hl>シグナルリーダー</>はカブをターゲットに設定\n\n<rl>(2)</>  カブの<hl>Signal レジスタ</>から<bl>[金屬鉱石]</> <img width=\"50\" height=\"50\" id=\"metalore\"/>を読み取った結果\n\n<rl>(3)</>  その結果を採掘装置のパラメータに連携\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"Logistics 3:  Transporters":"物流3: アイテム転送装置",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>TRANSPORTERS</>\n\n<bl>With a </><hl>Portable Transporter</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> (Range 1) a unit is able to pass items or components directly to another unit that is located beside it.\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\nIn the above example the Production building in the center has a Portable Transporter in one of it's internal slots.  With this:\n\n<rl>(1)</>  <bl>Metal Bars</> and <bl>Metal plates</> being stored in the <hl>Storage block</> on the left will be transported to the <hl>Production building</>\n\n<rl>(2)</>  <bl>Reinforced Plates</> being produced in the <hl>Production building</> will be transported to the <hl>Storage block</> on the right.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>アイテム転送装置</>\n\n<hl>アイテム転送装置</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> <bl>(範囲 1)を使用すると、そのユニットに隣接している他のユニットにアイテムやコンポーネントを直接渡すことができます。</>\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\n上の例では、中央の生産建屋の内部スロットの1つに<hl>アイテム転送装置</>があります。\nこれにより:\n\n<rl>(1)</>  左側の<hl>保管ブロック</>にある<bl>金属インゴット</>と<bl>金属板</>は、<hl>生産建屋</>によって運搬\n\n<rl>(2)</>  <hl>生産建屋</>で生産された<bl>強化プレート</>は、右側の<hl>保管ブロック</>に運搬\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"Logistics 4:  Drones":"物流4: ドローン",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>DRONES and DRONE PORTS</>\n\n<bl>Drone Ports</> <img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>house Drones</> <img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/> <bl>that perform logistics functions (fulfilling orders) on your network.</>\n\nDrone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> are produced separately from the Drone Ports and must be drag and dropped into the Port's inventory to load the Drones.\n\n<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>\n\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>ドローン と ドローンポート</>\n\n<bl>ドローン</><img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/><bl>は、物流ネットワーク上でロジスティクス機能(注文の処理)を実行し、ドローンポート</><img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>は、ドローンを収容します。</>\n\nドローンパッケージ<img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/>はドローンポートとは別に生産され、ドローンを収容するためにポートのインベントリにドラッグ＆ドロップする必要があります。\n\n※訳注:コントロールセンター(<Key action=\"FactionView\" style=\"hl\"/>) -「ユニット一覧」からドローンを選択し、物流ネットワークへの接続が必要\n\n<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>\n\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+
 	"Getting Started": "はじめに",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>GETTING STARTED</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>Introduction Quick Notes:</>\n\n* Robots will initially seem quite dumb as they will only do what you instruct them to do.\n\n* Equipping new <hl>Components</> will allow the robots to perform more actions.\n\n* You can see what actions any particular robot can do in the <hl>Components</> section.\n\n* Each bot has a set of four basic general purpose <bl>Parameters:  Signal, Visual, Store and Goto</> , however each has some extra functionality associated with it.\n\n* The <bl>Goto Parameter</> can also be set by right clicking on something in the world.\n\n* The <bl>Store Parameter</> if it points to another robot or building will go back there and pass all its inventory into it when it is idle. It can also be set by ctrl + <Key action=\"ExecuteAction\"/>\n\n* The <bl>Visual Parameter</> can be set to anything and will be what is displayed when you view popups using the tab key.\n\n* <bl>Parameters</> can be linked to each other and copies the value from the source Parameter to the target. Create a link by dragging from one Parameter to another. Remove a link by recreating the same link.\n\n* Many game systems and components interact with each other via <bl>Parameters</>, such as in behaviors.  They may also be referred to as <hl>Registers</>.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>GOALS</>\n\n<bl>To follow the Goals:</>  Click on each <hl>Goal</> to learn about what to do\n\n<img image=\"Main/textures/codex/gettingstarted/tutorial_list.png\"/>   <desc>Previous goals can also be viewed in the Codex or the Progress menu</>\n\n\nIf you don't want a <hl>Goal</> to show in the list, you can open the Progress menu and uncheck the box 'Show on Game Screen'\n\n<img image=\"Main/textures/codex/gettingstarted/show_on_screen.png\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Here are some Basics to get you started:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>CAMERA MOVEMENT</>\n\nIn addition to using <hl>WASD</> to move the camera you can <hl>Right Click</> and Screen Drag.\n\n<img image=\"Main/textures/codex/gettingstarted/mouse_camera.png\"/>\n\n\n<bl>GIVING INSTRUCTIONS</>\n\n\n<hl>Right Click</> is used for movement and to issue commands and instructions. (e.g. Right click on a node to mine)\n\n<img image=\"Main/textures/codex/gettingstarted/right_click_move.png\"/>   <img image=\"Main/textures/codex/gettingstarted/right_click_mine.png\"/>\n\n\nRight click on a component to get a context menu\n\n<img image=\"Main/textures/codex/gettingstarted/set_mining_target.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>MOVING ITEMS</>\n\nItems are either moved around Automatically (see: Automation in the Codex) or Manually.\n\n<hl>Manually Moving Items:</>\n\nYou can drag and drop items from one unit to another or between units and buildings.\n\n<img image=\"Main/textures/codex/gettingstarted/drag_and_drop.png\"/>  <desc>Dropping crystal directly from a robot to a building</>\n\n\nYou can drag and drop items to the ground as well.\n\n<img image=\"Main/textures/codex/gettingstarted/drop_on_ground.png\"/>  <desc>Items on the ground are NOT recognized by the Logistics Network</>\n\n<hl>NOTE:</> Items dropped on the ground not recognized by the Logistics Network and will need to either be picked up manually or detected by radar and retrieved.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>VISUAL DISPLAYS</>\n\nKey Displays for understanding your network:\n\n1) <hl>The Grid</>  -  <hl>P</>  Key\n2) <bl>Visual Modes (3)</>  -  <hl>TAB</>   (cycles through the 3 modes)\n\n\n1) <hl>THE GRID</> represents both the <bl>POWER GRID</> AND the <bl>LOGISTICS NETWORK</>\n\n<img image=\"Main/textures/codex/gettingstarted/power_network.png\"/>\n\n\nA robot on <hl>THE GRID</>\n\n1)  will receive <bl>Power</> from the Grid\n\n2)  will fulfill Orders for the Network if their <bl>Logistics Network</> button is ON\n    <desc>(see: Connect to the Logistics Network in the Codex)</> <icon icon=\"icon_carry\" height=\"50\" width=\"50\"/>\n\n<img image=\"Main/textures/codex/gettingstarted/bot_on_network.png\"/>\n\n\n\n\n2) <bl>VISUAL MODES (3)</>    <hl>TAB</>   (cycles through the 3 modes)\n\n<hl>MODE 1:</>  Display Visual Parameters Only (Default)\n\n<img image=\"Main/textures/codex/gettingstarted/visual_only.png\"/>  <desc>Visual overlay on robot shows what it is mining</>\n\n\n<hl>MODE 2:</>  Display Visual Parameters, Status Icons and Ranges\n\n<img image=\"Main/textures/codex/gettingstarted/displaying_all.png\"/>  <desc>Robots storing to a storage unit</>\n\n<img image=\"Main/textures/codex/gettingstarted/status_blocked.png\"/>  <desc>A status icon showing a robot is Blocked</>\n\n<img image=\"Main/textures/codex/gettingstarted/visual_ranges.png\"/>   <desc>The current order a robot is fulfilling</>\n\n\n<hl>MODE 3:</>  All visuals are OFF (except for the No Power status icon when a frame is out of power)\n\n<img image=\"Main/textures/codex/gettingstarted/no_power_status.png\"/>   <desc>'No Power' Status icon shows in all Modes</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 	  "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>はじめに</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>クイックノート:</>\n\n* ロボットは指示した事しかしないので、最初はかなり愚かに見えるでしょう。\n\n* 新しい<hl>コンポーネント</>を装備する事で、ロボットはより多くのアクションを行えるようになります。\n\n* 特定のロボットがどのようなアクションを行えるかは、<hl>コンポーネント</hl>セクションで確認できます。\n\n* 各ボットは、4つの基本的な汎用<bl>パラメータがあります：Signal レジスタ、Visual レジスタ、Store レジスタ、Goto レジスタ</> の4つです。\n\n* <bl>GoTo レジスタ</>は、ワールド内の何かを右クリックして設定する事もできます。\n\n* <bl>Store レジスタ</>が他のロボットや建築物を指している場合、アイドル時にそこに戻り、すべてのインベントリをそこに渡します。また、Ctrl + <Key action=\"ExecuteAction\"/>でも設定できます。\n\n* <bl>Visual レジスタ</>は何でも設定でき、タブキーを使ってポップアップを表示するときに表示されます。\n\n* <bl>パラメータ</>は互いにリンクする事ができ、ソースパラメータからターゲットパラメータに値をコピーします。あるパラメータから別のパラメータへドラッグする事でリンクを作成します。リンクを削除するには、同じリンクを再作成します。\n\n* 多くのゲームシステムやコンポーネントは、行動のように<bl>パラメータ</>を介して相互に作用します。  また、<hl>レジスタ</>と呼ばれる事もあります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>目標</>\n\n<bl>目標を達成するために:</>  それぞれの<hl>目標</>をクリックすると、何をすべきか確認できます。\n\n<img image=\"Main/textures/codex/gettingstarted/tutorial_list.png\"/>   <desc>過去の目標は、コーデックスや進行状況メニューでも確認できます。</>\n\n\n<hl>目標</>をリストに表示したくない場合は、「進行状況」メニューを開き、「ゲーム画面に表示」のチェックを外してください。'\n\n<img image=\"Main/textures/codex/gettingstarted/show_on_screen.png\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>ここでは、いくつかの基本操作を紹介します:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>カメラ移動</>\n\n<hl>WASD</> キーを使用してカメラを移動するだけでなく、<hl>右クリック</>でスクリーンをドラッグできます。\n\n<img image=\"Main/textures/codex/gettingstarted/mouse_camera.png\"/>\n\n\n<bl>指示を出す</>\n\n\n<hl>右クリック</>は移動に使われ、命令や指示を出すのに使われます。(例: 採掘するノードを右クリック)\n\n<img image=\"Main/textures/codex/gettingstarted/right_click_move.png\"/>   <img image=\"Main/textures/codex/gettingstarted/right_click_mine.png\"/>\n\n\nコンポーネントを右クリックするとコンテキストメニューが表示されます。\n\n<img image=\"Main/textures/codex/gettingstarted/set_mining_target.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>アイテムの移動</>\n\nアイテムの移動は、自動（参照：コーデックスの自動化）または手動で行われる。\n\n<hl>手動でアイテムを移動:</>\n\nあるユニットから別のユニットへ、またはユニットと建築物の間でアイテムをドラッグ＆ドロップする事ができます。\n\n<img image=\"Main/textures/codex/gettingstarted/drag_and_drop.png\"/>  <desc>ロボットから建築物に直接クリスタルをドロップできます</>\n\n\nアイテムを地面にドラッグ＆ドロップする事もできます。\n\n<img image=\"Main/textures/codex/gettingstarted/drop_on_ground.png\"/>  <desc>地上のアイテムは物流ネットワークによって認識されません</>\n\n<hl>注意:</> 地上に落ちているアイテムは物流ネットワークに認識されないため、手動で拾うか、レーダーで検知して回収する必要があります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n\n<bl>視覚ディスプレイ</>\n\nネットワークを理解するための主なディスプレイ:\n\n1) <hl>グリッド</>  -  <hl>P</> キー\n2) <bl>視覚モード (3)</>  -  <hl>TAB</>   (3つのモードを切り替えます)\n\n\n1) <hl>グリッド</> は<bl>電力グリッド</>と<bl>物流ネットワーク</>の両方を表しています。\n\n<img image=\"Main/textures/codex/gettingstarted/power_network.png\"/>\n\n\n<hl>グリッド</>上のロボット\n\n1)  グリッドから<bl>電力</>を受け取る。\n\n2) <bl>物流ネットワーク</>ボタン<icon icon=\"icon_carry\" height=\"50\" width=\"50\"/>がオンになっている場合、ネットワークからの注文に応じます。\n    <desc>(参照： コーデックスの物流ネットワークに接続する)</>\n\n<img image=\"Main/textures/codex/gettingstarted/bot_on_network.png\"/>\n\n\n\n\n2) <bl>視覚モード (3)</>    <hl>TAB</>   (3つのモードを切り替えます)\n\n<hl>モード 1:</> Visual レジスタのみ表示（デフォルト）\n\n<img image=\"Main/textures/codex/gettingstarted/visual_only.png\"/>  <desc>ロボットの視覚的オーバーレイで採掘内容を表示</>\n\n\n<hl>モード 2:</> 視覚的なパラメータ、ステータスアイコン、範囲の表示\n\n<img image=\"Main/textures/codex/gettingstarted/displaying_all.png\"/>  <desc>倉庫に収納するロボット</>\n\n<img image=\"Main/textures/codex/gettingstarted/status_blocked.png\"/>  <desc>ロボットがブロックされている事を示すステータスアイコン</>\n\n<img image=\"Main/textures/codex/gettingstarted/visual_ranges.png\"/>   <desc>ロボットが実行中のオーダー</>\n\n\n<hl>モード 3:</>  すべての視覚的な表示はオフ（ただし、フレームが電源なしの場合、「電源なし」ステータスのアイコンが表示されます。）\n\n<img image=\"Main/textures/codex/gettingstarted/no_power_status.png\"/>   <desc>すべてのモードで「電源なし」ステータスアイコンが表示されます。</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
@@ -1807,8 +1834,13 @@
 	  "今入手した<img id=\"robot_datacube\" width=\"25\" height=\"25\"/><hl>データキューブ</>には非常に高密度の情報量が詰まっています。\n\n今は表面レベルのデータにしかアクセスできないようです。\n\nこのキューブをもっと回収できれば、この世界についてより深い知識を得る事ができます。\n\n十分な量があれば、<bl>ゲートウェイ テクノロジー</>を解明するのに役立つでしょう。",
 
 	"Resources": "資源",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Resources</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>Basic Resources</>    metal ore, crystal and silica\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Basic Resources</> can be found throughout the world and are harvested with the miner. Other types of resources may require more advanced extraction components and be processed in different production facilities.\n\nSelecting a unit equipped with a mining component and interacting with a resource will begin harvesting the resources if it is able to. This will put the resource node into the Parameter of the component. Once this node has depleted it will look for nodes of a similar resource type and continue mining.\n\n\n<hl>Setting in a Parameter</>\nYou can also set a resource item into the component Parameter and the unit will look for resource nodes in a visible radius automatically. If a number is set into the Parameter then the miner will only extract while there are less than that many of the resources in its inventory.\n\nThe range of mining equipment can be extended by linking a radar component to the miner components Parameter.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>資源</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>基本資源</> 金属鉱石、水晶、シリカ\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>基本的な資源</>は世界中にあり、採掘機で採取する事ができます。他の種類の資源は、より高度な抽出コンポーネントを必要とし、別の生産施設で処理されるかもしれません。\n\n採掘コンポーネントを装備したユニットを選択し、資源に接すると、可能であれば資源の収穫を開始します。これにより資源ノードはコンポーネントのパラメータに入ります。このノードが枯渇すると、同じような資源タイプのノードを探し、採掘を続けます。\n\n\n<hl>パラメータ設定</>\nまた、コンポーネントのパラメータに資源アイテムを設定すると、ユニットは自動的に可視半径内の資源ノードを探します。パラメータに数値を設定すると、採掘機はインベントリにその数以下の資源がある間だけ採掘します。\n\nレーダー コンポーネントを採掘機のコンポーネント パラメータにリンクさせる事で、採掘機の範囲を拡張する事ができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
-	"Unlocked Items": "解除アイテム",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Resources</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>Basic Resources</>    metal ore, crystal and silica\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Basic Resources</> can be found throughout the world and are harvested with the miner. Other types of resources may require more advanced extraction components and be processed in different production facilities.\n\nSelecting a unit equipped with a mining component and interacting with a resource will begin harvesting the resources if it is able to. This will put the resource node into the Parameter of the component. Once this node has depleted it will look for nodes of a similar resource type and continue mining.\n\n\n<hl>Setting in a Parameter</>\nYou can also set a resource item into the component Parameter and the unit will look for resource nodes in a visible radius automatically. If a number is set into the Parameter then the miner will only extract while there are less than that many of the resources in its inventory.\n\nThe range of mining equipment can be extended by linking a radar component to the miner components Parameter.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>資源</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/resources/three_resources.png\" width=\"350\" height=\"110\"/>\n\n<hl>基本資源</> 金属鉱石、水晶、シリカ\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>基本的な資源</>は世界中にあり、採掘装置で採取する事ができます。他の種類の資源は、より高度な抽出コンポーネントを必要とし、別の生産施設で処理されるかもしれません。\n\n採掘コンポーネントを装備したユニットを選択し、資源に接すると、可能であれば資源の収穫を開始します。これにより資源ノードはコンポーネントのパラメータに入ります。このノードが枯渇すると、同じような資源タイプのノードを探し、採掘を続けます。\n\n\n<hl>パラメータ設定</>\nまた、コンポーネントのパラメータに資源アイテムを設定すると、ユニットは自動的に可視半径内の資源ノードを探します。パラメータに数値を設定すると、採掘装置はインベントリにその数以下の資源がある間だけ採掘します。\n\nレーダーコンポーネントを採掘装置コンポーネントパラメータにリンクさせる事で、採掘対象の探知範囲を拡張する事ができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"Unlocked Items": "アンロック済みアイテム",
+
+	"Rotation":"建築物とコンポーネントの回転",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<hl>ROTATION:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Buildings and Components can be rotated.</>\n\n\nPress <Key action=\"RotateConstructionSite\" style=\"bl\"/> when constructing a building to set it's orientation.\n\n<img image=\"Main/textures/codex/buildingshots/construction_rotate.png\" width=\"500\" height=\"180\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nYou can also rotate buildings after they have been built.  Just mouse over the building and press the <Key action=\"RotateConstructionSite\" style=\"bl\"/> key.\n\n<img image=\"Main/textures/codex/buildingshots/building_rotate.png\" width=\"500\" height=\"180\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nTo rotate components, mouse over a socketed component's icon and press the <Key action=\"RotateConstructionSite\" style=\"bl\"/> key.\n\n<img image=\"Main/textures/codex/buildingshots/component_rotate.png\" width=\"500\" height=\"200\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<hl>建築物とコンポーネントの回転:</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>建築物とコンポーネントは回転させることができます。</>\n\n建築物を建設する際に <Key action=\"RotateConstructionSite\" style=\"bl\"/> を押すと、向きを変更できます。\n\n<img image=\"Main/textures/codex/buildingshots/construction_rotate.png\" width=\"500\" height=\"180\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n建築物が建てられた後でも、建築物を回転させることができます。建築物にマウスをかざして <Key action=\"RotateConstructionSite\" style=\"bl\"/> を押すだけです。\n\n<img image=\"Main/textures/codex/buildingshots/building_rotate.png\" width=\"500\" height=\"180\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nコンポーネントを回転させるには、ソケットに挿入されたコンポーネントのアイコンにマウスをかざし、<Key action=\"RotateConstructionSite\" style=\"bl\"/> を押してください。\n\n<img image=\"Main/textures/codex/buildingshots/component_rotate.png\" width=\"500\" height=\"200\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+
 
 	// FILE: Main/data/components.lua
 	"human": "人類",  //おそらく不要  判定文等で使われているだけ
@@ -1817,7 +1849,7 @@
 	"engine": "エンジン",  //おそらく不要  判定文等で使われているだけ
 	"aluminiumsheet": "アルミシート",  //おそらく不要  判定文等で使われているだけ
 	"micropro": "マイクロプロ",  //おそらく不要  判定文等で使われているだけ
-	"alien": "外国人",  //おそらく不要  判定文等で使われているだけ
+	"alien": "エイリアン",  //
 	"world": "世界",  //おそらく不要  判定文等で使われているだけ
 	"glitch": "グリッチ",  //おそらく不要  判定文等で使われているだけ
 	"color": "カラー",  //おそらく不要  判定文等で使われているだけ
@@ -1829,7 +1861,7 @@
 	"Light": "ライト",  //OK
 	"Illuminates the immediate area. Brightness and color can be changed via a register": "周囲を明るく照らす。レジスタで明るさや色を設定可能",  //OK
 	"Light RGB":"RGB ライト",  //OK
-	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスタで明るさや色を設定可能。色はRGBで設定可能。",  //OK
+	"Illuminates the immediate area. Brightness and color can be changed via RGB registers": "周囲を明るく照らす。レジスタで明るさや色を設定可能。色はRGBで設定可能",  //OK
 	"Red (0-31)":"赤 (0-31)",  //OK
 	"Green (0-31)":"緑 (0-31)",  //OK
 	"Blue  (0-31)":"青 (0-31)",  //OK
@@ -1928,7 +1960,7 @@
 	"Other": "その他",  //おそらく不要
 
 	//c_miner
-	"Miner": "採掘機",  //OK
+	"Miner": "採掘装置",  //OK
 	"Basic mining drill - extracts metal and crystal": "簡易な採掘ドリル。金属やクリスタルを採掘できる",  //仮
 	"miner": "miner",  //おそらく不要
 	"Resource to mine and amount": "採掘資源と採掘量を設定",  //仮
@@ -1939,8 +1971,8 @@
 	"No space in inventory for %s": "空きストレージが不足している",  //仮
 	"No %s found in range": "範囲内に %s が見つからない",  //仮
 
-	"Laser Mining Tool": "レーザー採掘機",  //OK
-	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘機。採掘機の2倍の速度で金属やクリスタルを採掘できる",  //OK
+	"Laser Mining Tool": "レーザー採掘装置",  //OK
+	"Laser Mining Tool - extracts metal and crystal with high efficiency (2x)": "レーザーを使用した採掘装置。採掘装置の2倍の速度で金属やクリスタルを採掘できる",  //OK
 
 	"Deconstructor": "解体機",  //仮
 	"Allows disassembly of completed Units and Building refunding 100% of their cost": "ユニットや建築物を解体し、生産時の材料に戻す",  //OK
@@ -2000,8 +2032,12 @@
 
 	"Signal Reader": "シグナルリーダー",  //OK
 	"Allow reading of the signal register from a specific unit or building.": "特定のユニットまたは建築物の Signal レジスタの内容を取得する",  //OK
-	"Unit to read signal from\n\nDrag to unit to set": "Signal レジスタの内容を取得するユニット\n\nドラッグしてユニットを指定",  //OK
-	"Received signal": "取得した内容",  //OK
+	// "Unit to read signal from\n\nDrag to unit to set": "Signal レジスタの内容を取得するユニット\n\nドラッグしてユニットを指定",  //OK
+	"<header>TARGET ENTITY</>\n\n <bl>Use to Select Entity to 'Read Signal' from</>\n\nDrag to Entity to set":
+		"<header>Signal レジスタ 読取り対象</>\n\n<hl>Signal レジスタ</><bl>を読取る対象のエンティティ</>\n\nエンティティにドラッグして設定",  //OK
+	// "Received signal": "取得した内容",  //OK
+	"<header>RECEIVED SIGNAL</>\n\n<bl>The Result returned from the Target's</> <hl>Signal Parameter</>":
+		"<header>受信内容</>\n\n<bl>指定した対象の</><hl>Signal レジスタ</><bl>から読み取った内容</>",  //OK
 
 	"Shared Storage": "共有ストレージ",  //仮
 	"Set locked slots on unit to allow dumping of excess items": "ユニットのインベントリを設定し、ユニットが満杯になった場合、未使用のアイテムをそこに捨てることができるようにする。",  //??
@@ -2025,6 +2061,15 @@
 
 	"Portable Radar": "ポータブルレーダー",  //OK
 	"Short range detection of resources and other objects in the world. All conditions must be met.": "近距離範囲内にある資源などを検知できる。複数の検知条件が指定でき、すべての条件を満たすものが検知される",  //仮
+	"<header>Search Filter [1]</>\n\n<bl>Search Filter [1] is Required to return a Radar Result</>\n\n\nClick to choose from <hl>Inventory Items</> or <hl>Information</> icons\n\n":
+		"<header>検索フィルター[1]</>\n\n<bl>検索フィルター[1]は、レーダーの結果を返すために必要です</>\n\n\nクリックして<hl>インベントリ内のアイテム</> or <hl>インフォメーション</>選択してください\n\n",
+	"<header>Search Filter [2]</>\n\n<bl>Search Filter [2] Refines the Radar Result</>\n\n\nClick to choose from <hl>Inventory Items</> or <hl>Information</> icons\n\n":
+		"<header>検索フィルター[2]</>\n\n<bl>検索フィルター[2]は、レーダーの追加条件になります</>\n\n\nクリックして<hl>インベントリ内のアイテム</> or <hl>インフォメーション</>選択してください\n\n",
+	"<header>Search Filter [3]</>\n\n<bl>Search Filter [3] Refines the Radar Result</>\n\n\nClick to choose from <hl>Inventory Items</> or <hl>Information</> icons\n\n":
+		"<header>検索フィルター[3]</>\n\n<bl>検索フィルター[3]は、レーダーの追加条件になります</>\n\n\nクリックして<hl>インベントリ内のアイテム</> or <hl>インフォメーション</>選択してください\n\n",
+	"<header>RADAR RESULT</>\n\n<bl>SINGLE Result returned from combination (additive) of 1 - 3 filters</>\n\n\n<hl>Mouse Over</> To highlight 'Result' in the world\n\n<Key action=\"ExecuteAction\" style=\"hl\"/> to move camera to 'Result' in the world\n\n":
+		"<header>レーダーの検知結果</>\n\n<bl>1〜3のフィルターの組合せ (AND条件) で所得された結果 (ひとつのみ)</>\n\n\nこのアイコンに<hl>マウスカーソルを合わせる</>と、マップ上でハイライトされます\n\n<Key action=\"ExecuteAction\" style=\"hl\"/>で、その場所にカメラが移動します",
+
 	"radar": "レーダー",  //おそらく不要
 	"Search filter": "検索条件",  //OK
 	"Set Filter": "セットフィルター",  //OK
@@ -2074,13 +2119,13 @@
 	"Increase unit visibility range by 20": "ユニットの視野を 20 拡大", //OK
 
 	"Internal Efficiency Module": "内部 効率モジュール",  //OK
-	"Increase component efficiency by 20%": "部品効率を 20% 向上",  //OK
+	"Increase component efficiency by 20%": "部品効率を 20% 向上、コンポーネントの速度が向上",  //OK
 	"Small Efficiency Module": "小型 効率モジュール",  //OK
-	"Increase component efficiency by 50%": "部品効率を 50% 向上",  //OK
+	"Increase component efficiency by 50%": "部品効率を 50% 向上、コンポーネントの速度が向上",  //OK
 	"Medium Efficiency Module": "中型 効率モジュール", //OK
-	"Increase component efficiency by 100%": "部品効率を 100% 向上", //OK
+	"Increase component efficiency by 100%": "部品効率を 100% 向上、コンポーネントの速度が向上", //OK
 	"Large Efficiency Module": "大型 効率モジュール", //OK
-	"Increase component efficiency by 150%": "部品効率を 150% 向上", //OK
+	"Increase component efficiency by 150%": "部品効率を 150% 向上、コンポーネントの速度が向上", //OK
 
 	"Internal Speed Module": "内部 高速化モジュール",  //OK
 	"Increase unit speed by 20%": "ユニット速度を 20% 向上",  //OK
@@ -2169,19 +2214,21 @@
 	"Approach with EXTREME caution": "細心の注意を払うこと",  //Notification.Add() で使用
 	"World Event": "ワールド イベント",  //Notification.Add() で使用
 	"Powerful Enemy Warning, EXTREME CAUTION ADVISED !!!": "強力な敵の警告、厳重な注意が必要です！",  //Notification.Add() で使用
-	"anomaly": "特異点",  //おそらく不要
+	"anomaly": "アノマリー",  //
 
-	"Laser Extractor": "レーザー採掘機2",  //仮
-	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘機",  //仮
+	"Laser Extractor": "レーザー採掘装置2",  //仮
+	"Laser that mines <hl>laterite</> and <hl>obsidian</>": "<hl>ラテライト</>と<hl>黒曜石</>を採掘できるレーザー採掘装置",  //仮
 	"Blight Extractor": "ブライトガス収集装置",  //仮
 	"Extracts blight gas when placed inside a blighted area": "ブライト地域内に発生しているブライトガスを収集する",  //
 
 	"Virus Cure": "ウイルス治療", //?? そもそもどういうアイテムかが分からない
-	"Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットをウイルスからの保護する", //?? そもそもどういうアイテムかが分からない
+	// "Protection from the virus for this unit and adjacent units": "このユニットと隣接するユニットをウイルスからの保護する", //?? そもそもどういうアイテムかが分からない
+	"Protection from the virus for nearby units": "近くのユニットをウイルスから保護する", //?? そもそもどういうアイテムかが分からない
 	"virus": "ウィルス",  //おそらく不要  race
 
 	"Large Storage": "大型ストレージ",  //OK
-	"A larger storage component with smart storage capabilities": "スマートストレージ機能を備えた大型ストレージ装置",  //仮 スマートストレージ機能とは??
+	// "A larger storage component with smart storage capabilities": "スマートストレージ機能を備えた大型ストレージ装置",  //仮 スマートストレージ機能とは??
+	"A larger storage component": "大型ストレージ装置",  //OK
 
 	"Unit Teleporter": "ユニットテレポーター", //?? そもそもどういうアイテムかが分からない
 	"Transports units over a great distance. Interact with the unit equipped with the teleporter to dock the unit you wish to teleport":
@@ -2287,7 +2334,9 @@
 	"Virus Possessor": "ウイルス所持者",
 	"Virus Tool for spawning hives and bugs": "蜂の巣と昆虫を生み出すウイルスツール",
 	"Blight Magnifier": "ブライト拡大鏡",
-	"Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
+	//20230909変更
+	// "Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
+	"Slowly regenerates nearby resources up to 200, only works if placed inside the blight":"近くの資源をゆっくりと再生させる (上限200)",
 	"Blight Stabilizer": "ブライト スタビライザー",
 	"Resource Converter": "リソース コンバーター",
 	"When placed inside the blight will convert laterite to metal ore and silica": "このような場合、ブライトはラテライトをメタロアとシリカに変えます。",
@@ -2734,8 +2783,11 @@
 
 	"Data": "確認対象",  //OK
 	"Data to test": "確認対象", //OK
+	"No Match":"一致なし", //OK
+	"Where to continue if there is no match":"一致するタイプがない場合", //OK
 	"Item Type": "アイテムタイプ", //OK
-	"Unit Type": "ユニットタイプ", //OK
+	// "Unit Type": "ユニットタイプ", //OK
+	"Entity Type": "エンティティタイプ", //OK
 	"Component": "コンポーネント", //OK
 	"Component Type": "コンポーネントタイプ", //OK
 	//"Tech": "研究", //重複 他所に記載がある
@@ -2757,13 +2809,13 @@
 	"No visible unit passed": "ユニットなし",  //他でも使用
 	"The unit to check for (if not self)": "確認対象ユニット (自ユニット以外の場合に指定)",  //Unit Typeでは使用しないが他所で使用する
 	"The unit to check": "チェックするエンティティ",  //OK あえてエンティティ
-	"Building": "建築物",  //仮  表記ゆれしている  建物 ビル 建築物
+	"Building": "建築物",  //仮
 	"Where to continue if the entity is a building": "エンティティが建築物の場合",  //仮  表記ゆれしている 
 	"Bot": "ボット",  //OK
 	"Where to continue if the entity is a bot": "エンティティがボットの場合",  //OK
 	// "Construction":"",//重複
 	"Where to continue if the entity is a construction site": "エンティティが建設中の場合",  //OK
-	// "Unit Type": "ユニットタイプ", //重複
+	"Unit Type": "ユニットタイプ", //ここだけ
 	"Divert program depending on unit type": "指定されたエンティティのユニットタイプに応じて処理を分岐する",  //OK
 
 	"A is nearer (or equal)": "A の方が近い(または自ユニットと同エンティティ)場合",  //OK
@@ -2858,6 +2910,7 @@
 
 	"Item to check can fit": "確認対象アイテム",  //仮
 	"Number of a specific item that can fit on a unit": "確認対象アイテムの保管余力数",  //仮
+	"The unit to check (if not self)":"確認対象ユニット (自ユニット以外の場合に指定)",  //仮
 	"Get space for item": "アイテム保管余力数を取得",  //仮
 	"Returns how many of the input item can fit in the inventory":
 	  "指定アイテムがインベントリにあと何個保管可能かを取得する\nインベントリの空きスロットと現在の対象アイテム数を加味して計算される",  //仮
@@ -2869,6 +2922,19 @@
 	"Checks if free space is available for an item and amount":
 	  "指定された個数のアイテムがインベントリに保管可能を判定する\nインベントリの空きスロットと現在の対象アイテム数を加味して判定される",  //仮
 
+	"Item to try locking to slots ":"スロットのロックを試行する対象アイテム",
+	"Slot no":"スロット番号",
+	"Individual slots to lock":"ロック対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+	"Lock Itemslot":"スロットをロック",
+	"Lock a specific itemslot index, a range of slot index via coord, or all storage slots":
+		"インベントリの特定のスロット、または一部、またはすべてのスロットをロックする",
+
+	// "Slot no":
+	"Individual slots to unlock ":"ロック解除対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+	"Unlock Itemslot":"スロットをロック解除",
+	"Unlock a specific itemslot index, a range of slot index via coord, or all storage slots":
+	"ロック解除対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+
 	"Entity to check": "調査対象", //仮
 	"Percent": "パーセント", //仮  同名の行動コマンドあり
 	"Percentage of health remaining": "現在の体力値の%", //仮
@@ -2878,6 +2944,11 @@
 	"Value of maximum health": "最大体力値", //
 	"Get Health": "体力値を取得",  //OK
 	"Gets a units health as a percentage, current and max": "エンティティの体力値を取得する", //OK  指定値が'エンティティ'なので揃える
+
+	// "Coordinate":
+	"Coordinate to get Entity from":"エンティティを取得する座標",  //OK
+	"Get Entity At":"座標からエンティティの取得",  //OK
+	"Gets the best matching entity at a coordinate":"指定した座標にいるエンティティを取得",  //仮  best matching??
 
 	"Get Grid Efficiency": "電力充足率を取得",  //仮 
 	"Gets the value of the Grid Efficiency as a percent": "電力グリッドにおける電力充足率を取得する",  //仮 
@@ -2981,6 +3052,14 @@
 	"Request Item": "アイテムをリクエスト",  //OK
 	"Requests an item if it doesn't exist in the inventory": "指定されたアイテムがインベントリにない場合、リクエストする",  //OK
 
+	"Order to Shared Storage":"共有ストレージ 転送要求",
+	"Request Inventory to be sent to nearest shared storage with corresponding locked slots":
+	  "最寄りの共有ストレージに送られるようにリクエストする",  //仮  locked slots??  要動作検証
+
+	// "Item and amount to order":"Item and amount to order",
+	"Request Wait":"リクエスト待機",
+	"Requests an item and waits until it exists in inventory":"インベントリ内にアイテムが存在するまでアイテムをリクエストし待機する",
+
 	//存在しない
 	// "Amount": "数量", 
 	// "Get Active Order": "オーダー内容を取得", //
@@ -3002,9 +3081,12 @@
 	"Returns distance to a unit": "指定ユニットとの距離を取得する\n※任意の2つのユニット間の距離も取得可能",
 
 	"Global": "グローバル",  //OK  他でも使用
-	"Item and amount to transfer": "転送するオーダーのアイテムと個数",//OK
-	"Order Transfer To": "オーダーを転送",//OK
-	"Transfers an Item to another Unit": "アイテムのオーダーを他ユニットに転送する",//OK
+	"Item and amount to transfer": "転送するアイテムと個数",//OK
+	"Order Transfer To": "アイテム配送を依頼",//OK
+	"Transfers an Item to another Unit": "他のユニットへのアイテムの配送を依頼する",//OK
+
+	"Is Same Grid":"同グリッドの判定",
+	"Checks if two entities are in the same power grid":"2つのエンティティが同じ電力グリッド内にいるかを判定する",
 
 	"Shutdown": "電源オフ",  //OK ここだけで使用
 	"Shuts down the power of the Unit": "ユニットを電源オフにする\n※電源オフの状態でも行動プログラムは動作する",  //OK 
@@ -3025,6 +3107,7 @@
 
 	"Package All": "パッケージに梱包",  //仮
 	"Tries to pack all packable units into items": "パッケージタイプのユニットにて、アイテムをパッケージする",  //仮 実機確認がまだ
+	"The destination to try and pack (if not self)":"パッケージ化対象 (自ユニット以外の場合に指定)",  //仮 実機確認がまだ
 
 	"Explorable to solve": "解決対象の調査可能箇所",  //仮  '解決'でいいのか
 	"Missing": "不足",  // ここでしか使われていない
@@ -3092,10 +3175,10 @@
 
 	"Resource to Mine": "採掘する資源",
 	"Cannot Mine": "採掘できない場合",
-	"Execution path if mining was unable to be performed": "採掘できない場合\n採掘機を装備していない場合も含む",  //OK
+	"Execution path if mining was unable to be performed": "採掘できない場合\n採掘装置を装備していない場合も含む",  //OK
 	"Execution path if can't fit resource into inventory": "インベントリーに収納できない場合",
 	"Mine": "採掘",  //訳としてはここだけ
-	"Mines a single resource": "資源を採掘する\n'採掘機'の装備が前提\n'採掘機'を複数装備している場合、ひとつだけに採掘資源が指定されるので、'採掘機'のパラメータを矢印で結ぶなどの対応が必要",
+	"Mines a single resource": "資源を採掘する\n'採掘装置'の装備が前提\n'採掘装置'を複数装備している場合、ひとつだけに採掘資源が指定されるので、'採掘装置'のパラメータを矢印で結ぶなどの対応が必要",
 
 	"Day": "日中の場合",  //訳はここだけ
 	"Where to continue if it is nighttime": "日中の場合",  //英文の説明文が間違えているので、あえて逆にする
@@ -3198,6 +3281,16 @@
 
   "Produce Unit":"ユニットを生産",  //OK
 	"Sets a production component to produce a blueprint":"指定されたブループリントを生産する\n※生産可能なユニットでの実行が前提",
+
+	"Set Signpost":"サインポストに文字列を指定",
+	"Set the signpost to specific text":"サインポストに文字列を指定する",
+
+	// "Launch":"Launch",
+	"Launches a satellite if equipped on an AMAC":"AMACが装備されている場合、衛星を打ち上げる",
+
+	// "Land":"Land",
+	"Tells a satellite that has been launched to land":"打ち上げた衛星に着陸を指示する",
+
 
 	// FILE: Main/data/items.lua
 	"Metal Ore": "金属鉱石",  //OK
@@ -3343,7 +3436,7 @@
 	"Blight AI Core": "ブライト AIコア",  //不要と思われる  Main/data/items.lua に存在せず
 	"Advanced Blight controller unit": "ブライトの高度コントロールユニット",  //不要と思われる  Main/data/items.lua に存在せず
 	"Broken AI Core": "壊れた AIコア",  //仮
-	"A damaged controller unit for a Robot": "破損したロボット用コントロールユニット",  //仮
+	"(WIP) A damaged controller unit for a Robot": "破損したロボット用コントロールユニット",  //仮
 	"Bug Chitin": "バグの表皮",  //仮
 	"Silica reinforced shell of bugs": "シリカで補強されたバグの殻",  //仮
 	"Anomaly Particle": "異常粒子",  //仮
@@ -3374,7 +3467,10 @@
 
 	// FILE: Main/data/tech/tech_alien.lua
 	"Alien Intel": "エイリアンの知的情報",
-	"By running a specific charge through your units they are able to enter the blight without any adverse effects": "ユニットに特定のチャージをかける事で、悪影響を受ける事なくブライトに入る事ができる。",
+	// 20230909変更
+	// "By running a specific charge through your units they are able to enter the blight without any adverse effects": "ユニットに特定のチャージをかける事で、悪影響を受ける事なくブライトに入る事ができる。",
+	"There is a alien presence on this planet which seems connected to the blight in some way.":
+		"この惑星にはエイリアンが存在し、ブライトと何らかの関係がありそう...",
 	"Alien Technology": "エイリアン テクノロジー",
 	"C0rrup7ed D4tabas3": "C0rrup7ed D4tabas3",
 	"Alien Signals": "エイリアン シグナル",
@@ -3441,7 +3537,7 @@
 	"Barracks": "バラック",
 	"Spaceport": "スペースポート",
 	"Science Laboratory": "科学研究所",
-	// "Human Science building for Technology Study": "テクノロジー研究のための人類の科学建物",  英文なし
+	// "Human Science building for Technology Study": "テクノロジー研究のための人類の科学建築物",  英文なし
 	"Warehouse": "倉庫",
 	"Sensor Array": "センサーアレイ",
 
@@ -3547,6 +3643,8 @@
 	"A strange alien race with highly advanced technology we can utilize": "私たちが利用できる高度な技術を持つ奇妙なエイリアン",
 	"Gain the ability to research alien technology": "エイリアンのテクノロジーを研究する能力を得る",
 	"Blight Discovery": "ブライトの発見",
+	// "Blight Research":"Blight Research",
+	"Blight gas analysis can begin to unlock the mysterious nature of the blight":"ブライトガスの分析によって、ブライトの神秘的な性質の解明が始まる",
 
 	// FILE: Main/data/utilities.lua
 	"call": "コール",
