@@ -1458,10 +1458,10 @@
 	"I've discovered something important about the virus. It appears to disrupt the world and agitate the creatures living in it.  We must find a way to destroy this virus.....\n\n[ In this version of the game, this is currently as far as you can progress in this branch of the story.\n\nBut there is more to come in future updates! ]":
 		"ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
 
-	"Build Blight Extractor and Container": "ブライト除去装置とコンテナを作る",
+	"Build Blight Extractor and Container": "ブライト除去装置とコンテナの作成",
 	//要修正
 	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>":
-		"このブライト地域は非常に気になる。私たちの機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要がある。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
+		"このブライト地域は非常に危険です。慎重に進まなければ、機材は不具合を起こし、航行は困難となるでしょう。\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要があります。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要です。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
 
 	//t_blight_plasma.unlocks
 	"Blight Concentration": "ブライトの集中",
