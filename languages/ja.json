@@ -1375,7 +1375,8 @@
 	"Research Scanner": "スキャナーの研究",
 	"Some ruins will require a scan to access their control panels. Research the scanner and use it to gain access.":
 		"いくつかの遺跡は、制御パネルにアクセスするためにスキャンが必要です。スキャナーを研究して、それを使ってアクセスを取得ください。",
-	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>": "<header>リサーチ スキャナー</>\n\n人類の遺跡には何らかの防御が施されている。コントロールパネルにアクセスするにはスキャンする必要がある。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを調べ、それを使ってアクセスする。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
+	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>": 
+	"<header>スキャナーの研究</>\n\n人類の遺跡には何らかのプロテクトが施されています。コントロールパネルにアクセスするにはスキャンする必要があります。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを研究し、それを使ってアクセスしてください。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
 
 	//solved_explorable_human  1
 	"Discover research logs": "研究ログを発見する",
