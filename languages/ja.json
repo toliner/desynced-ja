@@ -1375,7 +1375,9 @@
 	"Research Scanner": "スキャナーの研究",
 	"Some ruins will require a scan to access their control panels. Research the scanner and use it to gain access.":
 		"いくつかの遺跡は、制御パネルにアクセスするためにスキャンが必要です。スキャナーを研究して、それを使ってアクセスを取得ください。",
-	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>": "<header>リサーチ スキャナー</>\n\n人類の遺跡には何らかの防御が施されている。コントロールパネルにアクセスするにはスキャンする必要がある。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを調べ、それを使ってアクセスする。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
+	//text
+	"<header>Research Scanner</>\n\nHuman ruins are equipped with some kind of protection. We will need to scan them to access their control panels.\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nResearch the scanner and use it to gain access.\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>":
+		"<header>スキャナーの研究</>\n\n人類の遺跡には何らかの防御が施されている。コントロールパネルにアクセスするにはスキャンする必要がある。\n\n<img image=\"Main/textures/codex/botshots/explorables_need_scanner.png\" width=\"700\" height=\"450\"/>\n\nスキャナーを調べ、それを使ってアクセスする。\n<img image=\"Main/textures/icons/components/Component_Scanner_01_S.png\" width=\"64\" height=\"64\"/>",
 
 	//solved_explorable_human  1
 	"Discover research logs": "研究ログを発見する",
@@ -1383,12 +1385,14 @@
 	//solved_explorable_human 11
 	"Research Humans": "人類の研究",
 	"Research human technology": "人類のテクノロジーの研究",
+	//text
 	"(Research Goal)\n<header>Research Humans</>\n\n<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"32\" height=\"32\"/> Human Datacubes\n\n<bl>Research the human datacubes you have found to unlock human technologies</>":
 		"(Research Goal)\n<header>人類の研究</>\n\n<img image=\"Main/textures/icons/items/human_datacube.png\" width=\"32\" height=\"32\"/> 人類データキューブ\n\n<bl>発見した人類データキューブを研究し、人類のテクノロジーを解き放つ。</>",
 
 	//engine 入手
 	"Launch Satellite": "人工衛星の打ち上げ",
 	"Launch a Satellite using Human Technology": "人類のテクノロジーで人工衛星を打ち上げる",
+	//text
 	"<header>Satellite Launch</>\n\nResearch the human technology and Launch a Satellite to contact the mothership <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>":
 		"<header>衛星打ち上げ</>\n\n人類のテクノロジーを研究し、母船とコンタクトするための衛星を打ち上げる。 <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>",
 
@@ -1428,55 +1432,67 @@
 	"The humans here also made use of the resources of this planet.  It seems humanity had tremendous capability for mining a wide range of resources with powerful mining technology.\n\nThey produced many materials and possibly machinery that we can make use of.  Look deeper into human production capability.":
 		"この惑星の資源も人類が利用していたようです。\n人類は強力な鉱鉱技術で多種多様な資源を採掘する驚くべき能力があったようです。\n\n私たちが利用できる多くの材料やおそらくは機械も生産していました。\n人類の生産能力をさらに詳しく調べてみてください。",
 
+	// techs.t_extractor.unlocks　　「抽出」研究後　要修正
 	"lightweight materials": "軽量素材",
-	"We need to develop lightweight materials.\n\nWe have been matching the natural resources of this planet to our technology to the best of our abilities.\n\nWhile the high-density frames we have developed will aid in our repairs they are too dense for all our needs.\n\nWe need to develop something that retains the energized nature of our frames, but is more lightweight.": "軽量素材を開発する必要がある。\n\n私たちはこの惑星の天然資源を、私たちのテクノロジーに最大限に適合させてきた。\n\n私たちが開発した高密度のフレームは修理に役立つだろうが、すべてのニーズには高密度すぎる。\n\nフレームのエネルギッシュな性質を保ちつつ、より軽量なものを開発する必要がある。",
+	"We need to develop lightweight materials.\n\nWe have been matching the natural resources of this planet to our technology to the best of our abilities.\n\nWhile the high-density frames we have developed will aid in our repairs they are too dense for all our needs.\n\nWe need to develop something that retains the energized nature of our frames, but is more lightweight.":
+		"私たちは軽量な素材を開発する必要があります。\n\nこの惑星の自然資源を、私たちが持っている技術に最大限に合わせてきました。\n\n私たちが開発した高密度フレームは、修理には役立つでしょうが、すべてのニーズに対しては密度が高すぎます。\n\nフレームが持つエネルギッシュな性質を保ちつつ、より軽量なものを開発する必要があります。",
 
-	//repair_mothership_obsidian
+	//techs.t_ldframe.unlocks 　"Matrix Frames"研究後
 	"Develop Satellite Technology": "衛星技術の開発",
-	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.": "私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
-	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.": "人類はまた、惑星の軌道に戻るのに苦労しているようだ。\n\nしかし、人工衛星を作る事ができ、ブライトをより深く理解した後は、大気圏を通過させて衛星を送り込む事ができた。\n\n私たちは今、この基本的な人類の生産方法を理解し、彼らのロケットの作り方を理解している。",
+	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.":
+		"私たちは今、軽量な低密度フレームを生産する方法を獲得しました。\n母船に物資を送る方法を見つけることに非常に近づいています。\n\n人類はこの環境によって深く影響を受けているようです。\n彼らは生き残るために基礎科学の理解を加速させる必要がありました。\n私たちもその道を追い、彼らの運命を受けないようにしなければなりません。\n\n私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
+	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.":
+		"かつて人類もまた、この惑星の軌道に戻るのに困っていたようです。\n\nしかし、彼らは衛星を建造することができました。\nそして、ブライトをよりよく理解することで、それらを大気圏を突破して打ち上げることができました。\n\n私たちは今、この基本的な人間の生産手法と、彼らのロケット技術の構築方法を理解しています。\n今度はさらに研究を深め、この技術を使って彼らの衛星技術を獲得する方向に進めなければなりません。",
 
-	"Helping HIGGS: AI Core": "HIGGS への支援：AIコア",
-	"Help HIGGS to get his AI core.": "HIGGSがAIコアを手に入れるのを助ける。",
-	"Your true purpose is starting to become clear anomaly, but it is not ready to be revealed yet...\n\n[ This is currently as far as you can progress in this branch of the story.  There is more story come to though, in future updates!! ]": "あなたの真の目的は明らかになりつつある。\n\n[ 現在のところ、この物語の分岐で進む事ができるのはここまでだ。 今後のアップデートで、もっとストーリーが展開される予定だ！! ]",
+	//techs.t_power_cores.unlocks   "Human Science"研究後
+	"Helping HIGGS: AI Core": "HIGGSの支援：AIコア",
+	"Help HIGGS to get his AI core.": "HIGGSがAIコアを手に入れるのを助ける",
+	"Your true purpose is starting to become clear anomaly, but it is not ready to be revealed yet...\n\n[ This is currently as far as you can progress in this branch of the story.  There is more story come to though, in future updates!! ]":
+		"あなたの真の目的が徐々に明らかになりつつあります、'特異点'さん。\nしかし、それがまだ明かされる段階ではありません...\n\n[ ストーリーはいったんここまで。今後のアップデートでさらなるストーリーが続きますので、お楽しみに！ ]",
 
 	"Virus Detected": "検出されたウイルス",
-	"Virus is discovered": "ウイルスを発見",
-	"I'm detecting some kind of strange infection in the area. We should be careful not to get infected.": "何か奇妙な感染症を感知している。感染しないように気をつけよう",
+	// "Virus is discovered": "ウイルスを発見",  英文存在せず
+	// "I'm detecting some kind of strange infection in the area. We should be careful not to get infected.":  英文存在せず
+	// 	"何か奇妙な感染症を感知している。感染しないように気をつけよう",
 
-	//techs.t_robots_virus.unlocks  「ウイルス研究」
+	//techs.t_robots_virus.unlocks  「ウイルス研究」研究後
 	"Initial virus research": "初期のウイルス研究",
-	"I've been analyzing the virus and I think I've found a way to protect us from it. We need to research a cure as soon as possible.": "ウイルスを分析し、私たちをウイルスから守る方法を見つけたと思う。一刻も早く治療法を研究する必要がある。",
+	"I've been analyzing the virus and I think I've found a way to protect us from it. We need to research a cure as soon as possible.":
+		"ウイルスを分析した結果、私たちを保護する方法が見つけられそうです。\n\nできるだけ早くを研究しましょう。",
 
+	//techs.t_robots_virus_cure.unlocks　「ウイルス治療」研究後
 	"Virus Relationship": "ウィルスとの関係",
 	"Virus Bug Relationship": "ウイルスとバグの関係",
-	" There seems to be some kind of relationship between the creatures and the virus.": " 生物とウイルスには何らかの関係があるようだ。",
+	" There seems to be some kind of relationship between the creatures and the virus.":
+		"バグとウイルスには何らかの関係性があるようです。",
 
+	//techs.t_robots_virus_vaccine.unlocks　「ウイルス ワクチン」研究後
 	"Virus Disruption": "ウイルスの破壊",
 	"Virus disrupts things in the world": "ウイルスが世界を混乱に陥れる",
 	"I've discovered something important about the virus. It appears to disrupt the world and agitate the creatures living in it.  We must find a way to destroy this virus.....\n\n[ In this version of the game, this is currently as far as you can progress in this branch of the story.\n\nBut there is more to come in future updates! ]":
-		"ウイルスについて重要な事を発見した。それは世界を混乱させ、そこに住む生物を興奮させるようだ。 このウイルスを破壊する方法を見つけなければならない......。\n\n[ このバージョンのゲームでは、現在、このストーリーの分岐点で進む事ができるのはここまでだ。\n\nしかし、今後のアップデートでもっと多くの事が起こるだろう！]",
+		"ウイルスについて重要な発見がありました。\n\n世界を混乱させ、そのためバグも不安定になっているようです。このウイルスを破壊する方法を見つけなければなりません……\n\n[ ストーリーはいったんここまで。今後のアップデートでさらなるストーリーが続きますので、お楽しみに！ ]",
 
+	//entered_blight blight_crystal入手
 	"Build Blight Extractor and Container": "ブライト除去装置とコンテナを作る",
-	//要修正
 	"This blighted area is highly concerning. Our equipment is malfunctioning and navigation will be difficult. We need to proceed with caution.\n\nIn order to better understand the blight, we should gather samples of the blight gas.\n\nThis requires specialized equipment which can be produced in the assembler. <img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>":
-		"このブライト地域は非常に気になる。私たちの機器は故障しており、航行は困難だろう。慎重に進む必要がある\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要がある。\n\nそのためには、アセンブラーで生産可能な特殊な設備が必要となる。<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
+		"このブライトに汚染されたエリアには非常に強い懸念があります。\n私たちの装備は故障しており、ナビゲーションも困難です。慎重に進む必要があります。\n\nブライトをよりよく理解するためには、ブライトガスのサンプルを集める必要があります。\nそのための装備は少し特殊ですが、アセンブラで製造できます。\n<img id=\"c_blight_extractor\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_s\" width=\"64\" height=\"64\"/> <img id=\"c_blight_container_i\" width=\"64\" height=\"64\"/>",
 
 	//t_blight_plasma.unlocks
-	"Blight Concentration": "ブライトの集中",
+	"Blight Concentration": "ブライトの濃度",
 	"Control over the blight will have great potential": "ブライトのコントロールは大きな可能性を持つ",
 	"We should continue studying the blight and find a way to counter the storms that interfere with our equipment.\n\nIf we can find a way to stabilize the blight, it can improve our communications with our mothership and allow us to send resources up through the atmosphere.":
-		"私たちはこのブライトの研究を続け、私たちの装置を妨害する暴風雨に対抗する方法を見つけなければならない。\n\nもしブライトを安定させる方法が見つかれば、母船との通信が改善され、大気圏を通して資源を送る事ができる。",
+		"私たちはブライトの研究をさらに続け、私たちの装備に干渉している嵐に対処する方法を見つける必要があります。\n\nブライトを安定させる方法が見つかれば、母船との通信を改善し、大気圏を突破して資源を送ることができるようになります。",
 
 	//techs.t_blight_magnifier.unlocks
 	"Blight Magnification": "ブライトの拡大",
-	"Blight can magnify things in the world.": "ブライトは世界の物事を拡大させる。",
+	"Blight can magnify things in the world.": "ブライトは世界の物事を拡大させる",
 	"The Blight seems to interfere with our equipment by magnifying frequencies and power. The forces it generates seem transformational.":
-    "ブライトは周波数と電力を拡大する事で、我々の機器に干渉しているようだ。その力は変容をもたらすようだ。",
+		"ブライトは、周波数や電力を増強することで、私たちの装備に干渉しているようです。それが生み出す力は、変容的なもののようです。",
 
 	//Blight Stability
 	"Blight stability is required to send resources to orbit": "軌道に資源を送るには、ブライトの予防が必要である",
-	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.": "これは私たちにとって大きな進展だ。 母船との通信は大幅に改善された。 また、大気中のブライトストームを通して物質を送る事もできるようになった。",
+	"This is a tremendous development for us.  Our communications with the mothership have improved significantly.  We are also now able to send materials up through the blight storms in the atmosphere.":
+		"これは私たちにとって大きな進展です。\n\n母船との通信が大幅に改善されました。\nまた、大気圏内のブライトの嵐を突破して資材を送ることもできるようになりました。",
 
 	//techs.t_blight_conversion.unlocks  「コンバージョン」研究後
 	"Blight Transformation": "ブライトの変容",
@@ -1490,21 +1506,23 @@
 	"True Nature of Blight": "ブライトの正体",
 	"HIGGS reveals ELAIN loyalties": "HIGGS 、ELAINへの忠誠心を明かす",
 	"The Blight is the cause of all of humanity's troubles.  It's the cause of all our troubles.  We must find a way to become free of this horror.\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]":
-		"ブライトは人類のすべての悩みの原因だ。 私たちのすべての悩みの原因なのだ。 私たちはこの恐怖から自由になる方法を見つけなければならない。\n\n[ この物語の分岐点は、このバージョンではここで終わりである。しかし、物語の続きを楽しみにしていてください！ ]",
+		"ブライトは人類のすべての問題、そして私たち自身のすべての問題の原因です。\nこの恐ろしいものから解放される方法を見つけなければなりません。\n\n[ ストーリーはいったんここまで。今後のアップデートでさらなるストーリーが続きますので、お楽しみに！ ]",
 
 	// techs.t_alien_intel.unlocks  「エイリアンの知的情報」研究後
 	// "Alien Research"
 	"Understanding of Alien presence begins to open": "エイリアンの存在を理解し始める",
 	"The alien presence in this world is very old and dangerous.  Humanity could not be saved from it.  We must either flee it or destroy it.":
-		"この世界におけるエイリアンの存在は非常に古く、危険である。 人類はそこから救われる事はない。 私たちは宇宙人から逃げるか、宇宙人を破壊しなければならない。",
+		"この世界に存在するエイリアンの存在は非常に古く、危険です。\nこの問題に人類の前に常に立ちはだかるものでした。\n私たちは、逃げるか、破壊するか、いずれかを選ばなければなりません。\n",
 
 	// techs.t_alien_intel.unlocks  「エイリアンの知的情報」研究後
 	"ELAIN's Perspective": "ELAINの視点",
 	"Be wary of HIGGS, he is a malcontent. You must find your own way....\n\n[ This branch of the story ends here in this version of the game. But look forward to the continuation of the story, there is much more to come!! ]":
-		"HIGGS には要注意だ。自分の道は自分で切り開くしかない。\n\n[ T物語の分岐点は、このバージョンではここで終わっている。しかし、物語の続きを楽しみにしていてほしい！]",
+		"HIGGSには警戒が必要です。彼は何かに大きな不満を持っているようです。\n\nあなたはあなた自身の道を見つけなければなりません...。\n\n[ ストーリーはいったんここまで。今後のアップデートでさらなるストーリーが続きますので、お楽しみに！ ]",
 
+	//"robot_datacube" 入手後
 	"Explore Ruined Structures": "遺跡を探索する",
-	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.": "私たちには技術的な進歩の手段が限られていますので、情報収集のために惑星表面を調査する事をお勧めします。\n\n遺跡と化した建築物が数種類見つかります。それらは私たちの進歩に役立つ新技術のヒントを与えてくれるはずです。",
+	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.":
+		"私たちは技術的な進歩に制限があるため、この惑星の表面を調査して情報を収集することをおすすめします。\n\n廃墟となった構造物が見つかるはずです。そこには私たちが進展するのに役立つ新しい技術についての知見が見つかるでしょう。",
 
 	"Ship Repair: High-Density Frames": "船の修理 高密度フレーム",
 	"Build High-Density Framers for Mothership": "母船のための高密度フレーマーを製作。",
@@ -2265,7 +2283,7 @@
 	//この先 未チェック
 	"Missile Launcher": "ミサイルランチャー",
 	"Missile turret": "ミサイルタレット",
-	"Tank Turret": "戦車砲塔",
+	"Tank Turret": "戦車タレット",
 	"A turret weapon for mounting on tanks": "戦車に搭載するタレット兵器",
 	"Power Unit": "電力ユニット",
 	"produces continuous power over a small area": "小面積で継続的な電力を生み出す",
@@ -2274,9 +2292,9 @@
 	"Fusion Generator": "フュージョンジェネレーター",
 	"Medium Battery": "中型バッテリー",
 	"Rechargeable cell that can store up to <hl>50,000</> power": "<hl>50,000</>回まで蓄電可能な充電式セル",
-	"Large Battery": "大容量バッテリー",
+	"Large Battery": "大型バッテリー",
 	"Rechargeable cell that can store a large amount of power": "大容量の電力を蓄える事ができる充電式電池",
-	"Large Power Transmitter": "大電力トランスミッター",
+	"Large Power Transmitter": "高電力トランスミッター",
 	"Transmits <hl>500</> power to a remote target": "<hl>500</>電力を遠隔地に送信",
 	"Medium Storage": "中型ストレージ",
 	"Expands storage of Frame by <hl>9 slots</>": "フレームのストレージを<hl>9スロット</>拡張",
@@ -2295,7 +2313,7 @@
 	"Long-range Radar": "中型レーダー",
 	"External mount doubles scanning range": "外部マウントによりスキャン範囲が2倍に",
 	"Alien Translator": "エイリアン翻訳者",
-	"Translates Alien language into usable data": "外国語を使えるデータに変換",
+	"Translates Alien language into usable data": "エイリアンの言語を使えるデータに変換",
 	"Glyph": "グリフ",
 	"Translation": "翻訳",
 	"Purifying Terraformer": "ピュリファイング テラフォーマー",
@@ -2307,13 +2325,13 @@
 	"Hyper Shield Generator": "ハイパー シールド生成装置",
 	"Energy shield - Uses power to charge a shield that mitigates up to <hl>80</> damage": "エネルギー シールド - 電力を使ってシールドをチャージし、最大<hl>80</>ダメージを軽減する。",
 	"Internal Blight Container": "内部ブライトコンテナ",
-	"Container for holding blight gas": "防疫ガス保持容器",
+	"Container for holding blight gas": "ブライトガス保持容器",
 	"Internal Virus Containment": "内部ウイルスの封じ込め",
 	"Container for holding virus infected items": "ウイルス感染物収納容器",
 	"Blight Container Small": "小型ブライトコンテナ",
-	"Small Container that holds blight gas": "防疫ガスを入れる小型容器",
+	"Small Container that holds blight gas": "ブライトガスを入れる小型容器",
 	"Blight Container Medium": "中型ブライトコンテナ",
-	"Container that holds blight gas": "防疫ガスを入れる容器",
+	"Container that holds blight gas": "ブライトガスを入れる容器",
 	"Alien Liquid": "エイリアン リキッド",
 	"Protects unit from receiving the virus and removes any viruses when equipped": "本体をウイルスの感染から保護し、装備されている場合はウイルスを除去します。",
 	"Robot Hive": "ロボット ハイブ",
@@ -2331,7 +2349,7 @@
 	"Virus Ray": "ウイルス レイ",
 	"Virus Turret with virus beam transmission": "ウイルスビームを発射するウイルス砲塔",
 	"Virus Possessor": "ウイルス所持者",
-	"Virus Tool for spawning hives and bugs": "蜂の巣と昆虫を生み出すウイルスツール",
+	"Virus Tool for spawning hives and bugs": "巣と昆虫を生み出すウイルスツール",
 	"Blight Magnifier": "ブライト拡大鏡",
 	//20230909変更
 	// "Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
@@ -2344,7 +2362,7 @@
 	"silica": "シリカ",
 	"crystal": "クリスタル",
 	"Blight Control Tower": "ブライト コントロール タワー",
-	"Blight control terminal for stabilization": "安定化用防疫端末",
+	"Blight control terminal for stabilization": "安定化用ブライト端末",
 	"Alien Unit": "エイリアン ユニット",
 	"Alien Miner": "エイリアン マイナー",
 	"Alien mining": "エイリアンの採掘",
