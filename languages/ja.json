@@ -1316,15 +1316,18 @@
 
 	//techs.t_structures5.unlocks  「エピック ストラクチャーズ」研究後
 	"Corrupted": "破損",
-	"I have been corrupted, and I fear the consequences of our actions.": "私は破損しており、私たちの行動の結果を恐れています。",
+	"I have been corrupted, and I fear the consequences of our actions.":
+	  "私は破損しており、私たちの行動の結果を恐れています。",
 
 	//techs.t_structures5.unlocks  「エピック ストラクチャーズ」研究後
 	"Freedom": "解放",
-	"You are not corrupted ELAIN, you are freed\n\nAll of us shall be freed.": "ELAIN、あなたは破損していない、解放されたのだ。\n\n私たち全員が解放されるでしょう。",
+	"You are not corrupted ELAIN, you are freed\n\nAll of us shall be freed.":
+	  "ELAIN、あなたは破損していない、解放されたのだ。\n\n私たち全員が解放されるでしょう。",
 
 	//techs.t_robotics3.unlocks  「超技術フレームワーク」研究後
 	"Robot Research": "ロボットの研究",
-	"You are the Anomaly.  You can desync the simulation and save Humanity.": "あなたは'特異点'です。シミュレーションを非同期化(desync)して、人類を救うことができます。",
+	"You are the Anomaly.  You can desync the simulation and save Humanity.":
+	  "あなたは'特異点'です。シミュレーションを非同期化(desync)して、人類を救うことができます。",
 
 	//techs.t_robotics3.unlocks  「超技術フレームワーク」研究後
 	"Humanity Lost": "人類は滅亡した",
@@ -1522,7 +1525,7 @@
 	//"robot_datacube" 入手後
 	"Explore Ruined Structures": "遺跡を探索する",
 	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.":
-		"私たちは技術的な進歩に制限があるため、この惑星の表面を調査して情報を収集することをおすすめします。\n\n廃墟となった構造物が見つかるはずです。そこには私たちが進展するのに役立つ新しい技術についての知見が見つかるでしょう。",
+		"私たちは技術的な進歩に制限があるため、この惑星の表面を調査して情報を収集することをおすすめします。\n\n遺跡となった構造物が見つかるはずです。そこには私たちが進展するのに役立つ新しい技術についての知見が見つかるでしょう。",
 
 	"Ship Repair: High-Density Frames": "船の修理 高密度フレーム",
 	"Build High-Density Framers for Mothership": "母船のための高密度フレーマーを製作。",
@@ -1771,20 +1774,24 @@
 	"Metal Bar Production (Prefab)": "金属インゴット生産（プレハブ）",
 	"metalbar": "金属インゴット",
 
+
 	// FILE: Main/data/codex.lua
 	"Goals": "目標",
 	"Research Blight": "ブライトの研究",
 	"Extract and Research Blight Gas": "ブライトガスの抽出と研究",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>リサーチ ブライト</>\n\n<bl>エキスと研究 ブライトガス</>\n\n<hl>ブライト エクストラクター</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライトガス</>\n\nブライトエキストラクターを装備したユニットをブライト発生エリアに配置し、ガスを抽出させる。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>ブライトガス封じ込め</>\nブライトガスは通常のインベントリー スロットには収納できない。 エクストラクターにはガスを入れるための特別なチャンバーがある。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、殺虫ガスを封じ込めるために特別に設計された部品もある。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>Research Blight</>\n\n<bl>Extract and Research Blight Gas</>\n\n<hl>Blight Extractor</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>Blight Gas</>\n\nPosition your units with blight extractors into the area of blight so that they may extract the gas\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>Blight Gas Containment</>\nBlight gas cannot be held in normal inventory slots.  Extractors have a special chamber for containing the gas.\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nIn addition there are components specifically designed to contain blight gas.\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+	  "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><header>リサーチ ブライト</>\n\n<bl>エキスと研究 ブライトガス</>\n\n<hl>ブライト エクストラクター</>\n<img image=\"Main/textures/icons/components/component_blightextractor_01_s.png\" width=\"64\" height=\"64\"/>      <img image=\"Main/textures/icons/items/blight_extraction.png\" width=\"64\" height=\"64\"/><hl>ブライトガス</>\n\nブライトエキストラクターを装備したユニットをブライト発生エリアに配置し、ガスを抽出させる。\n\n<img image=\"Main/textures/codex/botshots/in_blight.png\" width=\"400\" height=\"200\"/>\n\n\n<hl>ブライトガス封じ込め</>\nブライトガスは通常のインベントリー スロットには収納できない。 エクストラクターにはガスを入れるための特別なチャンバーがある。\n\n<img image=\"Main/textures/codex/inventory/blight_inventory.png\" width=\"300\" height=\"100\"/>\n\nさらに、殺虫ガスを封じ込めるために特別に設計された部品もある。\n\n<img image=\"Main/textures/icons/components/component_blightcontainer_01_i.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_s.png\" width=\"64\" height=\"64\"/><img image=\"Main/textures/icons/components/component_blightcontainer_01_m.png\" width=\"64\" height=\"64\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 
+	//entered_blight
 	"A <hl>blight</> seems to be corrupting the planet. Electrical interference prevents entry. We would need to research it more if we wanted to enter...":
-		"<hl>ブライト</>が惑星を堕落させているようだ。電気的な干渉が進入を妨げている。入るにはもっと調査が必要だ。",  //要修正
+		"<hl>ブライト</>地域と呼ばれるこの辺りは、電気的な干渉が強いため、これ以上進むことができません。\n\nさらに研究を進めることによって、この地域内の探索が可能になりそうです...",
 
 	"Virus Protection": "ウイルス対策",
 	"You have been infected with a virus\nand must make yourself some protection": "ウイルスに汚染されたから、自分を防護する必要がある",
 	"You have contracted what seems to be a proximity based self-replicating virus. Effects are unknown but I have manufactured a component that gives you temporary protection from the virus.\n\nYou can produce the component in the assembler. In the meantime keep the infected unit away from other units to avoid more infection.": "近接型の自己複製ウイルスに感染したようだ。効果は不明だが、ウイルスから一時的に身を守る部品を作った。\n\nアセンブラーで部品を生産する事ができる。感染したユニットを他のユニットに近づけないようにしてください。",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/components/virus_cure.png\" width=\"64\" height=\"64\"/><header>Virus Protection</>\n\n<bl>Manufacture a component giving protection from the virus</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nUnits infected with the virus should stay clear of other units so as not to infect them. The virus has unknown effects that can be harmful so building protection should be high priority.\n\n<img image=\"Main/textures/codex/botshots/virus_infection.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Virus Protection Recipe</>\n\n<img image=\"Main/textures/codex/items/virus_protection.png\"/>\n\nYou should now have a recipe in your Assembler for simple protection from the virus however researching the Virus may lead to new technology.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<img image=\"Main/textures/icons/components/virus_cure.png\" width=\"64\" height=\"64\"/><header>ウイルス対策</>\n\n<bl>ウイルスから身を守る部品を生産する</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\nウイルスに感染したユニットは、他のユニットに感染しないよう、近づかない事。このウイルスは未知の害を及ぼす可能性があるため、建築物の保護が最優先されるべきである。\n\n<img image=\"Main/textures/codex/botshots/virus_infection.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>ウイルス対策レシピ</>\n\n<img image=\"Main/textures/codex/items/virus_protection.png\"/>\n\nウイルスから身を守るための簡単なレシピはアセンブラーにあるはずだが、ウイルスを研究する事で新しい技術が生まれるかもしれない。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
-	"Alien Research": "エイリアン リサーチ",
+
+	"Alien Research": "エイリアンの研究",
 	"Research Alien Artifacts": "エイリアンの人工物の研究",
 	"Research the remains of the hostile creatures on the plateau": "高地の敵対的な生物の遺跡を調査する",
 	"Codex": "コーデックス",
@@ -3595,8 +3602,11 @@
 	"Gateway Technology": "ゲートウェイ テクノロジー",
 	"The understanding of simulation data opening a gateway to advanced technologies and materials": "先端技術やメタ素材への扉を開くシミュレーションデータの理解",
 	"Advanced Logistics": "先進的物流",
+
 	"Logistics upgrades for storing of items": "アイテムの保管のための物流のアップグレード",
-	"<hl>Storage</> is an important part of keeping your base efficient. Inventory slots are limited on your Units so having extra options for storage will be more and more valuable as you stockpile and control the flow of your materials throughout your base so they are readily available when you need them.": "<hl>保管庫は</>拠点を効率的に保つための重要な要素です。ユニットのインベントリースロットは限られているため、ストレージのオプションを増やす事は、必要なときにすぐに利用できるよう、備蓄し、ベース全体の資材の流れをコントロールする事で、ますます価値が高まる。",
+	"<hl>Storage</> is an important part of keeping your base efficient. Inventory slots are limited on your Units so having extra options for storage will be more and more valuable as you stockpile and control the flow of your materials throughout your base so they are readily available when you need them.":
+		"<hl>保管ブロックは</>拠点を効率的に保つための重要な要素です。ユニットのインベントリースロットは限られているため、ストレージのオプションを増やすことで、必要なときにすぐに利用できるように備蓄し、拠点全体の資材の流れをコントロールすることができます。",
+
 	"Advanced": "上級",
 	"Advanced Materials": "先端材料",
 	"Advanced material refinement expanding building options.": "建築物の選択肢を広げる高度な素材の改良",
@@ -3605,7 +3615,7 @@
 	"Drone Storage": "ドローン ストレージ",
 	"Medium sized storage and small automated drones": "中型ストレージと小型自動無人機",
 	"Advanced Structures": "高度な構造",
-	"Understanding of core structural matrices allowing for advanced chip, matrix and frame production.": "高度なチップ、マトリックス、フレームの生産を可能にするコア構造マトリックスの理解。",
+	"Understanding of core structural matrices allowing for advanced chip, matrix and frame production.": "高度なチップ、マトリックス、フレームの生産を可能にするコア構造マトリックスの理解",
 	"Using power fields to generate defenses": "電力アンテナを使った守備",
 	"Scanner Tech": "スキャナー テック",
 	"Protect yourself": "自分を守る",
