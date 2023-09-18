@@ -59,7 +59,7 @@
 	"Solve Sliding puzzle in ruins": "遺跡でスライディングパズルを解く",  //OK
 	"Bugs Killed": "退治した昆虫",  //OK
 	"How many alien creatures you've killed": "エイリアンの退治数",  //??  エイリアンでいいのか
-	"Satellites launched": "衛星の打上げ",  //OK
+	"Satellites launched": "人工衛星の打上げ",  //OK
 	"Launch satellites off the planet": "人工衛星を打ち上げる",  //OK
 	"Tiles Discovered": "マップ探索範囲",  //OK
 	"How many map tiles you've discovered": "探索したマップタイル数",  //OK
@@ -191,7 +191,7 @@
 	"Total Units: %d": "総ユニット数: %d",  //OK
 	"Total Buildings: %d": "総建築数: %d",  //OK
 	"Total Bots: %d": "総ボット数: %d",  //OK
-	"Total Satellites: %d": "衛星総数: %d",  //OK
+	"Total Satellites: %d": "人工衛星総数: %d",  //OK
 
 	"Back": "戻る",  //OK ボタン
 	"Installed": "設置済みユニット",  //仮
@@ -1397,7 +1397,7 @@
 	"Launch a Satellite using Human Technology": "人類のテクノロジーで人工衛星を打ち上げる",
 	//text
 	"<header>Satellite Launch</>\n\nResearch the human technology and Launch a Satellite to contact the mothership <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>":
-		"<header>衛星打ち上げ</>\n\n人類のテクノロジーを研究し、母船とコンタクトするための衛星を打ち上げる。 <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>",
+		"<header>人工衛星打ち上げ</>\n\n人類のテクノロジーを研究し、母船とコンタクトするための人工衛星を打ち上げる。 <img image=\"Main/textures/icons/frame/satellite.png\" width=\"64\" height=\"64\"/>",
 
 	//solved_explorable_human 11 以上
 	//talking_heads_explorable_human
@@ -1441,11 +1441,11 @@
 		"私たちは軽量な素材を開発する必要があります。\n\nこの惑星の自然資源を、私たちが持っている技術に最大限に合わせてきました。\n\n私たちが開発した高密度フレームは、修理には役立つでしょうが、すべてのニーズに対しては密度が高すぎます。\n\nフレームが持つエネルギッシュな性質を保ちつつ、より軽量なものを開発する必要があります。",
 
 	//techs.t_ldframe.unlocks 　"Matrix Frames"研究後
-	"Develop Satellite Technology": "衛星技術の開発",
+	"Develop Satellite Technology": "人工衛星技術の開発",
 	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.":
-		"私たちは今、軽量な低密度フレームを生産する方法を獲得しました。\n母船に物資を送る方法を見つけることに非常に近づいています。\n\n人類はこの環境によって深く影響を受けているようです。\n彼らは生き残るために基礎科学の理解を加速させる必要がありました。\n私たちもその道を追い、彼らの運命を受けないようにしなければなりません。\n\n私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
+		"私たちは今、軽量な低密度フレームを生産する方法を獲得しました。\n母船に物資を送る方法を見つけることに非常に近づいています。\n\n人類はこの環境によって深く影響を受けているようです。\n彼らは生き残るために基礎科学の理解を加速させる必要がありました。\n私たちもその道を追い、彼らの運命を受けないようにしなければなりません。",
 	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.":
-		"かつて人類もまた、この惑星の軌道に戻るのに困っていたようです。\n\nしかし、彼らは衛星を建造することができました。\nそして、ブライトをよりよく理解することで、それらを大気圏を突破して打ち上げることができました。\n\n私たちは今、この基本的な人間の生産手法と、彼らのロケット技術の構築方法を理解しています。\n今度はさらに研究を深め、この技術を使って彼らの衛星技術を獲得する方向に進めなければなりません。",
+		"かつて人類もまた、この惑星の軌道に戻るのに困っていたようです。\n\nしかし、彼らは人工衛星を建造することができました。\nそして、ブライトをよりよく理解することで、それらを大気圏を突破して打ち上げることができました。\n\n私たちは今、この基本的な人間の生産手法と、彼らのロケット技術の構築方法を理解しています。\n今度はさらに研究を深め、この技術を使って彼らの人工衛星技術を獲得する方向に進めなければなりません。",
 
 	//techs.t_power_cores.unlocks   "Human Science"研究後
 	"Helping HIGGS: AI Core": "HIGGSの支援：AIコア",
@@ -1527,14 +1527,17 @@
 	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.":
 		"私たちは技術的な進歩に制限があるため、この惑星の表面を調査して情報を収集することをおすすめします。\n\n遺跡となった構造物が見つかるはずです。そこには私たちが進展するのに役立つ新しい技術についての知見が見つかるでしょう。",
 
-	"Ship Repair: High-Density Frames": "船の修理 高密度フレーム",
-	"Build High-Density Framers for Mothership": "母船のための高密度フレーマーを製作。",
-	"Now we have a way to send items to the mothership, it's time to send the materials required to repair it. You should be able to scan for the mothership using a <hl>Long-range Radar</>.": "母船にアイテムを送る方法ができたので、次は修理に必要な資材を送る番だ。<hl>長距離レーダー</>を使って母船をスキャンできるはずだ。",
-	"Ship Repair: Fused Electrodes": "船の修理 溶融電極",
-	"Ship Repair: Obsidian": "船の修理 黒曜石",
-	"Ship Repair: Low-Density Frames": "船の修理 低密度フレーム",
-	"Ship Repair: Blight Plasma": "船の修理 ブライトプラズマ",
-	"Ship Repair: Optic Cable": "船の修理 光ケーブル",
+	// satellites_launched  初回
+	"Ship Repair: High-Density Frames": "母線修理: 高密度フレーム",
+	"Build High-Density Framers for Mothership": "母船用に高密度フレームを生産",
+	"Now we have a way to send items to the mothership, it's time to send the materials required to repair it. You should be able to scan for the mothership using a <hl>Long-range Radar</>.":
+		"母船にアイテムを送る方法が整いました。\n続いて修理に必要な資材を送りましょう。\n<hl>中型レーダー</>を使って母船をスキャンできるはずです。\n\n訳注:原文は<hl>中型レーダー</>になっているものの、<hl>高密度フレーム</>を打ち上げる必要があります。",
+
+	"Ship Repair: Fused Electrodes": "母線修理: 溶融電極",
+	"Ship Repair: Obsidian": "母線修理: 黒曜石",
+	"Ship Repair: Low-Density Frames": "母線修理: 低密度フレーム",
+	"Ship Repair: Blight Plasma": "母線修理: ブライトプラズマ",
+	"Ship Repair: Optic Cable": "母線修理: 光ケーブル",
 	"Blight discovery": "ブライトの発見",
 
 	//try_enter_blight
@@ -1548,11 +1551,11 @@
 	"Commander, we have discovered a structure that appears to be of <hl>human</> origin. These ruins might provide invaluable insights into the history and technology of the human race.\n\nTechnology seems compatible with ours but will need scanning to be able to extract the required intel to research such technology":
 		"司令官、<hl>人類</>によるものと思われる建築物を発見しました。\n人類の歴史やテクノロジーについて非常に貴重な知見になるかもしれません。\n\nテクノロジーは私たちと互換性があるようですが、テクノロジーを研究するために必要な情報を抽出できるスキャン能力が必要です。",
 
-	//techs.t_satellites.unlocks  「衛星」研究後
+	//techs.t_satellites.unlocks  「人工衛星」研究後
 	"Researched Satellites": "人工衛星の研究",
-	"Satellites can be built and resources sent to the mothership.": "衛星を建設し、母船に資源を送る事ができる",
+	"Satellites can be built and resources sent to the mothership.": "人工衛星を作成し、母船に資源を送る事ができる",
 	"Congratulations on unlocking satellite technology!\n\n[ Repairs to the mothership are not currently not accessible, but will be available in a future update!   This is as far as this story branch proceeds, but look forward to more to come!! ]":
-		"衛星技術の解明、おめでとう！\n\n[ 母船の修理には現在アクセスできないが、将来のアップデートで可能になる予定です！  このストーリーの分岐はここまでですが、今後の展開にご期待ください ]",
+		"人工衛星技術の解明、おめでとう！\n\n[ 母船の修理には現在アクセスできないが、将来のアップデートで可能になる予定です！  このストーリーの分岐はここまでですが、今後の展開にご期待ください ]",
 
 	//techs.t_signals3.unlocks  「ナノマシン」研究後
 	"Nanomachines": "ナノマシン",
@@ -1589,7 +1592,7 @@
 	"Now let's begin mining the metal ore deposit.\n\nSelect a <hl>Scout</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/> with a <img id=\"c_adv_miner\" width=\"40\" height=\"40\"/> <hl>Laser Mining Tool</>\n\nClick the <Key action=\"ExecuteAction\" style=\"hl\"/> on the <img id=\"metalore\" width=\"40\" height=\"40\"/> <hl>Metal Ore</> resource to start mining.":
 		"では、金属鉱石の採掘を始めましょう。\n\n<img id=\"c_adv_miner\" width=\"40\" height=\"40\"/><hl>レーザー採掘装置</>を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>金属鉱石</><img id=\"metalore\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると、採掘を開始します。",
 	"Now let's begin mining crystals.\n\nSelect the other <hl>Scout</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/> with a miner\n\nClick the <Key action=\"ExecuteAction\" style=\"hl\"/> on the <img id=\"crystal\" width=\"40\" height=\"40\"/> <hl>Crystal</> resource to start mining.\n\nYou are also able to pick up <hl>Scattered</> Crystal without the need to mine it.":
-		"次に、クリスタルの採掘を始めましょう。\n\n同じくレーザー採掘装置を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>クリスタル原石</><img id=\"crystal\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると採掘を開始します。\n\nまた、<hl>散らばっている資源</>は採掘しなくても拾うことができます。",
+		"次に、クリスタルの採掘を始めましょう。\n\n同じくレーザー採掘装置を装備した<hl>スカウト</><img id=\"f_bot_1s_as\" width=\"50\" height=\"50\"/>を選択します。\n\n<hl>クリスタル原石</><img id=\"crystal\" width=\"40\" height=\"40\"/>を<Key action=\"ExecuteAction\" style=\"hl\"/>でクリックすると採掘を開始します。\n\nまた、<hl>拾える状態の資源</>は採掘しなくても拾うことができます。",
 
 	"Sockets": "ソケット",
 	"<bl>Units</> and <bl>Buildings</> gain functionality via <hl>Components</> that need to be constructed separately..\n\n<hl>Components</> are placed into <hl>Sockets</> which come in four sizes:  <hl>Small</>, <hl>Medium</>, <hl>Large</> and <hl>Internal</> . You can equip a Component into the same size <hl>Sockets</> or larger.":
@@ -2264,19 +2267,19 @@
 	"Repair target": "修理対象",  //仮
 	"Missing repair resource": "修理部品が不足",  //仮
 
-	"Satellite Launcher": "衛星打上げ装置",
+	"Satellite Launcher": "人工衛星打上げ装置",
 	"Launches a satellite. Items still in the AMAC inventory will be transferred to the satellite before launch":
-	  "衛星を打ち上げる。AMACのインベントリに残っているアイテムは、打ち上げ前に衛星に移される",
+	  "人工衛星を打ち上げる。AMACのインベントリに残っているアイテムは、打ち上げ前に人工衛星に移される",
 	"Launch": "打ち上げ",
 	"Atmospheric interference is too high. Find a way to reduce the influence of the blight to allow launching of satellites.":
 	  "大気の干渉が高すぎる。人工衛星の打ち上げを可能にするために、ブライトの影響を軽減する必要がある",
 	"Blight Interference": "ブライト干渉",
 	"large1": "ラージワン",  //おそらく不要 エフェクトID
 
-	"Satellite Unit": "衛星ユニット",
+	"Satellite Unit": "人工衛星ユニット",
 	"Land": "着陸",
-	"The satellite launcher was lost, unable to land": "衛星打ち上げロケットが着陸できずに行方不明",
-	"The satellite launcher is not free for landing": "衛星発射台は着陸の自由がない",
+	"The satellite launcher was lost, unable to land": "人工衛星打ち上げロケットが着陸できずに行方不明",
+	"The satellite launcher is not free for landing": "人工衛星発射台は着陸の自由がない",
 
 	"Hacking Tool": "ハッキングツール",
 	"Hacks units to be controllable by you. Set the unit and hack code into the first register to activate.":
@@ -2298,11 +2301,11 @@
 	"Blight power extraction cell generating power inside the blight": "ブライト内で電力を生成するブライト電力抽出セル",
 	"Fusion Generator": "フュージョンジェネレーター",
 	"Medium Battery": "中型バッテリー",
-	"Rechargeable cell that can store up to <hl>50,000</> power": "<hl>50,000</>回まで蓄電可能な充電式セル",
+	"Rechargeable cell that can store up to <hl>50,000</> power": "<hl>50,000</> の電力まで蓄電可能な充電式セル",
 	"Large Battery": "大型バッテリー",
 	"Rechargeable cell that can store a large amount of power": "大容量の電力を蓄える事ができる充電式電池",
 	"Large Power Transmitter": "高電力トランスミッター",
-	"Transmits <hl>500</> power to a remote target": "<hl>500</>電力を遠隔地に送信",
+	"Transmits <hl>500</> power to a remote target": "<hl>500</> の電力を遠隔地に送信",
 	"Medium Storage": "中型ストレージ",
 	"Expands storage of Frame by <hl>9 slots</>": "フレームのストレージを<hl>9スロット</>拡張",
 	"Drone Launcher": "ドローンランチャー",
@@ -2362,16 +2365,18 @@
 	// "Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
 	"Slowly regenerates nearby resources up to 200, only works if placed inside the blight":"近くの資源をゆっくりと再生させる (上限200)",
 	"Blight Stabilizer": "ブライト スタビライザー",
+
 	"Resource Converter": "リソース コンバーター",
-	"When placed inside the blight will convert laterite to metal ore and silica": "このような場合、ブライトはラテライトをメタロアとシリカに変えます。",
+	"When placed inside the blight will convert laterite to metal ore and silica": "ブライトの中に設置すると、ラテライト鉱石を金属鉱石とシリカに変換できる",
 	"Must be placed inside the blight": "ブライトの内側に置かなければならない",
 	"Not enough room for output": "アウトプットに十分なスペースがない",
 	"silica": "シリカ",
 	"crystal": "クリスタル",
+
 	"Blight Control Tower": "ブライト コントロール タワー",
 	"Blight control terminal for stabilization": "安定化用ブライト端末",
 	"Alien Unit": "エイリアン ユニット",
-	"Alien Miner": "エイリアン マイナー",
+	"Alien Miner": "エイリアンの採掘装置",
 	"Alien mining": "エイリアンの採掘",
 	"Alien Extractor": "エイリアン エクストラクター",
 	"Alien extraction": "エイリアンの摘出",
@@ -2619,16 +2624,16 @@
 	"Beacon": "ビーコン",
 	"Large Beacon": "大型ビーコン",
 	"Building 1x1 (1M)": "建屋 1x1 (1M)",
-	"Sacrifices Inventory Space to be able to support a Medium Component": "中型コンポーネントを利用出来るが、インベントリが小さい。",
+	"Sacrifices Inventory Space to be able to support a Medium Component": "中型コンポーネントを利用できるが、インベントリが小さい",
 	"Building 1x1 (L)": "建屋 1x1 (L)",
-	"Can support a Large Component but lacks an inventory space": "大型コンポーネントを利用出来るが、インベントリが非常に小さい。",
+	"Can support a Large Component but lacks an inventory space": "大型コンポーネントを利用できるが、インベントリが非常に小さい",
 	"Building 1x1 (2S)": "建屋 1x1 (2S)",
-	"Provides an second Small Component Slot at the expense of Inventory Space": "インベントリースペースを犠牲にして、2つ目の小型コンポーネントスロットを提供する。",
+	"Provides an second Small Component Slot at the expense of Inventory Space": "インベントリースペースを犠牲にして、2つ目の小型コンポーネントスロットを提供する",
 	"Building 1x1 (1S)": "建屋 1x1 (1S)",
-	"Basic 1x1 Building with Good Inventory space, but supports only one Small Component": "基本的な1x1の建屋で、十分な大きさのインベントリを持つが、1つの小型コンポーネントしか利用出来ない。",
+	"Basic 1x1 Building with Good Inventory space, but supports only one Small Component": "基本的な1x1の建屋で、十分な大きさのインベントリを持つが、1つの小型コンポーネントしか利用できない",
 	"Storage Block (8)": "貯蔵ブロック (8)",
 	"A simple storage unit. Automatically transfer items here through the logistics network by setting the STORE parameter of other units to this building.":
-	  "簡易倉庫。他のユニットの Storeレジスタ をこのビルに設定することで、物流ネットワークを通じて自動的にここにアイテムが転送される。",
+	  "簡易倉庫。他のユニットの Storeレジスタ をこのビルに設定することで、物流ネットワークを通じて自動的にここにアイテムが転送される",
 	"Building 2x1 (2M)": "建屋 2x1 (2M)",
 	"Building 2x1 (2S1M)": "建屋 2x1 (2S1M)",
 	"Building 2x1 (1M1S)": "建屋 2x1 (1M1S)",
@@ -2653,17 +2658,17 @@
 	"Advanced high-speed starter bot with a single small socket": "小型ソケット1個を搭載した先進の高速スターターボット",
 	"Unit": "ユニット",  //OK
 	"Worker": "作業ボット",  //仮
-	"Initial low-tech bots.  Mount a single small component and have a single inventory": "初期のローテク ボット。  小さな部品を1つ搭載し、1つのインベントリを持つ。",
+	"Initial low-tech bots.  Mount a single small component and have a single inventory": "初期のローテク ボット。小型スロットを1つ搭載し、1つのインベントリを持つ",
 	"Dashbot": "ダッシュボット",
 	"A faster upgrade to the worker bot with additional inventory": "インベントリ追加による作業ボットの高速アップグレード",
 	"Twinbot": "ツインボット",
 	"A bot with two small components to allow complimentary functionality": "補完的な機能を可能にする2つの小さなコンポーネントを備えたボット",
 	"Cub": "カブ",
-	"This bot is the first to mount a medium component": "このロボットは中型コンポーネントを初めて搭載した。",
+	"This bot is the first to mount a medium component": "中型スロットを搭載できるボット",
 	"Dropped Item": "落下物",
 	"Construction": "建築中",  //仮
 	"Foundation": "基礎",
-	"The ground foundation that gives a 20% speed boost": "スピードを20％向上させる地盤",
+	"The ground foundation that gives a 20% speed boost": "スピードを 20% 向上させる地盤",
 	"Human Foundation": "人類の建築基礎",
 	"Basic Human Foundation": "人類の建築基礎(基本)",
 	"Explorable": "調査可能箇所",  //仮
@@ -2678,16 +2683,16 @@
 	"Malika": "マリカ",
 	"Mothika": "モティカ",
 	"Ravager": "ラヴェジャー",
-	"Gigakaiju": "ギガカイジュウ",
+	"Gigakaiju": "ギガ カイジュウ",
 	"Particle Spawner": "パーティクル スポナー",
 	"Resource Obsidian": "資源 黒曜石",
 	"Resource Laterite": "資源 ラテライト",
-	"Resource Metal": "リソース メタル",
-	"Resource Crystal": "リソース クリスタル",
-	"Resource Silica": "資源シリカ",
-	"Resource Blight Crystal": "リソース ブライトクリスタル",
+	"Resource Metal": "資源 メタル",
+	"Resource Crystal": "資源 クリスタル",
+	"Resource Silica": "資源 シリカ",
+	"Resource Blight Crystal": "資源 ブライトクリスタル",
 	"Silica Tree": "シリカツリー",
-	"Scattered Resource": "散らばっている資源",
+	"Scattered Resource": "拾える状態の資源",
 	"Small Bot Glitch": "小さなボットの不具合",
 	"Bug Hive": "昆虫の巣",
 	"bug": "バグ",
@@ -2714,19 +2719,19 @@
 	"Drone": "ドローン",
 	"drone": "ドローン",
 	"Transfer Drone": "トランスファードローン",
-	"Miner Drone": "マイナー ドローン",
-	"Advanced Miner Drone": "アドバンスド マイナー ドローン",
+	"Miner Drone": "採掘ドローン",
+	"Advanced Miner Drone": "アドバンスド 採掘ドローン",
 	"Defense Drone": "防衛ドローン",
 	"Shuttle Bot": "シャトルボット",
 	"flyer": "フライヤー",
-	"Satellite": "衛星",
-	"satellite": "衛星",
+	"Satellite": "人工衛星",
+	"satellite": "人工衛星",
 	"Building 3x2 (1L3M)": "建屋 3x2 (1L3M)",
 	"Building 3x2 (2M2S)": "建屋 3x2 (2M2S)",
-	"AMAC": "アマック",
-	"This structure allows for the construction and launching of satellite units capable of operating in space.": "この構造により、宇宙で活動可能な衛星ユニットの建設と打ち上げが可能になる。",
+	"AMAC": "AMAC",
+	"This structure allows for the construction and launching of satellite units capable of operating in space.": "この構造により、宇宙で活動可能な人工衛星ユニットの建設と打ち上げが可能になる。",
 	"auto": "オート",
-	"Human Flyer": "人類の飛空装置",  //仮
+	"Human Flyer": "人類の飛空ボット",  //仮
 	"Human Tank": "人類の戦車",
 	"Human Miner Mech": "人類の採掘メカ",
 	"Alien Soldier": "エイリアン ソルジャー",
@@ -3310,10 +3315,10 @@
 	"Set the signpost to specific text":"サインポストに文字列を指定する",
 
 	// "Launch":"Launch",
-	"Launches a satellite if equipped on an AMAC":"AMACが装備されている場合、衛星を打ち上げる",
+	"Launches a satellite if equipped on an AMAC":"AMACが装備されている場合、人工衛星を打ち上げる",
 
 	// "Land":"Land",
-	"Tells a satellite that has been launched to land":"打ち上げた衛星に着陸を指示する",
+	"Tells a satellite that has been launched to land":"打ち上げた人工衛星に着陸を指示する",
 
 
 	// FILE: Main/data/items.lua
@@ -3409,22 +3414,22 @@
 	"Compressed Simulation Data": "圧縮されたシミュレーションデータ",  //???
 	"Allows for greater processing of research algorithms": "研究アルゴリズムの処理能力を向上",  //???
 	"Human Data Bank": "人類のデータバンク",  //???
-	"A databank that holds human research data": "ヒトの研究データを保管するデータバンク",  //???    "Human Data Bank"と"Alien Data Bank"の説明文が同じ
+	"A databank that holds human research data": "人類の研究データを保管するデータバンク",  //???    "Human Data Bank"と"Alien Data Bank"の説明文が同じ
 	"Alien Data Bank": "エイリアン データバンク",  //???
 	"Drone Package": "ドローンパッケージ",  //???
 	"A drone exclusively for transferring items over a short range": "近距離での物品搬送専用のドローン",  //???
-	"package": "パッケージ",  //おそらく不要  本文ではなく「tag」という内部データと思われる
+	"package": "パッケージ",  //
 	"Transfer Drone Package": "トランスファードローンパッケージ",
 	"A drone exclusively for transferring items in a large area": "広いエリアでの搬送専用のドローン",
-	"Miner Drone Package": "マイナー ドローン パッケージ",
+	"Miner Drone Package": "採掘ドローン パッケージ",
 	"A drone with a drill attachment": "ドリルアタッチメント付きドローン",
-	"Advanced Miner Drone Package": "アドバンスド マイナー ドローン パッケージ",
+	"Advanced Miner Drone Package": "アドバンスド 採掘ドローン パッケージ",
 	"Defense Drone Package": "防衛ドローンパッケージ",
 	"A drone with a laser": "レーザー付きドローン",
-	"Medium Flyer Package": "ミディアム フライヤー パッケージ",
-	"Compacted medium flyer package": "コンパクトな中型飛空パッケージ",  //仮
-	"Satellite Package": "衛星パッケージ",
-	"Compacted satellite package": "コンパクトな衛星パッケージ",
+	"Medium Flyer Package": "中型 飛空ボット パッケージ",
+	"Compacted medium flyer package": "コンパクトな中型飛空ボットパッケージ",  //仮
+	"Satellite Package": "人工衛星パッケージ",
+	"Compacted satellite package": "コンパクトな人工衛星パッケージ",
 	"Blight Crystal Chunk": "ブライトクリスタル原石",
 	"A crystal energized with power": "電力に満ちたクリスタル",
 	"Blight Extraction": "ブライト抽出",
@@ -3551,7 +3556,7 @@
 	"Allows construction of long distance shuttles and related facilities": "長距離シャトルと関連施設の建設を許可する。",
 	"Hacking": "ハッキング",
 	"Allows Hacking of digital entities": "デジタル エンティティのハッキングを許可する",
-	"Satellites": "衛星",
+	"Satellites": "人工衛星",
 	"Allows construction of satellites that can be launched into space": "宇宙に打ち上げられる人工衛星の建設が可能",
 	"Human Technology": "人類のテクノロジー",
 	// "Human Command. Control and Research Center": "人類 コマンド　コントロール リサーチ センター",  英文に存在せず
