@@ -1443,7 +1443,7 @@
 	//techs.t_ldframe.unlocks 　"Matrix Frames"研究後
 	"Develop Satellite Technology": "衛星技術の開発",
 	"We now know how to produce light weight Low-Density Frames.  We are very close to finding a way of sending material resources up to the mothership.\nHumanity seems to have been deeply affected by this environment.\nThey needed to accelerate their fundamental scientific understanding in order to try to survive.  We must follow in their path or we will surely suffer their fate.":
-		"私たちは今、軽量な低密度フレームを生産する方法を獲得しました。\n母船に物資を送る方法を見つけることに非常に近づいています。\n\n人類はこの環境によって深く影響を受けているようです。\n彼らは生き残るために基礎科学の理解を加速させる必要がありました。\n私たちもその道を追い、彼らの運命を受けないようにしなければなりません。\n\n私たちは現在、軽量な低密度フレームの生産方法を知っている。 母船に物資を送る方法もあと少しで見つかりそうだ。\n人類はこの環境に深く影響を受けたようだ。\n彼らは生き残るために、根本的な科学的理解を加速させる必要があった。 私たちは彼らの後に続かなければならない。",
+		"私たちは今、軽量な低密度フレームを生産する方法を獲得しました。\n母船に物資を送る方法を見つけることに非常に近づいています。\n\n人類はこの環境によって深く影響を受けているようです。\n彼らは生き残るために基礎科学の理解を加速させる必要がありました。\n私たちもその道を追い、彼らの運命を受けないようにしなければなりません。",
 	"The humans also seem to have had trouble returning to the planet's orbit.\n\nThey were able to build satellites though, and once they better understood the blight they were able to send them up through the atmosphere.\n\nWe understand this basic human production now and how to build their rocketry, but now we must research deeper and push this technology towards replicating their satellite technology.":
 		"かつて人類もまた、この惑星の軌道に戻るのに困っていたようです。\n\nしかし、彼らは衛星を建造することができました。\nそして、ブライトをよりよく理解することで、それらを大気圏を突破して打ち上げることができました。\n\n私たちは今、この基本的な人間の生産手法と、彼らのロケット技術の構築方法を理解しています。\n今度はさらに研究を深め、この技術を使って彼らの衛星技術を獲得する方向に進めなければなりません。",
 
@@ -1527,14 +1527,17 @@
 	"We are limited in technological advancement so I recommend we investigate the planet surface to gather intel.\n\nSeveral types of ruined structures can be found. They should provide insight into new technologies to help us progress.":
 		"私たちは技術的な進歩に制限があるため、この惑星の表面を調査して情報を収集することをおすすめします。\n\n遺跡となった構造物が見つかるはずです。そこには私たちが進展するのに役立つ新しい技術についての知見が見つかるでしょう。",
 
-	"Ship Repair: High-Density Frames": "船の修理 高密度フレーム",
-	"Build High-Density Framers for Mothership": "母船のための高密度フレーマーを製作。",
-	"Now we have a way to send items to the mothership, it's time to send the materials required to repair it. You should be able to scan for the mothership using a <hl>Long-range Radar</>.": "母船にアイテムを送る方法ができたので、次は修理に必要な資材を送る番だ。<hl>長距離レーダー</>を使って母船をスキャンできるはずだ。",
-	"Ship Repair: Fused Electrodes": "船の修理 溶融電極",
-	"Ship Repair: Obsidian": "船の修理 黒曜石",
-	"Ship Repair: Low-Density Frames": "船の修理 低密度フレーム",
-	"Ship Repair: Blight Plasma": "船の修理 ブライトプラズマ",
-	"Ship Repair: Optic Cable": "船の修理 光ケーブル",
+	// satellites_launched  初回
+	"Ship Repair: High-Density Frames": "母線修理: 高密度フレーム",
+	"Build High-Density Framers for Mothership": "母船用に高密度フレームを生産",
+	"Now we have a way to send items to the mothership, it's time to send the materials required to repair it. You should be able to scan for the mothership using a <hl>Long-range Radar</>.":
+		"母船にアイテムを送る方法が整いました。\n続いて修理に必要な資材を送りましょう。\n<hl>中型レーダー</>を使って母船をスキャンできるはずです。\n\n訳注:原文は<hl>中型レーダー</>になっているものの、<hl>高密度フレーム</>を打ち上げる必要があります。",
+
+	"Ship Repair: Fused Electrodes": "母線修理: 溶融電極",
+	"Ship Repair: Obsidian": "母線修理: 黒曜石",
+	"Ship Repair: Low-Density Frames": "母線修理: 低密度フレーム",
+	"Ship Repair: Blight Plasma": "母線修理: ブライトプラズマ",
+	"Ship Repair: Optic Cable": "母線修理: 光ケーブル",
 	"Blight discovery": "ブライトの発見",
 
 	//try_enter_blight
@@ -2298,11 +2301,11 @@
 	"Blight power extraction cell generating power inside the blight": "ブライト内で電力を生成するブライト電力抽出セル",
 	"Fusion Generator": "フュージョンジェネレーター",
 	"Medium Battery": "中型バッテリー",
-	"Rechargeable cell that can store up to <hl>50,000</> power": "<hl>50,000</>回まで蓄電可能な充電式セル",
+	"Rechargeable cell that can store up to <hl>50,000</> power": "<hl>50,000</> の電力まで蓄電可能な充電式セル",
 	"Large Battery": "大型バッテリー",
 	"Rechargeable cell that can store a large amount of power": "大容量の電力を蓄える事ができる充電式電池",
 	"Large Power Transmitter": "高電力トランスミッター",
-	"Transmits <hl>500</> power to a remote target": "<hl>500</>電力を遠隔地に送信",
+	"Transmits <hl>500</> power to a remote target": "<hl>500</> の電力を遠隔地に送信",
 	"Medium Storage": "中型ストレージ",
 	"Expands storage of Frame by <hl>9 slots</>": "フレームのストレージを<hl>9スロット</>拡張",
 	"Drone Launcher": "ドローンランチャー",
@@ -2362,16 +2365,18 @@
 	// "Slowly regenerates nearby resources, only works if placed inside the blight": "近くの資源をゆっくりと再生させる。",
 	"Slowly regenerates nearby resources up to 200, only works if placed inside the blight":"近くの資源をゆっくりと再生させる (上限200)",
 	"Blight Stabilizer": "ブライト スタビライザー",
+
 	"Resource Converter": "リソース コンバーター",
-	"When placed inside the blight will convert laterite to metal ore and silica": "このような場合、ブライトはラテライトをメタロアとシリカに変えます。",
+	"When placed inside the blight will convert laterite to metal ore and silica": "ブライトの中に設置すると、ラテライト鉱石を金属鉱石とシリカに変換できる",
 	"Must be placed inside the blight": "ブライトの内側に置かなければならない",
 	"Not enough room for output": "アウトプットに十分なスペースがない",
 	"silica": "シリカ",
 	"crystal": "クリスタル",
+
 	"Blight Control Tower": "ブライト コントロール タワー",
 	"Blight control terminal for stabilization": "安定化用ブライト端末",
 	"Alien Unit": "エイリアン ユニット",
-	"Alien Miner": "エイリアン マイナー",
+	"Alien Miner": "エイリアンの採掘装置",
 	"Alien mining": "エイリアンの採掘",
 	"Alien Extractor": "エイリアン エクストラクター",
 	"Alien extraction": "エイリアンの摘出",
@@ -2714,8 +2719,8 @@
 	"Drone": "ドローン",
 	"drone": "ドローン",
 	"Transfer Drone": "トランスファードローン",
-	"Miner Drone": "マイナー ドローン",
-	"Advanced Miner Drone": "アドバンスド マイナー ドローン",
+	"Miner Drone": "採掘ドローン",
+	"Advanced Miner Drone": "アドバンスド 採掘ドローン",
 	"Defense Drone": "防衛ドローン",
 	"Shuttle Bot": "シャトルボット",
 	"flyer": "フライヤー",
@@ -2723,10 +2728,10 @@
 	"satellite": "衛星",
 	"Building 3x2 (1L3M)": "建屋 3x2 (1L3M)",
 	"Building 3x2 (2M2S)": "建屋 3x2 (2M2S)",
-	"AMAC": "アマック",
+	"AMAC": "AMAC",
 	"This structure allows for the construction and launching of satellite units capable of operating in space.": "この構造により、宇宙で活動可能な衛星ユニットの建設と打ち上げが可能になる。",
 	"auto": "オート",
-	"Human Flyer": "人類の飛空装置",  //仮
+	"Human Flyer": "人類の飛空ボット",  //仮
 	"Human Tank": "人類の戦車",
 	"Human Miner Mech": "人類の採掘メカ",
 	"Alien Soldier": "エイリアン ソルジャー",
@@ -3409,20 +3414,20 @@
 	"Compressed Simulation Data": "圧縮されたシミュレーションデータ",  //???
 	"Allows for greater processing of research algorithms": "研究アルゴリズムの処理能力を向上",  //???
 	"Human Data Bank": "人類のデータバンク",  //???
-	"A databank that holds human research data": "ヒトの研究データを保管するデータバンク",  //???    "Human Data Bank"と"Alien Data Bank"の説明文が同じ
+	"A databank that holds human research data": "人類の研究データを保管するデータバンク",  //???    "Human Data Bank"と"Alien Data Bank"の説明文が同じ
 	"Alien Data Bank": "エイリアン データバンク",  //???
 	"Drone Package": "ドローンパッケージ",  //???
 	"A drone exclusively for transferring items over a short range": "近距離での物品搬送専用のドローン",  //???
-	"package": "パッケージ",  //おそらく不要  本文ではなく「tag」という内部データと思われる
+	"package": "パッケージ",  //
 	"Transfer Drone Package": "トランスファードローンパッケージ",
 	"A drone exclusively for transferring items in a large area": "広いエリアでの搬送専用のドローン",
-	"Miner Drone Package": "マイナー ドローン パッケージ",
+	"Miner Drone Package": "採掘ドローン パッケージ",
 	"A drone with a drill attachment": "ドリルアタッチメント付きドローン",
-	"Advanced Miner Drone Package": "アドバンスド マイナー ドローン パッケージ",
+	"Advanced Miner Drone Package": "アドバンスド 採掘ドローン パッケージ",
 	"Defense Drone Package": "防衛ドローンパッケージ",
 	"A drone with a laser": "レーザー付きドローン",
-	"Medium Flyer Package": "ミディアム フライヤー パッケージ",
-	"Compacted medium flyer package": "コンパクトな中型飛空パッケージ",  //仮
+	"Medium Flyer Package": "中型 飛空ボット パッケージ",
+	"Compacted medium flyer package": "コンパクトな中型飛空ボットパッケージ",  //仮
 	"Satellite Package": "衛星パッケージ",
 	"Compacted satellite package": "コンパクトな衛星パッケージ",
 	"Blight Crystal Chunk": "ブライトクリスタル原石",
