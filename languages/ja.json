@@ -105,7 +105,7 @@
 	"Unnamed %s": "無記名 %s",
 	"Unnamed": "無名",
 	"Unknown": "不明",
-	"Fixed (not removable)": "固定式（取り外し不可）",
+	"Fixed (not removable)": "取り外し不可",
 	"Untitled Behavior": "無題の行動プログラム",
 	"Price:": "価格: ",  //challenge shop cost での価示と思われる
 	"Produced by": "生産可能コンポーネント:",  //OK
@@ -245,16 +245,21 @@
 	"Power On": "電源オン",
 	"%s (Logistics Network)\n\nUnits Connected to the logistics network will\nautomatically deliver requested items and\nmake their own inventory items available to\nthe network\n\nA <hl>Power Grid</> represents a single <hl>Logistics Network</>\n\n<hl>Right-Click for options</>":
 		"%s\n\n物流ネットワークに接続しているユニットは、\nリクエストされたアイテムを自動的に配送し、\n自身のインベントリ アイテムをネットワークで利用可能にします。\n\n<hl>電力グリッド</>は<hl>物流ネットワーク</>と同範囲です。\n\n<hl>右クリックでオプション</>",
+	"%s (Transport Route)\n\nHave a Unit carry items from the GOTO to the STORE units":
+		"%s\n\nGoto レジスタから Store レジスタにアイテムを配送する",
+	"Transferring":"ルート輸送 有効",
+	"Not Transferring":"ルート輸送 無効",
+
 	"Active Requests (click to cancel)": "アクティブなリクエスト (クリックでキャンセル)",
 	"Request an Item to be Delivered": "アイテムの配送を依頼する",
 	"No free slots available for reservation": "予約可能なフリースロットはありません",
 	"highlight": "ハイライト",
 	"Cancel Orders": "オーダーのキャンセル",
-	"Fix All Slots": "すべてのスロットを固定する",
-	"Fix Slots to an Item": "アイテムを指定してスロット固定",  //仮
-	"Unfix All Slots": "全スロットの固定解除",
+	"Fix All Slots": "全スロットをロックする",
+	"Fix Slots to an Item": "アイテムを指定してスロットをロック",  //仮
+	"Unfix All Slots": "全スロットのロックを解除する",
 	"Drop All Items": "すべてのアイテムをドロップする",
-	"Fix Slot to an Item": "アイテムを指定してスロット固定",  //仮
+	"Fix Slot to an Item": "アイテムを指定してスロットをロック",  //仮
 	"Storing Inventory": "インベントリの保管",
 	"Store:": "転送: ",
 	"Component:": "コンポーネント: ",
@@ -287,6 +292,7 @@
 	"Load": "ロード",  //ライブラリで使用　　左上電力グリッドの統計でも使用、英文修正依頼中
 	"Batteries/Transmitters": "バッテリー/トランスミッター",
 	"Unused": "未使用",
+	"Not In Power Grid":"電力グリッド外",
 	"cannot lock on to target inside the blight": "ブライト内のターゲットにロックオンできない",
 	"Can't set a read-only register": "読み取り専用レジスタを設定できない",
 	"Can't link to a read-only register": "読み取り専用レジスタにリンクできない",
@@ -437,9 +443,9 @@
 	"No socket available to equip this component": "このコンポーネントを装備できるソケットはない",
 	"No slot available to convert this item": "このアイテムを変換するスロットはありません",
 	"Specific Amount": "分割",  //仮
-	"Fix Slot to this Item": "スロット固定",  //仮
-	"Fix Empty Slot": "空スロット固定",  //仮
-	"Unfix Slot": "スロット固定解除",
+	"Fix Slot to this Item": "このアイテムでスロットロック",  //仮
+	"Fix Empty Slot": "空スロットロック",  //仮
+	"Unfix Slot": "スロットロック解除",
 	"Select Unit": "ユニットを選択",
 	"Drop Item": "アイテムをドロップする",
 	"Unpack %s": "開梱 %s",
@@ -454,6 +460,7 @@
 	"Rename": "名前変更",
 	"Edit": "編集",
 	"Blueprint requires research": "青写真には調査が必要",
+	"Left-Button Edit, Right-Button Context Menu":"クリックで編集、右クリックでメニュー",
 	"Copy to Clipboard": "クリップボードにコピー",
 	"Move to folder": "フォルダに移動",
 	"Toolbox": "ツールボックス",
@@ -477,6 +484,10 @@
 	"New Folder": "新しいフォルダ",
 	"Are you sure you want to remove the folder '%S'?\n\nAll blueprints will default back to the top level": "フォルダ「%S」を削除しますか？\n\nすべてのブループリントはデフォルトでトップレベルに戻ります。",
 	"Create Folder": "フォルダの作成",
+
+	"Copy to Selected":"選択中のユニットに適用",
+	"Update units":"全ユニットを更新",
+	"Updates all units with the same behavior name":"同名の行動プログラム名のユニットを更新します",
 
 	// FILE: Main/ui/LoadSave.lua
 	"Name:": "名前: ",  //OK
@@ -1575,6 +1586,8 @@
 	"Bug Attack Imminent !!!": "バグ攻撃間近!",
 	"empty": "何もない",
 	"Init": "イニシャル",
+	"Instability Warning":"警告:安定度低下",  //未確認
+	"Dense Anomaly Clusters Detected":"密集した異常クラスターを検出",  //未確認
 
 	// FILE: Main/scenarios/freeplay/freeplay_tutorial.lua
 	"Understood": "了解",
@@ -1747,6 +1760,8 @@
 	"Counts number of items remaining in the specified unit": "指定したユニットの残りアイテム数を数える",
 	"Result": "結果",  //他所で使われているので変えられない
 	"unlock": "アンロック",  //おそらく不要  コマンド名
+	"Remaining": "アイテム残数",
+	"Reserved": "予約済み数のみ",
 
 	"Metal Miner Behavior": "鉱石採掘ボット用",
 	"Mines Metal Ore and drops it off to the specified location in the register": "金属鉱石を採掘し、レジスタの指定された場所に保管する",
@@ -1830,13 +1845,13 @@
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>RADAR</>\n\nThe <hl>Portable Radar</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/> is one of the first key components you will unlock in logistics technology.\n<bl>Radar can be set to search for one particular item or entity.  (multiple filters are Not for multiple items)</>\n\nFor example it could be set to search for metal ore <img width=\"50\" height=\"50\" id=\"metalore\"/> or enemies<img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/> or unsolved ruins<img width=\"50\" height=\"50\" id=\"v_unsolved\"/>\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\nThe first three boxes <rl>(1)</> are <hl>Filters</>, and the last box <rl>(2)</> is the <hl>Radar Result</>\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>Multiple Filters</>\n\n<bl>Multiple filters can be used to refine a search.</>\n\nFor example this setting will look for <hl>Silica</> and <hl>Dropped Item</>.  It will only look for 'scattered or dropped silica' on the ground and not mineable nodes.\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>レーダー</>\n\n<hl>ポータブルレーダー</> <img width=\"50\" height=\"50\" id=\"c_portable_radar\"/>は、ロジスティクス技術で最初に解放される主要なコンポーネントの一つです。\n\n<bl>レーダーは特定のアイテムやエンティティを検索するように設定することができます。</>\n<bl>（各フィルターは AND 条件です。複数のフィルターを使っても、複数のアイテムを検索することはできません)</>\n\n\n例えば、金属鉱石 <img width=\"50\" height=\"50\" id=\"metalore\"/>、敵 <img width=\"50\" height=\"50\" id=\"v_enemy_faction\"/>、または未解明の遺跡 <img width=\"50\" height=\"50\" id=\"v_unsolved\"/>を検索するように設定することができます。\n\n<img image=\"Main/textures/codex/registers/radar_registers.png\" width=\"450\" height=\"120\"/>\n\n最初の3つのボックス <rl>(1)</> は<hl>フィルター</>として機能し、最後のボックス <rl>(2)</> は<hl>レーダーの結果</>を表示します。\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>複数フィルター</>\n\n<bl>複数のフィルターを使用して検索を精緻化することができます。</>\n\n例えば、この設定では<hl>シリカ砂</>と<hl>落下物</>を探します。これにより、採掘可能なノードではなく、'地面上に散らばっている' か '落ちている' シリカ砂だけを探すことになります。\n\n\n<img image=\"Main/textures/codex/registers/radar_filters.png\" width=\"450\" height=\"90\"/>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Logistics 2:  Signal Readers":"物流2: シグナルリーダー",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>SIGNAL READERS</>\n\n<bl>With a </><hl>Signal Reader</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>one entity can Read from the </><hl>Signal Parameter</> <img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/> <bl> of another entity.</>\n\nExample: Twin Bot reading from Cub's signal parameter\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  In the example above the Twinbot's <hl>Signal Reader</> is set to Target the Cub.\n\n<rl>(2)</>  A result of <bl>[ Metal Ore ]</><img width=\"50\" height=\"50\" id=\"metalore\"/> is being returned from the Cub's <hl>Signal Parameter</>\n\n<rl>(3)</>  It is then feeding that result into it's miner component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>SIGNAL READERS</>\n\n<bl>With a </><hl>Signal Reader</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>one entity can Read from the </><hl>Signal Parameter</> <img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/> <bl> of another entity.</>\n\nExample: Twin Bot reading from Cub's signal parameter\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  In the example above the Twinbot's <hl>Signal Reader</> is set to Target the Cub.\n\n<rl>(2)</>  A result of <bl>[ Metal Ore ]</><img width=\"50\" height=\"50\" id=\"metalore\"/> is being returned from the Cub's <hl>Signal Parameter</>\n\n<rl>(3)</>  It then feeds that result into its miner component.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>シグナルリーダー</>\n\n<bl>シグナルリーダー</><img width=\"50\" height=\"50\" id=\"c_signal_reader\"/> <bl>を使用すると、指定のエンティティの</><hl>Signal レジスタ</><img image=\"Main/textures/codex/icons/register_signal.png\" width=\"50\" height=\"50\"/><bl>を読み取ることができます。</>\n\n例: <hl>ツインボット</>が<hl>カブ</>のSignal レジスタを読み取ります\n\n<img image=\"Main/textures/codex/logistics/signal_reader_1.png\" width=\"800\" height=\"320\"/>\n\n\n<rl>(1)</>  上の例では、ツインボットの<hl>シグナルリーダー</>はカブをターゲットに設定\n\n<rl>(2)</>  カブの<hl>Signal レジスタ</>から<bl>[金屬鉱石]</> <img width=\"50\" height=\"50\" id=\"metalore\"/>を読み取った結果\n\n<rl>(3)</>  その結果を採掘装置のパラメータに連携\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Logistics 3:  Transporters":"物流3: アイテム転送装置",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>TRANSPORTERS</>\n\n<bl>With a </><hl>Portable Transporter</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> (Range 1) a unit is able to pass items or components directly to another unit that is located beside it.\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\nIn the above example the Production building in the center has a Portable Transporter in one of it's internal slots.  With this:\n\n<rl>(1)</>  <bl>Metal Bars</> and <bl>Metal plates</> being stored in the <hl>Storage block</> on the left will be transported to the <hl>Production building</>\n\n<rl>(2)</>  <bl>Reinforced Plates</> being produced in the <hl>Production building</> will be transported to the <hl>Storage block</> on the right.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>TRANSPORTERS</>\n\n<bl>With a </><hl>Portable Transporter</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> (Range 1) a unit is able to pass items or components directly to another unit that is located beside it.\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\nIn the above example the Production building in the center has a Portable Transporter in one of its internal slots.  With this:\n\n<rl>(1)</>  <bl>Metal Bars</> and <bl>Metal plates</> being stored in the <hl>Storage block</> on the left will be transported to the <hl>Production building</>\n\n<rl>(2)</>  <bl>Reinforced Plates</> being produced in the <hl>Production building</> will be transported to the <hl>Storage block</> on the right.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>アイテム転送装置</>\n\n<hl>アイテム転送装置</><img width=\"50\" height=\"50\" id=\"c_portablecrane\"/> <bl>(範囲 1)を使用すると、そのユニットに隣接している他のユニットにアイテムやコンポーネントを直接渡すことができます。</>\n\n<img image=\"Main/textures/codex/logistics/transporter_1.png\" width=\"800\" height=\"320\"/>\n\n上の例では、中央の生産建屋の内部スロットの1つに<hl>アイテム転送装置</>があります。\nこれにより:\n\n<rl>(1)</>  左側の<hl>保管ブロック</>にある<bl>金属インゴット</>と<bl>金属板</>は、<hl>生産建屋</>によって運搬\n\n<rl>(2)</>  <hl>生産建屋</>で生産された<bl>強化プレート</>は、右側の<hl>保管ブロック</>に運搬\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Logistics 4:  Drones":"物流4: ドローン",
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>DRONES and DRONE PORTS</>\n\n<bl>Drone Ports</> <img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>house Drones</> <img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/> <bl>that perform logistics functions (fulfilling orders) on your network.</>\n\nDrone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> are produced separately from the Drone Ports and must be drag and dropped into the Port's inventory to load the Drones.\n\n<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>\n\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Components: Logistics</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>DRONES and DRONE PORTS</>\n\n<bl>Drone Ports</> <img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>house Drones</> <img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/> <bl>that perform logistics functions (fulfilling orders) on your network.</>\n\nDrone Packages <img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/> are produced separately from the Drone Ports and must be dragged and dropped into the Port's inventory to load the Drones.\n\n<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>\n\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
 		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>コンポーネント: 物流</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>ドローン と ドローンポート</>\n\n<bl>ドローン</><img width=\"50\" height=\"50\" id=\"f_drone_transfer_a\"/><bl>は、物流ネットワーク上でロジスティクス機能(注文の処理)を実行し、ドローンポート</><img width=\"50\" height=\"50\" id=\"c_drone_port\"/><bl>は、ドローンを収容します。</>\n\nドローンパッケージ<img width=\"50\" height=\"50\" id=\"drone_transfer_package\"/>はドローンポートとは別に生産され、ドローンを収容するためにポートのインベントリにドラッグ＆ドロップする必要があります。\n\n※訳注:コントロールセンター(<Key action=\"FactionView\" style=\"hl\"/>) -「ユニット一覧」からドローンを選択し、物流ネットワークへの接続が必要\n\n<img image=\"Main/textures/codex/logistics/drone_port_1.png\" width=\"800\" height=\"320\"/>\n\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 
 	"Getting Started": "はじめに",
@@ -1846,9 +1861,9 @@
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>HOTKEYS</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>GAME</>\n\nIn Game Menu:  <Key action=\"InGameMenu\" style=\"bl\"/>\nPause:  <Key action=\"PauseGame\" style=\"bl\"/>\nMap Overlay:  <Key action=\"MapOverlay\" style=\"bl\"/>\nChat:  <Key action=\"Chat\" style=\"bl\"/>\n\n<hl>CAMERA</>\n\nToggle Camera Rotation:  <Key action=\"MouseCameraRotateToggle\" style=\"bl\"/>\nCamera Zoom:  <Key axis=\"CameraZoom\" style=\"bl\"/>\nCamera Home:  <Key action=\"CameraHome\" style=\"bl\"/>\nSet Camera Zero:  <Key action=\"CameraZero\" style=\"bl\"/>\nFollow Camera:  <Key action=\"Camera_FollowTarget\" style=\"bl\"/>\n\n<hl>UNIT</>\n\nSelect Unit:  <Key action=\"SelectAction\" style=\"bl\"/>\nMove Unit:  <Key action=\"ExecuteAction\" style=\"bl\"/>\n\n<hl>MENU</>\n\nTech Tree:  <Key action=\"Tech\" style=\"bl\"/>\nBuild Menu:  <Key action=\"Build\" style=\"bl\"/>\nProgress:  <Key action=\"Progress\" style=\"bl\"/>\nCodex:  <Key action=\"Codex\" style=\"bl\"/>\nLibrary:  <Key action=\"Library\" style=\"bl\"/>\nControl Center:  <Key action=\"FactionView\" style=\"bl\"/>\n\n<hl>INFORMATION</>\n\nToggle Advanced Info:  <Key action=\"ToggleAdvanced\" style=\"bl\"/>\nPower Grid:  <Key action=\"PowerInfo_Toggle\" style=\"bl\"/>\nToggle Path Lines:  <Key action=\"ShowPath\" style=\"bl\"/>\nVisualization:  <Key action=\"MapOverlay\" style=\"bl\"/>\n\n<hl>COPY</>\n\nCopy Settings:  <Key action=\"UnitCopy\" style=\"bl\"/>\nPaste Settings:  <Key action=\"UnitPaste\" style=\"bl\"/>\n\n<hl>CONSTRUCTION</>\n\nBuild Menu:  <Key action=\"Build\" style=\"bl\"/>\nCursor:  <Key action=\"CursorGrid_Toggle\" style=\"bl\"/>\nRotate Component:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(Mouse over component icon)</>\nRotate Building/Site:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(Mouse over Building/Site)</>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>HOTKEYS</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>ゲーム</>\n\nゲーム内メニュー:  <Key action=\"InGameMenu\" style=\"bl\"/>\n一時停止:  <Key action=\"PauseGame\" style=\"bl\"/>\n地図オーバーレイ:  <Key action=\"MapOverlay\" style=\"bl\"/>\nチャット:  <Key action=\"Chat\" style=\"bl\"/>\n\n<hl>カメラ</>\n\nカメラの回転を切り替える:  <Key action=\"MouseCameraRotateToggle\" style=\"bl\"/>\nカメラズーム:  <Key axis=\"CameraZoom\" style=\"bl\"/>\nカメラ ホーム:  <Key action=\"CameraHome\" style=\"bl\"/>\nカメラのゼロを設定:  <Key action=\"CameraZero\" style=\"bl\"/>\nカメラを追跡:  <Key action=\"Camera_FollowTarget\" style=\"bl\"/>\n\n<hl>ユニット</>\n\nユニットを選択:  <Key action=\"SelectAction\" style=\"bl\"/>\nユニットの移動:  <Key action=\"ExecuteAction\" style=\"bl\"/>\n\n<hl>メニュー</>\n\n技術ツリー:  <Key action=\"Tech\" style=\"bl\"/>\n建設メニュー:  <Key action=\"Build\" style=\"bl\"/>\n進捗状況:  <Key action=\"Progress\" style=\"bl\"/>\nコーデックス:  <Key action=\"Codex\" style=\"bl\"/>\nライブラリ:  <Key action=\"Library\" style=\"bl\"/>\nコントロールセンター:  <Key action=\"FactionView\" style=\"bl\"/>\n\n<hl>情報</>\n\n詳細情報の切り替え:  <Key action=\"ToggleAdvanced\" style=\"bl\"/>\n電力グリッド:  <Key action=\"PowerInfo_Toggle\" style=\"bl\"/>\n経路の切り替え:  <Key action=\"ShowPath\" style=\"bl\"/>\n視覚化:  <Key action=\"MapOverlay\" style=\"bl\"/>\n\n<hl>コピー</>\n\n設定のコピー:  <Key action=\"UnitCopy\" style=\"bl\"/>\n設定の貼り付け:  <Key action=\"UnitPaste\" style=\"bl\"/>\n\n<hl>建設</>\n\n建築メニュー:  <Key action=\"Build\" style=\"bl\"/>\nカーソル:  <Key action=\"CursorGrid_Toggle\" style=\"bl\"/>\nコンポーネントの回転:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(コンポーネントのアイコンの上にマウスを置く)</>\n建築物/敷地を回転させる:  <Key action=\"RotateConstructionSite\" style=\"bl\"/>  <gray>(Mouse over Building/Site)</>\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Inventory Management": "インベントリ管理",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<Header>Inventory and Storage</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/codex_storage.png\" width=\"500\" height=\"200\"/>\n\n<hl>Inventory</> <bl>is space both bots and buildings have to hold items and components that are not mounted in a socket.</>\n\n<hl>Storage</> <bl>units will provide a place for bots to store items when needed.</>\n\nWhen a component is unable to output an item (e.g miner or fabricator) because the building it is in is full, it will stop producing until space is made.\n\nWhen a storage building however has a <hl>Shared Storage</><img width=\"50\" height=\"50\" id=\"c_shared_storage\"/> component, it becomes a place of storage where excess items can be stored when buildings or units become full.\n\nSome storage <bl>components</> can be slotted to provide extra storage slots however all slots on that unit will become available storage.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>Inventory Management</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>SPECIFIC AMOUNT</>\n\n1)  <img image=\"Main/textures/codex/menushots/specific_amount.png\"/>   2)  <img image=\"Main/textures/codex/menushots/specific_amount2.png\"/>   3)  <img image=\"Main/textures/codex/menushots/specific_amount3.png\"/>\n\n1)  Right Click on an inventory stack and Select [ Specific Amount ]\n2)  Input the amount you wish to take from the stack.\n3)  Left click and drag from the icon.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>FIX SLOT</>\n\n1)  <img image=\"Main/textures/codex/menushots/fix_slot.png\"/>  2)  <img image=\"Main/textures/codex/menushots/fixed_slot1.png\"/>  3)  <img image=\"Main/textures/codex/menushots/fixed_slot2.png\"/>  4) <img image=\"Main/textures/codex/menushots/fix_all.png\"/>\n\n1)  Right Click on an inventory stack and Select [ Fix Slot to this Item ]\n2)  The lock icon shows the slot as fixed.\n3)  You can also fix an empty slot by Right Clicking an empty slot and choosing [ Fix Empty Slot ]\n4)  Right Clicking on the loft left corner Icon of the inventory gives the option to [ Fix All SLots ]\n5)  Slots can be unfixed by Right Clicking and choosing the Unfix options.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>":
-		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<Header>インベントリ と 保管場所</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/codex_storage.png\" width=\"500\" height=\"200\"/>\n\n<hl>インベントリ</> <bl>ソケットに取り付けられていないアイテムやコンポーネントを収納するためのスペースです。</>\n\n<hl>保管場所</> <bl>ユニットは、ボットが必要なときにアイテムを保管する場所を提供します。</>\n\nあるコンポーネント（例：採掘装置や ファブリケーター）が、そのコンポーネントが入っている建築物が満杯であるためにアイテムを出力できない場合、そのコンポーネントはスペースができるまで生産を停止します。\n\nしかし、貯蔵ブロックに<hl>共有ストレージ</><img width=\"50\" height=\"50\" id=\"c_shared_storage\"/>コンポーネントがある場合、建築物やユニットが満杯になったときに余分なアイテムを保管できる保管場所になります。\n\nストレージの<bl>コンポーネント</>の中には、追加のストレージスロットを提供するものがありますが、そのユニットのすべてのスロットが使用可能なストレージとなります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>インベントリ管理</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>数量の具体的な指定</>\n\n1)  <img image=\"Main/textures/codex/menushots/specific_amount.png\"/>   2)  <img image=\"Main/textures/codex/menushots/specific_amount2.png\"/>   3)  <img image=\"Main/textures/codex/menushots/specific_amount3.png\"/>\n\n1)  インベントリスタックを右クリックし、[ 特定の数量 ]を選択します。\n2)  スタックから取りたい数量を入力します。\n3)  アイコンを左クリックしてドラッグ。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>固定スロット</>\n\n1)  <img image=\"Main/textures/codex/menushots/fix_slot.png\"/>  2)  <img image=\"Main/textures/codex/menushots/fixed_slot1.png\"/>  3)  <img image=\"Main/textures/codex/menushots/fixed_slot2.png\"/>  4) <img image=\"Main/textures/codex/menushots/fix_all.png\"/>\n\n1)  インベントリスタックを右クリックし、[ このアイテムにスロットを固定 ]を選択します。\n2)  ロックアイコンはスロットが固定されていることを示します。\n3)  空のスロットを右クリックし、[ 空のスロットを修正 ]を選択することによって、空のスロットを修正することもできます。\n4)  インベントリの左隅のアイコンを右クリックすると、[ すべてのスロットを固定 ]のオプションが表示されます。\n5)  スロットは右クリックし、固定解除オプションを選択することで固定を解除することができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>", // <MISSING TRANSLATION>
+		"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<Header>インベントリ と 保管場所</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/codex_storage.png\" width=\"500\" height=\"200\"/>\n\n<hl>インベントリ</> <bl>ソケットに取り付けられていないアイテムやコンポーネントを収納するためのスペースです。</>\n\n<hl>保管場所</> <bl>ユニットは、ボットが必要なときにアイテムを保管する場所を提供します。</>\n\nあるコンポーネント（例：採掘装置や ファブリケーター）が、そのコンポーネントが入っている建築物が満杯であるためにアイテムを出力できない場合、そのコンポーネントはスペースができるまで生産を停止します。\n\nしかし、貯蔵ブロックに<hl>共有ストレージ</><img width=\"50\" height=\"50\" id=\"c_shared_storage\"/>コンポーネントがある場合、建築物やユニットが満杯になったときに余分なアイテムを保管できる保管場所になります。\n\nストレージの<bl>コンポーネント</>の中には、追加のストレージスロットを提供するものがありますが、そのユニットのすべてのスロットが使用可能なストレージとなります。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>インベントリ管理</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>数量の具体的な指定</>\n\n1)  <img image=\"Main/textures/codex/menushots/specific_amount.png\"/>   2)  <img image=\"Main/textures/codex/menushots/specific_amount2.png\"/>   3)  <img image=\"Main/textures/codex/menushots/specific_amount3.png\"/>\n\n1)  インベントリスタックを右クリックし、[ 特定の数量 ]を選択します。\n2)  スタックから取りたい数量を入力します。\n3)  アイコンを左クリックしてドラッグ。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<hl>固定スロット</>\n\n1)  <img image=\"Main/textures/codex/menushots/fix_slot.png\"/>  2)  <img image=\"Main/textures/codex/menushots/fixed_slot1.png\"/>  3)  <img image=\"Main/textures/codex/menushots/fixed_slot2.png\"/>  4) <img image=\"Main/textures/codex/menushots/fix_all.png\"/>\n\n1)  インベントリスタックを右クリックし、[ このアイテムにスロットを固定 ]を選択します。\n2)  ロックアイコンはスロットが固定されていることを示します。\n3)  空のスロットを右クリックし、[ 空のスロットを修正 ]を選択することによって、空のスロットを修正することもできます。\n4)  インベントリの左隅のアイコンを右クリックすると、[ すべてのスロットを固定 ]のオプションが表示されます。\n5)  スロットは右クリックし、固定解除オプションを選択することで固定を解除することができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 //	"Power": "電力",   //重複
-	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<icon icon=\"icon_power\"/><header>Power</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/registers/power.png\" width=\"200\" height=\"120\"/>\n\n<bl>Units require</> <hl>Power</> <bl>to function</>\n\nLower power will lead to inefficiency and slower production. If a unit runs out of power then its components will not function and movement speed will be dramatically decreased. You can turn off a unit at any time to stop it from functioning using the Power button or by pressing <Key action=\"ToggleAdvanced\" style=\"hl\"/>.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>POWER GRIDS</>\n\n<hl>Power Grids</> <bl>define areas the bots will move freely powered by the grid.</>\n\nPower generators within the grid add to the grids total power and active components will draw power from this pool. You can toggle viewing of power grids using the button below the minimap or by pressing <Key action=\"PowerInfo_Toggle\" style=\"hl\"/>.\n\n<img image=\"Main/textures/codex/botshots/codex_power_grid_narrow.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>POWER TYPES</>\n\n<hl>[ POWER PRODUCERS ]</>\n\n<bl>Power Producers</> provide their power to a <hl>Power Grid</>.  This is constant * and not based on demand.  Excess power can be stored.  <gray>(see batteries below)</>\n\n<gray>Note:  Power Producers do not necessarily produce their own Power Grid.</>\n\n<img width=\"50\" height=\"50\" id=\"c_solar_cell\"/><bl>Solar Cells</> provide constant power to a grid during the daylight.\n\n<img width=\"50\" height=\"50\" id=\"c_wind_turbine\"/><bl>Wind Turbines</> provide constant power to a grid.  They produce double the power on the plateau.\n\n* constant so long as their power conditions apply (e.g. so long as there is daylight for a solar cell)\n\n\n\n<hl>[ BATTERIES ]</>\n\n<bl>Batteries</> provide their power to a <hl>Power Grid</> but on demand.  When a grid has insufficient power for its needs it will draw power from batteries and their power will drain.  How a battery recharges depends on the type of battery.\n\n<img width=\"50\" height=\"50\" id=\"c_small_battery\"/><bl>Batteries</> within a grid make their power available when <hl>Consumption</> exceeds power <hl>Production</>.  They have limited charge and discharge rates depend on size.  Batteries utilize the excess power in the grid they are in to recharge, and are very effective when used in conjunction with solar cells, for example, to compensate for power loss during the night.\n\n\n<img width=\"50\" height=\"50\" id=\"c_crystal_power\"/><bl>Crystal Power</> will add power to your grid the same as a standard battery.  They do not however recharge from excess power, but charge by consuming and converting crystal chunks to power.\n\n\n<hl>[POWER FIELDS]</>\n\n<img width=\"50\" height=\"50\" id=\"c_small_relay\"/> <bl>Power Fields</> generate a power grid around the unit they are equipped on.  Overlapping them on an existing power grid allows you to expand your existing power grid's range. Power Fields do not however provide their own power.  Power producers and batteries that are within a grid will supply to that grid.  If you create a completely separate grid, it will require its own power producers.\n\n\n<hl>[POWER TRANSMISSION]</>\n\n<img width=\"50\" height=\"50\" id=\"c_power_transmitter\"/>  <bl>Power Transmitters</> can transfer a limited amount of energy to a single unit, allowing that unit to move freely outside a power grid.\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<icon icon=\"icon_power\"/><header>電力</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/registers/power.png\" width=\"200\" height=\"120\"/>\n\n<bl>ユニット</> <hl>電源機能</>\n\n電力が低下すると非効率になり、生産速度が低下します。ユニットが電力不足になると、そのコンポーネントは機能しなくなり、移動速度は劇的に低下します。電源ボタンまたは <Key action=\"ToggleAdvanced\" style=\"hl\"/>を押すことで、いつでもユニットの電源を切って機能を停止させることができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>電力グリッド</>\n\n<hl> 電力グリッド</> <bl>グリッドによって電力を供給されたボットが自由に移動できるエリアを定義します。</>\n\nグリッド内の発電機はグリッドの総電力に追加され、アクティブなコンポーネントはこのプールから電力を引き出します。電力グリッドの表示は、ミニマップの下にあるボタン、または <Key action=\"PowerInfo_Toggle\" style=\"hl\"/>を押すことで切り替えることができます。\n\n<img image=\"Main/textures/codex/botshots/codex_power_grid_narrow.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>発電の種類</>\n\n<hl>[ 発電所 ]</>\n\n<bl> 発電所</>は<hl>電力グリッド</>に電力を供給します。 これは需要に関わらず一定量が発電されます。 余剰電力はバッテリーに蓄えることができます。 <gray>(バッテリーは下記を参照)</>\n\n<gray>注: 発電所は、必ずしも電力グリッドを作り出すとは限りません。</>\n\n<img width=\"50\" height=\"50\" id=\"c_solar_cell\"/><bl>ソーラーセル</> 日中、送電網に一定の電力を供給します。\n\n<img width=\"50\" height=\"50\" id=\"c_wind_turbine\"/><bl>風力タービン</> グリッドに一定の電力を供給する。 高地では2倍の電力を生み出します。\n\n* その電力条件が適用される限り発電量は常に一定です（例えば、ソーラーセルに日照がある限り）\n\n\n\n<hl>[ バッテリー ]</>\n\n<bl>バッテリー</> <hl>電力グリッド</>に需要に応じて電力を供給します。 電力グリッドに必要な電力が不足すると、バッテリーから電力が引き出され、その電力を消耗します。 バッテリーの充電方法はバッテリーの種類によって異なります。\n\n<img width=\"50\" height=\"50\" id=\"c_small_battery\"/>グリッド内の<bl>バッテリー</>は、<hl>消費</>が<hl>生産</>を上回ったときに電力を利用できるようにします。 バッテリーの充電/放電速度はサイズによって制限されます。 バッテリーは、グリッド内の余剰電力を利用して再充電します。例えば夜間の電力損失を補うためにソーラーセルと組み合わせて使用すると非常に効果的です。\n\n\n<img width=\"50\" height=\"50\" id=\"c_crystal_power\"/><bl>クリスタル電力装置</>は、標準的なバッテリーと同じようにグリッドに電力を追加します。 しかし、余分な電力から充電するのではなく、クリスタルの塊を消費して電力に変換することで充電します。\n\n\n<hl>[電力アンテナ]</>\n\n<img width=\"50\" height=\"50\" id=\"c_small_relay\"/><bl>電力アンテナ</>は、装備しているユニットの周囲に電力グリッドを生成します。 既存の電力グリッドに重ねることで、既存の電力グリッドの範囲を広げることができます。しかし、電力アンテナはそれ自身では電力を供給しません。 グリッド内にある発電所や バッテリーは、そのグリッドに電力を供給します。 完全に独立したグリッドを作る場合は、独自の発電所が必要になります。\n\n\n<hl>[電力送信機]</>\n\n<img width=\"50\" height=\"50\" id=\"c_power_transmitter\"/>  <bl>電力送信機</>は、限られた量のエネルギーを1つのユニットに転送し、そのユニットが電力グリッドの外で自由に移動できるようにすることができます。\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>", // <MISSING TRANSLATION>
+	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<icon icon=\"icon_power\"/><header>Power</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/registers/power.png\" width=\"200\" height=\"120\"/>\n\n<bl>Units require</> <hl>Power</> <bl>to function</>\n\nLower power will lead to inefficiency and slower production. If a unit runs out of power then its components will not function and movement speed will be dramatically decreased. You can turn off a unit at any time to stop it from functioning using the Power button or by pressing <Key action=\"ToggleAdvanced\" style=\"hl\"/>.\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>POWER GRIDS</>\n\n<hl>Power Grids</> <bl>define areas the bots will move freely powered by the grid.</>\n\nPower generators within the grid add to the grids total power and active components will draw power from this pool. You can toggle viewing of power grids using the button below the minimap or by pressing <Key action=\"PowerInfo_Toggle\" style=\"hl\"/>.\n\n<img image=\"Main/textures/codex/botshots/codex_power_grid_narrow.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>POWER TYPES</>\n\n<hl>[ POWER PRODUCERS ]</>\n\n<bl>Power Producers</> provide their power to a <hl>Power Grid</>.  This is constant * and not based on demand.  Excess power can be stored.  <gray>(see batteries below)</>\n\n<gray>Note:  Power Producers do not necessarily produce their own Power Grid.</>\n\n<img width=\"50\" height=\"50\" id=\"c_solar_cell\"/><bl>Solar Cells</> provide constant power to a grid during the daylight.\n\n<img width=\"50\" height=\"50\" id=\"c_wind_turbine\"/><bl>Wind Turbines</> provide constant power to a grid.  They produce double the power on the plateau.\n\n* constant so long as their power conditions apply (e.g. so long as there is daylight for a solar cell)\n\n\n\n<hl>[ BATTERIES ]</>\n\n<bl>Batteries</> provide their power to a <hl>Power Grid</> but on demand.  When a grid has insufficient power for its needs it will draw power from batteries and their power will drain.  How a battery recharges depends on the type of battery.\n\n<img width=\"50\" height=\"50\" id=\"c_small_battery\"/><bl>Batteries</> within a grid make their power available when <hl>Consumption</> exceeds power <hl>Production</>.  They have limited charge and discharge rates depend on size.  Batteries utilize the excess power in the grid they are in to recharge, and are very effective when used in conjunction with solar cells, for example, to compensate for power loss during the night.\n\n\n<img width=\"50\" height=\"50\" id=\"c_crystal_power\"/><bl>Crystal Power</> will add power to your grid the same as a standard battery.  They do not however recharge from excess power, but charge by consuming and converting crystal chunks to power.\n\n\n<hl>[POWER FIELDS]</>\n\n<img width=\"50\" height=\"50\" id=\"c_small_relay\"/> <bl>Power Fields</> generate a power grid around the unit they are equipped on.  Overlapping them on an existing power grid allows you to expand your existing power grid's range. Power Fields do not however provide their own power.  Power producers and batteries that are within a grid will supply to that grid.  If you create a completely separate grid, it will require its own power producers.\n\n\n<hl>[POWER TRANSMISSION]</>\n\n<img width=\"50\" height=\"50\" id=\"c_power_transmitter\"/>  <bl>Power Transmitters</> can transfer a limited amount of energy to a single unit, allowing that unit to move freely outside a power grid.\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<icon icon=\"icon_power\"/><header>電力</>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/registers/power.png\" width=\"200\" height=\"120\"/>\n\n<bl>ユニット</> <hl>電源機能</>\n\n電力が低下すると非効率になり、生産速度が低下します。ユニットが電力不足になると、そのコンポーネントは機能しなくなり、移動速度は劇的に低下します。電源ボタンまたは <Key action=\"ToggleAdvanced\" style=\"hl\"/>を押すことで、いつでもユニットの電源を切って機能を停止させることができます。\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>電力グリッド</>\n\n<hl> 電力グリッド</> <bl>グリッドによって電力を供給されたボットが自由に移動できるエリアを定義します。</>\n\nグリッド内の発電機はグリッドの総電力に追加され、アクティブなコンポーネントはこのプールから電力を引き出します。電力グリッドの表示は、ミニマップの下にあるボタン、または <Key action=\"PowerInfo_Toggle\" style=\"hl\"/>を押すことで切り替えることができます。\n\n<img image=\"Main/textures/codex/botshots/codex_power_grid_narrow.png\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<header>発電の種類</>\n\n<hl>[ 発電所 ]</>\n\n<bl> 発電所</>は<hl>電力グリッド</>に電力を供給します。 これは需要に関わらず一定量が発電されます。 余剰電力はバッテリーに蓄えることができます。 <gray>(バッテリーは下記を参照)</>\n\n<gray>注: 発電所は、必ずしも電力グリッドを作り出すとは限りません。</>\n\n<img width=\"50\" height=\"50\" id=\"c_solar_cell\"/><bl>ソーラーセル</> 日中、送電網に一定の電力を供給します。\n\n<img width=\"50\" height=\"50\" id=\"c_wind_turbine\"/><bl>風力タービン</> グリッドに一定の電力を供給する。 高地では2倍の電力を生み出します。\n\n* その電力条件が適用される限り発電量は常に一定です（例えば、ソーラーセルに日照がある限り）\n\n\n\n<hl>[ バッテリー ]</>\n\n<bl>バッテリー</> <hl>電力グリッド</>に需要に応じて電力を供給します。 電力グリッドに必要な電力が不足すると、バッテリーから電力が引き出され、その電力を消耗します。 バッテリーの充電方法はバッテリーの種類によって異なります。\n\n<img width=\"50\" height=\"50\" id=\"c_small_battery\"/>グリッド内の<bl>バッテリー</>は、<hl>消費</>が<hl>生産</>を上回ったときに電力を利用できるようにします。 バッテリーの充電/放電速度はサイズによって制限されます。 バッテリーは、グリッド内の余剰電力を利用して再充電します。例えば夜間の電力損失を補うためにソーラーセルと組み合わせて使用すると非常に効果的です。\n\n\n<img width=\"50\" height=\"50\" id=\"c_crystal_power\"/><bl>クリスタル電力装置</>は、標準的なバッテリーと同じようにグリッドに電力を追加します。 しかし、余分な電力から充電するのではなく、クリスタルの塊を消費して電力に変換することで充電します。\n\n\n<hl>[電力アンテナ]</>\n\n<img width=\"50\" height=\"50\" id=\"c_small_relay\"/><bl>電力アンテナ</>は、装備しているユニットの周囲に電力グリッドを生成します。 既存の電力グリッドに重ねることで、既存の電力グリッドの範囲を広げることができます。しかし、電力アンテナはそれ自身では電力を供給しません。 グリッド内にある発電所や バッテリーは、そのグリッドに電力を供給します。 完全に独立したグリッドを作る場合は、独自の発電所が必要になります。\n\n\n<hl>[電力送信機]</>\n\n<img width=\"50\" height=\"50\" id=\"c_power_transmitter\"/>  <bl>電力送信機</>は、限られた量のエネルギーを1つのユニットに転送し、そのユニットが電力グリッドの外で自由に移動できるようにすることができます。\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Production": "生産",
 	"<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>Production</>\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/production_top.png\" width=\"350\" height=\"200\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>Production components such as</> <hl>fabricators</> <bl>and</> <hl>assemblers</> <bl>allow you to produce new items.</>\n\n<header>Production Components:</>\n<img image=\"Main/textures/icons/components/Component_Fabricator_01_S.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/Component_Assembler_01_M.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/component_roboticsfactory_01_m.png\" width=\"64\" height=\"64\"/>  <img image=\"Main/textures/icons/components/Component_Refinery_01_M.png\" width=\"64\" height=\"64\"/>\n\n<hl>Fabricator</>\nEarly production components and simple materials\n\n<hl>Assembler</>\nPrimary production and advanced materials\n\n<hl>Robotics Assembler</>\nPrimary robot production component and Hi-tech materials and Packaged Units\n\n<hl>Refinery</>\nSpecialized materials production\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>Setting Production:</>\n\nSetting the Parameter to the production item will try to reserve the required ingredients based off of the number to be produced. If the production amount is set to infinity then half a stack of ingredients is reserved.\n\nWhen the unit does not contain the required ingredients then orders are made so that units connected to the logistics network will be able to bring the required ingredients when available. The next required ingredient is shown in the second Parameter.\n\nIf there is no available slot to output the produced item then production is halted until a free slot is made available.\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>": "<img image=\"Main/textures/codex/ui/line_h2.png\"/>\n<header>生産</>\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<img image=\"Main/textures/codex/production_top.png\" width=\"350\" height=\"200\"/>\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n\n<bl>ファブリケーター</> や <bl>アセンブラー</> などの生産コンポーネントにより、<bl>新しいアイテム</>を生産する事ができます。\n\n<header>生産コンポーネント:</>\n<img image=\"Main/textures/icons/components/Component_Fabricator_01_S.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/Component_Assembler_01_M.png\" width=\"64\" height=\"64\"/> <img image=\"Main/textures/icons/components/component_roboticsfactory_01_m.png\" width=\"64\" height=\"64\"/>  <img image=\"Main/textures/icons/components/Component_Refinery_01_M.png\" width=\"64\" height=\"64\"/>\n\n<hl>ファブリケーター</>\n初期の生産部品とシンプルな素材\n\n<hl>アセンブラー</>\n一次生産と先端素材\n\n<hl>ロボティクス アセンブラー</>\n一次ロボット生産部品、ハイテク素材、パッケージユニット\n\n<hl>リファイナリー</>\n特殊素材生産\n\n\n<img image=\"Main/textures/codex/ui/line_h1.png\"/>\n<header>生産設定:</>\n\nパラメーターを生産項目に設定すると、生産される数に基づいて必要な材料を予約しようとします。生産量が無限大に設定されている場合、半分の材料が予約されます。\n\nユニットに必要な材料がない場合、物流ネットワークに接続されているユニットが必要な材料を入手したときに持ってくる事ができるように注文が行われます。次に必要な材料は2番目のパラメータに示されています。\n\n生産されたアイテムを出力する空きスロットがない場合、生産は空きスロットができるまで中断されます。\n\n\n<img image=\"Main/textures/codex/ui/line_h2.png\"/>",
 	"Research": "研究",
@@ -1956,6 +1971,9 @@
 	"Can repair the unit it is equipped on": "装備したユニットを低速度で自動修理する",  //仮  Wikiの説明を追記
 	"ALLY": "アリー",  //おそらく不要  "Repair Component"の修理対象の判定文
 
+	"AOE Repair Component":"修理装置 (範囲効果)",
+	"Allows repair of all damaged Frames in a radius":"有効範囲内の破損したフレームを修復",
+
 	"Package": "包装",
 	//ゲーム開始直後の"Command Center"(ロボット) が持っているが、hidden なので見えない
 	"Deployment": "デプロイメント",  //仮  実機では見えない
@@ -1978,6 +1996,7 @@
 	"Select unit to absorb": "吸収するユニットを選択",  //実機で確認したい
 	"Select target to take in": "取り込む対象を選ぶ",  //仮
 	"Target not valid for re-deployment": "無効な取り込み対象です",  //仮
+	"Cannot acquire unit Deployer is equipped on":"デプロイヤーが装備しているユニットを獲得できません",//仮 実機で確認したい
 	"Cannot activate while components still have items in them": "コンポーネントにアイテムが入ったままでは起動できない",  //実機で確認したい
 
 	"Deployment Constructor": "デプロイメント コンストラクタ",  //実機で確認したい
@@ -2220,15 +2239,17 @@
 
 	"Re-simulator Core": "再シミュレーター コア",  //仮
 	"Reconstructs objects on a simulation level": "シミュレーションレベルでオブジェクトを再構築できる",  //仮
-	"Stability": "安定性",  //OK
+	"Stability": "安定度",  //OK
 	"<rl>DANGER:</> Overloaded": "<rl>危険:</> 過負荷状態",  //仮
 	"<hl>CAUTION:</> Overload Warning": "<hl>警告:</> 過負荷になりつつある",  //仮
 	"<hl>WARNING:</> Overloading not advised": "<hl>注意:</> 過負荷にならないように",  //仮
 
 	"Artificial Virus Core": "人工 ウイルスコア",  //?? そもそもどういうアイテムかが分からない
-	"Connects Virus instances into Re-simulator world stability": "ウイルスインスタンスを再シミュレーターの世界の安定性に接続する",  //?? そもそもどういうアイテムかが分からない
+	"Connects Virus instances into Re-simulator world stability":
+	  "ウイルスインスタンスを再シミュレーターのワールドの安定度に接続する",  //?? そもそもどういうアイテムかが分からない
 	"Artificial Blight Core": "人工 ブライトコア",  //?? そもそもどういうアイテムかが分からない
-	"Connects Blight instances into Re-simulator world stability": "ブライトインスタンスを再シミュレーターの世界の安定性に接続する。", //?? そもそもどういうアイテムかが分からない
+	"Connects Blight instances into Re-simulator world stability":
+	  "ブライトインスタンスを再シミュレーターのワールドの安定度に接続する。", //?? そもそもどういうアイテムかが分からない
 	"Artificial Robot Core": "人工 ロボットコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
 	"Artificial Human Core": "人工 人類のコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
 	"Artificial Alien Core": "人工 エイリアンコア", //?? そもそもどういうアイテムかが分からない  説明文は"Artificial Blight Core"と同じ
@@ -2634,6 +2655,9 @@
 	"Storage Block (8)": "貯蔵ブロック (8)",
 	"A simple storage unit. Automatically transfer items here through the logistics network by setting the STORE parameter of other units to this building.":
 	  "簡易倉庫。他のユニットの Storeレジスタ をこのビルに設定することで、物流ネットワークを通じて自動的にここにアイテムが転送される",
+	"Storage Block (16)": "貯蔵ブロック (16)",
+	"A larger storage unit which allows double stacking.":
+		"2段重ねが可能な大型収納ユニット",
 	"Building 2x1 (2M)": "建屋 2x1 (2M)",
 	"Building 2x1 (2S1M)": "建屋 2x1 (2S1M)",
 	"Building 2x1 (1M1S)": "建屋 2x1 (1M1S)",
@@ -2766,8 +2790,12 @@
 	"Break out of a loop": "ループから Break する",  //OK 一般的なプログラム用語なので英語のまま
 	"Exit": "プログラム終了",  //OK
 	"Stops execution of the behavior": "行動プログラムを停止する",
+
 	"Unlock": "ロック解除",  //??? state.limit = 1000   なんのロックを解除するのかが分からない Wikiにも記載なし
-	"Run as many instructions as possible. Use wait instructions to throttle execution.": "できるだけ多くの命令を実行する。待機命令を使って実行を調整する",
+	"Run as many instructions as possible. Use wait instructions to throttle execution.":
+	  "できるだけ多くの命令を実行する。\n※wait命令を使って実行を調整すること",
+	"Lock": "ロック",
+  "Run one instruction at a time":"同時に1つの命令コマンドのみ実行する",
 
 	"in": "in",  //おそらく不要 パラメータ
 	"Label": "ラベル",  //OK
@@ -2871,6 +2899,7 @@
 	"Performs code for all entities in visibility range of the unit":
 	  "条件を満たすエンティティに対して、処理をループ(繰り返し)で実行する\nただしエンティティは可視範囲内にあるものに限る\nまたフィルターはすべて満たしたエンティティがループの対象となる",  //OK
 
+	"Finished looping through all researchable tech": "ループ終了の場合", //20231007
 	"Researchable Tech": "ループ処理中の対象研究",  //OK
 	"Loop Research": "ループ (開始可能な研究)",  //OK
 	"Performs code for all researchable tech": "研究のうち、開始可能な研究(進行中のもの含む)に対して処理をループ(繰り返し)で実行する",  //OK
@@ -2919,6 +2948,17 @@
 	"Sets the numerical/coordinate part of a value":
 	  "任意の対象の数値部分を変更した内容を指定のレジスタまたは変数に代入する\nもしくは座標と数値の内容を指定のレジスタまたは変数に設定する",  //仮
 
+	"Combine Coordinate":"座標に変換",
+	"Returns a coordinate made from x and y values":"x と y の値から座標に変換する",
+	"Separate Coordinate":"座標から変換",
+	"Split a coordinate into x and y values":"座標から x と y に分解する",
+
+	"Register":"変数",
+	"Combine Register":"パラメータ成分統合で変数値作成",//仮
+	"Combine to make a register from separate parameters":"別々のパラメータ成分を組み合わせて変数値を作成する",
+	"Separate Register":"変数値からパラメータ成分に分解",//仮
+	"Split a register into separate parameters":"変数値をを別々のパラメータ成分に分解する",
+
 	"From": "演算対象",  //OK 他所で使われていない
 	"Num": "数値",  //OK 他所で使用される
 	"Add": "加算",  //OK
@@ -2952,17 +2992,30 @@
 	  "指定された個数のアイテムがインベントリに保管可能を判定する\nインベントリの空きスロットと現在の対象アイテム数を加味して判定される",  //仮
 
 	"Item to try locking to slots ":"スロットのロックを試行する対象アイテム",
+	"Item type to try fixing to the slots ":"スロットのロックを試行するアイテムタイプ",//20231007
 	"Slot no":"スロット番号",
-	"Individual slots to lock":"ロック対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+	"Slot index":"スロット番号",//20231007
+	"Individual slots to lock":
+	  "ロック対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+  "Individual slot to fix": "ロック対象のスロット番号",//20231007
 	"Lock Itemslot":"スロットをロック",
+	"Fix Item Slots":"スロットをロック",//20231007
 	"Lock a specific itemslot index, a range of slot index via coord, or all storage slots":
-		"インベントリの特定のスロット、または一部、またはすべてのスロットをロックする",
+		"インベントリの特定のスロットの一部、またはすべてのスロットをロックする",
+	"Fix all storage slots or a specific item slot index":
+  	"インベントリの一部またはすべてのスロットをロックする",//20231007
 
 	// "Slot no":
-	"Individual slots to unlock ":"ロック解除対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+	"Individual slots to unlock ":
+	  "ロック解除対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+	"Individual slot to unfix ":
+		"ロック解除対象のスロット番号",//20231007
 	"Unlock Itemslot":"スロットをロック解除",
+	"Unfix Item Slots":"スロットをロック解除",//20231007
 	"Unlock a specific itemslot index, a range of slot index via coord, or all storage slots":
-	"ロック解除対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+		"ロック解除対象のスロット\nスロット番号、もしくはスロットの範囲を指定する\n※スロットの範囲は、座標の形式で 範囲の開始をX座標、範囲の修了をY座標に指定する",
+	"Unfix all inventory slots or a specific item slot index":
+    "インベントリの一部またはすべてのスロットをロックを解除する",//20231007
 
 	"Entity to check": "調査対象", //仮
 	"Percent": "パーセント", //仮  同名の行動コマンドあり
@@ -3066,7 +3119,7 @@
 	"Unit to bring items to": "アイテムを手渡し相手のユニット",  //OK
 	"Item / Amount": "対象アイテム、個数",  //OK
 	"Item and amount to drop off": "配送するアイテムと個数",  //OK
-	"Drop Off Items": "アイテムの手渡しに行く",  //OK
+	"Drop Off Items": "アイテムを手渡しに行く",  //OK
 	"Drop off items at a unit\n\nIf a number is set it will drop off an amount to fill the target unit up to that amount\nIf unset it will try to drop off everything.":
 	  "指定されたユニットまで移動し、指定された個数のアイテムを手渡しに行く\n※アイテムの指定がない場合、全アイテムを渡せるだけ渡す",  //OK
 
@@ -3103,6 +3156,33 @@
 	"First Item": "最初のアイテムを取得",  //OK
   "Reads the first item in your inventory": "インベントリの最初のアイテムを取得する",  //OK
 
+	"Index":"スロット番号",
+	// "Slot index":"スロット番号",  //重複
+	"No Item":"アイテムなし",
+	"Item not found":"アイテムがない場合",
+	"Get Inventory Item":"インベントリー内のアイテムを取得",
+	"Reads the item contained in the specified slot index":"インベントリー内の特定のスロットにあるアイテムを取得する",
+
+	"Reserved Stack":"配送予約数",
+	"Items reserved for outgoing order or recipe":"配送予約されている個数",
+	"Unreserved Stack":"使用可能数",
+	"Items available":"使用可能個数(配送予約されていない状態)",
+	"Reserved Space":"保有余力数(予約済)",
+	"Space reserved for an incoming order":"配送されてくるスペースとして予約されている個数",
+	"Unreserved Space":"保有余力数",
+	"Remaining space":"空きスペース個数(配送予約されていない状態)",
+	"Loop Inventory Slots":"ループ (インベントリ)",
+	"Loops through Inventory ":"インベントリのスロットでループする",
+
+	"Recipe":"レシピ",
+	"Ingredient":"材料",
+	"Recipe Ingredient":"レシピの材料となるアイテムタイプ",
+	// "Done"
+	"Finished loop":"ループ終了の場合",
+	"Loop Recipe Ingredients":"ループ (レシピ材料)",
+	"Loops through Ingredients":"レシピの材料となるアイテムタイプでループする",
+
+
   "Target unit": "対象ユニット",  //他でも使用
 	"Distance": "距離",  //仮  このコマンド内でも使用されているので"距離を取得"にはできない
 	"Unit and its distance in the numerical part of the value": "指定ユニットとの距離 (数値)",  //OK
@@ -3114,10 +3194,11 @@
 	"Order Transfer To": "アイテム配送を依頼",//OK
 	"Transfers an Item to another Unit": "他のユニットへのアイテムの配送を依頼する",//OK
 
-	"Is Same Grid":"同グリッドの判定",
+	"Is Same Grid":"同グリッド内の判定",
 	"Checks if two entities are in the same power grid":"2つのエンティティが同じ電力グリッド内にいるかを判定する",
 
 	"Shutdown": "電源オフ",  //OK ここだけで使用
+	"Turn Off": "電源オフ",  //OK 20231007
 	"Shuts down the power of the Unit": "ユニットを電源オフにする\n※電源オフの状態でも行動プログラムは動作する",  //OK 
 
 	"Turn On": "電源オン",  //OK ここだけで使用
@@ -3127,6 +3208,11 @@
 	"Connects Units from Logistics Network": "ユニットを物流ネットワークに接続する", //OK 
 	"Disconnect": "物流ネットワーク 切断",  //OK 
 	"Disconnects Units from Logistics Network": "ユニットを物流ネットワークから切断する", //OK 
+
+	"Enable Transport Route":"ルート輸送を有効化",
+	"Enable Unit to deliver on transport route":"ルート輸送を有効にする",
+	"Disable Transport Route":"ルート輸送を無効化",
+	"Disable Unit to deliver on transport route":"ルート輸送を無効にする",
 
 	"Sort Storage": "インベントリをソート",  //OK
 	"Sorts Storage Containers on Unit": "インベントリ内をソートする",  //OK
@@ -3221,6 +3307,9 @@
 	"Execution path when none of this item exists in your faction": "派閥内に対象アイテムが存在しない場合",
 	"Faction Item Amount": "派閥内アイテム総数を取得",  //仮 派閥
 	"Counts the number of the passed item in your logistics network": "指定されたアイテムにおける派閥内の総数を取得する",  //OK
+
+	"Get Stability":"安定度を取得",
+	"Gets the current world stability":"ワールドの安定度を取得する",
 
 	// "Percent":"",   重複
 	"Value to check":"パーセントの分子となる値 (現在値などに相当)",  //OK
@@ -3470,6 +3559,7 @@
 	"Silica reinforced shell of bugs": "シリカで補強されたバグの殻",  //仮
 	"Anomaly Particle": "異常粒子",  //仮
 	"A particle of pure data - CURRENTLY NOT OBTAINABLED": "データの微粒子 - 現在は入手不可",  //仮
+	"A particle of pure data - CURRENTLY NOT OBTAINABLE": "データの微粒子 - 現在は入手不可",  //仮  20231007
 	"MultiCube": "マルチキューブ",   //仮
 	"A cocktail of research data": "研究データの寄せ集め",   //仮
 
@@ -3499,6 +3589,8 @@
 	// 20230909変更
 	// "By running a specific charge through your units they are able to enter the blight without any adverse effects": "ユニットに特定のチャージをかける事で、悪影響を受ける事なくブライトに入る事ができる。",
 	"There is a alien presence on this planet which seems connected to the blight in some way.":
+		"この惑星にはエイリアンが存在し、ブライトと何らかの関係がありそう...",
+	"There is an alien presence on this planet which seems connected to the blight in some way.": //20231007
 		"この惑星にはエイリアンが存在し、ブライトと何らかの関係がありそう...",
 	"Alien Technology": "エイリアン テクノロジー",
 	"C0rrup7ed D4tabas3": "C0rrup7ed D4tabas3",
@@ -3707,7 +3799,8 @@
 	"Arrow Up Right": "右上矢印",
 	"Arrow Down left": "左下矢印",
 	"Arrow Down Right": "右下矢印",
-	"Tranpsort Route": "トランポートルート",  //護持
+	"Tranpsort Route": "トランポートルート",  //誤字
+	// "Transport Route": "輸送ルート",  //20231007  重複
 	"Locked": "ロック",
 	"Unlocked": "ロック解除",
 	"Damaged": "破損",
